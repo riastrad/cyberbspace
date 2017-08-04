@@ -1,8 +1,48 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link type="text/css" rel="stylesheet" href="../css/main.css" />
-  </head>
-  <body>
-  </body>
-</html>
+/**
+ * @Author: Josh Erb <josh.erb>
+ * @Date:   22-Jun-2017 16:06
+ * @Email:  josherb4@gmail.com
+ * @Filename: main.css
+ * @Last modified by:   josh.erb
+ * @Last modified time: 04-Aug-2017 13:08
+ */
+
+
+body {
+	font-family: Georgia, serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 56px;
+	text-shadow: 2px #000000
+}
+
+/* Photo by Philipp Berndt on Unsplash */
+.hero {
+	background-image: url('../img/philipp-berndt-173197.jpg');
+	background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	font-family: 'Trebuchet MS', 'Helvetica';
+}
+
+
+p {
+	color: #ffffff;
+	font-size: 2em;
+}
+
+#footer {
+	color: DarkSlateGray;
+	font-size: 16px;
+}

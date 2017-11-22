@@ -4,12 +4,13 @@
  * @Email:  josherb4@gmail.com
  * @Filename: main.css
  * @Last modified by:   josh.erb
- * @Last modified time: 04-Aug-2017 13:08
+ * @Last modified time: 22-Nov-2017 15:11
  */
 
 
 body {
-	font-family: Georgia, serif;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
 	height: 100%;
 	margin: 0;
 	text-align: center;
@@ -17,29 +18,69 @@ body {
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 4rem;
+	background-color: White;
 }
 
 h2 {
-	color: #ffffff;
-	font-size: 56px;
-	text-shadow: 2px #000000
+	font-size: 3rem;
 }
 
-/* Photo by Philipp Berndt on Unsplash */
+/* Nav Bar Style Controls */
+
+nav {
+	background-color: #FFFF;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav li {
+	display: inline;
+	padding: 3rem;
+}
+
+nav a {
+	height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+.nav-btn a {
+  margin-right: 30px;
+  padding: 8px 18px;
+}
+
+.nav-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+/* Icon Style */
+.nav-icon {
+	display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+
 .hero {
-	background-image: url('../img/philipp-berndt-173197.jpg');
+	background-color: rgba(217, 217, 26, 0.1);
 	background-position: center top;
-	background-size: cover;
-	padding: 250px 0;
-	margin: 30px;
+	background-image: url('../img/graph-paper.svg');
+	opacity:0.40;
+	padding: 40rem 0;
+	margin: 2rem;
 	font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+	border-radius: 5rem;
 }
-
 
 p {
-	color: #ffffff;
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 #footer {

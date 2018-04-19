@@ -1,0 +1,59 @@
+/**
+ * @Author: Josh Erb <josh.erb>
+ * @Date:   22-Jun-2017 16:06
+ * @Email:  josherb4@gmail.com
+ * @Filename: main.css
+ * @Last modified by:   josh.erb
+ * @Last modified time: 18-Apr-2018 19:04
+ */
+
+.container {
+	max-width: 800px;
+}
+
+.navbar {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar a.button {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.welcome-text {
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+div p.content {
+	text-align: justify;
+	padding-top: 0.5em;
+}
+
+#central-logo {
+	background-image: url("../img/personal-logo.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: 50.0vh;
+}
+
+#central-logo:hover {
+	background-image: url("../img/personal-logo-hover.svg");
+}
+
+#oops {
+	background-image: url("../img/oops.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: auto;
+	height: 65.0vh;
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+}

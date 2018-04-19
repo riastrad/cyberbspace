@@ -4,7 +4,7 @@
  * @Email:  josherb4@gmail.com
  * @Filename: main.css
  * @Last modified by:   josh.erb
- * @Last modified time: 18-Apr-2018 19:04
+ * @Last modified time: 19-Apr-2018 10:04
  */
 
 .container {
@@ -50,7 +50,8 @@ div p.content {
 	background-repeat: no-repeat;
 	background-position: center;
 	width: auto;
-	height: 65.0vh;
+	height: 30.0vh;
+	margin-bottom: 1.0em;
 }
 
 footer {

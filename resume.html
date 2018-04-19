@@ -6,48 +6,54 @@
 @Last modified time: 22-Nov-2017 17:11
 -->
 <!DOCTYPE html>
-
 <html>
 <head>
-  <title>CyberbSpace | Projects</title>
+  <!-- Core page needs -->
   <meta charset="utf-8"/>
+  <title>cyber(b)space | Résumé</title>
 
-  <!-- Style -->
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css" rel="stylesheet">
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Import Plotly -->
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/skeleton.css">
+  <!-- adding my own customization here -->
+  <link rel="stylesheet" type="text/css" href="./css/custom-stuff.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./img/favicon.ico">
 </head>
+
+<!-- Homebody -->
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a class="nav-btn" href="../index.html">
-        <svg class="nav-icon"><use xlink:href="#lnr-home"></use></svg>
-        Home
-        </a>
-      </li>
-      <li>
-        <a class="nav-btn" href="#">
-        <svg class="nav-icon"><use xlink:href="#lnr-license"></use></svg>
-        Résumé
-        </a>
-      </li>
-      <li>
-        <a class="nav-btn" href="../excogitation/index.html">
-        <svg class="nav-icon"><use xlink:href="#lnr-bubble"></use></svg>
-        Excogitation
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <h2>Current Project: Abduct-o-Meter</h2>
-  <div id="plotly-div">
-    <script src="../js/plotly-usa-test.js">
-    </script>
+
+  <!-- Navbar goes here -->
+  <div class="navbar">
+    <a class="button" href='./index.html'>Home</a>
+    <a class="button button-primary" href='#'>Résumé</a>
+    <a class="button" href='./showcase.html'>Showcase</a>
   </div>
+
+  <!-- Main page feature content -->
+  <div class="container">
+    <!-- Resume Header & Sub-header -->
+    <div class="row">
+      <div class="twelve columns">
+        <h1 class="welcome-text">JOSHUA J. ERB</h1>
+        <p class="center-text">josherb4@gmail.com <strong>|</strong> Washington, DC <strong>|</strong> 815.541.0388</p>
+        <hr></hr>
+      </div>
+    </div>
+    <div class="row">
+    </div>
+  </div>
+
+  <!-- End of page -->
+  <footer>
+    <p>&copy; Josh Erb 2018</p>
+  </footer>
 </body>

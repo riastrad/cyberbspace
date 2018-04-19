@@ -28,13 +28,26 @@
 	text-align: center;
 }
 
-div p.center-text {
+div .center-text {
 	text-align: center;
 }
 
-div p.content {
+div .content {
 	text-align: justify;
 	padding-top: 0.5em;
+}
+
+div p.less-margin {
+	margin-bottom: 0.25em;
+}
+
+div p.righty {
+	text-align: right;
+}
+
+ul .clean {
+	list-style-position: outside;
+	margin-left: 1.5em;
 }
 
 #central-logo {

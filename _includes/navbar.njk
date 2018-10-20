@@ -1,0 +1,5 @@
+<nav class="navbar">
+  {%- for nav in collections.nav %}
+    <a class="button" href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a></li>
+  {%- endfor -%}
+</nav>

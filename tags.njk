@@ -1,0 +1,22 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+permalink: /tags/{{ tag }}/
+layout: base.njk
+---
+
+<h1>Posts about “{{ tag }}”</h1>
+
+{% set taglist = collections[ tag ] %}
+{% include "postslist.njk" %}
+
+<nav>
+  <a href="{{ '/blog/' | url }}" class="button"><< Back to blog</a>
+</nav>

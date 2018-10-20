@@ -1,43 +1,13 @@
-<!--
-@Author: Josh Erb <@riastrad>
-@Date:   10-Aug-2017 14:08
-@Email:  josherb4@gmail.com
-@Filename: main.html
-@Last modified time: 22-Nov-2017 17:11
--->
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- Core page needs -->
-  <meta charset="utf-8"/>
-  <title>cyber(b)space | Résumé</title>
+---
+layout: base.njk
+title: resume
+tags:
+  - nav
+navtitle: work
+permalink: /resume/index.html
+---
 
-  <!-- Mobile Specific Meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="./css/skeleton.css">
-  <!-- adding my own customization here -->
-  <link rel="stylesheet" type="text/css" href="./css/custom-stuff.css">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./img/favicon.ico">
-</head>
-
-<!-- Homebody -->
-<body>
-
-  <!-- Navbar goes here -->
-  <div class="navbar">
-    <a class="button" href='./index.html'>Home</a>
-    <a class="button button-primary" href='#'>Résumé</a>
-    <a class="button" href='./showcase.html'>Showcase</a>
-  </div>
-
+```
   <!-- Main page feature content -->
   <div class="container">
     <!-- Resume Header & Sub-header -->
@@ -158,9 +128,4 @@
       </div>
     </div>
   </div>
-
-  <!-- End of page -->
-  <footer>
-    <p>&copy; Josh Erb 2018</p>
-  </footer>
-</body>
+```

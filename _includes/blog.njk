@@ -1,0 +1,9 @@
+---
+layout: base.njk
+permalink: /words/index.html
+---
+
+{{ content | safe }}
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}

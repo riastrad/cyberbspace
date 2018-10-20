@@ -1,45 +1,13 @@
-<!--
-@Author: Josh Erb <josh.erb>
-@Date:   22-Jun-2017 16:06
-@Email:  josherb4@gmail.com
-@Filename: index.html
-@Last modified by:   josh.erb
-@Last modified time: 19-Apr-2018 11:04
--->
+---
+layout: base.njk
+title: cyber(b)space
+tags:
+  - nav
+navtitle: home
+permalink: /
+---
 
-<!DOCTYPE html>
-<html>
-<head>
-  <!-- Core page needs -->
-  <meta charset="utf-8"/>
-  <title>cyber(b)space | Home</title>
-
-  <!-- Mobile Specific Meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="./css/skeleton.css">
-  <!-- adding some personal customization here -->
-  <link rel="stylesheet" type="text/css" href="./css/custom-stuff.css">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./img/favicon.ico">
-</head>
-
-<!-- Homebody -->
-<body>
-
-  <!-- Navbar goes here -->
-  <div class="navbar">
-    <a class="button button-primary" href='#'>Home</a>
-    <a class="button" href='./resume.html'>Résumé</a>
-    <a class="button" href='./showcase.html'>Showcase</a>
-  </div>
-
+```
   <!-- Main page feature content -->
   <div class="container">
     <div class="row">
@@ -74,13 +42,4 @@
       location.href = "https://www.linkedin.com/in/josherb";
     };
   </script>
-
-  <!-- End of page -->
-  <footer>
-    Site made possible by:
-      <a href="http://getskeleton.com/">Skeleton CSS framework</a> &
-      <a href="http://feathericons.com/">Feather Icons</a>
-    <p>&copy; Josh Erb 2018</p>
-  </footer>
-</body>
-</html>
+```

@@ -7,7 +7,7 @@ section: post
   <h1>{{ title }}</h1>
   <p>
     <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by {{ metadata.author.name }}
+      <time datetime="{{ date }}">{{ date }}</time> by {{ metadata.author.name }}
     </small>
   </p>
 
@@ -27,5 +27,5 @@ section: post
 </article>
 
 <nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
+  <a href="{{ '/blog/' | url }}"><< Blog index</a>
 </nav>

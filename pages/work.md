@@ -1,25 +1,21 @@
 ---
 layout: base.njk
-title: resume
+title: work.
 tags:
   - nav
 navtitle: work
 permalink: /resume/index.html
 ---
-
-```
-  <!-- Main page feature content -->
+  <!-- TODO: convert resume updates to Markdown structure -->
   <div class="container">
     <!-- Resume Header & Sub-header -->
     <div class="row">
       <div class="twelve columns">
         <h1 class="welcome-text">JOSHUA J. ERB</h1>
-        <p class="center-text">josherb4@gmail.com <strong>|</strong> Washington, DC <strong>|</strong> 815.541.0388</p>
-        <hr></hr>
+        <p class="center-text">josherb4@gmail.com <strong>|</strong> Washington, DC <strong></p>
       </div>
     </div>
-
-    <!-- Skillz -->
+    <hr></hr>
     <div class="row">
       <div class="twelve columns">
         <h4>Skills</h4>
@@ -44,7 +40,6 @@ permalink: /resume/index.html
       </div>
     </div>
     <hr></hr>
-
     <!-- Relevant Experience -->
     <div class="row">
       <div class="twelve columns">
@@ -58,7 +53,6 @@ permalink: /resume/index.html
         <p class="less-margin"><em>Support Engineer</em> | <em>Apr. 2018 - Present</em></p>
          <!-- an an element to keep my spacing right -->
         <p></p>
-
         <!-- Job #2 (Excella) -->
         <strong>Excella Consulting</strong>
         <p class="less-margin"><em>Senior Consultant</em> | <em>Apr. 2016 - Apr. 2018</em></p>
@@ -69,7 +63,6 @@ permalink: /resume/index.html
           <li class="clean"><span>Generated and presented in-depth analysis on the performance of digital merchandising placements and presented insights and recommendations to business owners</span></li>
           <li class="clean"><span>Coordinated multiple teams, ensuring +25 new websites launched with accurate data capture</span></li>
         </ul>
-
         <!-- Job #3 (MPS) -->
         <strong>M Powered Strategies, Inc.</strong>
         <p class="less-margin"><em>Business Analyst</em> | <em>Jan. 2015 - Apr. 2016</em></p>
@@ -77,18 +70,15 @@ permalink: /resume/index.html
           <li class="clean"><span>Crafted strategic recommendations for the Stakeholder Engagement and Organizational Change Management Division to improve the federal client’s understanding of a software development project’s potential impacts for +32,000 users</span></li>
           <li class="clean"><span>Optimized data gathering processes to decrease the level of effort on client-facing reports and work products</span></li>
         </ul>
-
         <!-- Job #4 (U Chicago) -->
         <strong>University of Chicago, Department of Geography</strong>
         <p class="less-margin"><em>Research Assistant</em> | <em>Sep. 2013 - Sep. 2014</em></p>
         <ul class="content">
           <li class="clean"><span>Conducted primary-source archival research informing multiple academic projects, including a forthcoming book on the geographic morphology of 19th century breweries in San Francisco, CA</span></li>
         </ul>
-
       </div>
     </div>
     <hr></hr>
-
     <!-- Education Section -->
     <div class="row">
       <div class="twelve columns">
@@ -120,12 +110,10 @@ permalink: /resume/index.html
       </div>
     </div>
     <hr></hr>
-
     <!-- Download Button -->
     <div class="row">
       <div class="twelve columns center-text">
-        <p><a class="button" href='./docs/Erb_Resume_2018.pdf' download>Download as PDF</a></p>
+        <p><a class="button" href='../docs/Erb_Resume_2018.pdf' download>Download as PDF</a></p>
       </div>
     </div>
   </div>
-```

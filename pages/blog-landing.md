@@ -1,9 +1,7 @@
 ---
 layout: blog.njk
-title: words
+title: words.
 tags:
   - nav
 navtitle: words
 ---
-
-## Straight from the fingers of Josh.

@@ -1,0 +1,23 @@
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ title or metadata.title }}</title>
+
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../../img/favicon.png">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  <!-- Style -->
+  {% set css %}
+    {% include "assets/css/normalize.css" %}
+    {% include "assets/css/skeleton.css" %}
+    {% include "assets/css/custom-stuff.css" %}
+  {% endset %}
+
+  <style>{{ css | cssmin | safe }}</style>
+
+</head>

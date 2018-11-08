@@ -1,0 +1,32 @@
+---
+layout: base.njk
+section: post
+---
+
+<article>
+  <h1>{{ title }}</h1>
+  <p>
+    <small>
+      <time datetime="{{ date }}">{{ date }}</time> by {{ metadata.author.name }}
+    </small>
+  </p>
+
+  {{ content | safe }}
+
+  {% if tags %}
+    <p>
+    tags:
+    {% for tag in tags %}
+      {%- if tag != "post" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </p>
+  {% endif %}
+
+</article>
+
+<nav>
+  <a href="{{ '/words/' | url }}"><< words.</a>
+</nav>

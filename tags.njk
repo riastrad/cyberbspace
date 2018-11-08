@@ -12,11 +12,11 @@ permalink: /tags/{{ tag }}/
 layout: base.njk
 ---
 
-<h1>Posts about “{{ tag }}”</h1>
+<h2>Posts about “{{ tag }}”</h2>
 
-{% set taglist = collections[ tag ] %}
+{% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
 <nav>
-  <a href="{{ '/blog/' | url }}" class="button"><< Back to blog</a>
+  <a href="{{ '/words/' | url }}" class="button"><< words.</a>
 </nav>

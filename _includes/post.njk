@@ -15,6 +15,7 @@ section: post
 
   {% if tags %}
     <p>
+    tags:
     {% for tag in tags %}
       {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
@@ -27,5 +28,5 @@ section: post
 </article>
 
 <nav>
-  <a href="{{ '/blog/' | url }}"><< Blog index</a>
+  <a href="{{ '/words/' | url }}"><< words.</a>
 </nav>

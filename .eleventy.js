@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting stuff
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy.MM.dd");
   });
 
   eleventyConfig.addFilter("machineDate", dateObj => {

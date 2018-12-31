@@ -3,30 +3,30 @@ layout: base.njk
 section: post
 ---
 
-<article>
-  <h1>{{ title }}</h1>
-  <p>
-    <small>
-      <time datetime="{{ date }}">{{ date }}</time> by {{ metadata.author.name }}
-    </small>
-  </p>
+<h1>{{ title }}</h1>
+<p>
+  <small>
+    <i><b>{{ page.date | readableDate }}</b> by {{ metadata.author.name }}</i>
+  </small>
+</p>
 
-  {{ content | safe }}
+{{ content | safe }}
 
-  {% if tags %}
-    <p>
-    tags:
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-    </p>
-  {% endif %}
+{% if tags %}
+<p>
+{
+{% for tag in tags %}
+  {%- if tag != "post" -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" rel="tag">#{{ tag }}</a>
+    {%- endif -%}
+  {% endfor %}
+}
+</p>
+{% endif %}
 
-</article>
+</div>
 
 <nav>
-  <a href="{{ '/words/' | url }}"><< words.</a>
+  <a href="{{ '/words/' | url }}" class="button"><< words.</a>
 </nav>

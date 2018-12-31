@@ -1,7 +1,7 @@
 ---
-title: 💩
+title: 404'd!
 layout: base.njk
-permalink: /404.html
+permalink: /not_found.html
 ---
 
 ### So, this is embarrassing...

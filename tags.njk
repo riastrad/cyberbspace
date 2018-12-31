@@ -3,6 +3,7 @@ pagination:
   data: collections
   size: 1
   alias: tag
+  title: {{ tag }}
   filter:
     - all
     - nav
@@ -12,11 +13,14 @@ permalink: /tags/{{ tag }}/
 layout: base.njk
 ---
 
-<h2>Posts about “{{ tag }}”</h2>
+<h3>Posts tagged "#{{ tag }}"</h3>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-<nav>
-  <a href="{{ '/words/' | url }}" class="button"><< words.</a>
-</nav>
+
+<p>
+  <nav>
+    <a href="{{ '/words/' | url }}" class="button"><< words.</a>
+  </nav>
+</p>

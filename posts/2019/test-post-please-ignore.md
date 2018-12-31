@@ -1,7 +1,7 @@
 ---
 layout: post.njk
-title: A second test post
-summary: What could be more exciting than two pointless posts?
+title: A placeholder for more interesting content
+summary: If you can read this it means I have not followed through on my goals.
 date: Last Modified
 tags:
   - post

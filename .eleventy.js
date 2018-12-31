@@ -23,6 +23,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
 
+  eleventyConfig.addFilter("dateYear", dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy");
+  });
+
   // Make sure assets carry through
   eleventyConfig.addPassthroughCopy('img')
   eleventyConfig.addPassthroughCopy('docs')

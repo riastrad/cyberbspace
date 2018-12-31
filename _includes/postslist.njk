@@ -1,4 +1,5 @@
 {% for post in postslist | reverse %}
+<p>
 	<div>
 		<a href="{{ post.url | url }}">
 		{% if post.data.title %}
@@ -13,13 +14,8 @@
 		<small><b>></b> {{ post.data.summary }}</small>
 	{% endif %}
 
-	<div>
-		<time datetime="{{ post.date | machineDate }}">
-			<small> <i>published on {{ post.date | readableDate }};</i></small>
-		</time>
-
 	{% if post.data.tags %}
-	<small>
+	<div><small>
 		{
 		{% for tag in post.data.tags %}
 			{%- if tag != "post" -%}
@@ -30,5 +26,10 @@
 		}
 	</small>
 	{% endif %}
+
+		<time datetime="{{ post.date | machineDate }}">
+			<small> <i>published on {{ post.date | readableDate }}</i></small>
+		</time>
 	</div>
+</p>
 {% endfor %}

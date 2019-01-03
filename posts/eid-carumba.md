@@ -6,6 +6,7 @@ tags:
   - post
   - travel
   - morocco
+  - portugal
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
 ---

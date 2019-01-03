@@ -9,6 +9,7 @@ tags:
   - <other>
   - <relevant>
   - <tags>
+permalink: /posts/{{ page.date | dateYear }}/{{ title | slug }}/index.html
 ---
 
 That sweet, sweet content.

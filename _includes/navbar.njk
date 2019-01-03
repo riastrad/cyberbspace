@@ -1,5 +1,5 @@
 <nav class="navbar">
   {%- for nav in collections.nav %}
-    <a class="button {% if nav.url == page.url %}button-primary{% endif %}" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+    <a class="button {% if nav.url == page.url %}button-primary{% else %}" href="{{ nav.url | url }} {% endif %}">{{ nav.data.navtitle }}</a></li>
   {%- endfor -%}
 </nav>

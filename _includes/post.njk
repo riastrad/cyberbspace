@@ -6,8 +6,12 @@ section: post
 <h1>{{ title }}</h1>
 <p>
   <small>
-    <i><b>{{ page.date | readableDate }}</b> by {{ metadata.author.name }}</i>
+    <b>{{ page.date | readableDate }}</b> by {{ metadata.author.name }};
+    <span class="highlight">{{ content | striptags | wordcount }} words.</span>
   </small>
+</p>
+<p>
+
 </p>
 
 {{ content | safe }}

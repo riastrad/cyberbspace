@@ -6,6 +6,13 @@
 	background-color: #ee3;
 }
 
+.blog-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.0em;
+}
+
 .navbar {
 	padding-top: 1em;
 	padding-bottom: 1em;

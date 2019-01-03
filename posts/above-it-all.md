@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Above It All
-date: 2011-10-09
+date: 2011-10-09 8:00:00
 tags:
   - post
   - travel

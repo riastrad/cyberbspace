@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Maroctober, Looking Back.
-date: 2011-11-05
+date: 2011-11-05 8:00:00
 tags:
   - post
   - travel
@@ -43,4 +43,4 @@ So there you have it. As per usual you can find more pictures from my weekend he
 
 I should also probably inform you that I am officially on my fall break vacation. So I will be doing nothing but exciting adventurous things for the next two weeks. This upcoming Monday is a very important Muslim holiday which consists of slaughtering a sheep in celebration of God sparing Ishmael from being sacrificed by Abraham. The party lasts for two days. After which I will be setting off for a week long Portugal/Spain trip. I am hoping to update you sometime after the holiday and before I leave, but don't hold me to that. In any case I will surely take the time to fill you in, dear reader, before the end of the month...hopefully.
 
-So until next time, whenever that may be, thanks for taking the time 
+So until next time, whenever that may be, thanks for taking the time

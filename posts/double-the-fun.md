@@ -2,7 +2,6 @@
 layout: post.njk
 title: Robust testing
 summary: How does my formatting hold up under duress?
-date: Created
 tags:
   - post
   - test

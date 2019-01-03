@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Neo-Liberal Masochism
-date: 2011-08-23
+date: 2011-08-23 8:00:00
 tags:
   - post
   - travel

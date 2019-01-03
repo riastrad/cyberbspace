@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: First, Second, and Third Impressions
-date: 2011-09-08
+date: 2011-09-08 8:00:00
 tags:
   - post
   - travel

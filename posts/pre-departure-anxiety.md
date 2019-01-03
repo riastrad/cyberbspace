@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Pre-Departure Anxiety
-date: 2011-09-04
+date: 2011-09-04 8:00:00
 tags:
   - post
   - travel

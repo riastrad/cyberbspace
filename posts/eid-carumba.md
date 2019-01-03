@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: ¡Eid, Carumba!
-date: 2011-11-08
+date: 2011-11-08 8:00:00
 tags:
   - post
   - travel

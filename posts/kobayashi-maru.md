@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Kobayashi Maru
-date: 2012-07-24
+date: 2012-07-24 8:00:00
 tags:
   - post
   - travel

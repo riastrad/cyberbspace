@@ -2,7 +2,6 @@
 layout: post.njk
 title: Post title
 summary: Quick summary of post
-date: Created
 tags:
   - post
   - <any>

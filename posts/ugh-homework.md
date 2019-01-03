@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Ugh. Homework.
-date: 2011-10-02
+date: 2011-10-02 8:00:00
 tags:
   - post
   - travel

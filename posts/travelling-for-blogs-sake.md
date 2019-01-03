@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Travelling for Blog's Sake
-date: 2011-09-26
+date: 2011-09-26 8:00:00
 tags:
   - post
   - travel

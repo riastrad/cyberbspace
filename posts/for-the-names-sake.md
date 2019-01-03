@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: For the Name's Sake.
-date: 2011-11-28
+date: 2011-11-28 8:00:00
 tags:
   - post
   - travel

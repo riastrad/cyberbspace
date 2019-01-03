@@ -2,7 +2,6 @@
 layout: post.njk
 title: Test post, please ignore
 summary: If you can read this it means I have not followed through on my goals.
-date: Created
 tags:
   - post
   - test

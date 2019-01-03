@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "'مصير كل شمس الغروب'"
-date: 2011-12-09
+date: 2011-12-09 8:00:00
 tags:
   - post
   - travel

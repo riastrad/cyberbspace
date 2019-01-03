@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Seasons of Change.
-date: 2011-10-19
+date: 2011-10-19 8:00:00
 tags:
   - post
   - travel

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: The End of The First Week
-date: 2011-09-14
+date: 2011-09-14 8:00:00
 tags:
   - post
   - travel

@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "'Carpe Weekum'"
-date: 2011-09-20
+date: 2011-09-20 8:00:00
 tags:
   - post
   - travel

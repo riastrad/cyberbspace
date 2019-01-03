@@ -4,6 +4,7 @@ title: work.
 tags:
   - nav
 navtitle: work
+permalink: /work/index.html
 ---
   <!-- TODO: convert resume updates to Markdown structure -->
   <div class="container">

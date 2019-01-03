@@ -2,13 +2,13 @@
 layout: post.njk
 title: Robust testing
 summary: How does my formatting hold up under duress?
-date: Last Modified
+date: Created
 tags:
   - post
   - test
   - robust
   - duplicate
-permalink: /posts/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
 ---
 
 # Quick test

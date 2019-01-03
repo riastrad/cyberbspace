@@ -70,12 +70,12 @@ ul .clean {
 #code-icon:hover {
 	width: 105px;
 	height: 52.5px;
-	background-image: url("../img/book-open.svg");
+	background-image: url("/img/book-open.svg");
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 #oops {
-	background-image: url("../img/oops.svg");
+	background-image: url("/img/oops.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: auto;

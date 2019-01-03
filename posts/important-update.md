@@ -1,0 +1,15 @@
+---
+layout: post.njk
+title: An incredibly important update!
+date: 2011-08-23 8:00:00
+tags:
+  - post
+  - travel
+  - archive
+permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
+---
+
+For those of you who still receive updates from this blog and are still interested in hearing about my global travels, I have moved to Blogger! I just like the format a lot more and I think it will be much easier to deal with while abroad.
+
+So if you'd like to hear all about my escapades in Morocco this upcoming academic year follow the link:
+[Josh's Many Travels](http://joshsmanytravels.blogspot.com/) <small><< 👈🏼 this link will break if blogger ever goes down >></small>

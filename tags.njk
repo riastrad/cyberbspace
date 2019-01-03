@@ -13,10 +13,10 @@ pagination:
 permalink: /tags/{{ tag }}/
 layout: base.njk
 ---
-
-<h4>all posts tagged "#{{ tag }}"</h4>
-
 {% set postslist = collections[ tag ] %}
+<h4>{{ postslist | length }} posts tagged "#{{ tag }}"</h4>
+
+
 {% include "postslist.njk" %}
 
 

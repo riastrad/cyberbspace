@@ -24,7 +24,7 @@ print(everything[0])
 
 ## Images?
 
-![](/img/graph-paper.svg)
+![](/img/Graph-paper.svg)
 
 ## And what about...
 

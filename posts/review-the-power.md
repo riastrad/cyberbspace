@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: A Flawed Critique of Power
+title: A Brief Critique of Power
 summary: Reviewing Alderman's "The Power" ( ✻ ✻ ✻ ✻ / ✻ ✻ ✻ ✻ ✻ )
 tags:
   - post

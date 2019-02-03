@@ -6,10 +6,18 @@ tags:
 navtitle: home
 permalink: /
 ---
-<!-- TODO: implement this differently -->
-<div id="central-logo"></div>
+<h1 class="welcome-text">Welcome to cyber(b)space.</h1>
+<div class="twelve columns content less-margin">
+<span style='display:block;text-align:center;margin-bottom:2em;'>
+  <img src='./img/globe.png' />
+  <img style='margin-left:3%;' src='./img/point-right.png' />
+  <img src='./img/smart-phone.png' />
+</span>
 
+You've stumbled upon the personal website of [Josh Erb](mailto:josherb4@gmail.com). I am currently a Mobile Support Engineer at [Mapbox](https://www.mapbox.com).
 
-This is the personal website of [Josh Erb](mailto:josherb4@gmail.com), a technology professional currently living in the Washington, DC area.
+If you are here by mistake, that's too bad. **BUT**, please feel free to poke around before leaving. Aside from just a boring old resume I've also got a blog filled with some random opinions that no one really asked for.
 
-If you are here by mistake, that's too bad. **BUT**, that doesn't mean you can't poke around and see what I've set up! Aside from this home page, there's a frequently out-of-date résumé page and a "showcase" page. The showcase contains (or will _eventually_ contain) brief overviews of my completed pet projects, as well as links to the associated code.
+Any comments or feedback about the site? Feel free to reach out me. I have the great -misfortune of being available [via Twitter](https://twitter.com/erbitron).
+
+</div>

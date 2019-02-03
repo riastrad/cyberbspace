@@ -1,5 +1,5 @@
 .container {
-	max-width: 800px;
+	margin-top: 2em;
 }
 
 .highlight {
@@ -14,6 +14,10 @@
 	border-radius: 15px;
 }
 
+.blog-title {
+	text-align: left;
+}
+
 .navbar {
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -22,8 +26,7 @@
 }
 
 .navbar a.button {
-	margin-left: 1.5em;
-	margin-right: 1.5em;
+	margin: 0.5em;
 }
 
 .welcome-text {
@@ -67,42 +70,9 @@ ul .clean {
 	margin-left: 1.5em;
 }
 
-#central-logo {
-	background-image: url("../img/personal-logo.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	width: auto;
-	height: 50.0vh;
-}
-
-#central-logo:hover {
-	background-image: url("../img/personal-logo-hover.svg");
-}
-
-#code-icon {
-	background-image: url("../img/book.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 100px;
-	height: 50px;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-}
-
-#code-icon:hover {
-	width: 105px;
-	height: 52.5px;
-	background-image: url("/img/book-open.svg");
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-}
-
-#oops {
-	background-image: url("/img/oops.svg");
-	background-repeat: no-repeat;
-	background-position: center;
-	width: auto;
-	height: 30.0vh;
-	margin-bottom: 1.0em;
+span > img {
+	max-width: 20%;
+	margin: .5em;
 }
 
 footer {

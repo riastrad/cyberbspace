@@ -2,6 +2,7 @@
 layout: post.njk
 title: Blog Re:Design
 summary: How (and why) I refactored my personal website and migrated my old travel blogs.
+date: 2018-12-30 8:00:00
 tags:
   - post
   - development

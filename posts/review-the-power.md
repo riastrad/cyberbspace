@@ -2,6 +2,7 @@
 layout: post.njk
 title: A Brief Critique of Power
 summary: Reviewing Alderman's "The Power" ( ✻ ✻ ✻ ✻ / ✻ ✻ ✻ ✻ ✻ )
+date: 2019-01-17 8:00:00
 tags:
   - post
   - books

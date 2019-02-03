@@ -14,7 +14,7 @@ permalink: /tags/{{ tag }}/
 layout: base.njk
 ---
 {% set postslist = collections[ tag ] %}
-<h4>{{ postslist | length }} posts tagged "#{{ tag }}"</h4>
+<h4>{{ postslist | length }} posts tagged <span class="highlight">#{{ tag }}</span></h4>
 
 
 {% include "postslist.njk" %}

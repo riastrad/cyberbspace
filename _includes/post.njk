@@ -2,8 +2,8 @@
 layout: base.njk
 section: post
 ---
-
-<h1>{{ title }}</h1>
+<div class="twelve columns content less-margin">
+<h1 class="blog-title">{{ title }}</h1>
 <p>
   <small>
     <b>{{ page.date | readableDate }}</b> by {{ metadata.author.name }};
@@ -34,3 +34,4 @@ section: post
 <nav>
   <a href="{{ '/words/' | url }}" class="button"><< words.</a>
 </nav>
+</div>

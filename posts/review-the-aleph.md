@@ -38,7 +38,9 @@ The titular story of this collection is one that takes seriously the possibility
 
 It is also a good demonstration of the fact that, for Borges, the premise isn't simply a gimmick to hook the reader into a compelling story. In fact, this final turn, where Borges extrapolates what would _actually_ happen if someone had suddenly seen the entirety of the Universe, hammers home the point that Borges isn't just imaginative as most writers go, he's also is interested in an entirely different set of questions than almost any other author you'll read.
 
-There are some classic authors that you read only to discover, with a bit of heartache, that their work doesn't impact you as a reader in quite the same way that other (more laureled) readers might have led you to believe. It was a pleasure to discover that Borges was not one of these writers.
+There are some classic authors that you read only to discover, with a bit of heartache, that their work doesn't impact you as a reader in quite the same way that other (more laureled) critics had led you to believe.
+
+It was a pleasure to discover that Borges was not one of these writers.
 
 
 | Title        | Author           | Rating  |

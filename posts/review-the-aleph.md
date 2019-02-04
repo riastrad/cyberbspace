@@ -16,7 +16,7 @@ refers to him through the footnotes "JLB" - aside from the errant short stories
 I read spasmodically on the internet c.2007-11. Back when I had more time to read
 random short fiction on the internet.
 
-Borges is a cerebral writer of the first order. Although, someone how that classification
+Borges is a cerebral writer of the first order. Although, somehow that classification
 feels too limiting for what he's able to achieve. The prose is sparse and unladen,
 though this could be as much due to the standardization that occurs in translation
 as to Borges's style itself.<a class="footnote" href="#footnote-1"><sup><b>1</b></sup></a><span class="footnote-text">One of the things I've found re: reading translated texts is

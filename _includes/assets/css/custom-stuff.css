@@ -37,21 +37,21 @@
 /* Stole this next bit from here: https://css-tricks.com/snippets/css/typewriter-effect/ */
 .typewriter h1 {
 	overflow: hidden;
-	border-right: .15em solid #000;
+	border-right: .10em solid #000;
 	white-space: nowrap;
-	margin: 0 auto;
-	letter-spacing: .15em;
+	margin: 1em auto;
+	letter-spacing: .10em;
 	animation:
-		typing 3.5 steps(40, end),
+		typing 3.5s steps(40, end),
 		blink-caret .75s step-end infinite
 }
 
-@@keyframes typing {
+@keyframes typing {
 	from { width: 0 }
 	to { width: 100% }
 }
 
-@@keyframes blink-caret {
+@keyframes blink-caret {
 	from, to { border-color: transparent }
 	50% { border-color: #000 }
 }

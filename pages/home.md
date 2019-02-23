@@ -6,13 +6,9 @@ tags:
 navtitle: home
 permalink: /
 ---
-<h1 class="welcome-text">Welcome to cyber(b)space.</h1>
+<h1 class="welcome-text typewriter">Welcome to cyber(b)space.</h1>
+
 <div class="twelve columns content less-margin">
-<span style='display:block;text-align:center;margin-bottom:2em;'>
-  <img src='./img/globe.png' />
-  <img style='margin-left:3%;' src='./img/point-right.png' />
-  <img src='./img/smart-phone.png' />
-</span>
 
 You've stumbled upon the personal website of [Josh Erb](mailto:josherb4@gmail.com). I am currently a Mobile Support Engineer at [Mapbox](https://www.mapbox.com).
 

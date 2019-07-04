@@ -2,7 +2,7 @@
 layout: post.njk
 title: The Invisible Interface
 summary: A corporate-y corporate post mostly for my own edification
-date: 2011-07-04 9:00:00
+date: 2019-07-04 9:00:00
 tags:
   - post
   - business

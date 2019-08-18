@@ -1,5 +1,17 @@
 <nav class="navbar">
-  {%- for nav in collections.nav %}
-    <a class="button {% if nav.url == page.url %}button-primary{% else %}" href="{{ nav.url | url }} {% endif %}">{{ nav.data.navtitle }}</a></li>
+  {%- for nav in collections.nav | reverse %}
+      <button class="button {% if nav.url == page.url %}button-primary{% endif %}">
+
+        {% if nav.url != page.url %}
+        <a href="{{ nav.url | url }}">
+        {% endif %}
+
+        {{ nav.data.navtitle }}
+
+        {% if nav.url != page.url %}
+        </a>
+        {% endif %}
+
+      </button>
   {%- endfor -%}
 </nav>

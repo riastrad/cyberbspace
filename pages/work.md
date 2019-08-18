@@ -8,9 +8,9 @@ permalink: /work/index.html
 ---
 <!-- Resume Header & Sub-header -->
 <div class="row">
-  <div class="twelve columns">
-      <h1 class="welcome-text">JOSHUA J. ERB</h1>
-      <p class="center-text">josherb4@gmail.com <strong>|</strong> Washington, DC <strong></p>
+  <div class="twelve columns center-text">
+      <h1>JOSHUA J. ERB</h1>
+      <p>josherb4@gmail.com <strong>|</strong> Washington, DC <strong></p>
   </div>
 </div>
 <hr></hr>

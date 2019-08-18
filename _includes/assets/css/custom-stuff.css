@@ -14,48 +14,29 @@
 	border-radius: 15px;
 }
 
-.blog-title {
-	text-align: left;
-}
-
 .navbar {
-	padding-top: 1em;
-	padding-bottom: 1em;
 	text-align: center;
+	justify-content: space-around;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
-.navbar a.button {
+.button {
 	margin: 0.5em;
+	background-color: #fffff0;
+	color: #000;
 }
 
-.welcome-text {
-	padding-top: 0.5em;
-	text-align: center;
+button > a,
+button > a::before {
+	color: black !important;
+	background-color: inherit !important;
+	transition: none !important;
+	transform: none !important;
 }
 
-/* Stole this next bit from here: https://css-tricks.com/snippets/css/typewriter-effect/ */
-.typewriter h1 {
-	overflow: hidden;
-	border-right: .10em solid #000;
-	white-space: nowrap;
-	margin: 1em auto;
-	letter-spacing: .10em;
-	animation:
-		typing 3.5s steps(40, end),
-		blink-caret .75s step-end infinite
+button > a:hover {
+	opacity: .5;
 }
-
-@keyframes typing {
-	from { width: 0 }
-	to { width: 100% }
-}
-
-@keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: #000 }
-}
-/* End of stolen css bits */
 
 .footnote-text {
 	display: none;
@@ -76,12 +57,8 @@ div .center-text {
 }
 
 div .content {
-	text-align: justify;
+	text-align: left;
 	padding-top: 0.5em;
-}
-
-div p.less-margin {
-	margin-bottom: 0.25em;
 }
 
 div p.righty {

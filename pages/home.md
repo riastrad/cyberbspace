@@ -6,16 +6,17 @@ tags:
 navtitle: home
 permalink: /
 ---
-<div class="typewriter">
-  <h1 class="welcome-text">Welcome to cyber(b)space.</h1>
-</div>
 
-<div class="twelve columns content less-margin">
+<div class="twelve columns content">
 
-You've stumbled upon the personal website of [Josh Erb](mailto:josherb4@gmail.com). I am currently a Mobile Support Engineer at [Mapbox](https://www.mapbox.com).
+# Welcome to cyber(b)space.
 
-If you are here by mistake, that's too bad. **BUT**, please feel free to poke around before leaving. Aside from just a boring old resume I've also got a blog filled with some random opinions that no one really asked for.
+You've stumbled upon the personal website of [Josh Erb](mailto:josherb4@gmail.com). I am currently a Backend Engineer for the Maps team at [Mapbox](https://www.mapbox.com).
 
-Any comments or feedback about the site? Feel free to reach out me. I have the great <s>mis</s>fortune of being available [via Twitter](https://twitter.com/erbitron).
+This site is home to two things. Primarily, it contains my blog, which includes some decades old travel writing and a few one-offs from more recent days. I tell myself I will update it frequently, but the rate of my posts has proven to be rather stochastic.
+
+This site also houses a résumé page that is poorly formatted and frequently out of date. Don't worry, I'm [working on it](https://github.com/riastrad/cyberbspace/issues/6).
+
+If you prefer the social web rather than just being talked at, I am - regrettably - also active [on Twitter](https://twitter.com/erbitron).
 
 </div>

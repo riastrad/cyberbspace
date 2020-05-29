@@ -18,4 +18,4 @@ There have been plenty of think pieces and lengthy Twitter threads about the hav
   -- [**Care Package**](https://thebaffler.com/intros-and-manifestos/care-package-sturgeon)
 
 ---
-_Editor's Note: this is my first attempt at a mini blog in an attempt to post more frequently._
+_Editor's Note: This post is my first attempt at a shorter format in an attempt to write here more frequently._

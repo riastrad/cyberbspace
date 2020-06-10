@@ -19,3 +19,9 @@
 .footnote:focus + .footnote-text {
 	display: block;
 }
+
+p:nth-child(4)::first-letter {
+	font-size: 5em;
+	font-weight: bold;
+	float: left;
+}

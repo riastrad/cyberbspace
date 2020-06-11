@@ -3,11 +3,10 @@ layout: base.njk
 section: words
 permalink: /words/index.html
 ---
-<div class="twelve columns content less-margin">
-  <h1>{{ title }}</h1>
 
-  {{ content | safe }}
+<h1>{{ title }}</h1>
 
-  {% set postslist = collections.posts %}
-  {% include "postslist.njk" %}
-</div>
+{{ content | safe }}
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}

@@ -1,17 +1,15 @@
-<nav class="navbar">
+<nav>
+  <form>
   {%- for nav in collections.nav | reverse %}
-      <button class="button {% if nav.url == page.url %}button-primary{% endif %}">
-
-        {% if nav.url != page.url %}
-        <a href="{{ nav.url | url }}">
-        {% endif %}
-
+        <button 
+          {% if nav.url == page.url %}
+          class="button-primary"
+          disabled=true
+          {% endif %}
+          {% if nav.url != page.url %}formaction="{{ nav.url | url }}"{% endif %}
+          >
         {{ nav.data.navtitle }}
-
-        {% if nav.url != page.url %}
-        </a>
-        {% endif %}
-
-      </button>
+        </button>
   {%- endfor -%}
+  </form>
 </nav>

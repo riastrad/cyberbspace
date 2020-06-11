@@ -1,0 +1,21 @@
+.blog-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1.0em;
+	border-radius: 15px;
+}
+
+.footnote-text {
+	display: none;
+	border: 2px dashed #000;
+	border-radius: 4px;
+	margin: 1em;
+	padding: 1.5em;
+	font-size: small;
+	box-shadow: inset 0 0 .75em #ee3;
+}
+
+.footnote:focus + .footnote-text {
+	display: block;
+}

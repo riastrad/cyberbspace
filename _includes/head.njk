@@ -19,8 +19,13 @@
   <!-- Style -->
   {% set css %}
     {% include "assets/css/normalize.css" %}
-    {% include "assets/css/skeleton.css" %}
-    {% include "assets/css/custom-stuff.css" %}
+    {% include "assets/css/base.css" %}
+    {% if title === "space." %}
+      {% include "assets/css/landing.css" %}
+    {% endif %}
+    {% if date %}
+      {% include "assets/css/post.css" %}
+    {% endif %}
   {% endset %}
 
   <style>{{ css | cssmin | safe }}</style>

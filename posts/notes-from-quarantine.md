@@ -5,7 +5,7 @@ summary: Quick thoughts as DC opens back up
 date: 2020-05-29 8:00:00
 tags:
   - post
-  - mini
+  - brief
   - life
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
 ---

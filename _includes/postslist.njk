@@ -1,7 +1,7 @@
 {% for post in postslist | reverse %}
 <p>
 	<div>
-		<a href="{{ post.url | url }}">
+		<a class="post-title" href="{{ post.url | url }}">
 		{% if post.data.title %}
 			{{ post.data.title }}
 		{% else %}

@@ -1,15 +1,13 @@
 <nav>
-  <form>
   {%- for nav in collections.nav | reverse %}
         <button 
           {% if nav.url == page.url %}
           class="button-primary"
           disabled=true
           {% endif %}
-          {% if nav.url != page.url %}formaction="{{ nav.url | url }}"{% endif %}
+          {% if nav.url != page.url %}onclick="window.location.href='{{ nav.url | url }}'"{% endif %}
           >
         {{ nav.data.navtitle }}
         </button>
   {%- endfor -%}
-  </form>
 </nav>

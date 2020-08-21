@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: work.
+date: 2020-08-21 10:00:00
 tags:
   - nav
 navtitle: work

@@ -14,13 +14,6 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  // This is here to
-  eleventyConfig.addCollection("jobs", function(collection) {
-    return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/jobs\//) !== null;
-    })
-  });
-
   // Date formatting stuff
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy.MM.dd");

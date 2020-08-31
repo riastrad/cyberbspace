@@ -1,0 +1,32 @@
+---
+layout: base.njk
+section: work
+permalink: /work/index.html
+---
+
+{{ content | safe }}
+
+{% set joblist = collections.job %}
+{% set schoollist = collections.school %}
+
+<h2>Experience</h2>
+{% for job in joblist | reverse %}
+<div>
+    ⦿ <b>{{ job.data.company }}</b> | <em>{{ job.data.role }}</em> | {{ job.data.time }}
+</div>
+{% endfor %}
+
+<hr>
+
+<h2>Academics</h2>
+{% for school in schoollist | reverse %}
+<div>
+    ⦿ <b>{{ school.data.title }}</b> | <em>{{ school.data.degree }}</em> | {{ school.data.awarded }}
+</div>
+{% endfor %}
+
+<hr>
+
+<div style="text-align:center;">
+    <button class=download onclick="window.location.href='../docs/Erb_Resume_2018.pdf'">Download as PDF</button>
+</div>

@@ -7,9 +7,9 @@
 }
 
 .footnote-text:target {
-	outline: #ee3 dashed .2em;
-	outline: #000 solid .1em;
-	border-radius: 10%;
+	outline: #000 dashed .1em;
+	outline-offset: .2em;
+	box-shadow: 0 0 1em #ee3;
 }
 
 a[rel=footnote] {
@@ -18,9 +18,16 @@ a[rel=footnote] {
 }
 
 a[rel=footnote]:target {
-	box-shadow: 6px 6px 2px .75em #ee3;
+	background: #ee3;
+}
+
+a[rel=footnote]:target:after {
+	content: "<<<";
+	background: #ee3;
+	margin-left: 0.5em;
 }
 
 a[rel=footnote-jumpback] {
 	background-color: transparent;
+	writing-mode: sideways-lr;
 }

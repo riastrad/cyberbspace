@@ -2,6 +2,7 @@
 layout: post.njk
 title: habit.
 summary: On my struggle with writing
+date: 2021-01-24 8:00:00
 tags:
   - post
   - brief

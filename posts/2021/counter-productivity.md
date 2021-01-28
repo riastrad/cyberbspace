@@ -2,6 +2,7 @@
 layout: post.njk
 title: Counter productivity
 summary: Something like a manifesto
+date: 2021-01-27 8:00:00
 tags:
   - post
   - business

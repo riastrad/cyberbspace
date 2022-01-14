@@ -1,0 +1,37 @@
+{
+  "name": "cyberbspace",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": ".eleventy.js",
+  "engines": {
+    "node": "~14.17.1",
+    "npm": "~8.3.1"
+  },
+  "dependencies": {
+    "luxon": "^1.8.3",
+    "clean-css": "^4.2.1",
+    "@11ty/eleventy": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "build": "npx eleventy formats=md",
+    "start": "npx eleventy --serve formats=md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riastrad/cyberbspace.git"
+  },
+  "keywords": [
+    "website",
+    "personal",
+    "eleventy",
+    "static"
+  ],
+  "author": "@riastrad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riastrad/cyberbspace/issues"
+  },
+  "homepage": "https://cyberb.space"
+}

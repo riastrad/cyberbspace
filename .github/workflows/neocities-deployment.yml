@@ -1,9 +1,7 @@
-name: Continous Deployment to Neocities
+name: Neocities CD
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
     branches: [ main ]
 
 jobs:
@@ -13,10 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # A simple command to confirm the action is running as expected
-      - name: Run a one line script
-        run: echo "Kicking off build & deploy..."
-        
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
@@ -31,5 +25,5 @@ jobs:
         uses: bcomnes/deploy-to-neocities@v1
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-          cleanup: false
+          cleanup: true
           dist_dir: _site

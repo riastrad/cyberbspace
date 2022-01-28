@@ -31,7 +31,7 @@ That's it. That's the primary thing I'm doing. Just drilling vocab and grammar c
 
 As a bonus, I'm fortunate enough to have a Polish partner who will look over at me after I've finished one of my lessons and ask "Czego się dziś nauczyłeś?"<sup><a id="ref-5" rel="footnote" href="#footnote-5">5</a></sup>, which forces me to respond "Nauczyłem się..."<sup><a id="ref-6" rel="footnote" href="#footnote-6">6</a></sup> and haltingly recall everything I've just gone over. In these moments, I'm forced to recall things in a more dynamic way and this reinforces all of the learning I've just done.
 
-So yeah, learning a language without any structure except whatever I impose on myself is difficult, as the past ten years have shown. I'm still trying to see if this new approach is going to make any difference. But I'm feeling optomistic at this stage. Ask me how I'm doing in six months. 
+So yeah, learning a language without any structure except whatever I impose on myself is difficult, as the past ten years have shown. I'm still trying to see if this new approach is going to make any difference. But I'm feeling optimistic at this stage. Ask me how I'm doing in six months. 
 
 <ol>
   <li id="footnote-1" class="footnote-text">It is a widely known fact that swear words are the easiest part of language to learn because, like a mischievous child, your brain instinctually recognizes that it should not have them in its possession and immediately stashes them away.<a href="#ref-1" rel="footnote-jumpback">↪</a></li>

@@ -12,7 +12,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
 
 During my relatively brief time in the “real world” I’ve noticed a bit of a pattern when teams are frustrated about their tools. The knowledge that I’ve noticed a pattern. Regardless of how novel my epiphany is, has lodged itself in my brain long enough that I’m desperate to have it removed. This post is more an attempt at exorcism than it is ground breaking business theory that I’m eager to share with the world.
 
-Ok. Caveats out of the way. I want to talk to you about why “that great new software” that’s going to solve your frustrations with work won’t actually solve your problems. Regardless of what some marketing team has been whispering to you via social media ad campaigns.
+OK. Caveats out of the way. I want to talk to you about why “that great new software” that’s going to solve your frustrations with work won’t actually solve your problems. Regardless of what some marketing team has been whispering to you via social media ad campaigns.
 
 Now, I haven’t thought about this hard enough to have clear delimitations or a taxonomy of which types software this pattern is most likely to appear alongside. But in my experience it’s any software focused on coordinating the efforts of more than 3 humans. I think it applies mostly to project management software, but I’m going to speak in broad and general terms so as not to limit the future potential.  
 

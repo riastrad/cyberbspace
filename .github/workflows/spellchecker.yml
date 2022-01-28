@@ -16,9 +16,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          cache: 'npm'
           
       - name: Install deps & run spellchecker
-        run: |
-          npm i
-          npm run spellcheck
+        run: npm i
+          
+      - name: Check spelling
+        run: npm run spellcheck

@@ -27,7 +27,7 @@ So here is a high-level break down of the books I sat down with last year, group
 | Philosophy      | 5      | 928 |
 | Alternate History      | 2      | 592 |
 
-I'm glad to see that fiction originally published outside of the U.S. is so well represented. Americans tend to miss out on a lot of intresting writing because we only read things written and published in English. I'm also surprised to see that I read so much non-fiction. I've often joked that I don't trust anyone who exclusively reads non-fiction, and it's not something I instinctually reach for in my free time. 
+I'm glad to see that fiction originally published outside of the U.S. is so well represented. Americans tend to miss out on a lot of interesting writing because we only read things written and published in English. I'm also surprised to see that I read so much non-fiction. I've often joked that I don't trust anyone who exclusively reads non-fiction, and it's not something I instinctually reach for in my free time. 
 
 Anyway. Enough navel gazing. As a fun exercise, I wanted to include a link to the cover to each book and give it a one to two sentence review based on my recollection. I'll do this below in the order that I read each book.
 
@@ -43,9 +43,9 @@ A bit academic and dry, but that's to be expected since it's an adapted doctoral
 
 <img src="https://covers.openlibrary.org/b/isbn/0691020167-M.jpg" class="blog-pic" />
 
-I have to be honest, I started reading this a few years ago and set it down. I only picked it back up when I had some free time at the beginning of the year. Rorty is a virtuouso of philisophical thought in this seminal work. He demonstrates a thorough understanding of the western philosophical canon over the last several centuries, and then proceeds to explain why he disagrees with almost all of it. Dense and thorough, but there's a lot in here that I'll be thinking about and returning to for many years to come.
+I have to be honest, I started reading this a few years ago and set it down. I only picked it back up when I had some free time at the beginning of the year. Rorty is a virtuoso of philosophical thought in this seminal work. He demonstrates a thorough understanding of the western philosophical canon over the last several centuries, and then proceeds to explain why he disagrees with almost all of it. Dense and thorough, but there's a lot in here that I'll be thinking about and returning to for many years to come.
 
-### End Zone *by Don Delillo*
+### End Zone *by Don DeLillo*
 
 <img style="border: 1px solid black;" src="https://covers.openlibrary.org/b/isbn/9780140085686-M.jpg" class="blog-pic" />
 
@@ -59,7 +59,7 @@ Everything in this book collides with everything else; language, form, function.
 
 I read McCann's *Let the Great World Spin* a few years ago and loved it. So I came into this one with high hopes. 
 
-Unfortunately, he didn't quite hit the mark. It had some really great passages, most notably the opening description about families waiting in Siberia for local solidiers to return home from the World War II front, and there's no denying McCann's talent with the pen. However, in this case,  it felt as if he were trying to shoehorn his story into a structural formula because he feels most comfortable with that formula, and not because the style was well suited to the story.
+Unfortunately, he didn't quite hit the mark. It had some really great passages, most notably the opening description about families waiting in Siberia for local soldiers to return home from the World War II front, and there's no denying McCann's talent with the pen. However, in this case,  it felt as if he were trying to shoehorn his story into a structural formula because he feels most comfortable with that formula, and not because the style was well suited to the story.
 
 ### Life: A User's Manual *by Georges Perec*
 
@@ -87,7 +87,7 @@ This slim novel was a pleasure to spend time with. Anyone interested in a radica
 
 <img style="border: 1px solid black;" src="https://covers.openlibrary.org/b/isbn/9781568589398-M.jpg" class="blog-pic" />
 
-This book was selected as part of the Mapbox Workers Union's bookclub in the lead up to our campaign going public. It's a stern look at the state of work in the U.S., but Jaffe also manages to slip in hope and optimism despite the dysmal state of things. It's not the end all and be all of labor writing, but definitely a relevant one to pick up when you need some grounding.
+This book was selected as part of the Mapbox Workers Union's book club in the lead up to our campaign going public. It's a stern look at the state of work in the U.S., but Jaffe also manages to slip in hope and optimism despite the dismal state of things. It's not the end all and be all of labor writing, but definitely a relevant one to pick up when you need some grounding.
 
 ### Mortal Engines *by Stanisław Lem*
 
@@ -103,19 +103,19 @@ If you're only going to read one to two books by Lem in your lifetime, first of 
 
 I love it when a book I read inspires me to pick up another, such a direct journey on the web of [intertextuality](https://en.wikipedia.org/wiki/Intertextuality) is thrilling. This one ended up on my list after I read **Fire on the Mountain** earlier in the year and was made acutely aware that, although I have a vague notion of Frederick Douglass as a historical figure, I have not taken the team to understand him on his own terms. In his own words.
 
-This first of his autobiographies is brief, but you feel the urgency with which it was written by the young Douglass. The personal perspective it presents on chattel slavery in the ante-bellum U.S. is direct and more nuanced than I had initially expected.
+This first of his autobiographies is brief, but you feel the urgency with which it was written by the young Douglass. The personal perspective it presents on chattel slavery in the antebellum U.S. is direct and more nuanced than I had initially expected.
 
 ### Babbit *by Sinclair Lewis*
 
 <img src="https://covers.openlibrary.org/b/isbn/9780553214864-M.jpg" class="blog-pic" />
 
-A sendup of the emptiness of a life lead under the direction of consumerism and headless pursuit of capital. It's almost over 100 years old and the only thing that feels outdated is that the protagonist has to crank his car to get it started.
+A send-up of the emptiness of a life lead under the direction of consumerism and unreflective pursuit of success in modern business. It's almost over 100 years old and the only thing that feels outdated is that the protagonist has to crank his car to get it started.
 
 ### Frankenstein in Baghdad *by Ahmed Saadawi*
 
 <img src="https://covers.openlibrary.org/b/isbn/178607060X-M.jpg" class="blog-pic" />
 
-Eerie. Horrifc. Heartbreaking.
+Eerie. Horrific. Heartbreaking.
 
 ### The City & the City *by China Miéville*
 
@@ -123,7 +123,7 @@ Eerie. Horrifc. Heartbreaking.
 
 The premise is ingenious. It poses a lot of interesting questions about our ways of seeing one another in the cities we call home. The city in question could be Washington, D.C. It could be Chicago. 
 
-Unfortunately, while the premise is one of the most thought provoking I've read in quite some time, Miéville fails to stick the narrative landing and I set the book down feeling unsatisified. 
+Unfortunately, while the premise is one of the most thought provoking I've read in quite some time, Miéville fails to stick the narrative landing and I set the book down feeling unsatisfied. 
 
 ### The Art of Asking Your Boss for a Raise *by Georges Perec*
 
@@ -149,7 +149,7 @@ Gramsci is an interesting historical figure. I wanted a brief introduction to th
 
 <img src="https://covers.openlibrary.org/b/isbn/0486295834-M.jpg" class="blog-pic" />
 
-Like almost all proscriptive utopian fiction, More’s book piques your interest at first because of its critique of the contemporary culture in which it was written - but ultimately becomes tedious as it attempts to describe a better way of doing things. (Which, I might add, did not age well with its over-reliance on slavery and mercenaries in order to preserve the sensibilities of its citizenry.) Though, it’s worth reading if only for its foundational place in the western literary cannon and its introduction of the concept of utopia.
+Like almost all prescriptive utopian fiction, More’s book piques your interest at first because of its critique of the contemporary culture in which it was written - but ultimately becomes tedious as it attempts to describe a better way of doing things. (Which, I might add, did not age well with its over-reliance on slavery and mercenaries in order to preserve the sensibilities of its citizenry.) Though, it’s worth reading if only for its foundational place in the western literary cannon and its introduction of the concept of utopia.
 
 Anyway. More’s novella is fine, but the edition I have includes essays from Ursula Le Guin & China Miéville. These addenda were insightful and improved the overall experience of engaging with this work.
 
@@ -163,9 +163,9 @@ Favorite fun fact: the first female cabinet secretary was FDR's Secretary of Lab
 
 ### Anarchist Communism *by Peter Kropotkin*
 
-(Open Libary does not appear to have a copy of the cover of this slim little edition.)
+(Open Library does not appear to have a copy of the cover of this slim little edition.)
 
-This is an small exctract from Kropotkin's larger work **The Conquest of Bread**. It was much more readable than I expected. Nice introduction to Kropotkin’s thought. I'm excited to read more. 
+This is a brief extract from Kropotkin's larger work **The Conquest of Bread**. It was much more readable than I expected. Nice introduction to Kropotkin’s thought. I'm excited to read more. 
 
 ### Civilizations *by Laurent Binet*
 
@@ -197,7 +197,7 @@ It's Lem. What can I say? Humorous. Profound. Wildly inventive. I have never reg
 
 <img style="border: 1px solid black;" src="https://covers.openlibrary.org/b/isbn/9780140135152-M.jpg" class="blog-pic" />
 
-I wish I had read this book sooner in life. A quick read, but each section is packed with insight into how we perceive the world around us. Very highly recommended, which is suprising since it's the book adaptation of a BBC special from the 70s.
+I wish I had read this book sooner in life. A quick read, but each section is packed with insight into how we perceive the world around us. Very highly recommended, which is surprising since it's the book adaptation of a BBC special from the '70s.
 
 
 ### The Book of Ten Nights and a Night *by John Barth*

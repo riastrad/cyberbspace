@@ -45,7 +45,7 @@ One point this novel really hammered home for me, reading Lewis as an adult and 
 | Till We Have Faces     | C.S. Lewis | ✻ ✻ ✻ |
 
 ### Fiasco, _by Stanisław Lem_
-Ever since I first read **Solaris** a few years ago, Lem has been lodged firmly at the top of my list of favorite authors. Fiasco only served to crystalize my high esteem for his body of work.
+Ever since I first read **Solaris** a few years ago, Lem has been lodged firmly at the top of my list of favorite authors. Fiasco only served to crystallize my high esteem for his body of work.
 
 After reading Lem, you find yourself questioning the premise of all other Science Fiction. His purposeful refutation of the anthropomorphic. His relentless exploration of the true implications of humanity coming into contact with other sentient life.
 
@@ -82,7 +82,7 @@ I find that I have a hard time reading non-fiction. I often confirm this by look
 
 I’m not sure what caused me to pick up this collection of essays by Didion, I think it was the use of the W.B. Yeats quote in the title and the Author’s Introduction. Didion’s style is clear and she writes with a sharp eye. Each topic she addresses is given the same scrutiny and her inability to keep from seeing the broader implications for culture in had me devouring each one.
 
-This collection, though it’s written exclusively on topics from the 1960s, felt extremely relevant to today.  
+This collection, though it’s written exclusively on topics from the '60s, felt extremely relevant to today.  
 
 | Title        | Author           | Rating  |
 | ------------- | ------------- | ----- |
@@ -102,7 +102,7 @@ That being said, I can’t say that the book was poorly written. Greer is strong
 ### Billy Bud, Sailor, _by Herman Melville_
 One thing you should probably know about me is that I’m a Melville completist. I read **Moby Dick, or the Whale** one summer in college and I have been hooked on his prose ever since.
 
-**Billy Bud** is a short little novella that was published posthumously and still feels somewhat undergestated. The premise of the novel feels very much akin to a Thomas Hardy story, i.e. how do bad things happen to good people? Yet, even with these caveats, I found myself so intoxicated by the rhythm of Melville’s ornately structured and punctuated sentences, the morally charged monologues of his characters, and the subtle inconsistencies of certain plot points in the final few chapters that it was not an unpleasant read.
+**Billy Bud** is a short little novella that was published posthumously and still feels somewhat under gestated. The premise of the novel feels very much akin to a Thomas Hardy story, i.e. how do bad things happen to good people? Yet, even with these caveats, I found myself so intoxicated by the rhythm of Melville’s ornately structured and punctuated sentences, the morally charged monologues of his characters, and the subtle inconsistencies of certain plot points in the final few chapters that it was not an unpleasant read.
 
 | Title        | Author           | Rating  |
 | ------------- | ------------- | ----- |

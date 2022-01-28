@@ -11,7 +11,7 @@ tags:
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
 ---
 
-This was my first introduction to Borges - or as his translator affectionally
+This was my first introduction to Borges - or as his translator affectionately
 refers to him through the footnotes "JLB" - aside from the errant short stories
 I read spasmodically on the internet c.2007-11. Back when I had more time to read
 random short fiction on the internet.

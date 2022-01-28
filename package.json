@@ -8,11 +8,13 @@
     "npm": "~8.3.1"
   },
   "dependencies": {
-    "luxon": "^1.8.3",
+    "@11ty/eleventy": "^0.11.0",
     "clean-css": "^4.2.1",
-    "@11ty/eleventy": "^0.11.0"
+    "luxon": "^1.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "spellchecker-cli": "^4.8.1"
+  },
   "scripts": {
     "test": "test",
     "build": "npx eleventy formats=md",

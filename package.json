@@ -19,7 +19,7 @@
     "test": "test",
     "build": "npx eleventy formats=md",
     "start": "npx eleventy --serve formats=md",
-    "spellcheck": "npx spellchecker -f 'posts/*/*.md' '!posts/archive/*.md' 'pages/*.md' 'jobs/*.md' -p spell indefinite-article frontmatter --frontmatter-keys title summary -q -d bin/dictionary-supplement.txt"
+    "spellcheck": "npx spellchecker --config .spellcheckerrc.json"
   },
   "repository": {
     "type": "git",

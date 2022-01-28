@@ -1,0 +1,19 @@
+{
+    "files": [
+        "posts/*/*.md",
+        "!posts/archive/*.md",
+        "pages/*.md",
+        "jobs/*.md"
+    ],
+    "plugins": [
+        "spell",
+        "indefinite-article",
+        "frontmatter"
+    ],
+    "frontmatterKeys": [
+        "title",
+        "summary"
+    ],
+    "quiet": true,
+    "dictionaries": [ "bin/dictionary-supplement.txt" ]
+}

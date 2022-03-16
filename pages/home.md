@@ -12,7 +12,7 @@ permalink: /
 
 # cyber(b)space.
 
-Hi. I'm Josh. I'm a Software Engineer located in the Washington, DC area.
+Hi. I'm Josh. I'm a Software Engineer located in the Washington, D.C. area.
 
 Like most personal sites, I use this space to house two different aspects of my digital life. The most frequently updated section is my personal blog. It includes some decades old travel writing and a handful of one-offs from more recent days.
 

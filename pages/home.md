@@ -12,7 +12,7 @@ permalink: /
 
 # cyber(b)space.
 
-Hi. I'm Josh. I'm a Software Engineer located in the Washington, DC area. I am an aspiring trail runner, an autodidact tinkeror, and an avid reader. I'm currently reading <span id="currently-reading"><a href="https://oku.club/user/riastrad/collection/reading">these books</a></span>.
+Hi. I'm Josh. I'm a Software Engineer located in the Washington, DC area. I am an aspiring trail runner, an autodidact tinkerer, and an avid reader. I'm currently reading <span id="currently-reading"><a href="https://oku.club/user/riastrad/collection/reading">these books</a></span>.
 
 Like most personal sites, I use this space to house two different aspects of my digital life. The most frequently updated section is my personal blog. It includes some decades old travel writing and a handful of one-offs from more recent days.
 

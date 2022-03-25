@@ -1,6 +1,6 @@
 "use strict";
 
-async function extractTitlesAndLinks(readingList) {
+function extractTitlesAndLinks(readingList) {
   const { items } = readingList;
   return items.map((eachBook) => {
     return { title: eachBook.title, url: eachBook.link };

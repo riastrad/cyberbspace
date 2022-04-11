@@ -5,6 +5,7 @@
 Acc
 Aleph
 Anarcha-feminism
+APIs
 Asterion
 Babbit
 Batfish
@@ -33,6 +34,7 @@ IPFS
 IPFS1
 JLB
 Jaffe
+JSON
 Kaufmann
 LPs
 Langston
@@ -97,10 +99,12 @@ ne
 neo-luddite
 niksen
 og
+Oku
 onboarding
 pre-Nobel
 quoi
 repo
+RSS
 sais
 single-mindedly
 się

@@ -2,6 +2,7 @@
 layout: post.njk
 title: Reject transience
 summary: A quick thought in a different format
+date: 2022-02-09 15:40:00
 tags:
   - post
   - brief

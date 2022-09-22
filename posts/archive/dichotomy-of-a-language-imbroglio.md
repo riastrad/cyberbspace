@@ -7,7 +7,7 @@ tags:
   - travel
   - morocco
   - archive
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 **im-bro-glio** <br />
@@ -15,9 +15,7 @@ _noun._ <br />
 "An extremely confused, complicated, or embarrassing situation."
 synonyms: complication, snarl, clusterf---
 
-
 My weekend plans have been postponed until next weekend. In that time I have decided that an important piece of the puzzle that this blog is slowly helping you put together is missing. The giant center piece known as language. Communication and its constant, consistent failure is a daily part of the life of any student spending significant amounts of time abroad. I and the others here are no exception.
-
 
 This puzzle piece has been frustrating me to such an extent that I looked up a new word to help describe it. I realize, however, that it is necessary to explain just how much of language headache a country such as Morocco can cause. And believe you me, that is **_the_** understatement of the century. I would provide you with a counter example of other understatements, but I'm tired and that would take some degree of thinking. But I digress.
 

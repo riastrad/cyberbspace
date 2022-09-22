@@ -7,7 +7,7 @@ tags:
   - travel
   - tanzania
   - archive
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 I have returned home from Tanzania. In fact, I returned approximately one month ago.
@@ -22,7 +22,7 @@ I won't delve too much into the specific details of my trip. Those things are be
 
 Anyway, it's not the destination I want to share with you, but the voyage. Since a good portion of the drive was between the two major cities, there was a significant stretch of smooth, paved highway. Once we had passed Moshi, however, and headed toward the village, the reality of Africa began to set it. The roads slowly eroded the longer we continued. Little by little, potholes began to multiply, bumps became more jolting, until we eventually came to a series of unpaved road. Now, it is important for you to realize that when I use the word "unpaved," the average North American reader has no point of reference. There is no equivalent to this type of road stateside. Nothing even comes close. In fact, to call it a road is a grave understatement. Every inch of that path was jarring and uneven. The bus we were in was definitely not suited for off-road travel. With every shake and prattle, the group cringed with the realization that at any moment a vital part of the engine might drop off the vehicle.
 
-It was during this drive that I began to realize one of the biggest schisms between my world and the world of Africa. Security. Of course, I've been in prior situations that have lacked any feeling of security. I've traveled to developing countries before. But the security I was missing was so much more than a simple sense uneasiness. What this security is or was, I'm still not sure. Part of me has concluded that I must have taken basic infrastructure for granted my whole life, and the sudden loss of it created this feeling. Another part  of is convinced that it's the insecurity that that can only from visiting communities that don't seem to posses the means to preserve their own human dignity. A fact made even more unpleasant when  you realize that your mere presence creates the stark contrast necessary for this indignity to become tangible.
+It was during this drive that I began to realize one of the biggest schisms between my world and the world of Africa. Security. Of course, I've been in prior situations that have lacked any feeling of security. I've traveled to developing countries before. But the security I was missing was so much more than a simple sense uneasiness. What this security is or was, I'm still not sure. Part of me has concluded that I must have taken basic infrastructure for granted my whole life, and the sudden loss of it created this feeling. Another part of is convinced that it's the insecurity that that can only from visiting communities that don't seem to posses the means to preserve their own human dignity. A fact made even more unpleasant when you realize that your mere presence creates the stark contrast necessary for this indignity to become tangible.
 
 Once we arrived at the site, we were greeted with brilliant smiles and open arms by swarms of school children. That's something else about Tanzania. The desire to learn. The school our team worked on was experiencing low attendance before our renovations. Not because the children thought that school was dull or boring. But because parents feared that their children would become sick if they were forced to study in such unsanitary conditions.
 

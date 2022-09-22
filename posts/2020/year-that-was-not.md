@@ -1,16 +1,16 @@
 ---
 layout: post.njk
 title: The Year that Wasn't
-summary: A loosely connected jumble of thoughts 
+summary: A loosely connected jumble of thoughts
 date: 2020-08-21 17:00:00
 tags:
   - post
   - life
   - review
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
-I've recently noticed that a new pastime has emerged when talking with friends. The ritual is pretty simple, usually someone will say something to the effect of "_back when we thought the lock-down was only going to last two weeks,_" and the rest of the group uneasily chuckles as we all mentally note that we've been in this state of societal shutdown for the better part of six months. 
+I've recently noticed that a new pastime has emerged when talking with friends. The ritual is pretty simple, usually someone will say something to the effect of "_back when we thought the lock-down was only going to last two weeks,_" and the rest of the group uneasily chuckles as we all mentally note that we've been in this state of societal shutdown for the better part of six months.
 
 ## Morbid Context
 
@@ -24,7 +24,7 @@ I've [previously written](../kill-the-feed/) about locking myself out of Twitter
 
 ## Emergent Narrative Tropes
 
-Shortly after breakfast this morning, I found myself reading about the [rapid growth of a new gang](https://www.washingtonpost.com/local/public-safety/reccless-tigers-gang-indictments/2020/08/20/fb3543b8-d8af-11e9-a688-303693fb4b0b_story.html) in the District's suburbs. I was struck by the fact that this article's narrative arc very closely resembles the one employed in business magazines when talking about the meteoric rise of the latest tech start-up. 
+Shortly after breakfast this morning, I found myself reading about the [rapid growth of a new gang](https://www.washingtonpost.com/local/public-safety/reccless-tigers-gang-indictments/2020/08/20/fb3543b8-d8af-11e9-a688-303693fb4b0b_story.html) in the District's suburbs. I was struck by the fact that this article's narrative arc very closely resembles the one employed in business magazines when talking about the meteoric rise of the latest tech start-up.
 
 I'm not sure if this has to do with the lack of range that journalistic narratives like this one allow themselves, or if it is simply a symptom of being hopelessly entrenched in the view point of a capitalist society. But at times, it reads as if the article is saying:
 

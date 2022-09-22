@@ -7,7 +7,7 @@ tags:
   - travel
   - morocco
   - archive
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 This has truly been a whirlwind weekend. As I mentioned in previous posts, a small group of study abroad students made plans to summit the highest peak in North Africa, Jbel Toubkal. To help convey the gravity of that statement I have prepared a picture for you using window's paint:
@@ -20,7 +20,7 @@ So, hopefully that helps give you an idea of what our weekend had in store. Ther
 <div><img src="/img/blog-archive/above-2.jpg" class="blog-pic container" /></div>
 <div class="center-text"><small>The first half. An 8 mile hike to the refuge.</small></div><br />
 
-Despite the fact that we all had read and knew that altitude would be a factor, we were set on getting to the top of that beast of a mountain and returning to Rabat within two days. On the first day of trekking the group was forced to separate into two groups of three because of a slight difference in pace. This decision, while not ideal, was made in order to ensure that there would be six open beds at the refuge. Luckily there were, and we were all able to have a horrible night's sleep in an unheated stone building in a valley between two mountains. That might sound cool, but believe you me, after getting to 3,000  meters (9,842 feet) elevation all you really want is a hot shower and some good soup. We had neither.
+Despite the fact that we all had read and knew that altitude would be a factor, we were set on getting to the top of that beast of a mountain and returning to Rabat within two days. On the first day of trekking the group was forced to separate into two groups of three because of a slight difference in pace. This decision, while not ideal, was made in order to ensure that there would be six open beds at the refuge. Luckily there were, and we were all able to have a horrible night's sleep in an unheated stone building in a valley between two mountains. That might sound cool, but believe you me, after getting to 3,000 meters (9,842 feet) elevation all you really want is a hot shower and some good soup. We had neither.
 
 (There's a part of our first day's trek that I'm really hesitant to include. However, I feel it helps convey just how hard we pushed ourselves this weekend. In a half hearted attempt to save myself from blatant embarrassment, I decided to share it with you only in parenthesis. In the last half hour of our first day's trek to the the refuge on Friday. I puked. I puked hard. Twice in fact. I am ashamed to say it, valued reader, but it was not pretty. The cause of this sudden expulsion is uncertain, and it came as a complete surprise to everyone, myself included. The most plausible excuse at this time is the rapid altitude change and my lack of acclamation. It happened with the refuge in sight, and I was able to push myself that last leg. Needles to say, that after this little setback I wasn't sure how I felt about going all the way to the summit.)
 

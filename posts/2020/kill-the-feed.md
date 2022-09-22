@@ -7,12 +7,12 @@ tags:
   - post
   - review
   - social media
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 ## Historical context
 
-I'm not extremely proactive on Twitter. I post very rarely and when I do it's often trivial little things. That being said, I am extremely _passive_ on Twitter. By this I mean that I'll log in at different times throughout the day to scroll through the feed and see what's happening in the world. However, more and more I'm realizing that even this passive engagement is unhealthy. I find myself in a state of endless scrolling. I increasingly feel like a duck destined for foie gras who's being force fed a bunch of fatty junk. 
+I'm not extremely proactive on Twitter. I post very rarely and when I do it's often trivial little things. That being said, I am extremely _passive_ on Twitter. By this I mean that I'll log in at different times throughout the day to scroll through the feed and see what's happening in the world. However, more and more I'm realizing that even this passive engagement is unhealthy. I find myself in a state of endless scrolling. I increasingly feel like a duck destined for foie gras who's being force fed a bunch of fatty junk.
 
 I started out the year thinking I might just trim down the list of who I'm following and set up some stricter content controls on my devices. But I've already caught myself side-stepping these guard rails less than a few weeks after putting them in place. I've increasingly begun to feel that the only real solution is purposeful privation.
 

@@ -7,7 +7,7 @@ tags:
   - travel
   - morocco
   - archive
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 As is usually the case before embarking on a journey that will span the better part of 8 months, I put off packing until the last possible second. Due in part to a nervous apprehension that takes hold of me the day before I travel, and inexplicably well developed procrastination tendencies, I have managed to be almost close to thinking I'm done packing. It is 12:30am of the day I am set to depart. Having done this before, I can safely assume that I will remember that I forgot something as I near the end of my 2 1/2 hour drive to the airport.

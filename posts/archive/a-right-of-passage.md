@@ -7,7 +7,7 @@ tags:
   - travel
   - france
   - archive
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 **Europe » France » Burgundy » Baune**

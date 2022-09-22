@@ -8,7 +8,7 @@ tags:
   - books
   - review
   - fiction
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 This was my first introduction to Borges - or as his translator affectionately
@@ -41,10 +41,9 @@ There are some classic authors that you read only to discover, with a bit of hea
 
 It was a pleasure to discover that Borges was not one of these writers.
 
-
-| Title        | Author           | Rating  |
-| ------------- | ------------- | ----- |
-| The Aleph and Other Stories     | Jorge Luis Borges | ✻ ✻ ✻ ✻ ✻ |
+| Title                       | Author            | Rating    |
+| --------------------------- | ----------------- | --------- |
+| The Aleph and Other Stories | Jorge Luis Borges | ✻ ✻ ✻ ✻ ✻ |
 
 ---
 

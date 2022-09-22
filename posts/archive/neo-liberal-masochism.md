@@ -7,7 +7,7 @@ tags:
   - travel
   - morocco
   - archive
-permalink: /notes/{{ page.date | dateYear }}/{{ title | slug }}/index.html
+permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 Well, ladies and gentlemen, I am at it again. I have once again chosen to leave the comfortable confines of my culture behind and explore the world. Morocco to be specific. Unfortunately, this post is a bit premature. I am still of course in the United States, and will be staying in my quaint hometown until 4:00pm on the 4th of September. So for those of you keeping track, that means I still have 11 days and 20 hours left to wander the old streets of Lena. This wandering may or may not include a bit of marauding. I haven't decided one way or the other.

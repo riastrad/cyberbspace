@@ -17,8 +17,8 @@
   },
   "scripts": {
     "test": "test",
-    "build": "npx eleventy formats=md",
-    "start": "npx eleventy --serve formats=md",
+    "build": "npx eleventy --formats=md",
+    "start": "npx eleventy --serve --formats=md",
     "spellcheck": "npx spellchecker --config .spellcheckerrc.json"
   },
   "repository": {

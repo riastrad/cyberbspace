@@ -2,6 +2,7 @@
 layout: post.njk
 title: Post title
 summary: Quick summary of post
+date: YYYY-MM-DD HH:MM:SS
 tags:
   - post
   <!-- any other relevant tags -->

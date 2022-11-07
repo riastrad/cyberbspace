@@ -5,6 +5,6 @@
 /sitemap.xml
 /sitemap.xml.gz
 
-.DS_Store
+**/.DS_Store
 node_modules/
 _site/

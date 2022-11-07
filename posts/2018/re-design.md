@@ -23,45 +23,50 @@ In the interest of posterity, I want to use this inaugural blog post to walk thr
 I want to give credit where credit is due and run through a list of the tools I used to host, design and build the site in its current form. If you’re not interested in my long-winded justifications and (likely inaccurate) descriptions of these tools, the site is [Open Source on GitHub](https://github.com/riastrad/cyberbspace/) where you can see the structure and code (warts and all) for yourself.
 
 ### Neocities
+
 This piece hasn’t changed recently, but I think it’s worth documenting. I use [Neocities](https://neocities.org/) to host this website. It’s a cheap solution (on their “supporter” plan it only costs me $5 a month to keep this site up and running) and it provides SSL support by default. This saves me from having to get tangled up in any of the minutia of dotting the `t`s and crossing the `i`s for my basic configuration, which I think should generally be the point of a hosting service.
 
-And I’ll be honest, there are other solutions I could have used. For example, [Netlify](https://www.netlify.com/) has been getting some buzz lately. This can likely be attributed to the "Free for Open Source" tier in their pricing plan. However, Neocities will always hold a soft spot in my heart because they are also [early adopters of IPFS](https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html)<sup><a id="ref-1" rel="footnote" href="#footnote-1">1</a></sup> and advocate for a more permanent solution to how the web is structured and maintained.
+And I’ll be honest, there are other solutions I could have used. For example, [Netlify](https://www.netlify.com/) has been getting some buzz lately. This can likely be attributed to the "Free for Open Source" tier in their pricing plan. However, Neocities will always hold a soft spot in my heart because they are also [early adopters of IPFS](https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html)[^1] and advocate for a more permanent solution to how the web is structured and maintained.
 
 ### Skeleton CSS
-To be perfectly blunt, CSS is an area of web-development that have absolutely no comfort with. I’ve known CSS and how it relates to HTML since my edgy days of editing my edgy MySpace<sup>TM</sup> page<sup><a id="ref-2" rel="footnote" href="#footnote-2">2</a></sup> style back in Junior High/High School.
+
+To be perfectly blunt, CSS is an area of web-development that have absolutely no comfort with. I’ve known CSS and how it relates to HTML since my edgy days of editing my edgy MySpace<sup>TM</sup> page[^2] style back in Junior High/High School.
 
 I knew that it would be faster for me to use a boilerplate CSS library and tailor it to my specifications that it would be to start wholly from scratch. But I didn’t want to use some big, ungainly, and wholly generic (as a result of its ubiquity) thing like [Bootstrap](https://getbootstrap.com/docs/3.3/css/).
 
-No kidding, I literally searched the phrase `minimal css boilerplate` and was lucky enough to find [Skeleton CSS](http://getskeleton.com/).  The library is small, clean and easy to get up and running with after you browse it’s documentation.
+No kidding, I literally searched the phrase `minimal css boilerplate` and was lucky enough to find [Skeleton CSS](http://getskeleton.com/). The library is small, clean and easy to get up and running with after you browse it’s documentation.
 
 I didn’t want the library loading from an externally hosted server, and I also wanted to tweak certain elements like buttons to my liking, so I downloaded it added it my site’s assets and began to tweak away. In addition to the core modifications, there were also elements that I wanted to customize that weren’t already addressed by the framework. To keep things clean(ish), I implemented these changes as a [separate](https://github.com/riastrad/cyberbspace/blob/master/_includes/assets/css/custom-stuff.css) CSS asset.
 
 ### Google Fonts
+
 This is currently the primary thing about the site that I don’t like. This is a misleading way to state this, let me clarify: I am sometimes haunted at night by the thought that Google’s Fonts are so easy to use that one day their servers will go down, or the company will monetize it’s Font business more aggressively and suddenly millions of web pages (this one included) will look _deformed_ and _grotesque_.
 
 So yes, while I did momentarily fall in love with [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono) and add it to this new and improved version of my site. I think I can accomplish a similar ascetic by other means once I get over the hump of understanding the best way to bundle a font and remove the external dependency. I’ve already put this one on my “minor skills to learn in the coming year” list (which I’m partially tracking [on the repo](https://github.com/riastrad/cyberbspace/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22%F0%9F%93%9D+new+skill%22+)).
 
 ### Nunjucks
+
 Like CSS, JavaScript templating is another area that I do not feel extremely comfortable with. I know it’s a critical part to getting things running smoothly with a site generator - but I had no idea where to start. Don’t tell the project's maintainers this, but I didn’t put too much consideration into this and ultimately defaulted to [Nunjucks](https://mozilla.github.io/nunjucks/) because that’s what all of the examples in [11ty’s documentation](https://11ty.io/docs/) were written in.
 
 After starting this my site refactor, I found out about [Moustache](https://mustache.github.io/) and the concept of “logic-less templates”. Personally, I found that Nunjuck’s suited my needs and made enough sense once I took the time to read the documentation a bit more closely. So I didn’t investigate, compare, or attempt to rewrite my layout templates after I learned about the other possible solution. That being said, no solution is ever final, so re-visiting my approach to templates might be worthwhile if I have time in the future. I’ll also note that this is the one area where I don’t feel that I’ve done my homework very well.
 
 ### 11ty
-Based on my needs an interests, I knew that I didn’t want or need anything more complicated<sup><a id="ref-3" rel="footnote" href="#footnote-3">3</a></sup> than a static site generator. Selecting a generator actually proved to be one of the harder aspects of the project. I’ve had minor brushes with Jekyll in the past, and while I appreciate the lasting contributions it’s made to this area of web development it lacked a certain _je ne sais quoi_ that I was looking for in terms of structure and usability.
 
-At work I’ve had the pleasure of being able to use the extremely the sleek, and open-sourced [Batfish](https://github.com/mapbox/batfish) library, but I decided against opting for this familiar tool for two reasons. First, if you are a barista and you spend all day making espresso, the last thing you want to do when you get some free time is spend it making more espresso. I wanted to get a sense of what else was out there and see if there were flexible and (most importantly) _user friendly_  generators gaining traction outside my current circle.
+Based on my needs an interests, I knew that I didn’t want or need anything more complicated[^3] than a static site generator. Selecting a generator actually proved to be one of the harder aspects of the project. I’ve had minor brushes with Jekyll in the past, and while I appreciate the lasting contributions it’s made to this area of web development it lacked a certain _je ne sais quoi_ that I was looking for in terms of structure and usability.
+
+At work I’ve had the pleasure of being able to use the extremely the sleek, and open-sourced [Batfish](https://github.com/mapbox/batfish) library, but I decided against opting for this familiar tool for two reasons. First, if you are a barista and you spend all day making espresso, the last thing you want to do when you get some free time is spend it making more espresso. I wanted to get a sense of what else was out there and see if there were flexible and (most importantly) _user friendly_ generators gaining traction outside my current circle.
 
 Second, Batfish is lightweight, but it’s made with much beefier projects in mind. Hell, it’s used to maintain all of my current company’s [sprawling documentation](https://www.mapbox.com/documentation/). I don’t expect my site will need to be nearly as dynamic or massive, so I want to keep things nice and simple. Preferably only needing to use a `build` and `serve` command when developing, with minimal configuration or tom foolery required to get things up and running.
 
 At some point during my research, I came across [**11ty**](https://11ty.io). 11ty checked all my boxes, had clear documentation and examples, and seemed very easy to get up and running with one Saturday afternoon while I was browsing for tools.
 
-I also have to be perfectly honest and admit that to get over the learning curve<sup><a id="ref-4" rel="footnote" href="#footnote-4">4</a></sup> I did a fair amount of cribbing from the [eleventy-boilerplate blog](https://github.com/danurbanowicz/eleventy-netlify-boilerplate) put out by [Dan Urbanowicz](https://www.danurbanowicz.com/). <br />(👋 Thanks, Dan!)
+I also have to be perfectly honest and admit that to get over the learning curve[^4] I did a fair amount of cribbing from the [eleventy-boilerplate blog](https://github.com/danurbanowicz/eleventy-netlify-boilerplate) put out by [Dan Urbanowicz](https://www.danurbanowicz.com/). <br />(👋 Thanks, Dan!)
 
 ## Why are the majority of blogs from before 2011?
 
 It’s no fun designing and building a website without content. I had some lame, test content written when I first started working on the blog section, but it was uninspiring and I was having trouble seeing the bigger picture with just a handful of stand-in posts.
 
-Fortunately, during the holiday break I had a moment of inspiration! When I was younger and traveled, I had maintained travel blogs. These old blogs were currently sitting precariously on 3<sup>rd</sup> party blogging sites that I didn’t control. At any moment this part of my personal digital history might disappear<sup><a id="ref-5" rel="footnote" href="#footnote-5">5</a></sup> and there would be no recourse for getting it back.
+Fortunately, during the holiday break I had a moment of inspiration! When I was younger and traveled, I had maintained travel blogs. These old blogs were currently sitting precariously on 3<sup>rd</sup> party blogging sites that I didn’t control. At any moment this part of my personal digital history might disappear[^5] and there would be no recourse for getting it back.
 
 This prompted me to decide to migrate **_all_** of my old posts over to this new blog I was building. It also provided an ample opportunity to tweak my site's blog structure and design as I added more and more content to it. Round a corner here. Tweak a spacing there. Add a word count, just because I started to get curious along the way.
 
@@ -70,6 +75,7 @@ Now I’ve got [Suburban Berber](https://joshsmanytravels.blogspot.com/) and [Jo
 Overall it was a fun trip down memory lane, and I’m glad I had the thought and time to follow through.
 
 ## Declaration of My Goldilocks Strategy re: Web Development
+
 Of course, even after putting all of this effort into polishing up the site, there are still things that are still squatting in the back of my mind that I’d like to improve. For posterity's sake, and to preempt any potential criticism from my peers, I’m going to list my primary nit picks here and now.
 
 <ul>
@@ -87,10 +93,8 @@ My main goal is to make updates to the areas I want to improve, or use it as a l
 
 I’ll be making minor tweaks to every piece until it all feels just right.
 
-<ol>
-  <li class="footnote-text" id="footnote-1">IPFS is a very interesting project that I’ve been following for the last few years. I won’t get into it because it’s tangential to this blog. But if thinking about how to improve the structural integrity of the system that currently stores an increasingly large share of all of humanity’s knowledge, communication, and creativity is your jam, I encourage you to check it out.<a href="#ref-1" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-2">Don’t look for my MySpace page. It’s long gone, I assure you.<a href="#ref-2" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-3">Don’t worry, I know that static-site generators can be extremely complicated if they want to be.<a href="#ref-3" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-4">Just to clarify, this is definitely the result of my inexperience with web development and limited exposure to the structure and functionality of static-site generators.<a href="#ref-4" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-5">Yes, I’m noticing that resilient systems and future-proofing my digital footprint appear to have become a re-occuring theme in this post.<a href="#ref-5" rel="footnote-jumpback">↪</a></li>
-</ol>
+[^1]: IPFS is a very interesting project that I’ve been following for the last few years. I won’t get into it because it’s tangential to this blog. But if thinking about how to improve the structural integrity of the system that currently stores an increasingly large share of all of humanity’s knowledge, communication, and creativity is your jam, I encourage you to check it out.
+[^2]: Don’t look for my MySpace page. It’s long gone, I assure you.
+[^3]: Don’t worry, I know that static-site generators can be extremely complicated if they want to be.
+[^4]: Just to clarify, this is definitely the result of my inexperience with web development and limited exposure to the structure and functionality of static-site generators.
+[^5]: Yes, I’m noticing that resilient systems and future-proofing my digital footprint appear to have become a re-occurring theme in this post.

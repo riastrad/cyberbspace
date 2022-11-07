@@ -16,9 +16,9 @@ There's this astroturfed tech mania recently around this concept of a "metaverse
 
 Here's my extremely concise summary of the need these companies are simultaneously trying to cultivate and fulfill: _people want to be able to take their shit with them wherever they go_.
 
-They might dress it up in a lot of different ways with a lot of flashy jargon or demo videos, but ultimately that's all it is. The seamless interoperability of all the different digital systems people use. Though, interoperability may be a stretch. Because the way our markets are structured today, there is no incentive for massive digital worlds to be plugged into one another. Instead the emergent strategy seems to be that it is better to become the universe before some aspiring megacorp can beat you to the punch<sup><a id="ref-1" rel="footnote" href="#footnote-1">1</a></sup>.
+They might dress it up in a lot of different ways with a lot of flashy jargon or demo videos, but ultimately that's all it is. The seamless interoperability of all the different digital systems people use. Though, interoperability may be a stretch. Because the way our markets are structured today, there is no incentive for massive digital worlds to be plugged into one another. Instead the emergent strategy seems to be that it is better to become the universe before some aspiring megacorp can beat you to the punch[^1].
 
-Now, if you're shoehorning the concept of property and materialism into a purely digital world<sup><a id="ref-2" rel="footnote" href="#footnote-2">2</a></sup>, then this need for interoperability is a natural consequence. After all, in the real world if I buy a T-shirt, I expect to be able to wear that T-shirt wherever I am and not just in places that also happen to be owned and controlled by the same landlord of my T-shirt vendor<sup><a id="ref-3" rel="footnote" href="#footnote-3">3</a></sup>.
+Now, if you're shoehorning the concept of property and materialism into a purely digital world[^2], then this need for interoperability is a natural consequence. After all, in the real world if I buy a T-shirt, I expect to be able to wear that T-shirt wherever I am and not just in places that also happen to be owned and controlled by the same landlord of my T-shirt vendor[^3].
 
 I assume this nascent expectation (i.e. you _can_ take it with you) is what the megacorps are trying to anticipate and monopolize before the rest of us catch on. And who can blame them, when you've extracted all possible value from the physical world, your only hope for continued growth is the conquest of the metaphysical one.
 
@@ -38,8 +38,6 @@ Even though I spend most of my time working with and on computers, I feel comfor
 
 My own personal notebooks have come with me between cities, jobs, and languages and I've never had a compatibility issue when accessing their information. I don't expect to abandon them anytime soon.
 
-<ol>
-  <li id="footnote-1" class="footnote-text">but I digress...<a href="#ref-1" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-2" class="footnote-text">which is generally a bad idea, but that is not the topic of today's post<a href="#ref-2" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-3" class="footnote-text">this metaphor feels overly convoluted, but then again so is this post, so I'm leaving it<a href="#ref-3" rel="footnote-jumpback">↪</a></li>
-</ol>
+[^1]: but I digress...
+[^2]: which is generally a bad idea, but that is not the topic of today's post
+[^3]: this metaphor feels overly convoluted, but then again so is this post, so I'm leaving it

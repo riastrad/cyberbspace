@@ -11,8 +11,8 @@ document.body.addEventListener("click", (e) => {
     visibleFootnote = null;
   }
 
-  if (e.target.id.includes("ref-")) {
-    const textId = e.target.id.replace("ref", "footnote");
+  if (e.target.id.includes("fnref")) {
+    const textId = e.target.id.replace("ref", "");
     const footnoteText = document.getElementById(textId);
     footnoteText.style.visibility = "visible";
     visibleFootnote = textId;

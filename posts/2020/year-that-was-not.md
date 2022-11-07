@@ -34,9 +34,7 @@ I find myself wondering if this narrative form is present in any journalism that
 
 ## What's Next
 
-I've taken off a sizable chunk of time<sup><a id="ref-1" rel="footnote" href="#footnote-1">1</a></sup>. While some of this time is set aside for catching up on the backlog of responsibilities that slip when you're locked indoors during a plague (e.g. sleep, physical fitness, car maintenance, etc.), I hope to give some time to catching up on my reading and writing. One of my largest sources of guilt at the moment is that I have yet to establish a consistent writing routine<sup><a id="ref-2" rel="footnote" href="#footnote-2">2</a></sup>.
+I've taken off a sizable chunk of time[^1]. While some of this time is set aside for catching up on the backlog of responsibilities that slip when you're locked indoors during a plague (e.g. sleep, physical fitness, car maintenance, etc.), I hope to give some time to catching up on my reading and writing. One of my largest sources of guilt at the moment is that I have yet to establish a consistent writing routine[^2].
 
-<ol>
-  <li id="footnote-1" class="footnote-text">For an American (2.5 weeks). </li>
-  <li id="footnote-2" class="footnote-text">Another topic for a future post, perhaps. </li>
-</ol>
+[^1]: For an American (2.5 weeks).
+[^2]: Another topic for a future post, perhaps.

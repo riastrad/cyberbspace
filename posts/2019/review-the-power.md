@@ -52,10 +52,10 @@ If you’re looking for a well written, entertaining book that will shock<sup><a
 | The Power | Naomi Alderman | ✻ ✻ ✻ ✻ |
 
 <ol>
-  <li id="footnote-1" class="footnote-text">They’re not “resolutions”. Please don’t call them that. “Resolution” has so many potential meanings that I prefer to not use it in this context.<a href="#ref-1" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-2" class="footnote-text">Though the thesis of The Power makes me question whether or not “feminist” is even the right word here.<a href="#ref-2" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-3" class="footnote-text">Ibid.<a href="#ref-3" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-4" class="footnote-text">If you've already scrolled to the bottom and are comparing against the table, you may have noticed a small discrepancy in the rating. Technically, I’m giving this book a 3.5 out of 5. But I haven’t decided what my rating system style should look like in practice and I’m using symbols as placeholders. As a result, I’m rounding up to four “tear drop-spoked asterisks” for this review.<a href="#ref-4" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-5" class="footnote-text">In fact, I do this often. I enjoy that medium.<a href="#ref-5" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-6" class="footnote-text">Pun very much intended here.<a href="#ref-6" rel="footnote-jumpback">↪</a></li>
+  <li id="footnote-1" class="footnote-text">They’re not “resolutions”. Please don’t call them that. “Resolution” has so many potential meanings that I prefer to not use it in this context. </li>
+  <li id="footnote-2" class="footnote-text">Though the thesis of The Power makes me question whether or not “feminist” is even the right word here. </li>
+  <li id="footnote-3" class="footnote-text">Ibid. </li>
+  <li id="footnote-4" class="footnote-text">If you've already scrolled to the bottom and are comparing against the table, you may have noticed a small discrepancy in the rating. Technically, I’m giving this book a 3.5 out of 5. But I haven’t decided what my rating system style should look like in practice and I’m using symbols as placeholders. As a result, I’m rounding up to four “tear drop-spoked asterisks” for this review. </li>
+  <li id="footnote-5" class="footnote-text">In fact, I do this often. I enjoy that medium. </li>
+  <li id="footnote-6" class="footnote-text">Pun very much intended here. </li>
 </ol>

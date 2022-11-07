@@ -35,10 +35,10 @@ As a bonus, I'm fortunate enough to have a Polish partner who will look over at 
 So yeah, learning a language without any structure except whatever I impose on myself is difficult, as the past ten years have shown. I'm still trying to see if this new approach is going to make any difference. But I'm feeling optimistic at this stage. Ask me how I'm doing in six months.
 
 <ol>
-  <li id="footnote-1" class="footnote-text">It is a widely known fact that swear words are the easiest part of language to learn because, like a mischievous child, your brain instinctually recognizes that it should not have them in its possession and immediately stashes them away.<a href="#ref-1" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-2" class="footnote-text">Anywhere from approx. 6,500 to approx. 7,100 ways depending on which dubious website pops up first in your search engine.<a href="#ref-2" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-3" class="footnote-text">Don't believe me? Do you pronounce the phrases "Please press record." and "Play the record." the exact same way?<a href="#ref-3" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-4" class="footnote-text">It's dumb and I sound like some Wall Street shill when I admit it, but putting money into a goal does have a pernicious way of making you stick with it. Maybe this is a consequence of spending too much of my time in the world of stuffy adults, but for my current purposes I'm just being pragmatic. The app is <a href="https://babbel.com">Babbel</a>, for those interested.<a href="#ref-4" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-5" class="footnote-text">translation: "What did you learn today?"<a href="#ref-5" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-6" class="footnote-text">translation: "I learned..."<a href="#ref-6" rel="footnote-jumpback">↪</a></li>
+  <li id="footnote-1" class="footnote-text">It is a widely known fact that swear words are the easiest part of language to learn because, like a mischievous child, your brain instinctually recognizes that it should not have them in its possession and immediately stashes them away. </li>
+  <li id="footnote-2" class="footnote-text">Anywhere from approx. 6,500 to approx. 7,100 ways depending on which dubious website pops up first in your search engine. </li>
+  <li id="footnote-3" class="footnote-text">Don't believe me? Do you pronounce the phrases "Please press record." and "Play the record." the exact same way? </li>
+  <li id="footnote-4" class="footnote-text">It's dumb and I sound like some Wall Street shill when I admit it, but putting money into a goal does have a pernicious way of making you stick with it. Maybe this is a consequence of spending too much of my time in the world of stuffy adults, but for my current purposes I'm just being pragmatic. The app is <a href="https://babbel.com">Babbel</a>, for those interested. </li>
+  <li id="footnote-5" class="footnote-text">translation: "What did you learn today?" </li>
+  <li id="footnote-6" class="footnote-text">translation: "I learned..." </li>
 </ol>

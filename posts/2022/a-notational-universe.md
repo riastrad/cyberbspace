@@ -39,7 +39,7 @@ Even though I spend most of my time working with and on computers, I feel comfor
 My own personal notebooks have come with me between cities, jobs, and languages and I've never had a compatibility issue when accessing their information. I don't expect to abandon them anytime soon.
 
 <ol>
-  <li id="footnote-1" class="footnote-text">but I digress...<a href="#ref-1" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-2" class="footnote-text">which is generally a bad idea, but that is not the topic of today's post<a href="#ref-2" rel="footnote-jumpback">↪</a></li>
-  <li id="footnote-3" class="footnote-text">this metaphor feels overly convoluted, but then again so is this post, so I'm leaving it<a href="#ref-3" rel="footnote-jumpback">↪</a></li>
+  <li id="footnote-1" class="footnote-text">but I digress... </li>
+  <li id="footnote-2" class="footnote-text">which is generally a bad idea, but that is not the topic of today's post </li>
+  <li id="footnote-3" class="footnote-text">this metaphor feels overly convoluted, but then again so is this post, so I'm leaving it </li>
 </ol>

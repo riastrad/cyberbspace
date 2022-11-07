@@ -88,9 +88,9 @@ My main goal is to make updates to the areas I want to improve, or use it as a l
 I’ll be making minor tweaks to every piece until it all feels just right.
 
 <ol>
-  <li class="footnote-text" id="footnote-1">IPFS is a very interesting project that I’ve been following for the last few years. I won’t get into it because it’s tangential to this blog. But if thinking about how to improve the structural integrity of the system that currently stores an increasingly large share of all of humanity’s knowledge, communication, and creativity is your jam, I encourage you to check it out.<a href="#ref-1" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-2">Don’t look for my MySpace page. It’s long gone, I assure you.<a href="#ref-2" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-3">Don’t worry, I know that static-site generators can be extremely complicated if they want to be.<a href="#ref-3" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-4">Just to clarify, this is definitely the result of my inexperience with web development and limited exposure to the structure and functionality of static-site generators.<a href="#ref-4" rel="footnote-jumpback">↪</a></li>
-  <li class="footnote-text" id="footnote-5">Yes, I’m noticing that resilient systems and future-proofing my digital footprint appear to have become a re-occuring theme in this post.<a href="#ref-5" rel="footnote-jumpback">↪</a></li>
+  <li class="footnote-text" id="footnote-1">IPFS is a very interesting project that I’ve been following for the last few years. I won’t get into it because it’s tangential to this blog. But if thinking about how to improve the structural integrity of the system that currently stores an increasingly large share of all of humanity’s knowledge, communication, and creativity is your jam, I encourage you to check it out. </li>
+  <li class="footnote-text" id="footnote-2">Don’t look for my MySpace page. It’s long gone, I assure you. </li>
+  <li class="footnote-text" id="footnote-3">Don’t worry, I know that static-site generators can be extremely complicated if they want to be. </li>
+  <li class="footnote-text" id="footnote-4">Just to clarify, this is definitely the result of my inexperience with web development and limited exposure to the structure and functionality of static-site generators. </li>
+  <li class="footnote-text" id="footnote-5">Yes, I’m noticing that resilient systems and future-proofing my digital footprint appear to have become a re-occuring theme in this post. </li>
 </ol>

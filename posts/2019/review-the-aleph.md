@@ -48,9 +48,9 @@ It was a pleasure to discover that Borges was not one of these writers.
 ---
 
 <ol>
- <li class="footnote-text" id="footnote-1">One of the things I've found re: reading translated texts is that, no matter how well they're are translated, there is always a lingering doubt of whether or not the stylistic choices are the author's or the translator's. By no means, am I noting this with the intention to discredit the work of Andrew Huxley. It's just a pernicious thought I've never been capable of shaking when reading in translation.<a href="#ref-1" rel="footnote-jumpback">↪</a>
+ <li class="footnote-text" id="footnote-1">One of the things I've found re: reading translated texts is that, no matter how well they're are translated, there is always a lingering doubt of whether or not the stylistic choices are the author's or the translator's. By no means, am I noting this with the intention to discredit the work of Andrew Huxley. It's just a pernicious thought I've never been capable of shaking when reading in translation. 
  </li>
  <li class="footnote-text" id="footnote-2">
- It's worth noting I almost never dog-ear pages of my books. The fact that I have dog-eared pages of this collection is a sign of the impact these stories had while I read them.<a href="#ref-2" rel="footnote-jumpback">↪</a>
+ It's worth noting I almost never dog-ear pages of my books. The fact that I have dog-eared pages of this collection is a sign of the impact these stories had while I read them. 
  </li>
 </ol>

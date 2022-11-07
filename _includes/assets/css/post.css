@@ -1,39 +1,40 @@
 blockquote {
-	border: 2px dashed #000;
-	padding-left: 15px;
-	box-shadow: -.5em .5em rgba(238, 238, 51, 0.6);
+  border: 2px dashed #000;
+  padding-left: 15px;
+  box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
 }
 
 .blog-pic {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 1.0em;
-	border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border-radius: 15px;
 }
 
-.footnote-text:target {
-	outline: #000 dashed .1em;
-	outline-offset: .2em;
-	box-shadow: 0 0 1em #ee3;
+.footnote-text {
+  z-index: 998;
+  margin: 0px auto; /* next 3 lines center the div */
+  left: 0;
+  right: 0;
+  background: white;
+  outline: #000 solid 0.1em;
+  padding: 0.5em;
+  box-shadow: 0.5em 0.5em #ee3;
+  position: fixed;
+  bottom: 2em;
+  max-width: 80vw;
+  visibility: hidden;
 }
 
-a[rel=footnote] {
-	font-weight: bold; 
-	background-color: transparent;
+/* For devices larger than 700px */
+@media (min-width: 700px) {
+  .footnote-text {
+    width: 60vw;
+  }
 }
 
-a[rel=footnote]:target {
-	padding-top: 8.5em;
-}
-
-a[rel=footnote]:target:after {
-	content: "<<<";
-	background: #ee3;
-	margin-left: 0.5em;
-}
-
-a[rel=footnote-jumpback] {
-	background-color: transparent;
-	writing-mode: sideways-lr;
+a[rel="footnote"] {
+  font-weight: bold;
+  background: #ee3;
 }

@@ -12,7 +12,7 @@ blockquote {
   border-radius: 15px;
 }
 
-.footnote-text {
+.footnote-item {
   z-index: 998;
   margin: 0px auto; /* next 3 lines center the div */
   left: 0;
@@ -29,12 +29,7 @@ blockquote {
 
 /* For devices larger than 700px */
 @media (min-width: 700px) {
-  .footnote-text {
+  .footnote-item {
     width: 60vw;
   }
-}
-
-a[rel="footnote"] {
-  font-weight: bold;
-  background: #ee3;
 }

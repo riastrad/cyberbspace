@@ -12,6 +12,12 @@ module.exports = function (eleventyConfig) {
   };
 
   const markdownParser = markdownIt(options).use(markdownItFootnote);
+  // fiddle with the default formatting
+  markdownParser.renderer.rules.footnote_block_open = () =>
+    '<ol class="footnotes-list">\n';
+  markdownParser.renderer.rules.footnote_block_close = () => "</ol>\n";
+  markdownParser.renderer.rules.footnote_anchor = () => "";
+
   eleventyConfig.setLibrary("md", markdownParser);
 
   // This is little trick makes all my css inline (i.e. fast)

@@ -97,4 +97,4 @@ I’ll be making minor tweaks to every piece until it all feels just right.
 [^2]: Don’t look for my MySpace page. It’s long gone, I assure you.
 [^3]: Don’t worry, I know that static-site generators can be extremely complicated if they want to be.
 [^4]: Just to clarify, this is definitely the result of my inexperience with web development and limited exposure to the structure and functionality of static-site generators.
-[^5]: Yes, I’m noticing that resilient systems and future-proofing my digital footprint appear to have become a re-occuring theme in this post.
+[^5]: Yes, I’m noticing that resilient systems and future-proofing my digital footprint appear to have become a re-occurring theme in this post.

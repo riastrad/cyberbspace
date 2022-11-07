@@ -54,6 +54,6 @@ If you’re looking for a well written, entertaining book that will shock[^6] yo
 [^1]: They’re not “resolutions”. Please don’t call them that. “Resolution” has so many potential meanings that I prefer to not use it in this context.
 [^2]: Though the thesis of The Power makes me question whether or not “feminist” is even the right word here.
 [^3]: Ibid.
-[^4]: If you've already scrolled to the bottom and are comparing against the table, you may have noticed a small discrepancy in the rating. Technically, I’m giving this book a 3.5 out of 5. But I haven’t decided what my rating system style should look like in practice and I’m using symbols as placeholders. As a result, I’m rounding up to four “tear drop-spoked asterisks” for this review.
+[^4]: If you've already scrolled to the bottom and are comparing against the table, you may have noticed a small discrepancy in the rating. Technically, I’m giving this book a 3.5 out of 5. But I haven’t decided what my rating system style should look like in practice and I’m using symbols as placeholders. As a result, I’m rounding up to four “teardrop-spoked asterisks” for this review.
 [^5]: In fact, I do this often. I enjoy that medium.
 [^6]: Pun very much intended here.

@@ -1,7 +1,19 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
+const markdownIt = require("markdown-it");
+const markdownItFootnote = require("markdown-it-footnote");
 
 module.exports = function (eleventyConfig) {
+  // swap out markdown engines & add support for footnote syntax
+  const options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+
+  const markdownParser = markdownIt(options).use(markdownItFootnote);
+  eleventyConfig.setLibrary("md", markdownParser);
+
   // This is little trick makes all my css inline (i.e. fast)
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;

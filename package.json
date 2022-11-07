@@ -4,13 +4,15 @@
   "description": "personal website",
   "main": ".eleventy.js",
   "engines": {
-    "node": "~14.19.0",
+    "node": "~16.14.0",
     "npm": "~8.19.2"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
     "clean-css": "^4.2.1",
-    "luxon": "^1.8.3"
+    "luxon": "^1.8.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-footnote": "^3.0.3"
   },
   "devDependencies": {
     "spellchecker-cli": "^4.8.1"

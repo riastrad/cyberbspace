@@ -8,9 +8,6 @@ permalink: /not_found.html
 
 ### I'm afraid I can't do that, Dave.
 
-Seems like you've angered the robot who manages my site. I'd recommend using the
-buttons above to get him to open up the pod bay doors.
+Seems like you've angered the robot who manages my site. I'd recommend using the buttons above to get him to open up the pod bay doors.
 
-If you think it's _his_
-fault, just [shoot me a note](mailto:josherb4@gmail.com) and I'll look into it
-for you.
+If you think it's _his_ fault, just [shoot me a note](mailto:josh@cyberb.space) and I'll look into it for you.

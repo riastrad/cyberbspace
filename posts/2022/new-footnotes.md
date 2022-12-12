@@ -12,7 +12,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 ## The Background
 
-When I first set up this personal site way back in 2018, I posted a blog about the process (ref. [Re:Design](/posts/2018/re-design/)). I also made a list of the things that I wasn't happy about. Among those were the fact that adding footnotes to a post was clunky and involved typing inline HTML to the body of the post. I've been thinking about how to improve not just the experience of writing with footnotes (for myself) but also the experience of interacting with a footnote (for you, the reader).
+When I first set up this personal site way back in 2018, I posted a blog about the process (ref. [Re:Design](/notes/2018/re-design/)). I also made a list of the things that I wasn't happy about. Among those were the fact that adding footnotes to a post was clunky and involved typing inline HTML to the body of the post. I've been thinking about how to improve not just the experience of writing with footnotes (for myself) but also the experience of interacting with a footnote (for you, the reader).
 
 ## The Plan
 

@@ -14,9 +14,9 @@ function formatTitles(titleList) {
     if (i === 0) {
       titleHTML = linked;
     } else if (i !== 0 && i !== titleList.length - 1) {
-      titleHTML += `, ${linked}`;
+      titleHTML += `, ${linked},`;
     } else {
-      titleHTML += `, & ${linked}`;
+      titleHTML += ` & ${linked}`;
     }
   }
   return titleHTML;

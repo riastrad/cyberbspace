@@ -30,5 +30,5 @@ Ultimately, though, I'll be dedicating my energy to improving my non-digital soc
 
 [^1]: Yes, this is something I do. No, I don't think it's weird.
 [^2]: Twitter was founded in 2006, so it's not quite yet "decade*s*-old", which is kind of wild to think about.
-[^3]: Notably, when the Mapbox Workers Union went public and the network this has helped
+[^3]: Notably, when the Mapbox Workers Union went public and the network the visibility into contemporary labor organizing this has helped me cultivate.
 [^4]: These spaces also have the benefit of containing considerably fewer neo-confederates and Nazis (i.e. none)

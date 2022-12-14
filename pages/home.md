@@ -12,11 +12,11 @@ permalink: /
 
 # cyber(b)space.
 
-Hi. I'm Josh. I'm a Software Engineer located in the Washington, DC area. I am an aspiring trail runner, an autodidact tinkerer, and an avid reader. I'm currently reading <span id="currently-reading"><a href="https://oku.club/user/riastrad/collection/reading">these books</a></span>.
+Hi. I'm Josh. I'm a Software Engineer located in the Washington, DC area. I am an on-and-off trail runner, an autodidact who links to tinker with things I don't understand, and - most of all - an avid reader. I'm currently reading <span id="currently-reading"><a href="https://oku.club/user/riastrad/collection/reading">these books</a></span>.
 
-Like most personal sites, I use this space to house two different aspects of my digital life. The most frequently updated section is my personal blog. It includes some decades old travel writing and a handful of one-offs from more recent days.
+Like most personal sites, I use this space to house two different aspects of my digital life: a personal blog and an often out-of-date resume. I update the blog whenever something strikes me as worth writing a bit about, it also has some decades-old travel writing.
 
-If you prefer the social web rather than just being talked at, I am also, regrettably, active [on Twitter](https://twitter.com/erbitron).
+If you prefer the social web rather than just being talked at, you can find me squatting [over on Mastodon](https://zirk.us/@riastrad). If you're wondering why Mastodon instead of Twitter, I wrote [a little post](/notes/2022/bye-bye-birdie/) to try to articulate why I decided to leave.
 
 </div>
 <script type="text/javascript" src="./scripts/currently-reading.js"></script>

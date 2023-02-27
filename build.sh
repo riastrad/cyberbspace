@@ -1,1 +1,0 @@
-npx eleventy formats=md

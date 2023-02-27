@@ -30,9 +30,9 @@ function updateCurrentlyReadingSpan(titleHTML) {
 async function driver() {
   fetch("https://api.cyberb.space/oku/rss/collection/SmX9F")
     .then((response) => response.json())
-    .then((data) => extractTitlesAndLinks(data))
-    .then((titlesAndLinks) => formatTitles(titlesAndLinks))
-    .then((titlesHTML) => updateCurrentlyReadingSpan(titlesHTML));
+    .then(extractTitlesAndLinks)
+    .then(formatTitles)
+    .then(updateCurrentlyReadingSpan);
 }
 
 driver();

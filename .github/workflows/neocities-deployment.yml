@@ -2,7 +2,11 @@ name: Neocities CD
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+
+concurrency: # prevent concurrent deploys doing strange things
+  group: deploy-to-neocities
+  cancel-in-progress: true
 
 jobs:
   build:

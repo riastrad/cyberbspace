@@ -2,7 +2,7 @@ name: Check teh spelling
 
 on:
   pull_request:
-    branches: 
+    branches:
       - main
 
 jobs:
@@ -13,9 +13,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 16.14.0
 
       - name: Install deps
         run: npm i

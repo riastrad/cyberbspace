@@ -2,6 +2,7 @@
 11ty's
 60s
 70s
+90s
 Acc
 Aleph
 Anarcha-feminism
@@ -18,6 +19,7 @@ Cyberiad
 Czego
 DeBord
 DeLillo
+DeLillo's
 Didion
 Didion's
 Durkheimian
@@ -147,3 +149,4 @@ Hypermind
 hypermind
 Duhaime
 hyperobjects
+descriptivists

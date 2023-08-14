@@ -150,3 +150,4 @@ hypermind
 Duhaime
 hyperobjects
 descriptivists
+low-cardinality

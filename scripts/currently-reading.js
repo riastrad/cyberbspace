@@ -8,6 +8,10 @@ function extractTitlesAndLinks(readingList) {
 }
 
 function formatTitles(titleList) {
+  if (titleList.length === 0) {
+    return 'nothing, but likely contemplating <a href="https://oku.club/user/riastrad/collection/to-read">one of these</a>';
+  }
+
   let titleHTML;
   for (let i = 0; i < titleList.length; i++) {
     const linked = `<a href="${titleList[i].url}">${titleList[i].title}</a>`;

@@ -41,6 +41,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
 
+  eleventyConfig.addFilter("rssDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toUTC().toString();
+  });
+
   eleventyConfig.addFilter("dateYear", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy");
   });

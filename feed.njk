@@ -5,8 +5,10 @@ permalink: /feed.xml
 ---
 {% set postslist = collections.posts %}
 {% for post in postslist | reverse %}
+<item>
   <title>{{ post.data.title }}</title>
-   <link>{{ post.url | url }}</link>
-   <guid>{{ post.url | url }}</guid>
+   <link>https://cyberb.space{{ post.url | url }}</link>
+   <guid>https://cyberb.space{{ post.url | url }}</guid>
    <pubDate>{{ post.date | machineDate }}</pubDate>
+</item>
 {% endfor %}

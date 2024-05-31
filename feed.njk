@@ -1,0 +1,12 @@
+---
+layout: rss.njk
+section: words
+permalink: /feed.xml
+---
+{% set postslist = collections.posts %}
+{% for post in postslist | reverse %}
+  <title>{{ post.data.title }}</title>
+   <link>{{ post.url | url }}</link>
+   <guid>{{ post.url | url }}</guid>
+   <pubDate>{{ post.date | machineDate }}</pubDate>
+{% endfor %}

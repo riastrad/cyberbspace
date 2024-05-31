@@ -9,6 +9,6 @@ permalink: /feed.xml
   <title>{{ post.data.title }}</title>
    <link>https://cyberb.space{{ post.url | url }}</link>
    <guid>https://cyberb.space{{ post.url | url }}</guid>
-   <pubDate>{{ post.date | machineDate }}</pubDate>
+   <pubDate>{{ post.date | rssDate }}</pubDate>
 </item>
 {% endfor %}

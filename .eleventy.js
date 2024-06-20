@@ -51,6 +51,7 @@ module.exports = function (eleventyConfig) {
 
   // Make sure assets carry through
   eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("noise");
   eleventyConfig.addPassthroughCopy("docs");
   eleventyConfig.addPassthroughCopy("scripts");
 };

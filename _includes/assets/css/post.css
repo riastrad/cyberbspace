@@ -29,7 +29,6 @@ blockquote {
 
 audio {
   width: 35%;
-  filter: sepia(20%) invert(100%);
 }
 
 /* For devices larger than 700px */

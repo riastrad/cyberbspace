@@ -18,6 +18,6 @@ As I get older, I realize more and more what a gift it is to be alive to the wor
 
 <div align=center>
 <audio src="/noise/walk-to-daycare.mp3" controls>
-  <p>Looks like your broswer doesn't support this (surprising!). You can diretly download the mp3 <a href="/noise/walk-to-daycare.mp3">here</a></p>
+  <p>Looks like your browser doesn't support this (surprising!). You can diretly download the mp3 <a href="/noise/walk-to-daycare.mp3">here</a></p>
 </audio>
 </div>

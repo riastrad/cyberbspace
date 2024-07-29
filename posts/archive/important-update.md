@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: An incredibly important update!
-date: 2011-08-23 8:00:00
+date: 2011-08-24 8:00:00
 tags:
   - post
   - travel

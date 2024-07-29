@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-   <title>cyber(b)space</title>
+   <title>{{ metadata.title }}</title>
    <description>Josh Erb's Personal Blog</description>
-   <link>https://cyberb.space</link>
-   <atom:link href="https://cyberb.space/feed.xml" rel="self" type="application/rss+xml" />
+   <link>{{ metadata.url }}</link>
+   <atom:link href="{{ metadata.url }}/feed.xml" rel="self" type="application/rss+xml" />
      {{ content | safe }}
 </channel>
 </rss>

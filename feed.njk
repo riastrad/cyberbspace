@@ -7,12 +7,12 @@ permalink: /feed.xml
 {% for post in postslist | reverse %}
 <item>
   <title>{{ post.data.title }}</title>
-  <link>https://cyberb.space{{ post.url | url }}</link>
-  <guid>https://cyberb.space{{ post.url | url }}</guid>
+  <link>{{ metadata.url }}{{ post.url | url }}</link>
+  <guid>{{ metadata.url }}{{ post.url | url }}</guid>
   <pubDate>{{ post.date | rssDate }}</pubDate>
   <author>
    <name>{{ metadata.author.name }}</name>
-   <uri>https://cyberb.space</uri>
+   <uri>{{ metadata.url }}</uri>
   </author>
   <summary>{{ post.data.summary }}</summary>
   <content type="html">{{ post.content }}</content>

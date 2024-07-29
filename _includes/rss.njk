@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-   <title>{{ metadata.title }}</title>
-   <description>Josh Erb's Personal Blog</description>
-   <link>{{ metadata.url }}</link>
-   <atom:link href="{{ metadata.url }}/feed.xml" rel="self" type="application/rss+xml" />
-     {{ content | safe }}
-</channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="https://www.11ty.dev/" version="2.0.1">11ty</generator>
+<link href="{{ metadata.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+<link href="{{ metadata.url }}" rel="alternate" type="text/html"/>
+<updated>{{ page.date | feedDate }}</updated>
+<id>{{ metadata.url }}/feed.xml</id>
+<title type="html">{{ metadata.title }}</title>
+<subtitle>or, the personal blog of a recovering software engineer</subtitle>
+<author>
+  <name>{{ metadata.author.name }}</name>
+  <uri>{{ metadata.url }}</uri>
+</author>
+  {{ content | safe }}
+</feed>

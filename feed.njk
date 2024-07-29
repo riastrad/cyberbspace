@@ -15,7 +15,7 @@ permalink: /feed.xml
    <name>{{ metadata.author.name }}</name>
    <uri>{{ metadata.url }}</uri>
   </author>
-  {# <summary type="html">{{ post.data.summary if post.data.summary.length > 0 "an old, unsummarized post" }}</summary> #}
+  <summary type="html">{{ post.data.summary if post.data.summary.length > 0 else "an old, unsummarized post" }}</summary>
   <content type="html" xml:base="{{ metadata.url }}{{ post.url | url }}">{{ post.content }}</content>
 </entry>
 {% endfor %}

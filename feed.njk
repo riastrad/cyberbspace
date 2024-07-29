@@ -5,16 +5,17 @@ permalink: /feed.xml
 ---
 {% set postslist = collections.posts %}
 {% for post in postslist | reverse %}
-<item>
-  <title>{{ post.data.title }}</title>
-  <link>https://cyberb.space{{ post.url | url }}</link>
-  <guid>https://cyberb.space{{ post.url | url }}</guid>
-  <pubDate>{{ post.date | rssDate }}</pubDate>
+<entry>
+  <title type="html">{{ post.data.title }}</title>
+  <link href="https://cyberb.space{{ post.url | url }}" rel="alternate" type="text/html" title="{{ post.data.title }}" />
+  <published>{{ post.date | feedDate }}</published>
+  <updated>{{ post.date | feedDate }}</updated>
+  <id>https://cyberb.space{{ post.url | url }}</id>
   <author>
    <name>{{ metadata.author.name }}</name>
    <uri>https://cyberb.space</uri>
   </author>
-  <summary>{{ post.data.summary }}</summary>
-  <content type="html">{{ post.content }}</content>
-</item>
+  {# <summary type="html">{{ post.data.summary if post.data.summary.length > 0 "an old, unsummarized post" }}</summary> #}
+  <content type="html" xml:base="https://cyberb.space{{ post.url | url }}">{{ post.content }}</content>
+</entry>
 {% endfor %}

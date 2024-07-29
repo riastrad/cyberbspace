@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <generator uri="https://www.11ty.dev/" version="2.0.1">11ty</generator>
-<link href="https://cyberb.space/feed.xml" rel="self" type="application/atom+xml"/>
-<link href="https://cyberb.space/" rel="alternate" type="text/html"/>
+<link href="{{ metadata.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+<link href="{{ metadata.url }}" rel="alternate" type="text/html"/>
 <updated>{{ page.date | feedDate }}</updated>
-<id>https://cyberb.space/feed.xml</id>
-<title type="html">notes from cyber(b)space</title>
+<id>{{ metadata.url }}/feed.xml</id>
+<title type="html">{{ metadata.title }}</title>
 <subtitle>or, the personal blog of a recovering software engineer</subtitle>
 <author>
   <name>{{ metadata.author.name }}</name>
-  <uri>https://cyberb.space</uri>
+  <uri>{{ metadata.url }}</uri>
 </author>
   {{ content | safe }}
 </feed>

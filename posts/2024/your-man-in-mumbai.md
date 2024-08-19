@@ -11,7 +11,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
 ## sic transit iter
-We arrived in Mumbai shortly after Indian Independence Day. Finally making it through customs at around 2am this past Friday. Well over 24 hours of total travel time, my estimate based on a rudimentary understanding of timezones is that all total we were in transit for a total of 29 hours. We did this with a 15 month old, an in-cabin pet, and 8 suitcases. Not to mention my backpack, a carseat, and a stroller. 
+We arrived in Mumbai shortly after Indian Independence Day. Finally making it through customs at around 2 AM this past Friday. Well over 24 hours of total travel time, my estimate based on a rudimentary understanding of time zones is that all total we were in transit for a total of 29 hours. We did this with a 15 month old, an in-cabin pet, and 8 suitcases. Not to mention my backpack, a car seat, and a stroller. 
 
 In the moment, this was incredibly stressful. With hindsight of a few days, I can say I think this was the most stressful trip I have ever taken in my life. And we were lucky, both our son and our dog are good travelers, we made it through without any major meltdowns or accidents. 
 

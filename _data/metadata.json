@@ -1,6 +1,10 @@
 {
   "title": "cyber(b)space",
   "url": "https://cyberb.space",
+  "location": {
+    "city": "Mumbai (मुंबई)",
+    "country": "India"
+  },
   "author": {
     "name": "Josh Erb",
     "email": "josh@cyberb.space"

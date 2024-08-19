@@ -25,6 +25,17 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  // keep a list of unique tags
+  eleventyConfig.addFilter("taglist", function (collection) {
+    const tags = []
+
+    for (let i = 0; i < collection.length; i++) {
+      tags.push(...collection[i].data.tags);
+    }
+
+    return new Set(tags);
+  });
+
   // This is to keep track of all my posts
   eleventyConfig.addCollection("posts", function (collection) {
     return collection.getAllSorted().filter(function (item) {

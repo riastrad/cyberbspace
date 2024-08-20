@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Forceful Decoding
+title: VS Code Obsolescence
 summary: crashing code editors in the year of our lord twenty twenty four?! 
 date: 2024-08-20 14:44:00
 tags:

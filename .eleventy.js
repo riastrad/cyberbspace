@@ -8,7 +8,7 @@ module.exports = function (eleventyConfig) {
   const options = {
     html: true,
     breaks: true,
-    linkify: true
+    linkify: true,
   };
 
   const markdownParser = markdownIt(options).use(markdownItFootnote);
@@ -27,13 +27,14 @@ module.exports = function (eleventyConfig) {
 
   // keep a list of unique tags
   eleventyConfig.addFilter("taglist", function (collection) {
-    const tags = []
+    const tags = [];
 
     for (let i = 0; i < collection.length; i++) {
       tags.push(...collection[i].data.tags);
     }
-
-    return new Set(tags);
+    const uniqueTags = new Set(tags);
+    uniqueTags.delete("post");
+    return uniqueTags;
   });
 
   // This is to keep track of all my posts

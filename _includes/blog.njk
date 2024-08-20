@@ -3,8 +3,7 @@ layout: base.njk
 section: notes
 permalink: /notes/index.html
 ---
-
+{% include "tagfilter.njk" %}
 {{ content | safe }}
-
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}

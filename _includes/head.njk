@@ -26,6 +26,9 @@
     {% if date %}
       {% include "assets/css/post.css" %}
     {% endif %}
+	{% if (title === "filtered notes.") or (title === "notes.") %}
+	  {% include "assets/css/tags.css" %}
+	{% endif %}
   {% endset %}
 
   <style>{{ css | cssmin | safe }}</style>

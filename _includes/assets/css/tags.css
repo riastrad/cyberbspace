@@ -1,0 +1,26 @@
+div.tagbox {
+    outline: 0.1em dashed;
+    box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
+    padding: 1em;
+}
+
+ul.taglist {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0.5em;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+li a.tagoption {
+    background: #fff;
+}
+
+li.selectedtag {
+    background: #ee3;
+    padding-right: 0.1em;
+    padding-left: 0.1em;
+    outline: 0.07em solid;
+}

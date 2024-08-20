@@ -1,5 +1,5 @@
 ---
-title: "P:X→{true, false}"
+title: filtered notes.
 pagination:
   data: collections
   size: 1
@@ -16,11 +16,14 @@ pagination:
 permalink: /tags/{{ tag }}/
 layout: base.njk
 ---
+
+{% include "tagfilter.njk" %}
 {% set postslist = collections[ tag ] %}
+<br />
 <h4>{{ postslist | length }} posts tagged <span class="highlight">#{{ tag }}</span></h4>
 
 
 {% include "postslist.njk" %}
 
-<a href="{{ '/words/' | url }}" class="button"><< words.</a>
+<a href="{{ '/notes/' | url }}" class="button"><< all notes.</a>
 

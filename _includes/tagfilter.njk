@@ -1,0 +1,13 @@
+<b>filter by tag</b>
+<div class="tagbox">
+	<ul class="taglist">
+{% set uniqueTags = collections.posts | taglist %}
+{% for t in uniqueTags %}
+  {%- if t == tag  -%}
+    	<li class="selectedtag">#{{ t }}</li>
+  {%- else -%}
+		<li><a class="tagoption" href="/tags/{{ t }}/">#{{ t }}</a></li>
+  {%- endif -%}
+{% endfor %}
+	</ul>
+</div>

@@ -6,7 +6,7 @@ date: 2022-02-09 15:40:00
 tags:
   - post
   - brief
-  - expiremental
+  - experimental
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 

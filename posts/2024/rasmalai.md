@@ -2,7 +2,7 @@
 layout: post.njk
 title: Ras Malai
 summary: an ode to a previously unknown sweet
-date: 2024-08-19 13:05:00
+date: 2024-08-26 15:54:00
 tags:
   - post
   - travel

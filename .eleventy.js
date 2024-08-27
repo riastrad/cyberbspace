@@ -55,7 +55,7 @@ module.exports = function (eleventyConfig) {
     const bullseye = d3.geoCircle().center([lon, lat]).radius(1);
     const projection = d3
       .geoEqualEarth()
-      .scale(800)
+      .scale(400)
       .center([lon, lat])
       .translate([344, 168.56]);
     const path = d3.geoPath(projection);
@@ -64,8 +64,8 @@ module.exports = function (eleventyConfig) {
       <g>
         <path d="${path(graticule)}" stroke="#000" fill="none"></path>
         <path d="${path(worldData)}" stroke="#fff" fill="#ccc"></path>
-        <circle cx="344" cy="168.56" r="10" stroke-width="2px" stroke="#000" fill="#ee3" />
-        <circle cx="344" cy="168.56" r="20" stroke-width="2px" stroke="#000" stroke-dasharray="5,5" fill="transparent" />
+        <circle cx="344" cy="168.56" r="5" stroke-width="2px" stroke="#000" fill="#ee3" />
+        <circle cx="344" cy="168.56" r="15" stroke-width="2px" stroke="#000" stroke-dasharray="5,5" fill="transparent" />
       </g>
     </svg>`;
 

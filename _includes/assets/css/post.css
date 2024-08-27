@@ -1,39 +1,43 @@
 blockquote {
-  border: 2px dashed #000;
-  padding-left: 15px;
-  box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
+    border: 2px dashed #000;
+    padding-left: 15px;
+    box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
 }
 
 .blog-pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-  border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+.center-text {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .footnote-item {
-  z-index: 998;
-  margin: 0px auto; /* next 3 lines center the div */
-  left: 0;
-  right: 0;
-  background: white;
-  outline: #000 solid 0.1em;
-  padding: 0.5em;
-  box-shadow: 0.5em 0.5em #ee3;
-  position: fixed;
-  bottom: 2em;
-  max-width: 80vw;
-  visibility: hidden;
+    z-index: 998;
+    margin: 0px auto; /* next 3 lines center the div */
+    left: 0;
+    right: 0;
+    background: white;
+    outline: #000 solid 0.1em;
+    padding: 0.5em;
+    box-shadow: 0.5em 0.5em #ee3;
+    position: fixed;
+    bottom: 2em;
+    max-width: 80vw;
+    visibility: hidden;
 }
 
 audio {
-  width: 35%;
+    width: 35%;
 }
 
 /* For devices larger than 700px */
 @media (min-width: 700px) {
-  .footnote-item {
-    width: 60vw;
-  }
+    .footnote-item {
+        width: 60vw;
+    }
 }

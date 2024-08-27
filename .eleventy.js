@@ -1,5 +1,7 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
+const d3 = require("d3-geo", "d3-geo-projection");
+const worldData = require("./_data/ne_110m_admin_0_countries.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 
@@ -42,6 +44,36 @@ module.exports = function (eleventyConfig) {
     return collection.getAllSorted().filter(function (item) {
       return item.inputPath.match(/^\.\/posts\//) !== null;
     });
+  });
+
+  // Generate travel post map SVG
+  eleventyConfig.addShortcode("cartographer", (lat, lon) => {
+    if (!lat || !lon) return "";
+
+    const graticule = d3.geoGraticule10();
+    const poi = d3.geoCircle().center([lon, lat]).radius(2);
+    const bullseye = d3.geoCircle().center([lon, lat]).radius(1);
+    const projection = d3
+      .geoEqualEarth()
+      .scale(800)
+      .center([lon, lat])
+      .translate([344, 168.56]);
+    const path = d3.geoPath(projection);
+
+    const mapSvg = `<svg width="688" height="337.12" viewBox="0 0 688 337.12" style="width: 60%; height: auto; display: block; margin-left: auto; margin-right: auto; border: 2px solid #000;">
+      <g>
+        <path d="${path(graticule)}" stroke="#000" fill="none"></path>
+        <path d="${path(worldData)}" stroke="#fff" fill="#ccc"></path>
+        <circle cx="344" cy="168.56" r="10" stroke-width="2px" stroke="#000" fill="#ee3" />
+        <circle cx="344" cy="168.56" r="20" stroke-width="2px" stroke="#000" stroke-dasharray="5,5" fill="transparent" />
+      </g>
+    </svg>`;
+
+    return `
+    <div align=center><b>latitude</b>: ${lat}, <b>longitude</b>: ${lon}</div>
+     ${mapSvg}
+    <br />
+     `;
   });
 
   // Date formatting stuff

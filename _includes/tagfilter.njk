@@ -1,4 +1,5 @@
-<b>filter by tag</b>
+{%- if section != "notes" -%}<details  open>{%- else -%}<details>{%- endif -%}
+    <summary><b>filter by tag</b></summary>
 <div class="tagbox">
 	<ul class="taglist">
 {% set uniqueTags = collections.posts | taglist %}
@@ -11,3 +12,4 @@
 {% endfor %}
 	</ul>
 </div>
+</details>

@@ -60,7 +60,7 @@ module.exports = function (eleventyConfig) {
       .translate([344, 168.56]);
     const path = d3.geoPath(projection);
 
-    const mapSvg = `<svg width="688" height="337.12" viewBox="0 0 688 337.12" style="width: 60%; height: auto; display: block; margin-left: auto; margin-right: auto; border: 2px solid #000;">
+    const mapSvg = `<svg width="688" height="337.12" viewBox="0 0 688 337.12">
       <g>
         <path d="${path(graticule)}" stroke="#000" fill="none"></path>
         <path d="${path(worldData)}" stroke="#fff" fill="#ccc"></path>

@@ -41,3 +41,27 @@ audio {
         width: 60vw;
     }
 }
+
+/* For devices smaller larger a phablet */
+@media (min-width: 550px) {
+    svg {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid #000;
+    }
+}
+
+/* For devices smaller than a phablet */
+@media (max-width: 550px) {
+    svg {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid #000;
+    }
+}

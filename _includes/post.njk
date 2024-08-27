@@ -10,9 +10,7 @@ section: post
     <span class="highlight">{{ content | striptags | wordcount }} words.</span>
   </small>
 </p>
-<p>
-
-</p>
+{% cartographer lat, lon %}
 
 {{ content | safe }}
 
@@ -32,4 +30,4 @@ section: post
 {% endif %}
 
   <a href="{{ '/notes/' | url }}" class="button"><< all notes.</a>
-</div> 
+</div>

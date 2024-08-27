@@ -10,6 +10,8 @@ tags:
   - review
   - food
   - brief
+lat: 19.07
+lon: 72.88
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 

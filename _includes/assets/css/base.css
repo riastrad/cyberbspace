@@ -189,6 +189,7 @@ a:hover:before {
 a.post-title {
     background-color: #fff;
     font-size: 2.4rem;
+    font-family: Palatino, Helvetica, sans-serif;
 }
 
 /* Buttons

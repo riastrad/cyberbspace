@@ -3,7 +3,7 @@
 	<div>
 		<a class="post-title" href="{{ post.url | url }}">
 		{% if post.data.title %}
-			{{ post.data.title }}
+			<large>{{ post.data.title }}</large>
 		{% else %}
 			Untitled
 		{% endif %}
@@ -11,7 +11,7 @@
 	</div>
 
 	{% if post.data.summary %}
-		<small><b>></b> {{ post.data.summary }}</small>
+		↪ {{ post.data.summary }}
 	{% endif %}
 
 	{% if post.data.tags %}

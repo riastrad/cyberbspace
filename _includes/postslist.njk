@@ -3,7 +3,7 @@
 	<div>
 		<a class="post-title" href="{{ post.url | url }}">
 		{% if post.data.title %}
-			<large>{{ post.data.title }}</large>
+			{{ post.data.title }}
 		{% else %}
 			Untitled
 		{% endif %}

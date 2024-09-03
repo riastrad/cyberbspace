@@ -50,7 +50,7 @@ svg {
     }
 }
 
-/* For devices smaller larger a phablet */
+/* For devices larger than a phablet */
 @media (min-width: 550px) {
     svg {
         width: 75%;
@@ -61,5 +61,10 @@ svg {
 @media (max-width: 550px) {
     svg {
         width: 100%;
+    }
+
+    blockquote {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }

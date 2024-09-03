@@ -20,7 +20,7 @@ First and most impactful, the ubiquity of smart phones has made living abroad in
 
 Second, my past experiences have made me much more comfortable with discomfort. Living outside of your own country is always uncomfortable. This is inevitable. When you step outside of the context of your own culture, you are immediately confronted by the assumptions you make about daily life because these assumptions are not standardized across cultures. No matter how experienced of a traveler you are, this will always be true. However, my life to this point has been filled with experiences beyond the border of my own cultural sense of comfort. I had the opportunity to be an exchange student right after high school, I studied abroad in college thanks to a language scholarship, hell - I had a Midwestern upbringing and I lived in DC for the last 10 years. These experiences are compounding in one sense. The more familiar the feeling of discomfort, of not being entirely sure what the expectations or norms are for a given social situation, the more adept you become at navigating them. An imperfect metaphor that comes to mind is that it's a bit like learning to ride a motorcycle. The moment you learn to work _with_ the machine, rather than fight against it, is the moment the experience becomes enjoyable rather than terrifying. Each successive ride adds confidence. Confidence allows you to feel the thrill of the experience rather than cringe at it. At least in my experience.
 
-## Thoughts in the City
+## The Feeling of Being in the City
 
 With those long winded caveats out of the way, what do I think of this new city? This has been the hardest thing to put my finger on. India itself is very different from anywhere else I've traveled. That being said, Mumbai feels very different. For starters, it is a sprawling city of ~24 million residents. The largest city I lived in prior to this point was Chicago, with its ~4 million people. But there's more to it than that, urbanization in India - the shift from mostly rural populations to highly concentrated urban populations - also appears to be happening[^3] at a much more rapid clip than any other city I've lived in.
 
@@ -30,7 +30,7 @@ This is my anecdotal feeling of Mumbai after being here for only a few weeks. I 
 
 An impression that I can share more confidently: India absolutely spoils you culinarily. I don't think I have any food that wasn't completely delicious. Even something as simple as a cup of fresh sugar cane juice for ₹15 from a stand. Much better than I expected, and when I asked it was because they add ginger and lemon as they serve it. There is a special attention to the details with any food you find. Currently my biggest problem is remembering the names of the dishes I've eaten so that I can re-order them.
 
-# Some Sightseeing Photographs
+# Sights: Seen
 This past weekend, Karolina and I decided to do our due diligence and book a guided tour of the city we've moved to. Here are a few of the sites we saw[^4]:
 
 <div><img src="/img/blog/2024/improvised-1.jpg" class="blog-pic container" /></div>

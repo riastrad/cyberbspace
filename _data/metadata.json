@@ -1,12 +1,17 @@
 {
   "title": "cyber(b)space",
   "url": "https://cyberb.space",
-  "location": {
+  "outpost": {
     "city": "Mumbai (मुंबई)",
     "country": "India"
   },
   "author": {
     "name": "Josh Erb",
     "email": "josh@cyberb.space"
+  },
+  "cities": {
+    "mumbai": { "lat": 19.07, "lon": 72.88 },
+    "dc": { "lat": 38.89, "lon": -77.03 },
+    "chicago": { "lat": 41.85, "lon": -87.65 }
   }
 }

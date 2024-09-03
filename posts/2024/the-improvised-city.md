@@ -7,8 +7,7 @@ tags:
   - post
   - travel
   - india
-lat: 19.07
-lon: 72.88
+location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 

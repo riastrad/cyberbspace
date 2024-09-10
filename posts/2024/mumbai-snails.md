@@ -17,14 +17,14 @@ Our first night in Mumbai, I was surprised to find massive snails scooting aroun
 I mean, look at this thing:
 
 <div><img src="/img/blog/2024/snail-1.png" loading="lazy" class="blog-pic container" /></div>
-<div class="center-text"><small>giant garden snail, just doing its thing</small></div>
+<div class="center-text"><small>A giant garden snail, just out there doing its thing.</small></div>
 
 Maybe that picture doesn't drive home the size that well. Here's one with my hand nearby for scale:
 
 <div><img src="/img/blog/2024/snail-2.png" loading="lazy" class="blog-pic container" /></div>
-<div class="center-text"><small>no, I'm not doing any forced perspective</small></div>
+<div class="center-text"><small>Let the record show there is no forced perspective in play here.</small></div>
 
-This isn't even the biggest one I've seen! It's just the biggest one I've seen during the day when I had my phone out.
+This isn't even the biggest one I've seen! It's just the biggest one I've seen during daylight when I had my phone nearby.
 
 I did the least possible amount of research, and it's very likely they are the invasive species[^1] called _[Lissachatina fulica](https://en.wikipedia.org/wiki/Lissachatina_fulica)_, or Giant African land snail. I'm not super confident in my ability to classify gastropods, though, so take all of this with a grain of salt.
 

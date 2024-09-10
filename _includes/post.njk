@@ -4,30 +4,25 @@ section: post
 ---
 
 <h1 class="blog-title">{{ title }}</h1>
-<p>
-  <small>
-    <b>{{ page.date | readableDate }}</b> by {{ metadata.author.name }};
-    <span class="highlight">{{ content | striptags | wordcount }} words.</span>
-  </small>
-</p>
-{% cartographer location %}
-
-{{ content | safe }}
-
-<script type="text/javascript" src="/scripts/footnotes.js"></script>
-
+🗓 posted <b>{{ page.date | readableDate }}</b> by <b>{{ metadata.author.name }}</b>
+<br />
+🔢 <b>{{ content | striptags | wordcount }}</b> words
 {% if tags %}
-<p>
-{
+<br />
+🏷
 {% for tag in tags %}
   {%- if tag != "post" -%}
       {% set tagUrl %}/tags/{{ tag }}/{% endset %}
       <a href="{{ tagUrl | url }}" rel="tag">#{{ tag }}</a>
     {%- endif -%}
   {% endfor %}
-}
-</p>
 {% endif %}
+<hr />
 
-  <a href="{{ '/notes/' | url }}" class="button"><< all notes.</a>
-</div>
+{% cartographer location %}
+
+{{ content | safe }}
+
+<hr />
+<script type="text/javascript" src="/scripts/footnotes.js"></script>
+<button onclick="window.location.href='{{ '/notes/' | url }}'"><< all notes.</button>

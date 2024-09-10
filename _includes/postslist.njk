@@ -1,6 +1,5 @@
 {% for post in postslist | reverse %}
 <p>
-	<div>
 		<a class="post-title" href="{{ post.url | url }}">
 		{% if post.data.title %}
 			{{ post.data.title }}
@@ -8,28 +7,19 @@
 			Untitled
 		{% endif %}
 		</a>
-	</div>
 
-	{% if post.data.summary %}
-		↪ {{ post.data.summary }}
-	{% endif %}
-
+    <time datetime="{{ post.date | machineDate }}">
+			<i>posted {{ post.date | readableDate }}</i>
+    </time>
+    <br />
 	{% if post.data.tags %}
-	<div><small>
-		{
+	🏷
 		{% for tag in post.data.tags %}
 			{%- if tag != "post" -%}
 				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
 				<a href="{{ tagUrl | url }}" rel="tag">#{{ tag }}</a>
 			{%- endif -%}
 		{% endfor %}
-		}
-	</small>
 	{% endif %}
-
-		<time datetime="{{ post.date | machineDate }}">
-			<small> <i>published on {{ post.date | readableDate }}</i></small>
-		</time>
-	</div>
 </p>
 {% endfor %}

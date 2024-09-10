@@ -2,11 +2,10 @@
 <p>
 		<a class="post-title" href="{{ post.url | url }}">
 		{% if post.data.title %}
-			{{ post.data.title }}
+			{{ post.data.title }}</a>
 		{% else %}
-			Untitled
+			Untitled</a>
 		{% endif %}
-		</a>
 
     <time datetime="{{ post.date | machineDate }}">
 			<i>posted {{ post.date | readableDate }}</i>

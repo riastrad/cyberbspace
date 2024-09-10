@@ -80,12 +80,7 @@ nav {
     text-align: center;
     margin-bottom: 1.5em;
     justify-content: space-around;
-    position: -webkit-sticky; /* hello, Safari */
-    position: sticky;
-    top: 0;
-    z-index: 999; /* keep it on top of the pile */
     background-color: #ffffff;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -315,9 +310,21 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
     margin-top: 3rem;
-    margin-bottom: 3.5rem;
-    border-width: 0;
-    border-top: 1px solid #e1e1e1;
+    margin-bottom: 3rem;
+    border: none;
+    border-top: 1.5px solid #000;
+    color: #000;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after {
+    background: #fff;
+    content: "✱";
+    position: relative;
+    padding: 0 5px;
+    top: -13px;
 }
 
 /* Clearing

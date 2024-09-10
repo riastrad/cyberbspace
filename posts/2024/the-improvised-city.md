@@ -29,7 +29,7 @@ This is my anecdotal feeling of Mumbai after being here for only a few weeks. I 
 
 An impression that I can share more confidently: India absolutely spoils you culinarily. I don't think I have any food that wasn't completely delicious. Even something as simple as a cup of fresh sugar cane juice for ₹15 from a stand. Much better than I expected, and when I asked it was because they add ginger and lemon as they serve it. There is a special attention to the details with any food you find. Currently my biggest problem is remembering the names of the dishes I've eaten so that I can re-order them.
 
-# Sights: Seen
+## Sights: Seen
 This past weekend, Karolina and I decided to do our due diligence and book a guided tour of the city we've moved to. Here are a few of the sites we saw[^4]:
 
 <div><img src="/img/blog/2024/improvised-1.jpg" class="blog-pic container" /></div>

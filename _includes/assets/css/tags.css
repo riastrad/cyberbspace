@@ -1,7 +1,6 @@
 div.tagbox {
     border: 2px dashed #000;
     padding: 15px;
-    box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
 }
 
 ul.taglist {
@@ -19,8 +18,28 @@ li a.tagoption {
 }
 
 li.selectedtag {
-    background: #ee3;
+    background: rgba(238, 238, 51, 0.6);
     padding-right: 0.1em;
     padding-left: 0.1em;
     outline: 2px solid;
+}
+
+details {
+    position: relative;
+    transition: 0.15s background linear;
+    display: inline-block;
+}
+
+summary:hover {
+    cursor: pointer;
+    background: rgba(238, 238, 51, 0.6);
+}
+
+summary {
+    padding-right: 10px;
+}
+
+summary:before {
+    content: "✱";
+    margin: 1rem;
 }

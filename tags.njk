@@ -19,11 +19,12 @@ layout: base.njk
 
 {% include "tagfilter.njk" %}
 {% set postslist = collections[ tag ] %}
-<br />
-<h4>{{ postslist | length }} posts tagged <span class="highlight">#{{ tag }}</span></h4>
+
+<br /><br />
+
+<h2>{{ postslist | length }} posts tagged <span class="highlight">#{{ tag }}</span></h2>
 
 
 {% include "postslist.njk" %}
 
-<a href="{{ '/notes/' | url }}" class="button"><< all notes.</a>
-
+<button onclick="window.location.href='{{ '/notes/' | url }}'"><< all notes.</button>

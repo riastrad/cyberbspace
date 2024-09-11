@@ -64,7 +64,7 @@ module.exports = function (eleventyConfig) {
       <g>
         <path d="${path(graticule)}" stroke="#000" fill="none"></path>
         <path d="${path(worldData)}" stroke="#fff" fill="#ccc"></path>
-        <circle cx="344" cy="168.56" r="5" stroke-width="2px" stroke="#000" fill="#ee3" />
+        <circle cx="344" cy="168.56" r="5" stroke-width="2px" stroke="#000" fill="rgba(238, 238, 51, 0.6)" />
         <circle cx="344" cy="168.56" r="15" stroke-width="2px" stroke="#000" stroke-dasharray="5,5" fill="transparent" />
       </g>
     </svg>`;

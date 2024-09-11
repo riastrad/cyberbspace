@@ -63,7 +63,7 @@ Here's what the final CSS ended up looking like[^6]:
   background: white;
   outline: #000 solid 0.1em;
   padding: 0.5em;
-  box-shadow: 0.5em 0.5em #ee3;
+  box-shadow: 0.5em 0.5em rgba(238, 238, 51, 0.6);
   position: fixed;
   bottom: 2em;
   max-width: 80vw;

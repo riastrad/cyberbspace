@@ -17,6 +17,7 @@ blockquote {
 }
 
 .footnote-item {
+    list-style-type: none;
     z-index: 998;
     margin: 0px auto; /* next 3 lines center the div */
     left: 0;

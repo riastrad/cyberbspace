@@ -10,7 +10,7 @@ tags:
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
-Travel posts on this blog now have maps at the top. With any big(ger) change to this website, I like to take a minute to walk through why I did it, and how it came together. I enjoy doing this a) because it's a nice memento of how I approached and solved a problem I set for myself, and b) I hate to horde knowledge and on the off chance someone wants to add `svg` maps to their personal website, maybe this will help them navigate the process.
+Travel posts on my blog now have maps at the top. With any big(ger) change to this website, I like to take a minute to walk through why I did it, and how it came together. I enjoy doing this a) because it's a nice memento of how I approached and solved a problem I set for myself, and b) I hate to horde knowledge and on the off chance someone wants to add `svg` maps to their personal website, maybe this will help them navigate the process.
 
 ## Why the Maps?
 

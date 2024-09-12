@@ -5,6 +5,7 @@ const worldData = require("./_data/ne_110m_admin_0_countries.json");
 const cities = require("./_data/cities.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
   // swap out markdown engines & add support for footnote syntax
@@ -22,6 +23,9 @@ module.exports = function (eleventyConfig) {
   markdownParser.renderer.rules.footnote_anchor = () => "";
 
   eleventyConfig.setLibrary("md", markdownParser);
+
+  // make sure dev blogs are visually appealing!
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   // This is little trick makes all my css inline (i.e. fast)
   eleventyConfig.addFilter("cssmin", function (code) {

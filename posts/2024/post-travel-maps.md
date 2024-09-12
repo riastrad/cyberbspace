@@ -55,6 +55,7 @@ With these core three criteria in the back of my head, I started digging away. A
 One of the reasons I used 11ty way back in the day, and the main reason I have stuck with the tool this long, is because it's so easy to just start doing stuff, and do it quickly. It only took me a few minutes to confirm that shortcodes worked as expected with my current templating language ([nunjucks](https://mozilla.github.io/nunjucks/)).
 
 I added [this line](https://github.com/riastrad/cyberbspace/blob/2f33d63afa8e27a1cb2577155f54c13c19ef6292/.eleventy.js#L51) to my `.eleventy.js` file to create a new shortcode:
+
 ```js
 eleventyConfig.addShortcode("cartographer", (location) => {})
 ```
@@ -142,6 +143,7 @@ For sizing, it took a little bit of fiddling to make sure that my SVGs are not t
     svg {
         width: 100%;
     }
+}
 ```
 
 _Et voilà_:

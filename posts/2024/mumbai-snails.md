@@ -22,7 +22,7 @@ Imagine my surprise. I mean, look at this thing:
 Maybe that picture doesn't drive home the point? Here's one with my hand nearby for scale:
 
 <div><img src="/img/blog/2024/snail-2.png" loading="lazy" class="blog-pic container" /></div>
-<div class="center-text"><small>Let the record show there is no forced perspective in play here.</small></div>
+<div class="center-text"><small>Let the record show there is no forced perspective at play here.</small></div>
 
 This isn't even the biggest one I've seen! It's just the biggest one I've seen during daylight when I had my phone nearby.
 
@@ -31,6 +31,12 @@ I did the least possible amount of research, and this is likely the invasive spe
 After being here in Mumbai for a few weeks, I've realized that it's starting to feel normal just to see these big snails scooting around near my feet when I'm outside and it's a bit wet. Therefore, this post serves two purposes:
 1. Get the word out. More people should know that these alien creatures roam the streets of Mumbai during the Monsoon.
 1. Make a personal note about how strange and new it felt to see them for the first time. Seriously, it was something out of a King Kong or Jurassic Park movie[^2].
+
+**Update September 12, 2024:** I wasn't too happy with the size comparison photo I took the earlier this week. This morning conditions were wetter and some beefier boys were hanging around the dog area in my apartment complex. Please admit this additional photographic evidence to the official record:
+
+<div><img src="/img/blog/2024/snail-3.png" loading="lazy" class="blog-pic container" /></div>
+<div class="center-text"><small>As you can see, this chonker's about as long as my fist.</small></div>
+
 
 [^1]: A little bit like me! (Except they got here +150 years ago.)
 [^2]: The stakes were much lower, I'll grant.

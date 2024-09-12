@@ -1,0 +1,26 @@
+{
+  "mumbai": {
+    "display_name": "Mumbai, Maharashtra",
+    "url": "https://en.wikipedia.org/wiki/Mumbai",
+    "lat": 19.076111,
+    "lon": 72.8775
+  },
+  "paris": {
+    "display_name": "Paris, Île-de-France",
+    "url": "https://en.wikipedia.org/wiki/Paris",
+    "lat": 48.856667,
+    "lon": 2.352222
+  },
+  "dc": {
+    "display_name": "Washington, DC",
+    "url": "https://en.wikipedia.org/wiki/Washington,_D.C.",
+    "lat": 38.904722,
+    "lon": -77.016389
+  },
+  "chicago": {
+    "display_name": "Chicago, IL",
+    "url": "https://en.wikipedia.org/wiki/Chicago",
+    "lat": 41.881944,
+    "lon": -87.627778
+  }
+}

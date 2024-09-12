@@ -2,7 +2,7 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const d3 = require("d3-geo", "d3-geo-projection");
 const worldData = require("./_data/ne_110m_admin_0_countries.json");
-const { cities } = require("./_data/metadata.json");
+const cities = require("./_data/cities.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 
@@ -50,12 +50,12 @@ module.exports = function (eleventyConfig) {
   // Generate travel post map SVG
   eleventyConfig.addShortcode("cartographer", (location) => {
     if (!cities[location]) return "";
-    const { lat, lon } = cities[location];
+    const { lat, lon, display_name, url } = cities[location];
 
     const graticule = d3.geoGraticule10();
     const projection = d3
       .geoEqualEarth()
-      .scale(400)
+      .scale(600)
       .center([lon, lat])
       .translate([344, 168.56]);
     const path = d3.geoPath(projection);
@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
     </svg>`;
 
     return `
-    <div align=center><b>a dispatch from:</b> ${location.toUpperCase()}</div>
+    <div align=center><b>a dispatch from:</b> <a href="${url}">${display_name}</a></div>
      ${mapSvg}
     <br />
      `;

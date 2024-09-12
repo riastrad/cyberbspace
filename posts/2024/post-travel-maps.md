@@ -38,7 +38,7 @@ This may sound hypocritical, since I used to work for a mapping company. In fact
 
 This one gets back to performance. It's easy to throw a bunch of javascript at the problem and have the page reach out and fetch any data or assets I need when the page loads. However, this causes problems if any of those resources become unavailable (similar to the motivation for my first requirement) or a visitor to my page has slow internet. If all of the data necessary to display the map is baked right into the page, in a format that all browsers support, this feature will work consistently well for everyone that visits the page.
 
-#### III. The map should looks be consistent across desktop & mobile
+#### III. The map should be consistent across desktop & mobile
 
 This is maybe my loosest core requirement. I love the idea of [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) and I use them strategically in my site's CSS. In an ideal world, visitors can enjoy my blog regardless of what device they're using when they stumble across it. That being said, I get existential when I start to think too hard about the potential variation in screen size depending on device. My main requirement here was simply that the maps shouldn't look beautiful on desktop but then be broken when loaded up on a phone.
 

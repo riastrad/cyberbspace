@@ -21,7 +21,6 @@ li.selectedtag {
     background: rgba(238, 238, 51, 0.6);
     padding-right: 0.1em;
     padding-left: 0.1em;
-    outline: 2px solid;
 }
 
 details {

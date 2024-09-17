@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
     for (let i = 0; i < collection.length; i++) {
       tags.push(...collection[i].data.tags);
     }
-    const uniqueTags = new Set(tags);
+    const uniqueTags = new Set(tags.sort());
     uniqueTags.delete("post");
     return uniqueTags;
   });

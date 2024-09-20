@@ -5,6 +5,7 @@ permalink: /work/index.html
 ---
 
 {{ content | safe }}
+<hr />
 
 {% set joblist = collections.job %}
 {% set schoollist = collections.school %}
@@ -12,16 +13,16 @@ permalink: /work/index.html
 <h2>Experience</h2>
 {% for job in joblist | reverse %}
 <div>
-    ⦿ <b>{{ job.data.company }}</b> | <em>{{ job.data.role }}</em> | {{ job.data.time }}
+    ✱ <b>{{ job.data.company }}</b> | <em>{{ job.data.role }}</em> | {{ job.data.time }}
 </div>
 {% endfor %}
 
-<hr>
+<hr />
 
 <h2>Academics</h2>
 {% for school in schoollist | reverse %}
 <div>
-    ⦿ <b>{{ school.data.title }}</b> | <em>{{ school.data.degree }}</em> | {{ school.data.awarded }}
+    ✱ <b>{{ school.data.title }}</b> | <em>{{ school.data.degree }}</em> | {{ school.data.awarded }}
 </div>
 {% endfor %}
 

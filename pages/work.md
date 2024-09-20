@@ -8,5 +8,6 @@ navtitle: work
 ---
 
 # JOSHUA J. ERB
+### Writer & Software Engineer
 
-### _Software Engineer located in Washington, DC_
+Currently based in {{ metadata.outpost.city }}, {{ metadata.outpost.country }}

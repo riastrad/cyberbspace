@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Mumbai from Street Level
+title: Mumbai at Street Level
 summary: Reflections after living in India's largest city for a month.
 date: 2024-09-20 12:30:00
 tags:

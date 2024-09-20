@@ -16,7 +16,7 @@ I'm a Software Engineer on a brief hiatus to pursue a career as a writer.
 
 Like most personal sites, I use this space to house two different aspects of my digital life: a personal blog (currently focused on [#travel](/tags/travel)) and an often out-of-date resume.
 
-If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="https://union.place/@riastrad">over on Mastodon</a>.
+If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social }}">over on Mastodon</a>.
 
 > Currently located: {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
 > Currently reading: <span id="currently-reading"><a href="https://oku.club/user/riastrad/collection/reading">...loading</a></span>

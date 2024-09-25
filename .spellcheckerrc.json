@@ -15,5 +15,8 @@
         "summary"
     ],
     "quiet": true,
-    "dictionaries": [ "bin/dictionary-supplement.txt" ]
+    "dictionaries": [
+      "bin/dictionary-supplement.txt",
+      "bin/technical-dictionary.txt"
+    ]
 }

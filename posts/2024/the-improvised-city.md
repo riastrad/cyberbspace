@@ -32,35 +32,35 @@ An impression that I can share more confidently: India absolutely spoils you cul
 ## Sights: Seen
 This past weekend, Karolina and I decided to do our due diligence and book a guided tour of the city we've moved to. Here are a few of the sites we saw[^4]:
 
-<div><img src="/img/blog/2024/improvised-1.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-1.png" %}
 <div class="center-text"><small>bird's eye view of <a href="https://en.wikipedia.org/wiki/Dhobi_Ghat">dhobi ghat</a>, an open air laundry</small></div>
 <br />
 
-<div><img src="/img/blog/2024/improvised-2.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-2.png" %}
 <div class="center-text"><small>the <a href="https://en.wikipedia.org/wiki/Gateway_of_India">Gateway of India</a></small></div>
 <br />
 
-<div><img src="/img/blog/2024/improvised-3.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-3.png" %}
 <div class="center-text"><small>the <a href="https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel">Taj Mahal Palace Hotel</a>, sometimes just called "The Taj"</small></div>
 <br />
 
-<div><img src="/img/blog/2024/improvised-4.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-4.png" %}
 <div class="center-text"><small>a string of boats moored just off the coast near the Gateway of India</small></div>
 <br />
 
-<div><img src="/img/blog/2024/improvised-5.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-5.png" %}
 <div class="center-text"><small>a plaque commemorating the historic residence of mahatma gandhi</small></div>
 <br />
 
-<div><img src="/img/blog/2024/improvised-6.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-6.png" %}
 <div class="center-text"><small>Gandhi's preserved living quarters</small></div>
 <br />
 
-<div><img src="/img/blog/2024/improvised-7.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-7.png" %}
 <div class="center-text"><small>a famous place to grab <a href="https://en.wikipedia.org/wiki/Vada_pav">vada pav</a> near Mumbai's train station, included here primarily for my own future reference</small></div>
 <br />
 
-<div><img src="/img/blog/2024/improvised-8.jpg" loading="lazy" class="blog-pic container" /></div>
+{% dither "/img/blog/2024/improvised-8.png" %}
 <div class="center-text"><small>the inside of a section of <a href="https://en.wikipedia.org/wiki/Crawford_Market">Mahatma Jyotiba Phule Mandai</a>, previously known as "Crawford Market"</small></div>
 <br />
 

@@ -1,0 +1,36 @@
+name: pre-flight
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  copyedit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.14.0
+      - name: Install deps
+        run: npm ci
+      - name: Check spelling
+        run: npm run spellcheck
+  dither:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.14.0
+      - name: Install deps
+        run: npm ci
+      - name: Generate dithered copies
+        run: npm run dither
+      - name: Commit results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A && git commit -m "👾 dithered images"
+          git push origin {{ github.ref_name }}

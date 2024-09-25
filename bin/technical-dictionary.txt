@@ -10,3 +10,5 @@ improvised-8.png
 snail-1.png
 snail-2.png
 snail-3.png
+book-pics-1.png
+book-pics-2.png

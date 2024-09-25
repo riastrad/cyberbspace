@@ -6,6 +6,7 @@ const cities = require("./_data/cities.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const { generateDitheredCopy } = require("./bin/dither");
 
 module.exports = function (eleventyConfig) {
   // swap out markdown engines & add support for footnote syntax
@@ -78,6 +79,18 @@ module.exports = function (eleventyConfig) {
      ${mapSvg}
     <br />
      `;
+  });
+
+  // image dithering
+  eleventyConfig.addAsyncShortcode("dither", async (filepath) => {
+    const ditheredImagePath = await generateDitheredCopy(filepath);
+
+    const hoverableHTML = `<div class="dithered-hover">
+      <img src="${ditheredImagePath}" class="blog-pic container" />
+      <img src="${filepath}" class="blog-pic container" />
+    </div>`;
+
+    return hoverableHTML;
   });
 
   // Date formatting stuff

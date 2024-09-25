@@ -40,4 +40,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A && git commit -m "👾 dithered images"
-          git push origin {{ github.ref_name }}
+          git push origin ${{ github.ref_name }}

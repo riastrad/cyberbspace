@@ -1,0 +1,43 @@
+name: pre-flight
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  copyedit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.14.0
+      - name: Install deps
+        run: npm ci
+      - name: Check spelling
+        run: npm run spellcheck
+  dither:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16.14.0
+      - name: Install deps
+        run: npm ci
+      - name: Generate dithered copies
+        run: npm run dither
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "changes=true" >> "$GITHUB_OUTPUT";
+          fi
+      - name: Commit results
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A && git commit -m "👾 dithered images"
+          git push origin ${{ github.ref_name }}

@@ -4,6 +4,19 @@ blockquote {
     box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
 }
 
+/* h/t to this so post: https://stackoverflow.com/a/37485692/6282077 */
+div.dithered-hover img.blog-pic:last-child {
+    display: none;
+}
+div.dithered-hover:hover img.blog-pic:last-child,
+div.dithered-hover:focus img.blog-pic:last-child {
+    display: block;
+}
+div.dithered-hover:hover img.blog-pic:first-child,
+div.dithered-hover:focus img.blog-pic:first-child {
+    display: none;
+}
+
 .blog-pic {
     display: block;
     margin-left: auto;

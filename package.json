@@ -19,12 +19,14 @@
     "markdown-it-footnote": "^3.0.3"
   },
   "devDependencies": {
+    "glob": "^11.0.0",
     "spellchecker-cli": "^4.8.1"
   },
   "scripts": {
     "test": "test",
     "build": "npx @11ty/eleventy",
     "start": "npx eleventy --serve --formats=md",
+    "dither": "node ./bin/dither-all-images.js",
     "spellcheck": "npx spellchecker --config .spellcheckerrc.json"
   },
   "repository": {

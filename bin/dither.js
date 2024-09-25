@@ -2,10 +2,9 @@ const dither = require("dither-me-this");
 const fs = require("fs");
 const path = require("path");
 
-const ELEVENTY_OUTPUT_DIR = "_site/";
 const DITHERING_OPTIONS = {
-  errorDiffusionMatrix: "stucki", // current favorite "stucki"
-  palette: ["#000", "#fff", "#FFFF33"],
+  errorDiffusionMatrix: "stucki",
+  palette: ["#000", "#fff"],
 };
 
 async function ditherAndSave(inputPath, outputPath) {
@@ -27,20 +26,20 @@ module.exports.generateDitheredCopy = async (filepath) => {
 
   console.log("[cyberb] creating dithered copy:", filepath);
   try {
-    const relativeOutputPath = filepath.replace(
-      /\/([a-zA-Z0-9\-_]*).png/,
-      "/dithered-$1.png",
-    );
     const resolvedInputPath = path.join(__dirname, "..", filepath);
-    const resolvedOutputPath = path.join(
-      __dirname,
-      "..",
-      ELEVENTY_OUTPUT_DIR,
-      relativeOutputPath,
-    );
+    const resolvedOutputPath =
+      module.exports.getDitheredPath(resolvedInputPath);
     await ditherAndSave(resolvedInputPath, resolvedOutputPath);
-    return relativeOutputPath;
   } catch (e) {
     throw e;
   }
+};
+
+module.exports.getDitheredPath = (inputPath) => {
+  return inputPath.replace(/\/([a-zA-Z0-9\-_]*).png/, "/dithered-$1.png");
+};
+
+module.exports.hasDitheredCopy = (inputPath) => {
+  const ditheredCopyPath = this.getDitheredPath(inputPath);
+  return fs.existsSync(path.join(__dirname, "..", ditheredCopyPath));
 };

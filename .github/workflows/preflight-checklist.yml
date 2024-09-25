@@ -1,7 +1,7 @@
 name: pre-flight
 on:
-  pull_request:
-    branches:
+  push:
+    branches-ignore:
       - main
 
 jobs:
@@ -39,6 +39,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git checkout ${{ github.head_ref_name }}
           git add -A && git commit -m "👾 dithered images"
-          git push origin ${{ github.head_ref_name }}
+          git push origin ${{ github.ref_name }}

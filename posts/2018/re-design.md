@@ -12,7 +12,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
 
 ## Why did I do it?
 
-Being a mobile-focused Support Engineer at Mapbox means that I tend to focus on non-general languages and design patterns that are specific to proprietary platforms. The considerations and constraints are very different from something as sprawling and globbed together as the World Wide Web<sup>TM</sup>. But this doesn’t mean that I haven't been required to rub elbows with web development here and there.
+Being a mobile-focused Support Engineer at Mapbox means that I tend to focus on non-general languages and design patterns that are specific to proprietary platforms. The considerations and constraints are very different from something as sprawling and globbed together as the World Wide Web™. But this doesn’t mean that I haven't been required to rub elbows with web development here and there.
 
 My original website was up for about 8 months before I decided it needed new life. You can see the extremely simplistic site I initially made courtesy of the Internet Archive’s [Wayback Machine](https://web.archive.org/web/20180815144009/https://cyberb.space/). I made this site quickly and haphazardly during some downtime between jobs (no lie, I hand coded my resume bullets in vanilla `html`). It certainly shows. Although I don't expect very many people saw it in that state, I was unsatisfied with this first, naïve attempt at building a web page and was craving an excuse to get more exposure to some modern web development tools and systems.
 
@@ -30,7 +30,7 @@ And I’ll be honest, there are other solutions I could have used. For example, 
 
 ### Skeleton CSS
 
-To be perfectly blunt, CSS is an area of web-development that have absolutely no comfort with. I’ve known CSS and how it relates to HTML since my edgy days of editing my edgy MySpace<sup>TM</sup> page[^2] style back in Junior High/High School.
+To be perfectly blunt, CSS is an area of web-development that have absolutely no comfort with. I’ve known CSS and how it relates to HTML since my edgy days of editing my edgy MySpace™ page[^2] style back in Junior High/High School.
 
 I knew that it would be faster for me to use a boilerplate CSS library and tailor it to my specifications that it would be to start wholly from scratch. But I didn’t want to use some big, ungainly, and wholly generic (as a result of its ubiquity) thing like [Bootstrap](https://getbootstrap.com/docs/3.3/css/).
 
@@ -48,11 +48,11 @@ So yes, while I did momentarily fall in love with [Roboto Mono](https://fonts.go
 
 Like CSS, JavaScript templating is another area that I do not feel extremely comfortable with. I know it’s a critical part to getting things running smoothly with a site generator - but I had no idea where to start. Don’t tell the project's maintainers this, but I didn’t put too much consideration into this and ultimately defaulted to [Nunjucks](https://mozilla.github.io/nunjucks/) because that’s what all of the examples in [11ty’s documentation](https://11ty.io/docs/) were written in.
 
-After starting this my site refactor, I found out about [Moustache](https://mustache.github.io/) and the concept of “logic-less templates”. Personally, I found that Nunjuck’s suited my needs and made enough sense once I took the time to read the documentation a bit more closely. So I didn’t investigate, compare, or attempt to rewrite my layout templates after I learned about the other possible solution. That being said, no solution is ever final, so re-visiting my approach to templates might be worthwhile if I have time in the future. I’ll also note that this is the one area where I don’t feel that I’ve done my homework very well.
+After starting this my site refactor, I found out about [Mustache](https://mustache.github.io/) and the concept of “logic-less templates”. Personally, I found that Nunjucks suited my needs and made enough sense once I took the time to read the documentation a bit more closely. So I didn’t investigate, compare, or attempt to rewrite my layout templates after I learned about the other possible solution. That being said, no solution is ever final, so re-visiting my approach to templates might be worthwhile if I have time in the future. I’ll also note that this is the one area where I don’t feel that I’ve done my homework very well.
 
 ### 11ty
 
-Based on my needs an interests, I knew that I didn’t want or need anything more complicated[^3] than a static site generator. Selecting a generator actually proved to be one of the harder aspects of the project. I’ve had minor brushes with Jekyll in the past, and while I appreciate the lasting contributions it’s made to this area of web development it lacked a certain _je ne sais quoi_ that I was looking for in terms of structure and usability.
+Based on my needs an interests, I knew that I didn’t want or need anything more complicated[^3] than a static site generator. Selecting a generator actually proved to be one of the harder aspects of the project. I’ve had minor brushes with Jekyll in the past, and while I appreciate the lasting contributions it’s made to this area of web development, it lacked a certain _je ne sais quoi_ that I was looking for in terms of structure and usability.
 
 At work I’ve had the pleasure of being able to use the extremely the sleek, and open-sourced [Batfish](https://github.com/mapbox/batfish) library, but I decided against opting for this familiar tool for two reasons. First, if you are a barista and you spend all day making espresso, the last thing you want to do when you get some free time is spend it making more espresso. I wanted to get a sense of what else was out there and see if there were flexible and (most importantly) _user friendly_ generators gaining traction outside my current circle.
 
@@ -78,14 +78,12 @@ Overall it was a fun trip down memory lane, and I’m glad I had the thought and
 
 Of course, even after putting all of this effort into polishing up the site, there are still things that are still squatting in the back of my mind that I’d like to improve. For posterity's sake, and to preempt any potential criticism from my peers, I’m going to list my primary nit picks here and now.
 
-<ul>
-<li class=“clean”><span>The `/work/` page is not interesting or easily maintainable</span></li>
-<li class=“clean”><span>The site's home page leaves something to be desired (both in terms of content & style)</span></li>
-<li class=“clean”><span>I’m not currently show casing any fun, creative dev projects I’ve worked on</span></li>
-<li class=“clean”><span>My current footnote implementation is clunky and I hate it</span></li>
-<li class=“clean”><span>My blog doesn’t have an RSS feed or any Newsletter functionality</span></li>
-<li class=“clean”><span>I have a Google Font dependency</span></li>
-</ul>
+* The `/work/` page is not interesting or easily maintainable
+* The site's home page leaves something to be desired (both in terms of content & style)
+* I’m not currently show casing any fun, creative dev projects I’ve worked on
+* My current footnote implementation is clunky and I hate it
+* My blog doesn’t have an RSS feed or any Newsletter functionality
+* I have a Google Font dependency
 
 These are all the ones I’ve noted so far. When inspiration strikes, or I see something I want to change I try to add it [as an issue](https://github.com/riastrad/cyberbspace/issues) to my repo. Since this site will only ever be maintained by yours truly, and even though I’m managing the site and related projects via GitHub, I’m not actively trying to follow best-practice code conventions (e.g. I have definitely committed to `master` more times than I have ever done in a professional setting).
 

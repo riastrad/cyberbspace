@@ -19,4 +19,4 @@ There have been plenty of think pieces and lengthy Twitter threads about the hav
 
 ---
 
-_Editor's Note: This post is my first attempt at a shorter format in an attempt to write here more frequently._
+> **Editor's Note:** This post is my first attempt at a shorter format in an attempt to write here more frequently.

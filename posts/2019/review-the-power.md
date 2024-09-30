@@ -11,11 +11,7 @@ tags:
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
----
-
-<small>_**Author’s note:** I made two personal commitments at the beginning of this year[^1]. The first was to blog a bit more often. The second was to proactively read more books. These two goals dovetail quite nicely if I write a brief review of each book I read this year._</small>
-
----
+> **Author’s note:** I made two personal commitments at the beginning of this year[^1]. The first was to blog a bit more often. The second was to proactively read more books. These two goals dovetail quite nicely if I write a brief review of each book I read this year.
 
 ## General Impressions
 
@@ -39,9 +35,9 @@ Setting aside the story and its execution for a moment, I have a few nits to pic
 
 Why do contemporary publishing houses insist on incorporating visual elements in the story? There is an increasingly common practice that I cannot support, and I'm noticing more and more that it has to do with the story including some sort of reference to digital forms of communication. Is the protagonist of this chapter receiving an e-mail from someone? The reader will never know unless we print this section in a sans serif mono spaced font! This section is supposed to be an internet forum? How will our poor author’s audience understand what’s happening unless we change the font and put all of the comments in annoyingly formatted CSS looking boxes?
 
-I realize this is a question of personal aesthetics. But if I wanted information conveyed via a combination of text and visual elements, I would read a graphic novel[^5].
+I realize this is a question of personal aesthetics. But if I wanted information conveyed via a combination of text and visual elements, I would read a graphic novel.[^5]
 
-Finally, there's the framing gimmick of the story being told as a historical narrative from 5,000 years in the future. Combining this with the “archeological” illustrations sprinkled throughout the book, really irked me. Honestly, I could live with the framing device, but the the illustrations could have died on the editor’s desk and I don’t think the story would have suffered for it.
+Finally, there's the framing gimmick of the story being told as a historical narrative from 5,000 years in the future. Combining this with the “archeological” illustrations sprinkled throughout the book really irked me. Honestly, I could live with the framing device, but the the illustrations could have died on the editor’s desk and I don’t think the story would have suffered for it.
 
 ## Final Pronouncement
 
@@ -49,7 +45,7 @@ If you’re looking for a well written, entertaining book that will shock[^6] yo
 
 | Title     | Author         | Rating  |
 | --------- | -------------- | ------- |
-| The Power | Naomi Alderman | ✻ ✻ ✻ ✻ |
+| The Power | Naomi Alderman | ✱ ✱ ✱ ✱ |
 
 [^1]: They’re not “resolutions”. Please don’t call them that. “Resolution” has so many potential meanings that I prefer to not use it in this context.
 [^2]: Though the thesis of The Power makes me question whether or not “feminist” is even the right word here.

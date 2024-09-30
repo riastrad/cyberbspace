@@ -30,7 +30,7 @@ However, I can’t help but admit that, while I think the work was important at 
 
 | Title               | Author        | Rating  |
 | ------------------- | ------------- | ------- |
-| Death of a Salesman | Arthur Miller | ✻ ✻ ✻ ✻ |
+| Death of a Salesman | Arthur Miller | ✱ ✱ ✱ ✱ |
 
 ### Till We Have Faces, _by C.S. Lewis_
 
@@ -44,7 +44,7 @@ One point this novel really hammered home for me, reading Lewis as an adult and 
 
 | Title              | Author     | Rating |
 | ------------------ | ---------- | ------ |
-| Till We Have Faces | C.S. Lewis | ✻ ✻ ✻  |
+| Till We Have Faces | C.S. Lewis | ✱ ✱ ✱  |
 
 ### Fiasco, _by Stanisław Lem_
 
@@ -56,7 +56,7 @@ I won’t even get into the specifics of Fiasco. It’s truly great and you shou
 
 | Title  | Author        | Rating    |
 | ------ | ------------- | --------- |
-| Fiasco | Stanisław Lem | ✻ ✻ ✻ ✻ ✻ |
+| Fiasco | Stanisław Lem | ✱ ✱ ✱ ✱ ✱ |
 
 ### Flights, _by Olga Tokarczuk_
 
@@ -68,7 +68,7 @@ Honestly, I really enjoyed reading this book, but I think the one thing it misse
 
 | Title   | Author         | Rating  |
 | ------- | -------------- | ------- |
-| Flights | Olga Tokarczuk | ✻ ✻ ✻ ✻ |
+| Flights | Olga Tokarczuk | ✱ ✱ ✱ ✱ |
 
 ### Under the Glacier, _by Halldór Laxness_
 
@@ -80,7 +80,7 @@ After reading this, I immediately went out and found a copy of **Independent Peo
 
 | Title             | Author          | Rating  |
 | ----------------- | --------------- | ------- |
-| Under the Glacier | Halldór Laxness | ✻ ✻ ✻ ✻ |
+| Under the Glacier | Halldór Laxness | ✱ ✱ ✱ ✱ |
 
 ### Slouching Toward Bethlehem, _by Joan Didion_
 
@@ -92,7 +92,7 @@ This collection, though it’s written exclusively on topics from the '60s, felt
 
 | Title                      | Author      | Rating    |
 | -------------------------- | ----------- | --------- |
-| Slouching Toward Bethlehem | Joan Didion | ✻ ✻ ✻ ✻ ✻ |
+| Slouching Toward Bethlehem | Joan Didion | ✱ ✱ ✱ ✱ ✱ |
 
 ### Less, _by Andrew Sean Greer_
 
@@ -104,7 +104,7 @@ That being said, I can’t say that the book was poorly written. Greer is strong
 
 | Title | Author            | Rating |
 | ----- | ----------------- | ------ |
-| Less  | Andrew Sean Greer | ✻ ✻ ✻  |
+| Less  | Andrew Sean Greer | ✱ ✱ ✱  |
 
 ### Billy Bud, Sailor, _by Herman Melville_
 
@@ -114,7 +114,7 @@ One thing you should probably know about me is that I’m a Melville completist.
 
 | Title     | Author          | Rating  |
 | --------- | --------------- | ------- |
-| Billy Bud | Herman Melville | ✻ ✻ ✻ ✻ |
+| Billy Bud | Herman Melville | ✱ ✱ ✱ ✱ |
 
 ### The Swamp Thing, _by Allan Moore_
 
@@ -124,7 +124,7 @@ In the first issue of this run alone, Moore somehow manages to completely disass
 
 | Title           | Author      | Rating    |
 | --------------- | ----------- | --------- |
-| The Swamp Thing | Allan Moore | ✻ ✻ ✻ ✻ ✻ |
+| The Swamp Thing | Allan Moore | ✱ ✱ ✱ ✱ ✱ |
 
 ### Northlanders: The Iceland Saga, _by Brian Wood_
 
@@ -134,4 +134,4 @@ This volume was less engaging than the first. While Wood’s writing is strong t
 
 | Title                            | Author     | Rating |
 | -------------------------------- | ---------- | ------ |
-| Northlanders: The Icelandic Saga | Brian Wood | ✻ ✻ ✻  |
+| Northlanders: The Icelandic Saga | Brian Wood | ✱ ✱ ✱  |

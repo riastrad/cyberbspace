@@ -1,6 +1,7 @@
 blockquote {
     border: 2px dashed #000;
-    padding-left: 15px;
+    padding-left: 1em;
+    padding-right: 1em;
     box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
 }
 

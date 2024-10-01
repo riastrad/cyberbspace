@@ -5,7 +5,8 @@ async function main() {
   const imgPaths = globSync("./img/blog/**/*.png");
 
   for (const pathToImg of imgPaths) {
-    if (pathToImg.includes("dithered") || hasDitheredCopy(pathToImg)) {
+    // first check necessary to avoid infinite dithering
+    if (pathToImg.includes("/dithered-") || hasDitheredCopy(pathToImg)) {
       console.log("[cyberb] skipping img:", pathToImg);
       continue;
     }
@@ -14,5 +15,5 @@ async function main() {
 }
 
 main().then(() => {
-  console.log("[cyberb] dithering complete");
+  console.log("[cyberb] dithering complete!");
 });

@@ -15,5 +15,5 @@ async function main() {
 }
 
 main().then(() => {
-  console.log("[cyberb] dithering complete");
+  console.log("[cyberb] dithering complete!");
 });

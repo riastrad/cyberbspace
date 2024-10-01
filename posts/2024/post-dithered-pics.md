@@ -18,13 +18,13 @@ After I published a few travel posts here on my own domain, I quickly realized t
 
 ## Why Dithered Images?
 
-I am well aware that [black and white dithering](https://en.wikipedia.org/wiki/Dither#Algorithms) is not a cutting edge compression technique. However, it's been on my mind since I read this amazing post by [Low Tech Magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/) a few years ago.[^2] Aside from my primary motivation (i.e. dithering is cool and matches my site's visual aesthetic), it's a great way to generate version of the images I'm uploading with a significantly smaller amount of data. As an example, on [one of my recent travel posts](/notes/2024/the-improvised-city) the largest image I added to the post was `2.79MB`. The black & white dithered copy that I generated for this is `341.49kb`. That's nearly an 88% reduction in size!
+I am well aware that [black and white dithering](https://en.wikipedia.org/wiki/Dither#Algorithms) is not a cutting edge compression technique. However, it's been on my mind since I read this great post by [Low Tech Magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/) a few years ago.[^2] Aside from my primary motivation (i.e. dithering is cool and matches my site's visual aesthetic), it's a great way to generate significantly smaller versions of my posts' images. As an example, on [one of my recent travel posts](/notes/2024/the-improvised-city) the largest image I added to the post was `2.79MB`. The black & white dithered copy that I generated for this is `341.49kb`. That's nearly an 88% reduction in size!
 
 That's the "why". The rest of this post is about the "how".[^3]
 
 ## Dither me this
 
-One beautiful thing about programming and having access to the internet is that if you have an idea about doing something, there's a non-zero probability that someone else has had a similar idea and published their results. I was incredibly lucky to discover that someone had been thinking about dithering images using `node.js` recently enough and published their library via npm ([dither-me-this](https://www.npmjs.com/package/dither-me-this)). If [@DitheringIdiot](https://github.com/DitheringIdiot) had not done this, then it would have taken several weeks to get the results I wanted for my images.[^4]
+One beautiful thing about programming and having access to the internet is that if you have an idea about doing something, there's a non-zero probability that someone else has had a similar idea and published their results. I was incredibly lucky to discover that someone had been thinking about dithering images using `node.js` recently enough and published their library ([dither-me-this](https://www.npmjs.com/package/dither-me-this)) via npm. If [@DitheringIdiot](https://github.com/DitheringIdiot) had not done this, then it would have taken several weeks to get the results I wanted for my images.[^4]
 
 Once I had this library installed, I wrote up a little script and quickly confirmed that I wanted black & white dithering (no additional colors) and that it would work well with the PNG image files I was using.
 
@@ -33,7 +33,7 @@ I didn't want to discard my original images after I had dithered copies. If visi
 
 ### Hypertext and sleight of hand
 
-I had a hunch that there was a clever way to this with just HTML and some CSS, but I was struggling to get it right. I came across this [Stack Overflow comment](https://stackoverflow.com/a/37485692/6282077) and realized that this was a concise and legible approach that suited my needs. Including both images in the HTML means they are both loaded by the browser when the page is loaded, and I can conceal the slow load times of the larger images by making them invisible until a visitor interacts (hovering on desktop, or tapping on mobile) with the dithered copy I display by default.
+I had a hunch that there was a clever way to do this with just HTML and some CSS, but I was struggling to get it right. I came across this [Stack Overflow comment](https://stackoverflow.com/a/37485692/6282077) and realized that this was a concise and legible approach that suited my needs. Including both images in the HTML means they are both loaded by the browser when the page is loaded, and I can conceal the slow load times of the larger images by making them invisible until a visitor interacts (hovering on desktop, or tapping on mobile) with the dithered copy I display by default.
 
 Now, since mobile doesn't allow for `:hover` interaction, I also applied this rule to the `:focus` interaction for the custom class I wrote. This is a simple way to recreate an on-click interaction for mobile devices without relying on JavaScript.
 
@@ -64,7 +64,7 @@ div.dithered-hover:focus img.blog-pic:first-child {
 }
 ```
 
-The CSS looks more complicated because I wanted to make absolutely sure that I am only applying this affect to images are using the classes I expect. But the reality is, I'm just toggling the visibility of two images within a `<div>` based on whether they are first or last child element of that `<div>`.
+The CSS looks more complicated because I wanted to make absolutely sure that I am only applying this affect to images are using the classes I expect. But the reality is, I'm just toggling the visibility of two images within a `<div>` based on whether they are the first or last child element of that `<div>`.
 
 The only downside to this approach is that it if you use reading mode, it strips out my CSS and you'll just see two images stacked on top of one another:
 
@@ -74,11 +74,11 @@ At the end of the day, I decided I could live with reader mode being a little br
 
 ### Easy living with shortcodes
 
-With any technical updates to this site, I'm forced to ask myself if it's worth putting in the time to make it as easy as possible to use or if I can be happy with a manual process. With this project, I knew from the outset that I wanted to make it as easy as possible to include dithered images in a blog post. And I also knew that I didn't want to do it completely by default so that I could include non-dithered photos
+With any technical updates to this site, I'm forced to ask myself if it's worth putting in the time to make it as easy as possible to use or if I can be happy with a manual process. With this project, I decided from the outset that it should be very straightforward to include dithered images in a blog post. I also knew that I didn't want to do it completely by default so that I still had the option to include non-dithered photos if I felt like it.
 
-Since I've learned about shortcodes and how my static generator supports them (ref. [How I Added Maps to my Travel Posts](/notes/2024/how-i-added-maps-to-my-travel-posts/)), I knew pretty quickly that I wanted to make it as simple as possible to insert the HTML block required for this feature. I didn't want to have to copy and paste anything between posts.
+Since I've learned about shortcodes and how my static generator supports them (ref. [How I Added Maps to my Travel Posts](/notes/2024/how-i-added-maps-to-my-travel-posts/)), I knew pretty early on that I didn't want to have to copy and paste boilerplate HTML between my posts' files.
 
-I started out by deciding I wanted my shortcode to be this simple:
+I started out by deciding I my shortcode would be this simple:
 {% raw %}
 ```nunjucks
 {% dither "/relative/path/to/image.png" %}
@@ -89,7 +89,7 @@ From this starting point I built out an [async shortcode](https://www.11ty.dev/d
 
 ## First attempt: generating the images at build time
 
-My initial thought was that the best way to do this would be to generate the dithered copy at build time. I did this pretty naively within my shortcode (you can see this attempt [here](https://github.com/riastrad/cyberbspace/pull/169/commits/0f87096045ca8e83e09b70be1154d5de8f4117eb), but quickly found that this caused my site's build time to become unacceptably slow. Instead of taking `~3s` to build it started taking `~30s`, and I was only generating dithered copies for a handful of images.
+My initial thought was that the best way to do this would be to generate the dithered copy at build time. I did this pretty naively within my shortcode (you can see this attempt [here](https://github.com/riastrad/cyberbspace/pull/169/commits/0f87096045ca8e83e09b70be1154d5de8f4117eb)), but quickly found that this caused my site's build time to become unacceptably slow. Instead of taking ~3 seconds to build the whole site it started taking ~30 seconds, and I was only generating dithered copies for a handful of images. If I kept going down this path, my build time would increase with every dithered image I added to my blog. This would be unsustainable.
 
 At this point, I got a bit frustrated. Would I not be able to set this up to happen automatically? Would I need to remember to run a script manually any time I added new images to a blog post?
 
@@ -130,9 +130,9 @@ Of course, I also gave myself options. If I'm doing local development and want t
 
 Over the course of putting this in place, I made sure to put in some guardrails to make sure I'm using this as expected. The first are simple ones: have 11ty throw an error if I try to use my `dither` shortcode for any files that are not PNGs, don't let 11ty build successfully if I've used my `dither` shortcode without generating the corresponding twin image, don't dither an already dither image, &c.
 
-I've also realized just how big the images I was adding from my iPhone were, so I've added a small manual step of reducing the size of the `.HEIC` files when I convert them to `.PNG` on my machine. I didn't think to do this originally and that's part of why the files I've added to my previous travel posts are so large. I'm leaving those in place, but going forward my goal is to keep any new images to below `1MB` per image to keep things zippy.
+I've also realized just how big the images I was adding from my iPhone were, so I've added a small manual step of reducing the size of the `.heic` files when I convert them to `.png` on my machine. I didn't think to do this originally and that's part of why the files I've added to my previous travel posts are so large. I'm leaving those in place, but going forward my goal is to keep any new images to below `1MB` per image to keep things snappy.
 
-Thanks for reading to the end! As a small token of appreciation for reading to the end of this post, here's a dithered image of my dog Myron watching me work on this project:
+Thanks for reading to the end! As a small token of appreciation, here's my dog Myron watching me work on this project:
 
 {% dither "/img/blog/2024/how-i-dithered-myron.png" %}
 

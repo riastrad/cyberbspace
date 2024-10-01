@@ -85,7 +85,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addAsyncShortcode("dither", async (filepath) => {
     if (!hasDitheredCopy(filepath)) {
       throw new Error(
-        "Cannot create dithering effect if no dithered twin has been created.",
+        `Cannot create dithering effect for ${filepath} if no dithered twin has been created.`,
       );
     }
 

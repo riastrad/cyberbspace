@@ -1,16 +1,16 @@
 {% for post in postslist | reverse %}
 <p>
-		<a class="post-title" href="{{ post.url | url }}">
+    <div class="blog-list-grid">
+    <a class="post-title" href="{{ post.url | url }}">
 		{% if post.data.title %}
 			{{ post.data.title }}</a>
 		{% else %}
 			Untitled</a>
 		{% endif %}
-
     <time datetime="{{ post.date | machineDate }}">
 			<i>posted {{ post.date | readableDate }}</i>
     </time>
-    <br />
+    </div>
 	{% if post.data.tags %}
 	🏷
 		{% for tag in post.data.tags %}

@@ -1,0 +1,6 @@
+.blog-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    /* gap: 1em; */
+    /* grid-auto-rows: minmax(100px, auto); */
+}

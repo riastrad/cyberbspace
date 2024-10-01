@@ -98,6 +98,7 @@ At this point, I got a bit frustrated. Would I not be able to set this up to hap
 As I was reworking my dithering code to be a standalone script that I could run on my local machine, I remembered a very insightful blog post from a former colleague where she mentions using a GitHub action to push a commit to a specific branch.[^7] It was a short trip from this realization to writing a script that checked for any images without a dithered twin & generated one if necessary. Now, for every commit I push up to my site's repo, [this script](https://github.com/riastrad/cyberbspace/blob/cb9baa0d33ef0d1344c24a9426057a4210edb6fc/bin/dither-all-images.js) runs. If it finds a non-dithered image, it will generate one, commit it, and push it to the branch I'm working on.
 
 Here's an abbreviated version of my workflow's job definition (full source [here](https://github.com/riastrad/cyberbspace/blob/7bacc803eae3a85796d5bf0577d32330ae02ad18/.github/workflows/preflight-checklist.yml#L20)):
+{% raw %}
 ```yaml
 dither:
   runs-on: ubuntu-latest
@@ -119,6 +120,7 @@ dither:
         git add -A && git commit -m "👾 dithered images"
         git push origin ${{ github.ref_name }}
 ```
+{% endraw %}
 
 In plain language, the job will setup and run my dithering script. If the script generated any new images, these will be detected and committed to the branch that triggered the check.
 
@@ -132,7 +134,7 @@ I've also realized just how big the images I was adding from my iPhone were, so 
 
 Thanks for reading to the end! As a small token of appreciation for reading to the end of this post, here's a dithered image of my dog Myron watching me work on this project:
 
-{% dither "/img/2024/how-i-dithered-myron.png" %}
+{% dither "/img/blog/2024/how-i-dithered-myron.png" %}
 
 
 [^1]: Worth mentioning that I probably would not have noticed this if I was not loading up my site on slower internet speed than I used to have in the states. Which is just a nice reminder that, if you're building something for a global audience, you should see how it does on slower internet.

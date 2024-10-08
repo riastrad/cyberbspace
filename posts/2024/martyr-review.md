@@ -13,7 +13,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 I've been sick with a wicked sore throat since last week and finally confirmed that it is strep throat. I am extremely bad at being sick, I'm prone to crank up the melodrama and really lean into my martyr complex.[^1]
 
-What better excuse then, to put off my writing for a bit and get lost in a surprisingly topical book? I've just finished reading Kaveh Akbar's debut novel, [_Martyr!_](https://openlibrary.org/books/OL50528303M/Martyr!_a_Novel). Here it is _in situ_:
+What better excuse then, to put off my writing for a bit and get lost in a surprisingly apropos book? I've just finished reading Kaveh Akbar's debut novel, [_Martyr!_](https://openlibrary.org/books/OL50528303M/Martyr!_a_Novel). Here it is _in situ_:
 
 {% dither "/img/blog/2024/martyr.png" %}
 

@@ -162,25 +162,7 @@ a {
     color: #000;
     background-color: rgba(238, 238, 51, 0.6);
 }
-a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-a:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
+
 a.post-title {
     background-color: #fff;
     font-size: 2.4rem;
@@ -190,7 +172,7 @@ a.post-title {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-button {
+a.button {
     display: inline-block;
     height: 5rem;
     padding: 0 3rem;
@@ -198,30 +180,29 @@ button {
     margin-bottom: 1em;
     color: #000;
     background-color: #fff;
-    text-align: center;
-    line-height: 4rem;
+    align-content: center;
     letter-spacing: 0.3rem;
     border: 0.1rem solid #000000;
     cursor: pointer;
 }
-button:hover {
+a.button:hover {
     box-shadow: inset 0 0 0.75em rgba(238, 238, 51, 0.6);
 }
-button.button-primary {
+a.button-primary {
     color: #fff;
     background-color: #000;
     border-color: #000;
 }
-button.button-primary:hover {
+a.button-primary:hover {
     box-shadow: inset 0 0 0 #000;
 }
 
-button.download {
+a.download-button {
     color: #fff;
     background-color: #000;
     border-color: #000;
 }
-button.download:hover {
+a.download-button:hover {
     box-shadow: 0.5em 0.5em rgba(238, 238, 51, 0.6);
 }
 

@@ -13,3 +13,4 @@ snail-3.png
 book-pics-1.png
 book-pics-2.png
 how-i-dithered-myron.png
+martyr.png

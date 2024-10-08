@@ -1,13 +1,14 @@
 <nav>
   {%- for nav in collections.nav | reverse %}
-        <button 
+        <a
           {% if nav.url == page.url %}
-          class="button-primary"
-          disabled=true
+            class="button button-primary pointer-events-none"
+          {% else %}
+            class="button"
           {% endif %}
-          {% if nav.url != page.url %}onclick="window.location.href='{{ nav.url | url }}'"{% endif %}
+          href='{{ nav.url | url }}'
           >
         {{ nav.data.navtitle }}
-        </button>
+        </a>
   {%- endfor -%}
 </nav>

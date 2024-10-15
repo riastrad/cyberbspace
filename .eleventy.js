@@ -47,9 +47,7 @@ module.exports = function (eleventyConfig) {
 
   // This is to keep track of all my posts
   eleventyConfig.addCollection("posts", function (collection) {
-    return collection.getAllSorted().filter(function (item) {
-      return item.inputPath.match(/^\.\/posts\//) !== null;
-    });
+    return collection.getFilteredByTag("post");
   });
 
   // Generate travel post map SVG

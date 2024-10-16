@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: home.njk
 title: space.
 date: 2024-01-01 09:01:00
 tags:

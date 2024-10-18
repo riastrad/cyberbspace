@@ -29,8 +29,9 @@ So far this year I've read **22** books.
     {% if book.link %}<a href="{{ book.link }}">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}
 </div>
 <ul class="booktooltip">
-  <li><strong>{{ book.title }}</strong> by {{ book.author }}</li>
-  <li>finished on {{ book.pubDate }}
+  <li><strong>title</strong>:{{ book.title }}</li>
+  <li><strong>author</strong>: {{ book.author }}</li>
+  <li><strong>read on</strong>: {{ book.events.last.timestamp }}</li>
 </ul>
 {% endfor %}
 </div>

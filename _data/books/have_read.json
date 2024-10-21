@@ -287,7 +287,7 @@
             }
         ],
         "title": "His Master's Voice",
-        "author": "Stanislaw Lem",
+        "author": "Stanisław Lem",
         "isbn": "9780262538459",
         "publisher": "MIT Press",
         "published": "2020",
@@ -761,7 +761,7 @@
             }
         ],
         "title": "The Invincible",
-        "author": "Stanislaw Lem",
+        "author": "Stanisław Lem",
         "isbn": "9780262357685",
         "publisher": "MIT Press",
         "published": "2020",
@@ -1104,19 +1104,6 @@
             }
         ],
         "title": "Black Leopard, Red Wolf",
-        "isbn": "9780241981849",
-        "publisher": "Penguin UK",
-        "published": "2019",
-        "pages": 418
-    },
-    {
-        "events": [
-            {
-                "timestamp": "2022-01-18",
-                "type": "finished"
-            }
-        ],
-        "title": "Black Leopard, Red Wolf",
         "author": "Marlon James",
         "isbn": "9780241981849",
         "publisher": "Penguin UK",
@@ -1162,20 +1149,6 @@
     {
         "events": [
             {
-                "timestamp": "2021-12-27",
-                "type": "finished"
-            }
-        ],
-        "title": "Homage to Catalonia",
-        "author": "George Orwell",
-        "isbn": "9780156421171",
-        "published": "1966",
-        "publisher": "Harcourt",
-        "pages": 232
-    },
-    {
-        "events": [
-            {
                 "timestamp": "2021-12-22",
                 "type": "started"
             },
@@ -1185,6 +1158,7 @@
             }
         ],
         "title": "Homage to Catalonia",
+        "author": "George Orwell",
         "isbn": "9786257120869",
         "publisher": "E-Kitap Projesi & Cheapest Books",
         "published": "2023",
@@ -1202,24 +1176,11 @@
             }
         ],
         "title": "Breaking Things at Work",
+        "author": "Gavin Mueller",
         "isbn": "9781786636775",
         "publisher": "Verso Books",
         "published": "2021",
         "pages": 177
-    },
-    {
-        "events": [
-            {
-                "timestamp": "2021-12-21",
-                "type": "finished"
-            }
-        ],
-        "title": "Breaking Things at Work",
-        "author": "Gavin Mueller",
-        "isbn": "9781786636751",
-        "publisher": "Verso Books",
-        "published": "2021",
-        "pages": 191
     },
     {
         "events": [
@@ -1562,6 +1523,7 @@
             }
         ],
         "title": "Work Won't Love You Back",
+        "author": "Sarah Jaffe",
         "isbn": "1787386821",
         "published": "2022"
     },
@@ -1687,6 +1649,7 @@
             }
         ],
         "title": "No Shortcuts",
+        "author": "Jane MacAlevey",
         "isbn": "9780190624712",
         "publisher": "Oxford University Press",
         "published": "2016",
@@ -1698,19 +1661,6 @@
                 "timestamp": "2020-11-23",
                 "type": "started"
             },
-            {
-                "timestamp": "2020-12-28",
-                "type": "finished"
-            }
-        ],
-        "title": "The Warmth of Other Suns",
-        "isbn": "9780679604075",
-        "publisher": "Vintage",
-        "published": "2010",
-        "pages": 641
-    },
-    {
-        "events": [
             {
                 "timestamp": "2020-12-28",
                 "type": "finished"
@@ -1753,6 +1703,7 @@
             }
         ],
         "title": "Hyperbole and a Half",
+        "author": "Allie Brosh",
         "isbn": "9781451666182",
         "publisher": "Simon and Schuster",
         "published": "2013",
@@ -1844,19 +1795,6 @@
             }
         ],
         "title": "New Dark Age",
-        "isbn": "9781786635495",
-        "publisher": "Verso Books",
-        "published": "2018",
-        "pages": 348
-    },
-    {
-        "events": [
-            {
-                "timestamp": "2020-10-12",
-                "type": "finished"
-            }
-        ],
-        "title": "New Dark Age",
         "author": "James Bridle",
         "isbn": "9781786635495",
         "publisher": "Verso Books",
@@ -1875,6 +1813,7 @@
             }
         ],
         "title": "Henry V",
+        "author": "William Shakespeare",
         "isbn": "9788726606973",
         "publisher": "Lindhardt og Ringhof",
         "published": "2021",
@@ -1982,6 +1921,7 @@
             }
         ],
         "title": "The Stranger",
+        "author": "Albert Camus",
         "isbn": "9780307827661",
         "publisher": "Vintage",
         "published": "2012",
@@ -2073,6 +2013,7 @@
             }
         ],
         "title": "Swamplandia!",
+        "author": "Karen Russell",
         "isbn": "9781446468487",
         "publisher": "Random House",
         "published": "2012",
@@ -2090,6 +2031,7 @@
             }
         ],
         "title": "Exhalation",
+        "author": "Ted Chiang",
         "review": "Would have been 3 stars were it not for the great final story in this collection. ",
         "isbn": "9781529014501",
         "publisher": "Pan Macmillan",
@@ -2269,6 +2211,7 @@
             }
         ],
         "title": "The Third Policeman",
+        "author": "Flann O'Brien",
         "isbn": "0330241583",
         "publisher": "Pan",
         "published": "1974",
@@ -2358,6 +2301,7 @@
             }
         ],
         "title": "The Year of the Flood",
+        "author": "Margaret Atwood",
         "isbn": "9780307398925",
         "publisher": "Vintage Canada",
         "published": "2010",
@@ -2374,25 +2318,12 @@
                 "type": "finished"
             }
         ],
-        "title": "The Ghost in the Shell 1.5",
+        "title": "The Ghost in the Shell Volume 1.5",
+        "author": "Shirow Masamune",
         "isbn": "9788545711667",
         "publisher": "Editora JBC",
         "published": "2020",
         "pages": 184
-    },
-    {
-        "events": [
-            {
-                "timestamp": "2019-09-24",
-                "type": "finished"
-            }
-        ],
-        "title": "The Ghost in the Shell Volume 1.5",
-        "author": "Shirow Masamune",
-        "isbn": "9781935429968",
-        "publisher": "Kodansha Comics",
-        "published": "2012",
-        "pages": 178
     },
     {
         "events": [
@@ -2424,6 +2355,7 @@
             }
         ],
         "title": "Réparer les vivants",
+        "author": "Maylis De Kerangal",
         "isbn": "9782072574795",
         "publisher": "Editions Gallimard",
         "published": "2015",
@@ -2568,6 +2500,7 @@
             }
         ],
         "title": "Till We Have Faces",
+        "author": "C.S. Lewis",
         "isbn": "9780008391454",
         "publisher": "HarperCollins UK",
         "published": "2020",
@@ -2621,6 +2554,7 @@
             }
         ],
         "title": "Death of a Salesman",
+        "author": "Arthur Miller",
         "review": "Helluva thing to read during your daily commute. ",
         "isbn": "9781101042151",
         "publisher": "Penguin",
@@ -2729,24 +2663,12 @@
             }
         ],
         "title": "A Cool Million and the Dream Life of Balso Snell",
+        "author": "Nathanael West",
         "review": "3.5 Stars. Would have been 4, if this edition didn’t include The Dream Life of Balso Snell. A Cool Million is definitely the thing to pay attention to here. \n\nWest is one of the only writers who seems to have groked the grotesqueries of American life and served them up in all their stomach churning glory.",
         "isbn": "0848821742",
         "published": "1965",
-        "pages": 158
-    },
-    {
-        "events": [
-            {
-                "timestamp": "2018-10-09",
-                "type": "finished"
-            }
-        ],
-        "title": "A Cool Million and The Dream Life of Balso Snell",
-        "author": "Nathanael West",
-        "isbn": "0374530270",
         "publisher": "Macmillan",
-        "published": "2006",
-        "pages": 196
+        "pages": 158
     },
     {
         "events": [
@@ -2885,6 +2807,7 @@
             }
         ],
         "title": "The Bell Jar",
+        "author": "Sylvia Plath",
         "isbn": "9780571373109",
         "publisher": "Faber & Faber",
         "published": "2022",
@@ -2902,6 +2825,7 @@
             }
         ],
         "title": "Everything That Rises Must Converge",
+        "author": "Flannery O'Connor",
         "isbn": "9781443440318",
         "publisher": "HarperCollins",
         "published": "2015",
@@ -2919,6 +2843,7 @@
             }
         ],
         "title": "Solaris",
+        "author": "Stanisław Lem",
         "isbn": "0156837501",
         "publisher": "Mariner Books",
         "published": "1987",
@@ -2954,6 +2879,7 @@
             }
         ],
         "title": "Lolita",
+        "author": "Vladimir Nabokov",
         "isbn": "9780141391601",
         "publisher": "Penguin UK",
         "published": "2012",
@@ -2971,6 +2897,7 @@
             }
         ],
         "title": "Alexander Hamilton",
+        "author": "Ron Chernow",
         "isbn": "9781101200858",
         "publisher": "Penguin",
         "published": "2005",
@@ -3000,19 +2927,6 @@
                 "timestamp": "2017-11-11",
                 "type": "started"
             },
-            {
-                "timestamp": "2017-12-28",
-                "type": "finished"
-            }
-        ],
-        "title": "Speaker for the Dead",
-        "isbn": "0808586874",
-        "publisher": "Turtleback Books",
-        "published": "1994",
-        "pages": 0
-    },
-    {
-        "events": [
             {
                 "timestamp": "2017-12-28",
                 "type": "finished"
@@ -3127,6 +3041,7 @@
             }
         ],
         "title": "Between the World and Me",
+        "author": "Ta-Nehisi Coates",
         "isbn": "9780679645986",
         "publisher": "One World",
         "published": "2015",
@@ -3199,6 +3114,7 @@
             }
         ],
         "title": "Bartleby and Benito Cereno",
+        "author": "Herman Melville",
         "isbn": "9780486110554",
         "publisher": "Courier Corporation",
         "published": "2012",
@@ -3290,6 +3206,7 @@
             }
         ],
         "title": "The Wind-Up Bird Chronicle",
+        "author": "Haruki Murakami",
         "isbn": "9781446499108",
         "publisher": "Random House",
         "published": "2011",
@@ -3522,6 +3439,7 @@
             }
         ],
         "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
         "isbn": "9780802190512",
         "publisher": "Grove/Atlantic, Inc.",
         "published": "2016",
@@ -3575,6 +3493,7 @@
             }
         ],
         "title": "A Clockwork Orange",
+        "author": "Anthony Burgess",
         "isbn": "9780141908328",
         "publisher": "Penguin UK",
         "published": "2011",
@@ -3664,6 +3583,7 @@
             }
         ],
         "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
         "isbn": "9780771008795",
         "publisher": "McClelland & Stewart",
         "published": "2011",
@@ -3717,6 +3637,7 @@
             }
         ],
         "title": "American Gods",
+        "author": "Neil Gaiman",
         "isbn": "9780755379927",
         "publisher": "Hachette UK",
         "published": "2011",
@@ -3746,19 +3667,6 @@
                 "timestamp": "2016-06-07",
                 "type": "started"
             },
-            {
-                "timestamp": "2016-07-11",
-                "type": "finished"
-            }
-        ],
-        "title": "Wolf Hall",
-        "isbn": "9789722366618",
-        "publisher": "Editorial Presença",
-        "published": "2020",
-        "pages": 789
-    },
-    {
-        "events": [
             {
                 "timestamp": "2016-07-11",
                 "type": "finished"
@@ -3837,6 +3745,7 @@
             }
         ],
         "title": "Building Data Science Teams",
+        "author": "DJ Patil",
         "isbn": "9781449316778",
         "publisher": "\"O'Reilly Media, Inc.\"",
         "published": "2011",
@@ -3909,6 +3818,7 @@
             }
         ],
         "title": "Analyzing the Analyzers",
+        "author": "Harlan Harris, Marck Vaisman, and Sean Murphy",
         "isbn": "9781449368401",
         "publisher": "\"O'Reilly Media, Inc.\"",
         "published": "2013",
@@ -3944,25 +3854,12 @@
             }
         ],
         "title": "Wise Blood",
+        "author": "Flannery O'Connor",
         "review": "Absolutely fantastic. A macabre plunge into the deep abyss of lost faith and un-indulged   yearning. Definitely one of the top five novels written in the previous century. ",
         "isbn": "9780571266104",
         "publisher": "Faber & Faber",
         "published": "2015",
         "pages": 159
-    },
-    {
-        "events": [
-            {
-                "timestamp": "2016-03-27",
-                "type": "finished"
-            }
-        ],
-        "title": "The Signal and the Noise",
-        "author": "Nate Silver",
-        "isbn": "9780143125082",
-        "publisher": "Penguin",
-        "published": "2015",
-        "pages": 577
     },
     {
         "events": [
@@ -3976,6 +3873,7 @@
             }
         ],
         "title": "The Signal and the Noise",
+        "author": "Nate Silver",
         "review": "Interesting looking into a side of statistics that I haven't had much exposure to - that future-facing branch. I look forward to exploring this topic more in-depth in some of the cited sources.\n\nFinal word on the matter: while Mr. Silver's enthusiasm comes through quite clearly in several passages of the book, he might to better to curb his projected sense superiority about how much more effective he believes his approach to be, whether it be an artifact of his subconscious or not.",
         "isbn": "9780143125082",
         "publisher": "Penguin",
@@ -4030,6 +3928,7 @@
             }
         ],
         "title": "Dune",
+        "author": "Frank Herbert",
         "isbn": "9781101658055",
         "publisher": "Penguin",
         "published": "2003",
@@ -4065,6 +3964,7 @@
             }
         ],
         "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "JK Rowling",
         "isbn": "0606323457",
         "publisher": "Turtleback Books",
         "published": "2013",
@@ -4100,6 +4000,7 @@
             }
         ],
         "title": "The Silence of the Lambs",
+        "author": "Thomas Harris",
         "isbn": "1250048095",
         "publisher": "St. Martin's Griffin",
         "published": "2013",
@@ -4117,6 +4018,7 @@
             }
         ],
         "title": "Infinite Jest",
+        "author": "David Foster Wallace",
         "isbn": "9780316073851",
         "publisher": "Hachette UK",
         "published": "2009",
@@ -4134,6 +4036,7 @@
             }
         ],
         "title": "The Unbearable Lightness of Being",
+        "author": "Milan Kundera",
         "isbn": "9780571367641",
         "publisher": "Faber & Faber",
         "published": "2020",
@@ -4187,6 +4090,7 @@
             }
         ],
         "title": "Miss Lonelyhearts",
+        "author": "Nathanael West",
         "review": "A few notable excerpts:\n\nOn p.29: \"Like Shrike, the man they imitated, they were machines for making jokes. A button machine makes buttons, no matter what the power used, foot, steam, or electricity. They, no matter what the motivating force, death, love or God, made jokes.\"\n\nOn p.55: \"Man has a tropism for order. Keys in one pocket, change in another. Mandolins are tuned G D A E. The physical world had a tropism for disorder, entropy. Man against Nature...the battle of the centuries. Keys yearn to mix with change. Mandolins strive to get out of tune. Every order has within it the germ of destruction. All order is doomed, yet the battle is worth while.\"\n\nOn p.57: \"'Perhaps I can make you understand. Let's start from the beginning. A man is hired to give advice to readers of a newspaper. The job is a circulation stunt and the whole staff considers it a joke. He welcomes the job, for it might lead to a gossip column, and anyway he's tired of being a leg man. He too considers the job a joke, but after several months at it, the joke begins to escape him. He sees that the majority of the letters are profoundly humble pleas for moral and spiritual advice, that they are inarticulate expressions of genuine suffering. He also discovers that his correspondents take him seriously. For the first time in his life, he is forced to examine the values by which he lives. This examination shows him that he is the victim of the joke and not its perpetrator.'\"\n\nAnd let's not fail to mention the Afterword! If you are fortunate enough to procure a copy with the succinct 20 pages punched up by Stanley Edgar Hyman, you will find they greatly enrich any further understanding you might wish to cultivate - both contextual and allegorical.  ",
         "isbn": "0811202151",
         "publisher": "New Directions Publishing",
@@ -4241,6 +4145,7 @@
             }
         ],
         "title": "The Enchanted April",
+        "author": "Elizabeth von Arnim",
         "isbn": "9783756874859",
         "publisher": "BoD – Books on Demand",
         "published": "2022",
@@ -4330,6 +4235,7 @@
             }
         ],
         "title": "The Day of the Locust",
+        "author": "Nathanael West",
         "isbn": "9780141394220",
         "publisher": "Penguin UK",
         "published": "2013",
@@ -4347,6 +4253,7 @@
             }
         ],
         "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
         "isbn": "9780062368683",
         "publisher": "Harper Collins",
         "published": "2014",
@@ -4491,6 +4398,7 @@
             }
         ],
         "title": "The Problem of Pain",
+        "author": "C.S. Lewis",
         "isbn": "0060652969",
         "publisher": "HarperOne",
         "published": "2001",
@@ -4508,6 +4416,7 @@
             }
         ],
         "title": "Mere Christianity",
+        "author": "C.S. Lewis",
         "isbn": "9780061947438",
         "publisher": "Harper Collins",
         "published": "2009",
@@ -4561,6 +4470,7 @@
             }
         ],
         "title": "For Whom the Bell Tolls",
+        "author": "Ernest Hemingway",
         "isbn": "9781476770116",
         "publisher": "Simon and Schuster",
         "published": "2014",
@@ -4578,6 +4488,7 @@
             }
         ],
         "title": "Middlesex",
+        "author": "Jeffrey Eugenides",
         "review": "Why 3 stars? I'm not going to lie, there are some things Eugenides does extremely extremely well. However, he often peppers these profound moments with heavy-handed foreshadowing - and for me this pepper became irksome after a while, regardless of whether or not was in keeping with the authorial voice of the novel's precocious narrator. \n\nSo, while he's no doubt adept at writing the American generational epic, he is grappling with a form already perfected by Steinbeck...\n\n...Essentially, I think I am saying I should not have read this novel so soon after East of Eden. Because I find myself wondering how Steinbeck would have handled the story of Callie turned Cal -- and I think I would have found Steinbeck's telling more immersive. \n\nThis is likely my own fault more so than Eugenides'.",
         "isbn": "9780747561620",
         "publisher": "A&C Black",
@@ -4955,6 +4866,7 @@
             }
         ],
         "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
         "isbn": "9780330513081",
         "publisher": "Pan Macmillan",
         "published": "2009",
@@ -5153,6 +5065,7 @@
             }
         ],
         "title": "Waiting for Godot",
+        "author": "Samuel Beckett",
         "isbn": "0571235565",
         "publisher": "Pearson Education India",
         "published": "2008",
@@ -5473,6 +5386,7 @@
             }
         ],
         "title": "The Inferno",
+        "author": "Dante Alighieri",
         "review": "Riveting, inventive, and a compelling read. I did, however, find myself wishing from time to time that I was able to read it in the original Italian. While Longfellow's translation is novel and fun to read, it is, ultimately, prose. It lacks that lyricism and sonority that inevitably make Dante's poetry classic.",
         "isbn": "9780486442884",
         "publisher": "Courier Corporation",
@@ -5491,6 +5405,7 @@
             }
         ],
         "title": "Freakonomics",
+        "author": "Stephen J. Dubner and Steven Levitt",
         "review": "My reactions are mixed. But I can't really take the time to write them down right now. Maybe I'll come back to this.",
         "isbn": "9788466645775",
         "publisher": "B DE BOLSILLO",
@@ -5602,6 +5517,7 @@
             }
         ],
         "title": "Howards End",
+        "author": "E.M. Forster",
         "isbn": "1977996272",
         "publisher": "Createspace Independent Publishing Platform",
         "published": "2018",
@@ -5632,19 +5548,6 @@
                 "timestamp": "2013-06-21",
                 "type": "started"
             },
-            {
-                "timestamp": "2013-07-10",
-                "type": "finished"
-            }
-        ],
-        "title": "Catch-22",
-        "isbn": "9780684865133",
-        "publisher": "Simon and Schuster",
-        "published": "1999",
-        "pages": 424
-    },
-    {
-        "events": [
             {
                 "timestamp": "2013-07-10",
                 "type": "finished"
@@ -5705,6 +5608,7 @@
             }
         ],
         "title": "The Sirens of Titan",
+        "author": "Kurt Vonnegut",
         "isbn": "9780307423375",
         "publisher": "Dial Press",
         "published": "2007",
@@ -5740,6 +5644,7 @@
             }
         ],
         "title": "The Sound and the Fury",
+        "author": "William Faulkner",
         "isbn": "0330306529",
         "publisher": "MacMillan",
         "published": "1989",
@@ -5945,7 +5850,11 @@
     {
         "events": [
             {
-                "timestamp": "2013-02-08",
+                "timestamp": "2013-01-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-02-07",
                 "type": "finished"
             }
         ],
@@ -5963,28 +5872,12 @@
                 "type": "started"
             },
             {
-                "timestamp": "2013-02-07",
-                "type": "finished"
-            }
-        ],
-        "title": "The Marriage of Heaven and Hell",
-        "isbn": "0192811673",
-        "publisher": "American Chemical Society",
-        "published": "1975",
-        "pages": 86
-    },
-    {
-        "events": [
-            {
-                "timestamp": "2013-01-30",
-                "type": "started"
-            },
-            {
                 "timestamp": "2013-02-06",
                 "type": "finished"
             }
         ],
         "title": "At Swim-Two-Birds",
+        "author": "Flann O'Brien",
         "isbn": "9780140181722",
         "published": "1990",
         "publisher": "Penguin Books",
@@ -6074,6 +5967,7 @@
             }
         ],
         "title": "Hunger",
+        "author": "Knut Hamsun",
         "isbn": "1486152066",
         "publisher": "Tebbo",
         "published": "2012",
@@ -6109,6 +6003,7 @@
             }
         ],
         "title": "1984",
+        "author": "George Orwell",
         "isbn": "198373263X",
         "publisher": "Createspace Independent Publishing Platform",
         "published": "2018",
@@ -6286,6 +6181,7 @@
             }
         ],
         "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
         "isbn": "9780385333849",
         "publisher": "Dial Press Trade Paperback",
         "published": "1999",
@@ -6339,6 +6235,7 @@
             }
         ],
         "title": "Into Thin Air",
+        "author": "Jon Krakauer",
         "isbn": "9780679462712",
         "publisher": "Anchor",
         "published": "1998",

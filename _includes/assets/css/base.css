@@ -289,6 +289,26 @@ p {
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+details {
+    position: relative;
+    transition: 0.15s background linear;
+    display: inline-block;
+}
+
+summary:hover {
+    cursor: pointer;
+    background: rgba(238, 238, 51, 0.6);
+}
+
+summary {
+    padding-right: 10px;
+}
+
+summary:before {
+    content: "✱";
+    margin: 1rem;
+}
+
 hr {
     margin-top: 3rem;
     margin-bottom: 3rem;

@@ -5,7 +5,6 @@ summary: Quite literally
 date: 2023-03-29 10:56:00
 tags:
   - post
-  - brief
   - life
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---

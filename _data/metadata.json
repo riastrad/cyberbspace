@@ -8,6 +8,9 @@
   "author": {
     "name": "Josh Erb",
     "email": "josh@cyberb.space",
-    "social": "https://union.place/@riastrad"
+    "social": {
+      "mastodon": "https://union.place/@riastrad",
+      "bluesky": "https://bsky.app/profile/cyberb.space"
+    }
   }
 }

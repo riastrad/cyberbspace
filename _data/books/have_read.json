@@ -1,0 +1,6316 @@
+[
+    {
+        "events": [
+            {
+                "timestamp": "2024-10-08",
+                "type": "finished"
+            }
+        ],
+        "title": "Martyr!",
+        "author": "Kaveh Akbar",
+        "isbn": "9781761560620",
+        "publisher": "Picador",
+        "published": "2024",
+        "pages": 344
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-10-03",
+                "type": "finished"
+            }
+        ],
+        "title": "On Writing",
+        "author": "Jorge Luis Borges",
+        "isbn": "9780143105725",
+        "publisher": "Penguin",
+        "published": "2010",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-09-30",
+                "type": "finished"
+            }
+        ],
+        "title": "Living Things",
+        "author": "Munir Hachemi",
+        "isbn": "9781770568037",
+        "publisher": "Coach House Books",
+        "published": "2024",
+        "pages": 95
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-09-23",
+                "type": "finished"
+            }
+        ],
+        "title": "A Tale of Two Cities",
+        "author": "Charles Dickens",
+        "isbn": "1853260398",
+        "publisher": "Wordsworth Editions",
+        "published": "1993",
+        "pages": 356
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-08-23",
+                "type": "finished"
+            }
+        ],
+        "title": "The Romance of American Communism",
+        "author": "Vivian Gornick",
+        "isbn": "9781788735513",
+        "publisher": "Verso Books",
+        "published": "2020",
+        "pages": 335
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-08-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Eastbound",
+        "author": "Maylis De Kerangal",
+        "isbn": "9781953861504",
+        "published": "2023",
+        "publisher": "Archipelago Press",
+        "pages": 137
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-07-26",
+                "type": "finished"
+            }
+        ],
+        "title": "My Work",
+        "author": "Olga Ravn",
+        "isbn": "9780811234726",
+        "publisher": "New Directions Publishing",
+        "published": "2023",
+        "pages": 365
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-07-09",
+                "type": "finished"
+            }
+        ],
+        "title": "Seeing Like a State",
+        "author": "James C. Scott",
+        "isbn": "9780300252989",
+        "publisher": "Yale University Press",
+        "published": "2020",
+        "pages": 462
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-06-24",
+                "type": "finished"
+            }
+        ],
+        "title": "MaddAddam",
+        "author": "Margaret Atwood",
+        "isbn": "9780748130191",
+        "publisher": "Hachette UK",
+        "published": "2014",
+        "pages": 446
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-06-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Grief is the Thing with Feathers",
+        "author": "Max Porter",
+        "isbn": "9781555977412",
+        "published": "2016",
+        "publisher": "Graywolf Press",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-06-20",
+                "type": "finished"
+            }
+        ],
+        "title": "The Lives of Others",
+        "author": "Neel Mukherjee",
+        "isbn": "9788184006261",
+        "publisher": "Random House India",
+        "published": "2014",
+        "pages": 733
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-04-21",
+                "type": "finished"
+            }
+        ],
+        "title": "A Very Easy Death",
+        "author": "Simone De Beauvoir",
+        "isbn": "9781804270448",
+        "published": "2023",
+        "publisher": "Fitzcarraldo Editions",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-04-19",
+                "type": "finished"
+            }
+        ],
+        "title": "We All Want Impossible Things",
+        "author": "Catherine Newman",
+        "isbn": "9781529193862",
+        "publisher": "Random House",
+        "published": "2022",
+        "pages": 167
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-04-14",
+                "type": "finished"
+            }
+        ],
+        "title": "The Dispossessed",
+        "author": "Ursula K. Le Guin",
+        "isbn": "0785764038",
+        "publisher": "Turtleback Books",
+        "published": "2001",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-03-31",
+                "type": "finished"
+            }
+        ],
+        "title": "God, Human, Animal, Machine",
+        "author": "Meghan O'Gieblyn",
+        "isbn": "9780525562719",
+        "publisher": "Anchor",
+        "published": "2022",
+        "pages": 305
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-03-20",
+                "type": "finished"
+            }
+        ],
+        "title": "TVA Baby",
+        "author": "Terry Bisson",
+        "isbn": "9781429924948",
+        "publisher": "Tor Books",
+        "published": "2011",
+        "pages": 21
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-03-14",
+                "type": "finished"
+            }
+        ],
+        "title": "The Hole",
+        "author": "Hye-Young Pyun",
+        "isbn": "9781628729917",
+        "published": "2017",
+        "publisher": "Arcade Publishing",
+        "pages": 208
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-03-06",
+                "type": "finished"
+            }
+        ],
+        "title": "The Vegetarian",
+        "author": "Han Kang",
+        "isbn": "9781846275630",
+        "publisher": "Portobello Books",
+        "published": "2015",
+        "pages": 134
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-02-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Nonrequired Reading",
+        "author": "Wisława Szymborska",
+        "isbn": "9780151006601",
+        "published": "2008",
+        "publisher": "Harcourt",
+        "pages": 256
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-02-18",
+                "type": "finished"
+            }
+        ],
+        "title": "The MANIAC",
+        "author": "Benjamin Labatut",
+        "isbn": "9780593654491",
+        "publisher": "Penguin Group",
+        "published": "2024",
+        "pages": 369
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-02-06",
+                "type": "finished"
+            }
+        ],
+        "title": "His Master's Voice",
+        "author": "Stanisław Lem",
+        "isbn": "9780262538459",
+        "publisher": "MIT Press",
+        "published": "2020",
+        "pages": 275
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2024-01-24",
+                "type": "finished"
+            }
+        ],
+        "title": "Byzantium",
+        "author": "Judith Herrin",
+        "isbn": "9780691143699",
+        "published": "2009",
+        "publisher": "Princeton Univerity Press",
+        "pages": 391
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-12-29",
+                "type": "finished"
+            }
+        ],
+        "title": "Nineteen Claws and a Black Bird",
+        "author": "Agustina Bazterrica",
+        "isbn": "9781668012666",
+        "publisher": "Simon and Schuster",
+        "published": "2023",
+        "pages": 192
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-12-25",
+                "type": "finished"
+            }
+        ],
+        "title": "The Employees",
+        "author": "Olga Ravn",
+        "isbn": "0811231356",
+        "publisher": "New Directions Publishing Corporation",
+        "published": "2022",
+        "pages": 144
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-12-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Oval",
+        "author": "Elvia Wilk",
+        "isbn": "9781593764050",
+        "publisher": "Catapult",
+        "published": "2019",
+        "pages": 353
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-12-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga Volume 11",
+        "author": "Brian K. Vaughan",
+        "isbn": "1534399135",
+        "published": "2023",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-11-25",
+                "type": "finished"
+            }
+        ],
+        "title": "On Photography",
+        "author": "Susan Sontag",
+        "isbn": "9780241197547",
+        "publisher": "Penguin UK",
+        "published": "2014",
+        "pages": 167
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-11-25",
+                "type": "finished"
+            }
+        ],
+        "title": "On Photography",
+        "author": "Susan Sontag",
+        "isbn": "9780241197547",
+        "publisher": "Penguin UK",
+        "published": "2014",
+        "pages": 167
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-11-09",
+                "type": "finished"
+            }
+        ],
+        "title": "Sourdough",
+        "author": "Robin Sloan",
+        "isbn": "9781786494108",
+        "publisher": "Atlantic Books",
+        "published": "2017",
+        "pages": 227
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-11-03",
+                "type": "finished"
+            }
+        ],
+        "title": "Mythologies",
+        "author": "Roland Barthes",
+        "isbn": "9780809071944",
+        "publisher": "Macmillan",
+        "published": "2013",
+        "pages": 296
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-10-06",
+                "type": "finished"
+            }
+        ],
+        "title": "Outline",
+        "author": "Rachel Cusk",
+        "isbn": "9780571346776",
+        "publisher": "Faber & Faber",
+        "published": "2018",
+        "pages": 203
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-09-27",
+                "type": "finished"
+            }
+        ],
+        "title": "Another Country",
+        "author": "James Baldwin",
+        "isbn": "9780141186375",
+        "publisher": "Penguin UK",
+        "published": "2001",
+        "pages": 540
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-08-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Mao II",
+        "author": "Don DeLillo",
+        "isbn": "9781509837892",
+        "publisher": "Pan Macmillan",
+        "published": "2016",
+        "pages": 252
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-08-08",
+                "type": "finished"
+            }
+        ],
+        "title": "John Brown, Abolitionist",
+        "author": "David S. Reynolds",
+        "isbn": "9780307486660",
+        "published": "2009",
+        "publisher": "Knopf Doubleday Publishing Group",
+        "pages": 594
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-07-25",
+                "type": "finished"
+            }
+        ],
+        "title": "Averno",
+        "author": "Louise Glück",
+        "isbn": "9780141998015",
+        "publisher": "Penguin UK",
+        "published": "2021",
+        "pages": 96
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-07-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Upgrade",
+        "author": "Blake Crouch",
+        "isbn": "1529045371",
+        "publisher": "Pan",
+        "published": "2023",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-06-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Time Is the Thing a Body Moves Through",
+        "author": "T Fleischmann",
+        "isbn": "9781566895552",
+        "publisher": "Coffee House Press",
+        "published": "2019",
+        "pages": 120
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-06-17",
+                "type": "finished"
+            }
+        ],
+        "title": "Ways of Being",
+        "author": "James Bridle",
+        "isbn": "9780141994277",
+        "publisher": "Penguin UK",
+        "published": "2022",
+        "pages": 395
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-04-27",
+                "type": "finished"
+            }
+        ],
+        "title": "The Overstory",
+        "author": "Richard Powers",
+        "isbn": "9781804951798",
+        "publisher": "Random House",
+        "published": "2024",
+        "pages": 323
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-03-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Tender Is the Flesh",
+        "author": "Agustina Bazterrica",
+        "isbn": "9781982150921",
+        "publisher": "Scribner",
+        "published": "2020",
+        "pages": 240
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-03-08",
+                "type": "finished"
+            }
+        ],
+        "title": "The Seventh Function of Language",
+        "author": "Laurent Binet",
+        "isbn": "9781250181688",
+        "published": "2018",
+        "publisher": "Picador",
+        "pages": 368
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-03-04",
+                "type": "finished"
+            }
+        ],
+        "title": "In",
+        "author": "Will McPhail",
+        "isbn": "9780358345541",
+        "publisher": "Houghton Mifflin",
+        "published": "2021",
+        "pages": 275
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-02-06",
+                "type": "finished"
+            }
+        ],
+        "title": "A Time for Everything",
+        "author": "Karl Ove Knausgård",
+        "isbn": "1461958830",
+        "published": "2014",
+        "pages": 499
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2023-01-08",
+                "type": "finished"
+            }
+        ],
+        "title": "Memoirs Found in a Bathtub",
+        "author": "Stanisław Lem",
+        "isbn": "9780544080089",
+        "published": "2012",
+        "publisher": "Houghton Mifflin Harcourt",
+        "pages": 204
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-12-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Having and Being Had",
+        "author": "Eula Biss",
+        "isbn": "9780571346448",
+        "publisher": "Faber & Faber",
+        "published": "2021",
+        "pages": 281
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "A Girl Is a Half-formed Thing",
+        "author": "Eimear McBride",
+        "isbn": "9781925095241",
+        "publisher": "Text Publishing",
+        "published": "2013",
+        "pages": 273
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-12-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 10",
+        "author": "Brian K. Vaughan",
+        "isbn": "9781534323346",
+        "published": "2022",
+        "publisher": "Image Comics",
+        "pages": 160
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-12-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Ducks",
+        "author": "Kate Beaton",
+        "isbn": "9781770466531",
+        "publisher": "Drawn & Quarterly",
+        "published": "2022",
+        "pages": 436
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-11-27",
+                "type": "finished"
+            }
+        ],
+        "title": "When We Cease to Understand the World",
+        "author": "Benjamin Labatut",
+        "isbn": "9781681375663",
+        "published": "2021",
+        "publisher": "New York Review Books",
+        "pages": 192
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-11-20",
+                "type": "finished"
+            }
+        ],
+        "title": "Snow Crash",
+        "author": "Neal Stephenson",
+        "isbn": "9780141924045",
+        "publisher": "Penguin UK",
+        "published": "1994",
+        "pages": 362
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-11-06",
+                "type": "finished"
+            }
+        ],
+        "title": "We Have Always Lived in the Castle",
+        "author": "Shirley Jackson",
+        "isbn": "0822212269",
+        "publisher": "Dramatists Play Service Inc",
+        "published": "1967",
+        "pages": 86
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-10-17",
+                "type": "finished"
+            }
+        ],
+        "title": "A Country of Ghosts",
+        "author": "Margaret Killjoy",
+        "isbn": "9781849354493",
+        "publisher": "AK Press",
+        "published": "2021",
+        "pages": 166
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-10-09",
+                "type": "finished"
+            }
+        ],
+        "title": "All Quiet on the Western Front",
+        "author": "Erich Maria Remarque",
+        "isbn": "9781409015741",
+        "publisher": "Random House",
+        "published": "2010",
+        "pages": 258
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-10-04",
+                "type": "finished"
+            }
+        ],
+        "title": "Propaganda",
+        "author": "Edward L. Bernays",
+        "isbn": "9780970312594",
+        "published": "2004",
+        "publisher": "Ig Publishing",
+        "pages": 168
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-09-25",
+                "type": "finished"
+            }
+        ],
+        "title": "The Invincible",
+        "author": "Stanisław Lem",
+        "isbn": "9780262357685",
+        "publisher": "MIT Press",
+        "published": "2020",
+        "pages": 235
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-09-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Her Body and Other Parties",
+        "author": "Carmen Maria Machado",
+        "isbn": "9781555979805",
+        "publisher": "Graywolf Press",
+        "published": "2017",
+        "pages": 229
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-09-09",
+                "type": "finished"
+            }
+        ],
+        "title": "On Anarchism",
+        "author": "Noam Chomsky",
+        "isbn": "9781595589101",
+        "publisher": "New Press, The",
+        "published": "2013",
+        "pages": 194
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-09-04",
+                "type": "finished"
+            }
+        ],
+        "title": "The Morning Star",
+        "author": "Karl Ove Knausgaard",
+        "isbn": "1784703303",
+        "publisher": "Vintage",
+        "published": "2022",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-08-25",
+                "type": "finished"
+            }
+        ],
+        "title": "Decline and Fall",
+        "author": "Evelyn Waugh",
+        "isbn": "9781667623696",
+        "publisher": "Alien Ebooks",
+        "published": "2023",
+        "pages": 278
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-08-20",
+                "type": "finished"
+            }
+        ],
+        "title": "The Cabin at the End of the World",
+        "author": "Paul Tremblay",
+        "isbn": "9780062679123",
+        "publisher": "HarperCollins",
+        "published": "2018",
+        "pages": 309
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-08-17",
+                "type": "finished"
+            }
+        ],
+        "title": "Pere Goriot",
+        "author": "Honoré de Balzac",
+        "isbn": "9782070367849",
+        "published": "1971",
+        "publisher": "Gallimard",
+        "pages": 436
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-08-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Exercises in Style",
+        "author": "Raymond Queneau",
+        "isbn": "1847490735",
+        "published": "2008",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-08-06",
+                "type": "finished"
+            }
+        ],
+        "title": "The Anthropocene Reviewed",
+        "author": "John Green",
+        "isbn": "9780525556534",
+        "publisher": "Penguin",
+        "published": "2021",
+        "pages": 305
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-08-01",
+                "type": "finished"
+            }
+        ],
+        "title": "Forever someone else",
+        "author": "Fernando Pessoa",
+        "isbn": "9723713799",
+        "published": "2010",
+        "pages": 287
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-07-29",
+                "type": "finished"
+            }
+        ],
+        "title": "Scale",
+        "author": "Geoffrey West",
+        "isbn": "9780143110903",
+        "publisher": "Penguin",
+        "published": "2018",
+        "pages": 498
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-07-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Machete",
+        "author": "Tomás Q. Morín",
+        "isbn": "9780593319659",
+        "publisher": "Knopf",
+        "published": "2021",
+        "pages": 97
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-07-20",
+                "type": "finished"
+            }
+        ],
+        "title": "Invisible Man",
+        "author": "Ralph Ellison",
+        "isbn": "0241970563",
+        "publisher": "Penguin Books Limited",
+        "published": "2014",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-06-24",
+                "type": "finished"
+            }
+        ],
+        "title": "Nostromo",
+        "author": "Joseph Conrad",
+        "isbn": "9781504017275",
+        "publisher": "Open Road Media",
+        "published": "2015",
+        "pages": 507
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-06-03",
+                "type": "finished"
+            }
+        ],
+        "title": "Consider the Lobster",
+        "author": "David Foster Wallace",
+        "isbn": "034911952X",
+        "publisher": "Gardners Books",
+        "published": "2007",
+        "pages": 342
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-05-20",
+                "type": "finished"
+            }
+        ],
+        "title": "Beyond the Beyond",
+        "author": "Poul Anderson",
+        "isbn": "0451077601",
+        "publisher": "Roc",
+        "published": "1977"
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-04-26",
+                "type": "finished"
+            }
+        ],
+        "title": "An Inventory of Losses",
+        "author": "Judith Schalansky",
+        "isbn": "9781529400779",
+        "publisher": "Hachette UK",
+        "published": "2020",
+        "pages": 234
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-03-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Long Live the Post Horn!",
+        "author": "Vigdis Hjorth",
+        "isbn": "9781788733137",
+        "publisher": "Verso Books",
+        "published": "2020",
+        "pages": 209
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-02-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2022-03-25",
+                "type": "finished"
+            }
+        ],
+        "title": "Selected Poems",
+        "author": "Gwendolyn Brooks",
+        "isbn": "0606034633",
+        "publisher": "Turtleback Books",
+        "published": "1963",
+        "pages": 127
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-01-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2022-03-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Mason & Dixon",
+        "author": "Thomas Pynchon",
+        "isbn": "9780805037586",
+        "published": "1997",
+        "publisher": "Henry Holt and Company",
+        "pages": 773
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-04-24",
+                "type": "started"
+            },
+            {
+                "timestamp": "2022-03-10",
+                "type": "finished"
+            }
+        ],
+        "title": "Dark Matter",
+        "author": "Blake Crouch",
+        "isbn": "9781101904237",
+        "publisher": "Ballantine Books",
+        "published": "2016",
+        "pages": 370
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-01-21",
+                "type": "started"
+            },
+            {
+                "timestamp": "2022-01-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Dance the Eagle to Sleep",
+        "author": "Marge Piercy",
+        "isbn": "0449244539",
+        "publisher": "Fawcett",
+        "published": "1981",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-01-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2022-01-20",
+                "type": "finished"
+            }
+        ],
+        "title": "How to Blow Up a Pipeline",
+        "author": "Andreas Malm",
+        "isbn": "9781839760266",
+        "publisher": "Verso Books",
+        "published": "2021",
+        "pages": 209
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-07-04",
+                "type": "started"
+            },
+            {
+                "timestamp": "2022-01-18",
+                "type": "finished"
+            }
+        ],
+        "title": "Black Leopard, Red Wolf",
+        "author": "Marlon James",
+        "isbn": "9780241981849",
+        "publisher": "Penguin UK",
+        "published": "2019",
+        "pages": 418
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2022-01-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2022-01-14",
+                "type": "finished"
+            }
+        ],
+        "title": "The Long Ships",
+        "author": "Frans G. Bengtsson",
+        "isbn": "9781590173466",
+        "published": "2010",
+        "publisher": "New York Review Books",
+        "pages": 528
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-12-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-12-31",
+                "type": "finished"
+            }
+        ],
+        "title": "The Ways of White Folks",
+        "author": "Langston Hughes",
+        "isbn": "9781473595101",
+        "publisher": "Random House",
+        "published": "2022",
+        "pages": 169
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-12-22",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Homage to Catalonia",
+        "author": "George Orwell",
+        "isbn": "9786257120869",
+        "publisher": "E-Kitap Projesi & Cheapest Books",
+        "published": "2023",
+        "pages": 274
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-12-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-12-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Breaking Things at Work",
+        "author": "Gavin Mueller",
+        "isbn": "9781786636775",
+        "publisher": "Verso Books",
+        "published": "2021",
+        "pages": 177
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-11-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-12-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Drive Your Plow Over the Bones of the Dead",
+        "author": "Olga Tokarczuk",
+        "isbn": "9780525541356",
+        "publisher": "Penguin",
+        "published": "2019",
+        "pages": 290
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-11-09",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-11-27",
+                "type": "finished"
+            }
+        ],
+        "title": "The Book of Ten Nights and a Night",
+        "author": "John Barth",
+        "isbn": "0618562087",
+        "publisher": "Houghton Mifflin Harcourt",
+        "published": "2005",
+        "pages": 308
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-11-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-11-08",
+                "type": "finished"
+            }
+        ],
+        "title": "Ways of Seeing",
+        "author": "John Berger",
+        "isbn": "9780141917986",
+        "publisher": "Penguin UK",
+        "published": "2008",
+        "pages": 176
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-10-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-10-31",
+                "type": "finished"
+            }
+        ],
+        "title": "The Cyberiad",
+        "author": "Stanisław Lem",
+        "isbn": "0749304715",
+        "publisher": "Vintage",
+        "published": "1990",
+        "pages": 295
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-09-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-10-12",
+                "type": "finished"
+            }
+        ],
+        "title": "A Nation of Women",
+        "author": "Luisa Capetillo",
+        "review": "Interesting from a historical perspective. Badly dated as a political treatise. Anarcho-feminism meets The Secret.",
+        "isbn": "9780143136071",
+        "published": "2021",
+        "publisher": "Penguin Publishing Group",
+        "pages": 192
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-09-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-10-06",
+                "type": "finished"
+            }
+        ],
+        "title": "The Glass Hotel",
+        "author": "Emily St. John Mandel",
+        "review": "I feel like this had real potential. The writing is great, the story left a lot to be desired. Every interesting theme or story line was left frustratingly undeveloped.",
+        "isbn": "9781509882847",
+        "publisher": "Pan Macmillan",
+        "published": "2020",
+        "pages": 312
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-09-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-09-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Civilizations",
+        "author": "Laurent Binet",
+        "isbn": "9781250858870",
+        "publisher": "Picador USA",
+        "published": "2022",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-08-31",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-09-01",
+                "type": "finished"
+            }
+        ],
+        "title": "Anarchist Communism",
+        "author": "Pyotr Kropotkin",
+        "review": "3.5 stars. \n\nMuch more readable than I expected. Nice introduction to Kropotkin’s thought, excited to read more.",
+        "isbn": "9780141994451",
+        "published": "2020",
+        "publisher": "Penguin Books Limited",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-08-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-08-30",
+                "type": "finished"
+            }
+        ],
+        "title": "Beaten Down, Worked Up",
+        "author": "Steven Greenhouse",
+        "isbn": "9781101874431",
+        "publisher": "Knopf",
+        "published": "2019",
+        "pages": 417
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-08-09",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-08-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Utopia",
+        "author": "Thomas More",
+        "review": "Like almost all proscriptive utopian fiction, More’s book piques your interest at first because of its critique of the contemporary culture in which it was written - but ultimately becomes tedious as it attempts to describe a better way of doing things. (Which, I might add, did not age well with its over reliance on slavery and mercenaries in order to preserve the sensibilities of its citizenry.) Though, it’s worth reading if only for its foundational place in the western literary cannon and its introduction of the concept of utopia.\n\nAnyway. More’s novella is a 3, but the essays from Le Guin & Miéville in this edition are insightful and improve the experience enough that it’s overall a 4. ",
+        "isbn": "9780486110707",
+        "publisher": "Courier Corporation",
+        "published": "2012",
+        "pages": 96
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-08-08",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-08-08",
+                "type": "finished"
+            }
+        ],
+        "title": "The Southern Question",
+        "author": "Antonio Gramsci",
+        "isbn": "1550711962",
+        "publisher": "Guernica Editions",
+        "published": "2005",
+        "pages": 100
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-07-29",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-08-03",
+                "type": "finished"
+            }
+        ],
+        "title": "The Present Age",
+        "author": "Søren Kierkegaard",
+        "isbn": "9780062930859",
+        "published": "2019",
+        "publisher": "HarperCollins",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-07-22",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-07-23",
+                "type": "finished"
+            }
+        ],
+        "title": "The Art of Asking Your Boss for a Raise",
+        "author": "Georges Perec",
+        "review": "A nice bit of experimental fiction. Love that the structure and flow of the narrative is modeled after a computer program.",
+        "isbn": "9781784786564",
+        "publisher": "Verso Books",
+        "published": "2017",
+        "pages": 113
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-05-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-07-04",
+                "type": "finished"
+            }
+        ],
+        "title": "The City & the City",
+        "author": "China Miéville",
+        "isbn": "9780345497529",
+        "published": "2010",
+        "publisher": "Random House",
+        "pages": 226
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-05-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-05-30",
+                "type": "finished"
+            }
+        ],
+        "title": "Frankenstein in Baghdad",
+        "author": "Ahmed Saadawi",
+        "isbn": "9780143128809",
+        "publisher": "Penguin",
+        "published": "2018",
+        "pages": 289
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-04-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-05-14",
+                "type": "finished"
+            }
+        ],
+        "title": "Babbitt",
+        "author": "Sinclair Lewis",
+        "isbn": "9781681951737",
+        "publisher": "Xist Publishing",
+        "published": "2015",
+        "pages": 385
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-04-21",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-04-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Narrative of the Life of Frederick Douglass",
+        "author": "Frederick Douglass",
+        "isbn": "9781598533514",
+        "published": "2014",
+        "publisher": "Library of America",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-04-04",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-04-20",
+                "type": "finished"
+            }
+        ],
+        "title": "Mortal Engines",
+        "author": "Stanisław Lem",
+        "isbn": "9780241269084",
+        "published": "2016",
+        "publisher": "Penguin Books Limited",
+        "pages": 240
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-03-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-04-03",
+                "type": "finished"
+            }
+        ],
+        "title": "Work Won't Love You Back",
+        "author": "Sarah Jaffe",
+        "isbn": "1787386821",
+        "published": "2022"
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-03-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-03-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Fire on the Mountain",
+        "author": "Terry Bisson",
+        "isbn": "1604860871",
+        "publisher": "Spectacular Fiction",
+        "published": "2009",
+        "pages": 156
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-02-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-03-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Mules and Men",
+        "author": "Zora Neale Hurston",
+        "review": "3.5 stars rounded up. \n\nFelt like two distinct books. The first section is interesting, though a bit of an odd mashup between dry, anthropological study and splotches of colorful scene setting. The reasons for these characteristics, of course, are confirmed in the essay on the book’s rough road to publication included in the afterward. \n\nThe second section on Hoodoo practices in New Orleans was way more compelling than expected. Definitely not for the squeamish, though.",
+        "isbn": "9780061749872",
+        "publisher": "Harper Collins",
+        "published": "2009",
+        "pages": 372
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-01-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-02-24",
+                "type": "finished"
+            }
+        ],
+        "title": "Life",
+        "author": "Georges Perec",
+        "isbn": "9781448112791",
+        "publisher": "Random House",
+        "published": "2012",
+        "pages": 610
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-01-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-01-24",
+                "type": "finished"
+            }
+        ],
+        "title": "Dancer",
+        "author": "Colum McCann",
+        "isbn": "9781526617354",
+        "publisher": "Bloomsbury Publishing",
+        "published": "2020",
+        "pages": 401
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2021-01-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-01-09",
+                "type": "finished"
+            }
+        ],
+        "title": "End Zone",
+        "author": "Don DeLillo",
+        "review": "Even minor DeLillo is a cut above the rest. \n\nEverything in this book collides with everything else; language, form, function. Intimacy and knowledge are only possible through the pain of contact, the destruction of the self.",
+        "isbn": "9780140085686",
+        "published": "1986",
+        "publisher": "Penguin Publishing Group",
+        "pages": 242
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-11-03",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-01-05",
+                "type": "finished"
+            }
+        ],
+        "title": "Philosophy and the Mirror of Nature",
+        "author": "Richard M. Rorty",
+        "isbn": "9780691020167",
+        "published": "1980",
+        "publisher": "Princeton Univerity Press",
+        "pages": 401
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-12-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2021-01-04",
+                "type": "finished"
+            }
+        ],
+        "title": "No Shortcuts",
+        "author": "Jane MacAlevey",
+        "isbn": "9780190624712",
+        "publisher": "Oxford University Press",
+        "published": "2016",
+        "pages": 273
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-11-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-12-28",
+                "type": "finished"
+            }
+        ],
+        "title": "The Warmth of Other Suns",
+        "author": "Isabel Wilkerson",
+        "isbn": "9780679604075",
+        "publisher": "Vintage",
+        "published": "2010",
+        "pages": 641
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-12-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-12-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Solutions and Other Problems",
+        "author": "Allie Brosh",
+        "isbn": "9781982156954",
+        "publisher": "Simon and Schuster",
+        "published": "2022",
+        "pages": 528
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-12-09",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-12-10",
+                "type": "finished"
+            }
+        ],
+        "title": "Hyperbole and a Half",
+        "author": "Allie Brosh",
+        "isbn": "9781451666182",
+        "publisher": "Simon and Schuster",
+        "published": "2013",
+        "pages": 288
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-11-04",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-11-18",
+                "type": "finished"
+            }
+        ],
+        "title": "I Curse the River of Time",
+        "author": "Per Petterson",
+        "review": "Sparse, direct prose in the vein of Hemingway. Isolated characters hopelessly trapped within their own self-reflection in the vein of Knut Hamsun.  \n\nDidn’t quite pull me in, but not exactly light reading. ",
+        "isbn": "9781407091716",
+        "publisher": "Random House",
+        "published": "2010",
+        "pages": 244
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-10-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-11-03",
+                "type": "finished"
+            }
+        ],
+        "title": "Capital Is Dead. Is This Something Worse?",
+        "author": "McKenzie Wark",
+        "review": "(3.5/5 stars) An intriguing and original thought experiment. Playful yet confident prose. Feels a bit uneven stylistically, and ends on a somewhat meek rallying cry rather than the rousing call to action it seemed to be building toward.",
+        "isbn": "9781788735339",
+        "published": "2021",
+        "publisher": "Verso Books",
+        "pages": 208
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-10-22",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-10-25",
+                "type": "finished"
+            }
+        ],
+        "title": "Ignorance",
+        "author": "Milan Kundera",
+        "isbn": "9780571268030",
+        "publisher": "Faber & Faber",
+        "published": "2020",
+        "pages": 161
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-10-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-10-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Mind of My Mind",
+        "author": "Octavia E. Butler",
+        "isbn": "9781472281012",
+        "publisher": "Hachette UK",
+        "published": "2020",
+        "pages": 252
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-10-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-10-12",
+                "type": "finished"
+            }
+        ],
+        "title": "New Dark Age",
+        "author": "James Bridle",
+        "isbn": "9781786635495",
+        "publisher": "Verso Books",
+        "published": "2018",
+        "pages": 348
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-09-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-10-05",
+                "type": "finished"
+            }
+        ],
+        "title": "Henry V",
+        "author": "William Shakespeare",
+        "isbn": "9788726606973",
+        "publisher": "Lindhardt og Ringhof",
+        "published": "2021",
+        "pages": 103
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-09-15",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-09-20",
+                "type": "finished"
+            }
+        ],
+        "title": "The Blue World",
+        "author": "Jack Vance",
+        "review": "Do not be deceived. What looks like a pulpy old paperback is in fact a searing didactic critique of modern American politics and society!\n\nWe begin with a simple account of the limitations and superstitions of a colony of humans forced to live on an ocean planet. Without warning the account shifts beneath our feet, and we embark on a wild romp through the collapse of once dependable institutions, the rise of theocratic fascism, and the ultimate triumph of nietzschean will to power. \n\nLest we forget, true freedom is only granted those who dare kill their gods. ",
+        "isbn": "9780575109575",
+        "publisher": "Hachette UK",
+        "published": "2011",
+        "pages": 142
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-09-03",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-09-13",
+                "type": "finished"
+            }
+        ],
+        "title": "Simulacra and Simulation",
+        "author": "Jean Baudrillard",
+        "isbn": "0472065211",
+        "publisher": "University of Michigan Press",
+        "published": "1994",
+        "pages": 174
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-08-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-08-29",
+                "type": "finished"
+            }
+        ],
+        "title": "The Gilda Stories",
+        "author": "Jewelle L. Gómez",
+        "isbn": "9780872866997",
+        "published": "2016",
+        "publisher": "City Lights Publishers",
+        "pages": 288
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-08-09",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-08-16",
+                "type": "finished"
+            }
+        ],
+        "title": "The Fire Next Time",
+        "author": "James Baldwin",
+        "isbn": "3836551039",
+        "published": "2017",
+        "pages": 270
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-07-21",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-08-09",
+                "type": "finished"
+            }
+        ],
+        "title": "Picture This",
+        "author": "Joseph Heller",
+        "isbn": "9780684868196",
+        "publisher": "Simon and Schuster",
+        "published": "2000",
+        "pages": 356
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-07-15",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-07-20",
+                "type": "finished"
+            }
+        ],
+        "title": "The Stranger",
+        "author": "Albert Camus",
+        "isbn": "9780307827661",
+        "publisher": "Vintage",
+        "published": "2012",
+        "pages": 144
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-07-04",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-07-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Black Boy",
+        "author": "Richard Wright",
+        "isbn": "9780061935480",
+        "publisher": "Harper Collins",
+        "published": "2009",
+        "pages": 460
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-05-24",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-07-01",
+                "type": "finished"
+            }
+        ],
+        "title": "Metamorphoses",
+        "author": "Ovid",
+        "isbn": "0253200016",
+        "publisher": "Indiana University Press",
+        "published": "1955",
+        "pages": 422
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-05-21",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-05-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Recursion",
+        "author": "Blake Crouch",
+        "review": "The plot is compelling and it’s undeniably a page turner. Linguistically and structurally it feels a bit too straightforward, but is well set up to become the TV series we all know it will inevitably become. ",
+        "isbn": "9781524759797",
+        "publisher": "Ballantine Books",
+        "published": "2020",
+        "pages": 338
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-05-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-05-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Commodify Your Dissent",
+        "author": "Thomas Frank",
+        "review": "Cute when it comes across as dated, terrifying when it doesn’t.",
+        "isbn": "9780393342802",
+        "published": "2011",
+        "publisher": "W. W. Norton",
+        "pages": 288
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-04-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-05-10",
+                "type": "finished"
+            }
+        ],
+        "title": "Swamplandia!",
+        "author": "Karen Russell",
+        "isbn": "9781446468487",
+        "publisher": "Random House",
+        "published": "2012",
+        "pages": 341
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-04-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-04-27",
+                "type": "finished"
+            }
+        ],
+        "title": "Exhalation",
+        "author": "Ted Chiang",
+        "review": "Would have been 3 stars were it not for the great final story in this collection. ",
+        "isbn": "9781529014501",
+        "publisher": "Pan Macmillan",
+        "published": "2019",
+        "pages": 208
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-04-09",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-04-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Vineland",
+        "author": "Thomas Pynchon",
+        "isbn": "9781101594636",
+        "publisher": "Penguin",
+        "published": "2012",
+        "pages": 396
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-03-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-04-08",
+                "type": "finished"
+            }
+        ],
+        "title": "The Star Diaries",
+        "author": "Stanisław Lem",
+        "isbn": "0749304723",
+        "publisher": "Vintage",
+        "published": "1990",
+        "pages": 275
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-03-21",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-03-29",
+                "type": "finished"
+            }
+        ],
+        "title": "Shark Drunk",
+        "author": "Morten A. Strøksnes",
+        "isbn": "9780451493484",
+        "published": "2017",
+        "publisher": "Alfred A. Knopf",
+        "pages": 307
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-03-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-03-21",
+                "type": "finished"
+            }
+        ],
+        "title": "The Martian Chronicles",
+        "author": "Ray Bradbury",
+        "isbn": "9781451678192",
+        "publisher": "Simon and Schuster",
+        "published": "2012",
+        "pages": 256
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-02-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-03-09",
+                "type": "finished"
+            }
+        ],
+        "title": "Island",
+        "author": "Aldous Huxley",
+        "isbn": "9781407020730",
+        "publisher": "Random House",
+        "published": "2009",
+        "pages": 304
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-02-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-02-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Fire the Bastards!",
+        "author": "Jack Green",
+        "isbn": "1564786099",
+        "publisher": "American Literature",
+        "published": "2012",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-02-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-02-16",
+                "type": "finished"
+            }
+        ],
+        "title": "The Gulf War Did Not Take Place",
+        "author": "Jean Baudrillard",
+        "isbn": "0253210038",
+        "publisher": "Indiana University Press",
+        "published": "1995",
+        "pages": 100
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-02-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-02-13",
+                "type": "finished"
+            }
+        ],
+        "title": "Primeval and Other Times",
+        "author": "Olga Tokarczuk",
+        "isbn": "8086264351",
+        "published": "2010",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-01-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-02-05",
+                "type": "finished"
+            }
+        ],
+        "title": "Who Fears Death",
+        "author": "Nnedi Okorafor",
+        "isbn": "9780008288723",
+        "publisher": "HarperCollins UK",
+        "published": "2018",
+        "pages": 394
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-01-31",
+                "type": "finished"
+            }
+        ],
+        "title": "The Third Policeman",
+        "author": "Flann O'Brien",
+        "isbn": "0330241583",
+        "publisher": "Pan",
+        "published": "1974",
+        "pages": 172
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2020-01-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-01-28",
+                "type": "finished"
+            }
+        ],
+        "title": "The Waste Land and Other Writings",
+        "author": "T.S. Eliot",
+        "isbn": "9780679641018",
+        "published": "2001",
+        "publisher": "Modern Library",
+        "pages": 234
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-09-29",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-01-13",
+                "type": "finished"
+            }
+        ],
+        "title": "The Recognitions",
+        "author": "William Gaddis",
+        "isbn": "9781681374673",
+        "publisher": "New York Review of Books",
+        "published": "2020",
+        "pages": 969
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-11-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2020-01-06",
+                "type": "finished"
+            }
+        ],
+        "title": "Eichmann in Jerusalem",
+        "author": "Hannah Arendt",
+        "isbn": "9781101007167",
+        "publisher": "Penguin",
+        "published": "2006",
+        "pages": 337
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-12-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-12-27",
+                "type": "finished"
+            }
+        ],
+        "title": "The Glass Menagerie",
+        "author": "Tennessee Williams",
+        "isbn": "0811219038",
+        "publisher": "New Directions Publishing",
+        "published": "2011",
+        "pages": 262
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-11-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-10-17",
+                "type": "finished"
+            }
+        ],
+        "title": "The Year of the Flood",
+        "author": "Margaret Atwood",
+        "isbn": "9780307398925",
+        "publisher": "Vintage Canada",
+        "published": "2010",
+        "pages": 513
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-09-22",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-09-24",
+                "type": "finished"
+            }
+        ],
+        "title": "The Ghost in the Shell Volume 1.5",
+        "author": "Shirow Masamune",
+        "isbn": "9788545711667",
+        "publisher": "Editora JBC",
+        "published": "2020",
+        "pages": 184
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-09-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-09-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Gulliver's Travels",
+        "author": "Jonathan Swift",
+        "isbn": "1603037225",
+        "publisher": "Echo Library",
+        "published": "2011",
+        "pages": 204
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-07-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-09-04",
+                "type": "finished"
+            }
+        ],
+        "title": "Réparer les vivants",
+        "author": "Maylis De Kerangal",
+        "isbn": "9782072574795",
+        "publisher": "Editions Gallimard",
+        "published": "2015",
+        "pages": 304
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-08-08",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-08-08",
+                "type": "finished"
+            }
+        ],
+        "title": "Northlanders Book 2",
+        "author": "Brian Wood",
+        "isbn": "9781401265083",
+        "published": "2016",
+        "publisher": "DC Comics",
+        "pages": 296
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-07-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-07-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Billy Budd, Sailor",
+        "author": "Herman Melville",
+        "isbn": "9780226189048",
+        "publisher": "University of Chicago Press",
+        "published": "2013",
+        "pages": 239
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-06-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-07-17",
+                "type": "finished"
+            }
+        ],
+        "title": "Less",
+        "author": "Andrew Sean Greer",
+        "isbn": "0349143595",
+        "publisher": "Abacus",
+        "published": "2018",
+        "pages": 261
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-06-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-06-25",
+                "type": "finished"
+            }
+        ],
+        "title": "Slouching Towards Bethlehem",
+        "author": "Joan Didion",
+        "review": "Here is a sharp eye and a clear voice that saw America for what it was and still is today.",
+        "isbn": "9780374608781",
+        "published": "1968",
+        "publisher": "Farrar, Straus and Giroux",
+        "pages": 256
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-05-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-06-07",
+                "type": "finished"
+            }
+        ],
+        "title": "Under the Glacier",
+        "author": "Halldór Laxness",
+        "isbn": "9781400034413",
+        "published": "2005",
+        "publisher": "Knopf Doubleday Publishing Group",
+        "pages": 240
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-04-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-05-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Flights",
+        "author": "Olga Tokarczuk",
+        "isbn": "9780525534211",
+        "publisher": "Penguin",
+        "published": "2018",
+        "pages": 417
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-04-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-04-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Fiasco",
+        "author": "Stanisław Lem",
+        "isbn": "0708842267",
+        "publisher": "Orbit Books",
+        "published": "1989",
+        "pages": 322
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-02-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-02-24",
+                "type": "finished"
+            }
+        ],
+        "title": "Till We Have Faces",
+        "author": "C.S. Lewis",
+        "isbn": "9780008391454",
+        "publisher": "HarperCollins UK",
+        "published": "2020",
+        "pages": 368
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-02-03",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-02-03",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 8",
+        "author": "Brian K. Vaughan",
+        "isbn": "—",
+        "published": "2017",
+        "publisher": "Image Comics",
+        "pages": 152
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-02-03",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-02-03",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 9",
+        "author": "Brian K. Vaughan",
+        "isbn": "—",
+        "published": "2018",
+        "publisher": "Image Comics",
+        "pages": 152
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-01-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-02-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Death of a Salesman",
+        "author": "Arthur Miller",
+        "review": "Helluva thing to read during your daily commute. ",
+        "isbn": "9781101042151",
+        "publisher": "Penguin",
+        "published": "1998",
+        "pages": 146
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-01-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-01-27",
+                "type": "finished"
+            }
+        ],
+        "title": "The Aleph and Other Stories",
+        "author": "Jorge Luis Borges",
+        "isbn": "9780142437889",
+        "published": "2004",
+        "publisher": "Penguin Publishing Group",
+        "pages": 210
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2019-01-04",
+                "type": "started"
+            },
+            {
+                "timestamp": "2019-01-10",
+                "type": "finished"
+            }
+        ],
+        "title": "The Power",
+        "author": "Naomi Alderman",
+        "isbn": "9780670919970",
+        "publisher": "Penguin UK",
+        "published": "2016",
+        "pages": 393
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-12-24",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-12-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Foundation and Empire",
+        "author": "Isaac Asimov",
+        "isbn": "0345336283",
+        "publisher": "Del Rey",
+        "published": "1982",
+        "pages": 310
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-11-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-11-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Grief",
+        "author": "Andrew Holleran",
+        "isbn": "1401308945",
+        "publisher": "Hyperion",
+        "published": "2007",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-10-15",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-11-03",
+                "type": "finished"
+            }
+        ],
+        "title": "A Confederacy of Dunces",
+        "author": "John Kennedy Toole",
+        "isbn": "9780141991436",
+        "publisher": "Penguin UK",
+        "published": "2019",
+        "pages": 374
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-10-07",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-10-09",
+                "type": "finished"
+            }
+        ],
+        "title": "A Cool Million and the Dream Life of Balso Snell",
+        "author": "Nathanael West",
+        "review": "3.5 Stars. Would have been 4, if this edition didn’t include The Dream Life of Balso Snell. A Cool Million is definitely the thing to pay attention to here. \n\nWest is one of the only writers who seems to have groked the grotesqueries of American life and served them up in all their stomach churning glory.",
+        "isbn": "0848821742",
+        "published": "1965",
+        "publisher": "Macmillan",
+        "pages": 158
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-09-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-09-30",
+                "type": "finished"
+            }
+        ],
+        "title": "Automating Inequality",
+        "author": "Virginia Eubanks",
+        "isbn": "9781466885967",
+        "publisher": "St. Martin's Press",
+        "published": "2018",
+        "pages": 288
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-08-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-09-16",
+                "type": "finished"
+            }
+        ],
+        "title": "The Left Hand of Darkness",
+        "author": "Ursula K. Le Guin",
+        "isbn": "9780441478125",
+        "published": "1987",
+        "publisher": "Penguin Publishing Group",
+        "pages": 304
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-06-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-08-26",
+                "type": "finished"
+            }
+        ],
+        "title": "The Grid",
+        "author": "Gretchen Bakke",
+        "isbn": "9781620401248",
+        "publisher": "Bloomsbury Publishing USA",
+        "published": "2016",
+        "pages": 385
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-07-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-07-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Broad Band",
+        "author": "Claire L.  Evans",
+        "isbn": "9780735211759",
+        "published": "2018",
+        "publisher": "Penguin Publishing Group",
+        "pages": 278
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-06-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-06-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Stories of Your Life and Others",
+        "author": "Ted Chiang",
+        "isbn": "9781447281986",
+        "publisher": "Pan Macmillan",
+        "published": "2014",
+        "pages": 353
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-04-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-06-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Pierre",
+        "author": "Herman Melville",
+        "isbn": "9798595727129",
+        "published": "2021",
+        "pages": 354
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-04-13",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-04-20",
+                "type": "finished"
+            }
+        ],
+        "title": "The Elementary Particles",
+        "author": "Michel Houellebecq",
+        "isbn": "0375727019",
+        "publisher": "Vintage",
+        "published": "2001",
+        "pages": 274
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-04-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-04-13",
+                "type": "finished"
+            }
+        ],
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "isbn": "9780571373109",
+        "publisher": "Faber & Faber",
+        "published": "2022",
+        "pages": 270
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-03-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-04-04",
+                "type": "finished"
+            }
+        ],
+        "title": "Everything That Rises Must Converge",
+        "author": "Flannery O'Connor",
+        "isbn": "9781443440318",
+        "publisher": "HarperCollins",
+        "published": "2015",
+        "pages": 27
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-03-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-03-08",
+                "type": "finished"
+            }
+        ],
+        "title": "Solaris",
+        "author": "Stanisław Lem",
+        "isbn": "0156837501",
+        "publisher": "Mariner Books",
+        "published": "1987",
+        "pages": 216
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-02-13",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-03-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Society of the Spectacle",
+        "author": "Guy Debord",
+        "isbn": "9780946061129",
+        "published": "2006",
+        "publisher": "Black & Red",
+        "pages": 119
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2018-01-08",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-02-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Lolita",
+        "author": "Vladimir Nabokov",
+        "isbn": "9780141391601",
+        "publisher": "Penguin UK",
+        "published": "2012",
+        "pages": 381
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-11-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-01-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Alexander Hamilton",
+        "author": "Ron Chernow",
+        "isbn": "9781101200858",
+        "publisher": "Penguin",
+        "published": "2005",
+        "pages": 834
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-12-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2018-01-05",
+                "type": "finished"
+            }
+        ],
+        "title": "The Art of the Novel",
+        "author": "Milan Kundera",
+        "isbn": "9780571268047",
+        "publisher": "Faber & Faber",
+        "published": "2020",
+        "pages": 148
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-11-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-12-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Speaker for the Dead",
+        "author": "Orson Scott Card",
+        "isbn": "0808586874",
+        "publisher": "Turtleback Books",
+        "published": "1994",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-12-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-12-06",
+                "type": "finished"
+            }
+        ],
+        "title": "Northlanders Book 1",
+        "author": "Brian Wood",
+        "isbn": "9781401263317",
+        "published": "2016",
+        "publisher": "DC Comics",
+        "pages": 464
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-08-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-11-22",
+                "type": "finished"
+            }
+        ],
+        "title": "The Doll",
+        "author": "Bolesław Prus",
+        "isbn": "9781858660653",
+        "published": "1996",
+        "publisher": "Central European University Press",
+        "pages": 683
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-11-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-11-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Modern Romance",
+        "author": "Aziz Ansari",
+        "isbn": "9780698179967",
+        "publisher": "Penguin",
+        "published": "2015",
+        "pages": 369
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-11-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Ender's Game",
+        "author": "Orson Scott Card",
+        "isbn": "9780765394866",
+        "publisher": "Tor Books",
+        "published": "2017",
+        "pages": 448
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-09-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-10-04",
+                "type": "finished"
+            }
+        ],
+        "title": "Oryx and Crake",
+        "author": "Margaret Atwood",
+        "isbn": "9780748113354",
+        "published": "2009",
+        "publisher": "Little, Brown",
+        "pages": 448
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-09-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-09-30",
+                "type": "finished"
+            }
+        ],
+        "title": "Between the World and Me",
+        "author": "Ta-Nehisi Coates",
+        "isbn": "9780679645986",
+        "publisher": "One World",
+        "published": "2015",
+        "pages": 163
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-09-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-09-20",
+                "type": "finished"
+            }
+        ],
+        "title": "I, Robot",
+        "author": "Isaac Asimov",
+        "isbn": "9780553900330",
+        "publisher": "Spectra",
+        "published": "2004",
+        "pages": 239
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-09-18",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-09-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Letter 44, Volume 4",
+        "author": "Charles Soule",
+        "review": "I fear the series has jumped the shark with this volume...jumped over the shark and straight to Mars...",
+        "isbn": "9781620103562",
+        "published": "2017",
+        "publisher": "Oni Press",
+        "pages": 160
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-09-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-09-18",
+                "type": "finished"
+            }
+        ],
+        "title": "Letter 44, Volume 3",
+        "author": "Charles Soule",
+        "isbn": "9781620102770",
+        "published": "2016",
+        "publisher": "Oni Press, Incorporated",
+        "pages": 160
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-09-03",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-09-07",
+                "type": "finished"
+            }
+        ],
+        "title": "Bartleby and Benito Cereno",
+        "author": "Herman Melville",
+        "isbn": "9780486110554",
+        "publisher": "Courier Corporation",
+        "published": "2012",
+        "pages": 112
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-09-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-09-02",
+                "type": "finished"
+            }
+        ],
+        "title": "On Tyranny",
+        "author": "Timothy Snyder",
+        "review": "A readable and succinct attempt to inform the present by way of the past. ",
+        "isbn": "9781473549296",
+        "publisher": "Random House",
+        "published": "2017",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-08-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-08-22",
+                "type": "finished"
+            }
+        ],
+        "title": "The Stars, Like Dust",
+        "author": "Isaac Asimov",
+        "isbn": "0553293435",
+        "publisher": "Spectra",
+        "published": "1991",
+        "pages": 293
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-06-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-08-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Operation Paperclip",
+        "author": "Annie Jacobsen",
+        "review": "Very interesting and frequently horrifying story on a piece of history not very often discussed. Three and a half stars because Jacobsen definitely writes in the voice of a journalist more so than a historian.",
+        "isbn": "9780316221054",
+        "publisher": "Hachette UK",
+        "published": "2014",
+        "pages": 592
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-07-03",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-08-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Conquest of the Useless",
+        "author": "Werner Herzog",
+        "isbn": "9780062016461",
+        "publisher": "Harper Collins",
+        "published": "2010",
+        "pages": 324
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-05-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-07-01",
+                "type": "finished"
+            }
+        ],
+        "title": "The Wind-Up Bird Chronicle",
+        "author": "Haruki Murakami",
+        "isbn": "9781446499108",
+        "publisher": "Random House",
+        "published": "2011",
+        "pages": 827
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-04-15",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-05-16",
+                "type": "finished"
+            }
+        ],
+        "title": "Paradise Lost & Paradise Regained",
+        "author": "John Milton",
+        "isbn": "9780451531643",
+        "published": "2010",
+        "publisher": "Penguin Publishing Group",
+        "pages": 400
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-04-13",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-04-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 7",
+        "author": "Brian K. Vaughan",
+        "isbn": "9781534300606",
+        "published": "2017",
+        "publisher": "Image Comics",
+        "pages": 152
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-03-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-04-13",
+                "type": "finished"
+            }
+        ],
+        "title": "Orlando",
+        "author": "Virginia Woolf",
+        "isbn": "0192834738",
+        "published": "1998",
+        "pages": 428
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-03-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-03-27",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 6",
+        "author": "Brian K. Vaughan",
+        "isbn": "9781632157119",
+        "published": "2016",
+        "publisher": "Image Comics",
+        "pages": 152
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-02-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-03-14",
+                "type": "finished"
+            }
+        ],
+        "title": "Welcome to Night Vale",
+        "author": "Joseph Fink",
+        "isbn": "0356504832",
+        "publisher": "Orbit Books",
+        "published": "2015",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-01-29",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-02-07",
+                "type": "finished"
+            }
+        ],
+        "title": "Waiting for the Barbarians",
+        "author": "J.M. Coetzee",
+        "isbn": "9780140283358",
+        "published": "1999",
+        "publisher": "Penguin Books",
+        "pages": 152
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-11-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-01-30",
+                "type": "finished"
+            }
+        ],
+        "title": "Making Sense of God",
+        "author": "Timothy J. Keller",
+        "isbn": "9780143108702",
+        "published": "2018",
+        "publisher": "Penguin Publishing Group",
+        "pages": 336
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-01-18",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-01-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Of Mice and Men",
+        "author": "John Steinbeck",
+        "isbn": "9780359199143",
+        "publisher": "Lulu.com",
+        "published": "2018",
+        "pages": 106
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-01-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-01-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 3",
+        "author": "Brian K. Vaughan",
+        "isbn": "9783864251894",
+        "published": "2014",
+        "publisher": "Image Comics",
+        "pages": 160
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-01-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-01-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 4",
+        "author": "Brian K. Vaughan",
+        "isbn": "9781632150776",
+        "published": "2014",
+        "publisher": "Image Comics",
+        "pages": 144
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2017-01-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-01-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Saga, Volume 5",
+        "author": "Brian K. Vaughan",
+        "isbn": "9783864256561",
+        "published": "2015",
+        "publisher": "Image Comics",
+        "pages": 152
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-12-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2017-01-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Jacksonland",
+        "author": "Steve Inskeep",
+        "isbn": "9781101617779",
+        "publisher": "Penguin",
+        "published": "2015",
+        "pages": 417
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-11-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-12-31",
+                "type": "finished"
+            }
+        ],
+        "title": "The Master and Margarita",
+        "author": "Mikhail Bulgakov",
+        "isbn": "9780802190512",
+        "publisher": "Grove/Atlantic, Inc.",
+        "published": "2016",
+        "pages": 306
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-11-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-12-16",
+                "type": "finished"
+            }
+        ],
+        "title": "The Book of Strange New Things",
+        "author": "Michel Faber",
+        "isbn": "9780553418859",
+        "publisher": "Hogarth",
+        "published": "2014",
+        "pages": 466
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-10-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-11-12",
+                "type": "finished"
+            }
+        ],
+        "title": "1776",
+        "author": "David McCullough",
+        "isbn": "9780141978543",
+        "publisher": "Penguin UK",
+        "published": "2013",
+        "pages": 533
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-10-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-11-06",
+                "type": "finished"
+            }
+        ],
+        "title": "A Clockwork Orange",
+        "author": "Anthony Burgess",
+        "isbn": "9780141908328",
+        "publisher": "Penguin UK",
+        "published": "2011",
+        "pages": 221
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-10-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-10-27",
+                "type": "finished"
+            }
+        ],
+        "title": "Magic and Loss",
+        "author": "Virginia Heffernan",
+        "isbn": "9781501132674",
+        "publisher": "Simon and Schuster",
+        "published": "2017",
+        "pages": 272
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-10-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-10-25",
+                "type": "finished"
+            }
+        ],
+        "title": "The Big Short",
+        "author": "Michael Lewis",
+        "isbn": "9780393338829",
+        "published": "2011",
+        "publisher": "W. W. Norton",
+        "pages": 291
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-09-08",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-10-13",
+                "type": "finished"
+            }
+        ],
+        "title": "Cloud Atlas",
+        "author": "David Mitchell",
+        "isbn": "9781444767568",
+        "publisher": "Hachette UK",
+        "published": "2012",
+        "pages": 592
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-09-15",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-10-03",
+                "type": "finished"
+            }
+        ],
+        "title": "A Canticle for Leibowitz",
+        "author": "Walter M. Miller Jr.",
+        "isbn": "9780553379266",
+        "published": "1997",
+        "publisher": "Bantam Books",
+        "pages": 338
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-08-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-09-12",
+                "type": "finished"
+            }
+        ],
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "isbn": "9780771008795",
+        "publisher": "McClelland & Stewart",
+        "published": "2011",
+        "pages": 370
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-08-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-08-17",
+                "type": "finished"
+            }
+        ],
+        "title": "Flash Boys",
+        "author": "Michael Lewis",
+        "isbn": "9780393351590",
+        "published": "2015",
+        "publisher": "W. W. Norton",
+        "pages": 304
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-08-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-08-15",
+                "type": "finished"
+            }
+        ],
+        "title": "The Violent Bear It Away",
+        "author": "Flannery O'Connor",
+        "isbn": "9780374505240",
+        "published": "1960",
+        "publisher": "Farrar, Straus and Giroux",
+        "pages": 256
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-04-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-08-11",
+                "type": "finished"
+            }
+        ],
+        "title": "American Gods",
+        "author": "Neil Gaiman",
+        "isbn": "9780755379927",
+        "publisher": "Hachette UK",
+        "published": "2011",
+        "pages": 478
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-07-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-07-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Zero K",
+        "author": "Don DeLillo",
+        "isbn": "9781509822829",
+        "publisher": "Pan Macmillan",
+        "published": "2016",
+        "pages": 286
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-06-07",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-07-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Wolf Hall",
+        "author": "Hilary Mantel",
+        "isbn": "9789722366618",
+        "publisher": "Editorial Presença",
+        "published": "2020",
+        "pages": 789
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-06-13",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-06-18",
+                "type": "finished"
+            }
+        ],
+        "title": "The Man in the High Castle",
+        "author": "Philip K. Dick",
+        "isbn": "9780547572482",
+        "publisher": "Houghton Mifflin Harcourt",
+        "published": "2011",
+        "pages": 291
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-06-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-06-13",
+                "type": "finished"
+            }
+        ],
+        "title": "Disrupted",
+        "author": "Dan Lyons",
+        "isbn": "9781786491015",
+        "publisher": "Atlantic Books Ltd",
+        "published": "2016",
+        "pages": 329
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-05-18",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-06-07",
+                "type": "finished"
+            }
+        ],
+        "title": "Chimera",
+        "author": "John Barth",
+        "isbn": "0618131701",
+        "publisher": "Houghton Mifflin Harcourt",
+        "published": "2001",
+        "pages": 324
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-05-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-05-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Building Data Science Teams",
+        "author": "DJ Patil",
+        "isbn": "9781449316778",
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "published": "2011",
+        "pages": 14
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-05-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-05-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Think Python",
+        "author": "Allen B. Downey",
+        "review": "Very helpful introduction to Python. Cleared up a lot of questions that were left on account of university professors' assumptions. ",
+        "isbn": "9781491939413",
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "published": "2015",
+        "pages": 309
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-04-21",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-05-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Technopoly",
+        "author": "Neil Postman",
+        "isbn": "9780307797353",
+        "publisher": "Vintage",
+        "published": "2011",
+        "pages": 240
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-05-09",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-05-09",
+                "type": "finished"
+            }
+        ],
+        "title": "Fight Club",
+        "author": "Chuck Palahniuk",
+        "isbn": "9781448114955",
+        "publisher": "Random House",
+        "published": "2011",
+        "pages": 226
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-04-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-05-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Analyzing the Analyzers",
+        "author": "Harlan Harris, Marck Vaisman, and Sean Murphy",
+        "isbn": "9781449368401",
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "published": "2013",
+        "pages": 45
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-02-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-04-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Something Happened",
+        "author": "Joseph Heller",
+        "isbn": "9781448114740",
+        "publisher": "Random House",
+        "published": "2017",
+        "pages": 578
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-03-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-04-10",
+                "type": "finished"
+            }
+        ],
+        "title": "Wise Blood",
+        "author": "Flannery O'Connor",
+        "review": "Absolutely fantastic. A macabre plunge into the deep abyss of lost faith and un-indulged   yearning. Definitely one of the top five novels written in the previous century. ",
+        "isbn": "9780571266104",
+        "publisher": "Faber & Faber",
+        "published": "2015",
+        "pages": 159
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-02-08",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-03-26",
+                "type": "finished"
+            }
+        ],
+        "title": "The Signal and the Noise",
+        "author": "Nate Silver",
+        "review": "Interesting looking into a side of statistics that I haven't had much exposure to - that future-facing branch. I look forward to exploring this topic more in-depth in some of the cited sources.\n\nFinal word on the matter: while Mr. Silver's enthusiasm comes through quite clearly in several passages of the book, he might to better to curb his projected sense superiority about how much more effective he believes his approach to be, whether it be an artifact of his subconscious or not.",
+        "isbn": "9780143125082",
+        "publisher": "Penguin",
+        "published": "2015",
+        "pages": 577
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-01-04",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-02-08",
+                "type": "finished"
+            }
+        ],
+        "title": "Let the Great World Spin",
+        "author": "Colum McCann",
+        "isbn": "9781588368737",
+        "publisher": "Random House",
+        "published": "2009",
+        "pages": 369
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2016-01-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-01-30",
+                "type": "finished"
+            }
+        ],
+        "title": "The Wedding",
+        "author": "Stanisław Wyspiański",
+        "isbn": "9781840020410",
+        "published": "1998",
+        "publisher": "Bloomsbury Academic",
+        "pages": 152
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-12-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2016-01-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "isbn": "9781101658055",
+        "publisher": "Penguin",
+        "published": "2003",
+        "pages": 897
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-11-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-12-23",
+                "type": "finished"
+            }
+        ],
+        "title": "In the Land of Invented Languages",
+        "author": "Arika Okrent",
+        "isbn": "9780385529716",
+        "publisher": "Random House",
+        "published": "2009",
+        "pages": 354
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-11-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-12-06",
+                "type": "finished"
+            }
+        ],
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "JK Rowling",
+        "isbn": "0606323457",
+        "publisher": "Turtleback Books",
+        "published": "2013",
+        "pages": 336
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-12-01",
+                "type": "finished"
+            }
+        ],
+        "title": "Infinite Jest",
+        "author": "David Foster Wallace",
+        "isbn": "9780748130986",
+        "publisher": "Hachette UK",
+        "published": "2011",
+        "pages": 1170
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-11-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-11-24",
+                "type": "finished"
+            }
+        ],
+        "title": "The Silence of the Lambs",
+        "author": "Thomas Harris",
+        "isbn": "1250048095",
+        "publisher": "St. Martin's Griffin",
+        "published": "2013",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-05-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-11-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Infinite Jest",
+        "author": "David Foster Wallace",
+        "isbn": "9780316073851",
+        "publisher": "Hachette UK",
+        "published": "2009",
+        "pages": 1104
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-10-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-11-05",
+                "type": "finished"
+            }
+        ],
+        "title": "The Unbearable Lightness of Being",
+        "author": "Milan Kundera",
+        "isbn": "9780571367641",
+        "publisher": "Faber & Faber",
+        "published": "2020",
+        "pages": 308
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-10-13",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-10-15",
+                "type": "finished"
+            }
+        ],
+        "title": "The Dalkey Archive",
+        "author": "Flann O'Brien",
+        "isbn": "9781564781727",
+        "published": "2006",
+        "publisher": "Dalkey Archive Press",
+        "pages": 204
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-09-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-10-08",
+                "type": "finished"
+            }
+        ],
+        "title": "Foundation",
+        "author": "Isaac Asimov",
+        "isbn": "9780553900347",
+        "publisher": "Spectra",
+        "published": "2004",
+        "pages": 255
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-09-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-09-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Miss Lonelyhearts",
+        "author": "Nathanael West",
+        "review": "A few notable excerpts:\n\nOn p.29: \"Like Shrike, the man they imitated, they were machines for making jokes. A button machine makes buttons, no matter what the power used, foot, steam, or electricity. They, no matter what the motivating force, death, love or God, made jokes.\"\n\nOn p.55: \"Man has a tropism for order. Keys in one pocket, change in another. Mandolins are tuned G D A E. The physical world had a tropism for disorder, entropy. Man against Nature...the battle of the centuries. Keys yearn to mix with change. Mandolins strive to get out of tune. Every order has within it the germ of destruction. All order is doomed, yet the battle is worth while.\"\n\nOn p.57: \"'Perhaps I can make you understand. Let's start from the beginning. A man is hired to give advice to readers of a newspaper. The job is a circulation stunt and the whole staff considers it a joke. He welcomes the job, for it might lead to a gossip column, and anyway he's tired of being a leg man. He too considers the job a joke, but after several months at it, the joke begins to escape him. He sees that the majority of the letters are profoundly humble pleas for moral and spiritual advice, that they are inarticulate expressions of genuine suffering. He also discovers that his correspondents take him seriously. For the first time in his life, he is forced to examine the values by which he lives. This examination shows him that he is the victim of the joke and not its perpetrator.'\"\n\nAnd let's not fail to mention the Afterword! If you are fortunate enough to procure a copy with the succinct 20 pages punched up by Stanley Edgar Hyman, you will find they greatly enrich any further understanding you might wish to cultivate - both contextual and allegorical.  ",
+        "isbn": "0811202151",
+        "publisher": "New Directions Publishing",
+        "published": "1969",
+        "pages": 196
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-09-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-09-16",
+                "type": "finished"
+            }
+        ],
+        "title": "A Man Without a Country",
+        "author": "Kurt Vonnegut",
+        "isbn": "9781583227909",
+        "publisher": "Seven Stories Press",
+        "published": "2011",
+        "pages": 164
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-07-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-07-29",
+                "type": "finished"
+            }
+        ],
+        "title": "A Scanner Darkly",
+        "author": "Philip K. Dick",
+        "isbn": "0345260643",
+        "publisher": "Del Rey",
+        "published": "1977",
+        "pages": 291
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-05-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-07-21",
+                "type": "finished"
+            }
+        ],
+        "title": "The Enchanted April",
+        "author": "Elizabeth von Arnim",
+        "isbn": "9783756874859",
+        "publisher": "BoD – Books on Demand",
+        "published": "2022",
+        "pages": 237
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-03-24",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-05-07",
+                "type": "finished"
+            }
+        ],
+        "title": "Freedom",
+        "author": "Jonathan Franzen",
+        "isbn": "9780007419715",
+        "publisher": "HarperCollins UK",
+        "published": "2010",
+        "pages": 470
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-03-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-04-14",
+                "type": "finished"
+            }
+        ],
+        "title": "Arsène Lupin, Gentleman-Thief",
+        "author": "Maurice LeBlanc",
+        "isbn": "9780143104865",
+        "published": "2007",
+        "publisher": "Penguin Publishing Group",
+        "pages": 304
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-04-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-04-06",
+                "type": "finished"
+            }
+        ],
+        "title": "Tuesdays with Morrie",
+        "author": "Mitch Albom",
+        "isbn": "9781458798435",
+        "publisher": "ReadHowYouWant.com",
+        "published": "2010",
+        "pages": 198
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-03-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-03-24",
+                "type": "finished"
+            }
+        ],
+        "title": "The Sense of an Ending",
+        "author": "Julian Barnes",
+        "isbn": "9781446467626",
+        "publisher": "Random House",
+        "published": "2011",
+        "pages": 164
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2015-03-09",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-03-16",
+                "type": "finished"
+            }
+        ],
+        "title": "The Day of the Locust",
+        "author": "Nathanael West",
+        "isbn": "9780141394220",
+        "publisher": "Penguin UK",
+        "published": "2013",
+        "pages": 192
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-11-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-03-12",
+                "type": "finished"
+            }
+        ],
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780062368683",
+        "publisher": "Harper Collins",
+        "published": "2014",
+        "pages": 342
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-12-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-03-08",
+                "type": "finished"
+            }
+        ],
+        "title": "J R",
+        "author": "William Gaddis",
+        "review": "I've been trying for about a month to think of how I might best put into words the experience of reading this book. This is the closest I can come to doing it justice:\n\nThis book is the literary equivalent of Jacques the Fatalist snorting a pile of stimulants and running screaming through the 60s and 70s. It is breathless and heartbreaking and hilarious.",
+        "isbn": "9781564784339",
+        "published": "2012",
+        "publisher": "Dalkey Archive Press",
+        "pages": 725
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-11-18",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-01-20",
+                "type": "finished"
+            }
+        ],
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "isbn": "9781681958972",
+        "publisher": "Xist Publishing",
+        "published": "2016",
+        "pages": 229
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-01-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2015-01-10",
+                "type": "finished"
+            }
+        ],
+        "title": "The Fountain",
+        "author": "Darren Aronofsky",
+        "isbn": "9781401253240",
+        "publisher": "Vertigo",
+        "published": "2006",
+        "pages": 180
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-08-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-12-24",
+                "type": "finished"
+            }
+        ],
+        "title": "The Double",
+        "author": "Fyodor Dostoyevsky",
+        "isbn": "1502366061",
+        "publisher": "CreateSpace",
+        "published": "2014",
+        "pages": 176
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-12-24",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-12-24",
+                "type": "finished"
+            }
+        ],
+        "title": "The Crisis of the European Union",
+        "author": "Jürgen Habermas",
+        "isbn": "9780745681535",
+        "publisher": "John Wiley & Sons",
+        "published": "2014",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-12-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-12-10",
+                "type": "finished"
+            }
+        ],
+        "title": "Wolf in White Van",
+        "author": "John Darnielle",
+        "isbn": "9780374709662",
+        "publisher": "Farrar, Straus and Giroux",
+        "published": "2014",
+        "pages": 168
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-11-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Bleak House",
+        "author": "Charles Dickens",
+        "isbn": "1904919979",
+        "publisher": "Collector's Library",
+        "published": "2006",
+        "pages": 1292
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-11-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-11-11",
+                "type": "finished"
+            }
+        ],
+        "title": "The Problem of Pain",
+        "author": "C.S. Lewis",
+        "isbn": "0060652969",
+        "publisher": "HarperOne",
+        "published": "2001",
+        "pages": 180
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-11-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-11-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Mere Christianity",
+        "author": "C.S. Lewis",
+        "isbn": "9780061947438",
+        "publisher": "Harper Collins",
+        "published": "2009",
+        "pages": 261
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-11-05",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-11-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Herbert West: Reanimator",
+        "author": "H.P. Lovecraft",
+        "isbn": "9780318047140",
+        "published": "1995",
+        "publisher": "Necronomicon Press",
+        "pages": 28
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-09-12",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-09-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Bleeding Edge",
+        "author": "Thomas Pynchon",
+        "isbn": "9781448189755",
+        "publisher": "Random House",
+        "published": "2013",
+        "pages": 498
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-09-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-09-11",
+                "type": "finished"
+            }
+        ],
+        "title": "For Whom the Bell Tolls",
+        "author": "Ernest Hemingway",
+        "isbn": "9781476770116",
+        "publisher": "Simon and Schuster",
+        "published": "2014",
+        "pages": 566
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-08-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-08-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Middlesex",
+        "author": "Jeffrey Eugenides",
+        "review": "Why 3 stars? I'm not going to lie, there are some things Eugenides does extremely extremely well. However, he often peppers these profound moments with heavy-handed foreshadowing - and for me this pepper became irksome after a while, regardless of whether or not was in keeping with the authorial voice of the novel's precocious narrator. \n\nSo, while he's no doubt adept at writing the American generational epic, he is grappling with a form already perfected by Steinbeck...\n\n...Essentially, I think I am saying I should not have read this novel so soon after East of Eden. Because I find myself wondering how Steinbeck would have handled the story of Callie turned Cal -- and I think I would have found Steinbeck's telling more immersive. \n\nThis is likely my own fault more so than Eugenides'.",
+        "isbn": "9780747561620",
+        "publisher": "A&C Black",
+        "published": "2003",
+        "pages": 546
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-08-18",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-08-22",
+                "type": "finished"
+            }
+        ],
+        "title": "Lost in the Funhouse",
+        "author": "John Barth",
+        "isbn": "9780804152501",
+        "publisher": "Anchor",
+        "published": "2014",
+        "pages": 225
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-18",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-08-18",
+                "type": "finished"
+            }
+        ],
+        "title": "A Game of Thrones",
+        "author": "George R.R. Martin",
+        "isbn": "9780007459483",
+        "published": "2011",
+        "publisher": "Harper Voyager",
+        "pages": 864
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-08-03",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-08-17",
+                "type": "finished"
+            }
+        ],
+        "title": "East of Eden",
+        "author": "John Steinbeck",
+        "review": "It's not a masterpiece. That word has been too freely used and now its meaning's tarnished. No, Steinbeck's novel is long, messy, and meandering — and from this grows a profound beauty that can only be fully understood by diving in head first and letting the tumultuous waves wash over you and swallow you whole.",
+        "isbn": "9781440631320",
+        "publisher": "Penguin",
+        "published": "2002",
+        "pages": 612
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-07-29",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-07-31",
+                "type": "finished"
+            }
+        ],
+        "title": "A Handful of Dust",
+        "author": "Evelyn Waugh",
+        "review": "I have just suffered a mighty blow at the hands of a brilliant masochist.\r\n\r\nWaugh crafts this story with such elegance and witty perspicuity that the blows he strikes are incomparably precise and utterly horrifying.",
+        "isbn": "9780141886374",
+        "publisher": "Penguin UK",
+        "published": "2012",
+        "pages": 289
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-07-28",
+                "type": "finished"
+            }
+        ],
+        "title": "The Confidence-Man",
+        "author": "Herman Melville",
+        "isbn": "9783985948277",
+        "publisher": "Phoemixx Classics Ebooks",
+        "published": "2021",
+        "pages": 310
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-07-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-07-24",
+                "type": "finished"
+            }
+        ],
+        "title": "V for Vendetta",
+        "author": "Alan Moore",
+        "isbn": "9781779511195",
+        "published": "1990",
+        "publisher": "Vertigo",
+        "pages": 288
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-07-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-07-16",
+                "type": "finished"
+            }
+        ],
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "isbn": "9780613870665",
+        "published": "1999",
+        "publisher": "HarperCollins",
+        "pages": 320
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-05-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-07-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Around the World in Eighty Days",
+        "author": "Jules Verne",
+        "isbn": "059043053X",
+        "publisher": "Scholastic Inc.",
+        "published": "1990",
+        "pages": 244
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-06-27",
+                "type": "finished"
+            }
+        ],
+        "title": "From Hell",
+        "author": "Alan Moore",
+        "isbn": "0613915666",
+        "published": "2000"
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-06-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Batman",
+        "author": "Frank Miller",
+        "isbn": "1852867981",
+        "publisher": "Gardners Books",
+        "published": "1997",
+        "pages": 224
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-02",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-06-18",
+                "type": "finished"
+            }
+        ],
+        "title": "S.",
+        "author": "J.J. Abrams, Doug Dorst",
+        "isbn": "9780857864772",
+        "published": "2013",
+        "publisher": "Canongate",
+        "pages": 472
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-06-01",
+                "type": "finished"
+            }
+        ],
+        "title": "The Prose Edda",
+        "author": "Snorri Sturluson",
+        "isbn": "9780486451510",
+        "publisher": "Courier Corporation",
+        "published": "2006",
+        "pages": 290
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-06-01",
+                "type": "finished"
+            }
+        ],
+        "title": "L'amour dure trois ans",
+        "author": "Frédéric Beigbeder",
+        "isbn": "9782246798712",
+        "publisher": "Grasset",
+        "published": "2012",
+        "pages": 113
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-06-01",
+                "type": "finished"
+            }
+        ],
+        "title": "Political Theology",
+        "author": "Carl Schmitt",
+        "isbn": "9780226738901",
+        "publisher": "University of Chicago Press",
+        "published": "2010",
+        "pages": 123
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-06-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-06-01",
+                "type": "finished"
+            }
+        ],
+        "title": "So Long a Letter",
+        "author": "Mariama Bâ",
+        "isbn": "0435905554",
+        "publisher": "Heinemann",
+        "published": "1989",
+        "pages": 100
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-02-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-05-30",
+                "type": "finished"
+            }
+        ],
+        "title": "The Communist Manifesto",
+        "author": "Karl Marx",
+        "isbn": "9783986775292",
+        "publisher": "Phoemixx Classics Ebooks",
+        "published": "2021",
+        "pages": 59
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-05-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-05-29",
+                "type": "finished"
+            }
+        ],
+        "title": "Sad Little Breathing Machine",
+        "author": "Matthea Harvey",
+        "isbn": "1555973965",
+        "publisher": "Graywolf Press",
+        "published": "2004",
+        "pages": 100
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-04-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-05-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Coriolanus",
+        "author": "William Shakespeare",
+        "isbn": "9781528785778",
+        "publisher": "Read Books Ltd",
+        "published": "2018",
+        "pages": 164
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-03-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-05-04",
+                "type": "finished"
+            }
+        ],
+        "title": "The Doors of Perception and Heaven and Hell",
+        "author": "Aldous Huxley",
+        "isbn": "1544816227",
+        "published": "2017",
+        "pages": 98
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-03-29",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-05-01",
+                "type": "finished"
+            }
+        ],
+        "title": "Blood Meridian",
+        "author": "Cormac McCarthy",
+        "isbn": "9780679728757",
+        "published": "1992",
+        "publisher": "Knopf Doubleday Publishing Group",
+        "pages": 337
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-04-01",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-04-02",
+                "type": "finished"
+            }
+        ],
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "isbn": "9780330513081",
+        "publisher": "Pan Macmillan",
+        "published": "2009",
+        "pages": 233
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-03-31",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-03-31",
+                "type": "finished"
+            }
+        ],
+        "title": "On the Road",
+        "author": "Jack Kerouac",
+        "isbn": "9781101127575",
+        "publisher": "Penguin",
+        "published": "1976",
+        "pages": 320
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-03-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-03-28",
+                "type": "finished"
+            }
+        ],
+        "title": "Eat, Pray, Love",
+        "author": "Elizabeth Gilbert",
+        "review": "The exciting story of how an upper-middle class white woman proved she didn't need a man by traveling around the world from male-dominated relationship to male-dominated relationship until she found one she liked enough to date.",
+        "isbn": "9780747585664",
+        "publisher": "A&C Black",
+        "published": "2007",
+        "pages": 385
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-03-24",
+                "type": "finished"
+            }
+        ],
+        "title": "Underworld",
+        "author": "Don DeLillo",
+        "isbn": "9781416595854",
+        "publisher": "Simon and Schuster",
+        "published": "2007",
+        "pages": 838
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-03-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-03-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Something Fresh",
+        "author": "P.G. Wodehouse",
+        "isbn": "9781409064558",
+        "publisher": "Random House",
+        "published": "2009",
+        "pages": 274
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-03-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-03-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Contingency, Irony, and Solidarity",
+        "author": "Richard M. Rorty",
+        "isbn": "9780521367813",
+        "published": "1989",
+        "publisher": "Cambridge University Press",
+        "pages": 201
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-02-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-02-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Aerial Life",
+        "author": "Peter Adey",
+        "isbn": "9781444391343",
+        "publisher": "John Wiley & Sons",
+        "published": "2010",
+        "pages": 354
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-02-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-02-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Justice and the Politics of Difference",
+        "author": "Iris Marion Young",
+        "isbn": "0691023158",
+        "publisher": "Princeton University Press",
+        "published": "1990",
+        "pages": 302
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-02-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-02-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Society Against the State",
+        "author": "Pierre Clastres",
+        "isbn": "9780942299878",
+        "publisher": "Princeton University Press",
+        "published": "2020",
+        "pages": 173
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-02-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-02-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Two Cheers for Anarchism",
+        "author": "James C. Scott",
+        "isbn": "9780691161037",
+        "publisher": "Princeton University Press",
+        "published": "2014",
+        "pages": 198
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2014-02-23",
+                "type": "started"
+            },
+            {
+                "timestamp": "2014-02-23",
+                "type": "finished"
+            }
+        ],
+        "title": "Visions of Politics",
+        "author": "Quentin Skinner",
+        "isbn": "9780521589260",
+        "published": "2002",
+        "publisher": "Cambridge University Press",
+        "pages": 225
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Waiting for Godot",
+        "author": "Samuel Beckett",
+        "isbn": "0571235565",
+        "publisher": "Pearson Education India",
+        "published": "2008",
+        "pages": 204
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Multilingual Europe",
+        "author": "Guus Extra",
+        "isbn": "9783110208351",
+        "publisher": "Walter de Gruyter",
+        "published": "2008",
+        "pages": 361
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "The Whalestoe Letters",
+        "author": "Mark Z. Danielewski",
+        "isbn": "9780375714412",
+        "publisher": "National Geographic Books",
+        "published": "2000",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Technology as Magic",
+        "author": "Richard Stivers",
+        "isbn": "0826413676",
+        "publisher": "A&C Black",
+        "published": "2001",
+        "pages": 260
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "The Railway Journey",
+        "author": "Wolfgang Schivelbusch",
+        "isbn": "9780520059290",
+        "publisher": "Univ of California Press",
+        "published": "1986",
+        "pages": 240
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "On the Internet",
+        "author": "Hubert L. Dreyfus",
+        "isbn": "9781135973780",
+        "publisher": "Routledge",
+        "published": "2008",
+        "pages": 181
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "En Attendant Godot",
+        "author": "Samuel Beckett",
+        "isbn": "0802118216",
+        "publisher": "Grove Press",
+        "published": "2006",
+        "pages": 370
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Lives In Translation",
+        "author": "Isabelle De Courtivron",
+        "isbn": "9780230610705",
+        "published": "2009",
+        "publisher": "Palgrave Macmillan",
+        "pages": 171
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Nouvelles sous ecstasy",
+        "author": "Frédéric Beigbeder",
+        "isbn": "9782070413584",
+        "published": "1999",
+        "publisher": "Gallimard",
+        "pages": 101
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "Windows On The World",
+        "author": "Frédéric Beigbeder",
+        "isbn": "9782070314614",
+        "published": "2004",
+        "publisher": "Gallimard",
+        "pages": 367
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-26",
+                "type": "finished"
+            }
+        ],
+        "title": "War in the Age of Intelligent Machines",
+        "author": "Manuel DeLanda",
+        "isbn": "9780942299755",
+        "published": "1991",
+        "publisher": "Zone Books",
+        "pages": 271
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-20",
+                "type": "finished"
+            }
+        ],
+        "title": "The Abolition of Man",
+        "author": "C.S. Lewis",
+        "isbn": "9780061949135",
+        "published": "2009",
+        "publisher": "HarperCollins",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-12-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-19",
+                "type": "finished"
+            }
+        ],
+        "title": "The Sun Also Rises",
+        "author": "Ernest Hemingway",
+        "isbn": "9780684800714",
+        "published": "2003",
+        "publisher": "Scribner",
+        "pages": 251
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-09-24",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-12-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Six Plays of Strindberg",
+        "author": "August Strindberg",
+        "isbn": "—",
+        "published": "1955",
+        "publisher": "Doubleday",
+        "pages": 304
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-11-25",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-11-25",
+                "type": "finished"
+            }
+        ],
+        "title": "Discipline and Punish",
+        "author": "Michel Foucault",
+        "isbn": "9780307819291",
+        "publisher": "Vintage",
+        "published": "2012",
+        "pages": 354
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-09-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-09-23",
+                "type": "finished"
+            }
+        ],
+        "title": "The Crying of Lot 49",
+        "author": "Thomas Pynchon",
+        "isbn": "9781101594605",
+        "publisher": "Penguin",
+        "published": "2012",
+        "pages": 134
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-09-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-09-18",
+                "type": "finished"
+            }
+        ],
+        "title": "The Lesson of the Master",
+        "author": "Henry James",
+        "review": "The first I've read of James. This could be the start of a long, long relationship.",
+        "isbn": "9781612192420",
+        "publisher": "Melville House",
+        "published": "2012",
+        "pages": 129
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-09-14",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-09-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Ill Seen Ill Said",
+        "author": "Samuel Beckett",
+        "review": "Don't get me wrong, I love Beckett. But he is rarely a pleasure to read. And yet I keep coming back to him over and over again. Why?\n\nI don't know.\n\nMaybe I'm a masochist. Perhaps I feel compelled by the praise that critics shower down on his work.\n\nBut more truthfully, I think it's because of works like this and <i>Play</i>. Works were it's not all evident at first, but where, as you think about it for days after - which you inevitably will - you realize that there was some deep seated truth within yourself that's been elucidated because of Beckett.\n\nSo here, in this scene of endless revisiting and death and endings, I found myself rereading over and over again. Then just sitting back and letting the realization of his meaning (for meaning is more important than words for Beckett) wash over me. \n\n\"Absence supreme good and yet. Illumination then go again and on return no more trace. On earth's face. Of what was never. And if by mishap some left then go again. For good again. So on. Till no more trace.\" p.58\n\nYeah...I'm probably a masochist.",
+        "isbn": "0714538922",
+        "published": "1981",
+        "pages": 59
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-09-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-09-14",
+                "type": "finished"
+            }
+        ],
+        "title": "The Inferno",
+        "author": "Dante Alighieri",
+        "review": "Riveting, inventive, and a compelling read. I did, however, find myself wishing from time to time that I was able to read it in the original Italian. While Longfellow's translation is novel and fun to read, it is, ultimately, prose. It lacks that lyricism and sonority that inevitably make Dante's poetry classic.",
+        "isbn": "9780486442884",
+        "publisher": "Courier Corporation",
+        "published": "2005",
+        "pages": 258
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-03-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-09-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Freakonomics",
+        "author": "Stephen J. Dubner and Steven Levitt",
+        "review": "My reactions are mixed. But I can't really take the time to write them down right now. Maybe I'll come back to this.",
+        "isbn": "9788466645775",
+        "publisher": "B DE BOLSILLO",
+        "published": "2014",
+        "pages": 381
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-09-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-09-08",
+                "type": "finished"
+            }
+        ],
+        "title": "The Corrections",
+        "author": "Jonathan Franzen",
+        "isbn": "0783897669",
+        "publisher": "Thorndike Press",
+        "published": "2002",
+        "pages": 780
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-08-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-08-28",
+                "type": "finished"
+            }
+        ],
+        "title": "The Epic of Gilgamesh",
+        "author": "Anonymous",
+        "isbn": "9780804717113",
+        "published": "1989",
+        "publisher": "Stanford University Press",
+        "pages": 122
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-08-19",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-08-20",
+                "type": "finished"
+            }
+        ],
+        "title": "A Hologram for the King",
+        "author": "Dave Eggers",
+        "review": "Eggers's most recent novel is full of potential. Unfortunately his purposeful use of sparse prose gives the reader the feeling that this novel lacked effort on the part of the author, which, I am sure, was by no means the case. \n\nAfter finishing the book I found myself slightly frustrated. All the elements were there. A myriad of magnificent and relevant themes were touched on. There were moments of keen insight that I haven't experienced elsewhere. But lurking at the bottom of it all was the feeling that this was something just thrown together: easily read, easily dismissed. \n\nTruthfully, though, after some reflection I find myself wondering if Eggers hasn't done this to prove his point. A novel with Alan Clay as the protagonist surely would not be filled with beautiful language and supreme revelation. In fact, a novel written around Alan Clay would seem sparse and altogether unfulfilling. \n\nThis possibility did not dawn on me until the last few pages (I won't mention when or why). And now, as I think back to the rest of the novel, I can say that there is probably something to this idea. And I commend Eggers for the simplicity and unassuming way in which he has made me tremble. First, at our present digital and globalized age and all its complication and consequence. Second, at the terrors of the modern man's adulthood.",
+        "isbn": "9780241964347",
+        "publisher": "Penguin UK",
+        "published": "2013",
+        "pages": 268
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-08-13",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-08-17",
+                "type": "finished"
+            }
+        ],
+        "title": "The Necessary Marriage",
+        "author": "Dumitru Țepeneag",
+        "review": "A great read for anyone who has ever wished to enter the mind of a man deeply submersed in a drunken fever dream. ",
+        "isbn": "9781564785343",
+        "publisher": "Dalkey Archive Press",
+        "published": "2009",
+        "pages": 146
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-08-07",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-08-12",
+                "type": "finished"
+            }
+        ],
+        "title": "Pale Fire",
+        "author": "Vladimir Nabokov",
+        "review": "There's a lot of debate among GoodReads reviewers as to whether or not the actual poem this book is written around is any good. \n\nThe mere fact that this debate exists is - I think - a testament to how well Nabokov orchestrates his themes and argument.",
+        "isbn": "9780141912868",
+        "publisher": "Penguin UK",
+        "published": "2012",
+        "pages": 272
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-07-24",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-08-05",
+                "type": "finished"
+            }
+        ],
+        "title": "Howards End",
+        "author": "E.M. Forster",
+        "isbn": "1977996272",
+        "publisher": "Createspace Independent Publishing Platform",
+        "published": "2018",
+        "pages": 174
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-07-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-07-24",
+                "type": "finished"
+            }
+        ],
+        "title": "The Pale King",
+        "author": "David Foster Wallace",
+        "review": "Unfinished though it may be, this book contains some of the most insightful and well written prose of contemporary literature. \n\nOne review mentioned that reading this book was akin to having found a beautiful, shattered urn and sitting in awe at the brilliance of the individual pieces. We as readers are able only to imagine - albeit, with inherent inaccuracy - how beautiful the urn might have been when it was still intact.\n\nI disagree that review. \n\nThis book is beautiful, but not because it is broken or fragmented. It is beautiful in the same way that Michelangelo's \"prisoners\" are beautiful. This book is an unfinished masterpiece, but it is still the work of a master. David Foster Wallace had chosen his stone, begun carving out the images and details, and was shaping his vision. We are left with something that is truly great, not because it is finished, but because its unfinished beauty gives a glimpse of how the artist worked and where his genius might have led had he continued. \n\nAll this being said, like Michelangelo's prisoners, The Pale King does seem oddly complete in its own right. And I cannot speak highly enough about this man's writing and the brilliance with which he attempted to express his ideas.",
+        "isbn": "9780141942896",
+        "publisher": "Penguin UK",
+        "published": "2011",
+        "pages": 592
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-06-21",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-07-10",
+                "type": "finished"
+            }
+        ],
+        "title": "Catch-22",
+        "author": "Joseph Heller",
+        "isbn": "9780684865133",
+        "publisher": "Simon and Schuster",
+        "published": "1999",
+        "pages": 424
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-06-20",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-06-21",
+                "type": "finished"
+            }
+        ],
+        "title": "Indignation",
+        "author": "Philip Roth",
+        "isbn": "9781407013343",
+        "publisher": "Random House",
+        "published": "2009",
+        "pages": 41
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-05-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-06-19",
+                "type": "finished"
+            }
+        ],
+        "title": "Gravity's Rainbow",
+        "author": "Thomas Pynchon",
+        "isbn": "9781101594650",
+        "publisher": "Penguin",
+        "published": "2012",
+        "pages": 885
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-04-26",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-05-06",
+                "type": "finished"
+            }
+        ],
+        "title": "The Sirens of Titan",
+        "author": "Kurt Vonnegut",
+        "isbn": "9780307423375",
+        "publisher": "Dial Press",
+        "published": "2007",
+        "pages": 338
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-04-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-04-24",
+                "type": "finished"
+            }
+        ],
+        "title": "The Human Stain",
+        "author": "Philip Roth",
+        "isbn": "9781446400531",
+        "publisher": "Random House",
+        "published": "2010",
+        "pages": 405
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-04-15",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-04-16",
+                "type": "finished"
+            }
+        ],
+        "title": "The Sound and the Fury",
+        "author": "William Faulkner",
+        "isbn": "0330306529",
+        "publisher": "MacMillan",
+        "published": "1989",
+        "pages": 278
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-04-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-04-15",
+                "type": "finished"
+            }
+        ],
+        "title": "Exile and the Kingdom",
+        "author": "Albert Camus",
+        "isbn": "9780141914251",
+        "publisher": "Penguin UK",
+        "published": "2013",
+        "pages": 128
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-04-07",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-04-09",
+                "type": "finished"
+            }
+        ],
+        "title": "Where Angels Fear to Tread",
+        "author": "E.M. Forster",
+        "isbn": "9783985948925",
+        "publisher": "Phoemixx Classics Ebooks",
+        "published": "2021",
+        "pages": 145
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-03-28",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-04-07",
+                "type": "finished"
+            }
+        ],
+        "title": "Only Revolutions",
+        "author": "Mark Z. Danielewski",
+        "isbn": "9780385611398",
+        "publisher": "Random House",
+        "published": "2014",
+        "pages": 386
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-03-27",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-03-27",
+                "type": "finished"
+            }
+        ],
+        "title": "Civilization and Its Discontents",
+        "author": "Sigmund Freud",
+        "isbn": "9780486282534",
+        "publisher": "Courier Dover Publications",
+        "published": "1994",
+        "pages": 81
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-03-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-03-26",
+                "type": "finished"
+            }
+        ],
+        "title": "The Devil in the White City",
+        "author": "Erik Larson",
+        "isbn": "9780375725609",
+        "publisher": "National Geographic Books",
+        "published": "2004",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-03-16",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-03-16",
+                "type": "finished"
+            }
+        ],
+        "title": "World War Z",
+        "author": "Max Brooks",
+        "isbn": "0786293489",
+        "published": "2007",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-02-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-03-01",
+                "type": "finished"
+            }
+        ],
+        "title": "Is That a Fish in Your Ear? Translation and the Meaning of Everything",
+        "author": "David Bellos",
+        "isbn": "9780865478763",
+        "published": "2012",
+        "publisher": "Farrar, Straus and Giroux",
+        "pages": 373
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-02-25",
+                "type": "finished"
+            }
+        ],
+        "title": "White Noise",
+        "author": "Don DeLillo",
+        "isbn": "9781440674471",
+        "publisher": "Penguin",
+        "published": "1999",
+        "pages": 324
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-02-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-02-25",
+                "type": "finished"
+            }
+        ],
+        "title": "Amusing Ourselves to Death",
+        "author": "Neil Postman",
+        "isbn": "9781101042625",
+        "publisher": "Penguin",
+        "published": "2005",
+        "pages": 210
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-02-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-02-17",
+                "type": "finished"
+            }
+        ],
+        "title": "Out of the Silent Planet",
+        "author": "C.S. Lewis",
+        "isbn": "9780684833644",
+        "publisher": "Simon and Schuster",
+        "published": "1996",
+        "pages": 168
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-02-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-02-17",
+                "type": "finished"
+            }
+        ],
+        "title": "Sum",
+        "author": "David Eagleman",
+        "isbn": "9781847675798",
+        "publisher": "Canongate Books",
+        "published": "2009",
+        "pages": 129
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-01-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-02-07",
+                "type": "finished"
+            }
+        ],
+        "title": "The Marriage of Heaven and Hell",
+        "author": "William Blake",
+        "isbn": "0192811673",
+        "publisher": "American Chemical Society",
+        "published": "1975",
+        "pages": 86
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-01-30",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-02-06",
+                "type": "finished"
+            }
+        ],
+        "title": "At Swim-Two-Birds",
+        "author": "Flann O'Brien",
+        "isbn": "9780140181722",
+        "published": "1990",
+        "publisher": "Penguin Books",
+        "pages": 217
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-01-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-01-30",
+                "type": "finished"
+            }
+        ],
+        "title": "Murphy",
+        "author": "Samuel Beckett",
+        "isbn": "9780571296989",
+        "publisher": "Faber & Faber",
+        "published": "2012",
+        "pages": 138
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-01-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-01-17",
+                "type": "finished"
+            }
+        ],
+        "title": "Crome Yellow",
+        "author": "Aldous Huxley",
+        "isbn": "9781479457601",
+        "publisher": "Wildside Press LLC",
+        "published": "2021",
+        "pages": 203
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-01-17",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-01-17",
+                "type": "finished"
+            }
+        ],
+        "title": "This Is Water",
+        "author": "David Foster Wallace",
+        "isbn": "9780316071000",
+        "publisher": "Little, Brown",
+        "published": "2009",
+        "pages": 141
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2013-01-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-01-06",
+                "type": "finished"
+            }
+        ],
+        "title": "House of Leaves",
+        "author": "Mark Z. Danielewski",
+        "isbn": "0375703764",
+        "publisher": "Pantheon",
+        "published": "2000",
+        "pages": 742
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-11-06",
+                "type": "started"
+            },
+            {
+                "timestamp": "2013-01-05",
+                "type": "finished"
+            }
+        ],
+        "title": "Hunger",
+        "author": "Knut Hamsun",
+        "isbn": "1486152066",
+        "publisher": "Tebbo",
+        "published": "2012",
+        "pages": 88
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-10",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-11-02",
+                "type": "finished"
+            }
+        ],
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "isbn": "9780199535729",
+        "published": "2008",
+        "publisher": "OUP Oxford",
+        "pages": 527
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "198373263X",
+        "publisher": "Createspace Independent Publishing Platform",
+        "published": "2018",
+        "pages": 450
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Cat's Cradle",
+        "author": "Kurt Vonnegut",
+        "isbn": "9780307567277",
+        "publisher": "Dial Press",
+        "published": "2009",
+        "pages": 306
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "isbn": "0140817697",
+        "publisher": "Penguin Classics",
+        "published": "1999",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Lord of the Flies",
+        "author": "William Golding",
+        "isbn": "9780571290581",
+        "publisher": "Faber & Faber",
+        "published": "2012",
+        "pages": 301
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "isbn": "1585478938",
+        "publisher": "Center Point Pub",
+        "published": "2007",
+        "pages": 254
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "isbn": "067187229X",
+        "published": "1968",
+        "pages": 147
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "isbn": "9780062416216",
+        "publisher": "HarperCollins",
+        "published": "2015",
+        "pages": 166
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "The Beautiful and Damned",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "1548375969",
+        "published": "2017",
+        "pages": 230
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Point Counter Point",
+        "author": "Aldous Huxley",
+        "isbn": "0613174453",
+        "publisher": "Turtleback Books",
+        "published": "1996",
+        "pages": 0
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "The Things They Carried",
+        "author": "Tim O'Brien",
+        "isbn": "9780547420295",
+        "publisher": "HarperCollins",
+        "published": "2009",
+        "pages": 259
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Slaughterhouse-Five",
+        "author": "Kurt Vonnegut",
+        "isbn": "9780385333849",
+        "publisher": "Dial Press Trade Paperback",
+        "published": "1999",
+        "pages": 285
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Timequake",
+        "author": "Kurt Vonnegut",
+        "isbn": "9781446498026",
+        "publisher": "Random House",
+        "published": "2011",
+        "pages": 242
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "A Midsummer Night's Dream",
+        "author": "William Shakespeare",
+        "isbn": "9780300164824",
+        "publisher": "Yale University Press",
+        "published": "2005",
+        "pages": 213
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Into Thin Air",
+        "author": "Jon Krakauer",
+        "isbn": "9780679462712",
+        "publisher": "Anchor",
+        "published": "1998",
+        "pages": 318
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "isbn": "9780553149661",
+        "published": "1984",
+        "publisher": "Little, Brown",
+        "pages": 277
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "isbn": "9780060830953",
+        "published": "1969",
+        "publisher": "Harper & Row",
+        "pages": 177
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Fear and Trembling",
+        "author": "Søren Kierkegaard",
+        "isbn": "9780143037576",
+        "published": "2006",
+        "publisher": "Penguin Publishing Group",
+        "pages": 160
+    },
+    {
+        "events": [
+            {
+                "timestamp": "2012-10-11",
+                "type": "started"
+            },
+            {
+                "timestamp": "2012-10-11",
+                "type": "finished"
+            }
+        ],
+        "title": "Much Ado About Nothing",
+        "author": "William Shakespeare",
+        "isbn": "9780140707090",
+        "published": "1968",
+        "publisher": "Penguin",
+        "pages": 173
+    }
+]

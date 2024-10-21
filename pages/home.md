@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: home.njk
 title: space.
 date: 2024-01-01 09:01:00
 tags:
@@ -7,8 +7,6 @@ tags:
 navtitle: home
 permalink: /
 ---
-
-<div class="twelve columns content">
 
 <div align=center><h3>Hiya. I'm Josh.</h3></div>
 
@@ -19,7 +17,6 @@ Like most personal sites, I use this space to house two different aspects of my 
 If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social }}">over on Mastodon</a>.
 
 > Currently located: {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
-> Currently reading: <span id="currently-reading"><a href="https://oku.club/user/riastrad/collection/reading">...loading</a></span>
+> Currently reading: {% for book in books.currently_reading %}{% if forloop.last %}& {% endif %}{{book.title}}{% if not forloop.last and forloop.length > 2 %},{% endif %} {% endfor %}
 
-</div>
 <script type="text/javascript" src="./scripts/currently-reading.js"></script>

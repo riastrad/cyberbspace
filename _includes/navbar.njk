@@ -2,7 +2,7 @@
   {%- for nav in collections.nav | reverse %}
         <a
           {% if nav.url == page.url %}
-            class="button button-primary pointer-events-none"
+            class="button button-primary"
           {% else %}
             class="button"
           {% endif %}

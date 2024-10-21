@@ -1,7 +1,7 @@
 <footer>
      <a href="https://cyberb.space/feed.xml">subscribe</a> |
      <a href="https://github.com/riastrad/cyberbspace/tree/main/{{ page.inputPath }}">view source</a> |
-     <a href="{{ metadata.author.social }}">discuss</a>
+     <a href="mailto:{{ metadata.author.email }}?subject=[cyberbspace] thoughts on {{ page.url | encodeURI }}">discuss</a>
       <p>
         &copy; Josh Erb {{ page.date | dateYear }}
       </p>

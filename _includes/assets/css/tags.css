@@ -22,23 +22,3 @@ li.selectedtag {
     padding-right: 0.1em;
     padding-left: 0.1em;
 }
-
-details {
-    position: relative;
-    transition: 0.15s background linear;
-    display: inline-block;
-}
-
-summary:hover {
-    cursor: pointer;
-    background: rgba(238, 238, 51, 0.6);
-}
-
-summary {
-    padding-right: 10px;
-}
-
-summary:before {
-    content: "✱";
-    margin: 1rem;
-}

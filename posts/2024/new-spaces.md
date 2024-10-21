@@ -7,7 +7,6 @@ tags:
   - post
   - travel
   - india
-  - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 

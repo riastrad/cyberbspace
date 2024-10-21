@@ -1,3 +1,5 @@
+Palatino
+fallbacks
 Kaveh
 cliché
 backburner

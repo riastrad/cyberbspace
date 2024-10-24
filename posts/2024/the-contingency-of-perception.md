@@ -10,7 +10,7 @@ tags:
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
-Every morning that I wake up in India, Mumbai becomes a little bit more familiar and it becomes a little bit harder to remember what initially felt strange. This is a normal part of the process for adjusting to any new environment. But in a place that felt so distinct when I first arrived, I think it's important to keep track of the things that I have felt most distinctly in theses first few months. So here is an non-comprehensive list. Presented in no particular order.
+Every morning that I wake up in India, Mumbai becomes a little bit more familiar and it becomes a little bit harder to remember what initially felt strange. This is a normal part of the process for adjusting to any new environment. But in a place that felt so distinct when I first arrived, I think it's important to keep track of the things that I have felt most distinctly in theses first few months. So here is a non-comprehensive list. Presented in no particular order.
 
 ## Car horns are conversational, not (typically) confrontational
 
@@ -25,6 +25,7 @@ Language is fairly limited when trying to describe the sound of traffic, though.
   <p>Looks like your browser doesn't support this (surprising!). You can diretly download the mp3 <a href="/noise/bandra-west-traffic.mp3">here</a></p>
 </audio>
 </div>
+<br />
 
 ## Intersections do not have crosswalks or pedestrian signals
 
@@ -33,7 +34,7 @@ This one is maybe the most surprising for me personally. I was shocked to see pe
 The author & philosopher Stanisław Lem once wrote the following:
 > Our ability to adapt and therefore to accept everything is one of our greatest dangers. Creatures that are completely flexible, changeable, can have no fixed morality.[^1]
 
-Of course, Lem was making a very cynical point about blind faith in human technological progress, but that doesn't stop me from thinking about this when I walk around in Mumbai. It flashes through my mind every time I step into the street here and realize I'm less worried for my safety than I was the last time I did.
+Of course, Lem was making a very different, more cynical point about blind faith in human technological progress, but that doesn't stop me from thinking about this when I explore Mumbai on foot. It flashes through my mind every time I step into the street here and realize I'm less worried for my safety than I was the last time I did.
 
 ## English is a marker of social status
 
@@ -43,7 +44,7 @@ I've had the realization that it's a bit like sitting down at a high-end French 
 
 ## The English here is distinct from the English back home
 
-Language is a squishy thing that moves through time and space in unpredictable and surprising ways. English came to the sub-continent a few centuries ago, and from that moment on it has been evolving on its own. Adapting to better suit a different environment.  Since I currently operate almost exclusively in English, it's easy to feel like I am understanding and being understood. However, you very quickly find that words and phrases used here do not exactly map to the language you speak at home.
+Language is a squishy thing that moves through time and space in unpredictable and surprising ways. English came to the sub-continent a few centuries ago, and from that moment on it has been evolving on its own. Adapting to better suit a different environment.  Since I currently operate almost exclusively in English, it's easy to feel like I am understanding and being understood. However, you very quickly find that words and phrases used here do not intrinsically map to those you use at home.
 
 By way of example, the organic food products you buy will make it a point to tell you that they are "untouched by human hands" and you will find yourself wondering about the milk you bought last week that didn't have that disclaimer...
 
@@ -59,21 +60,24 @@ Every day that we're here, I find myself realizing that English here is being gr
 
 Similar to the above — and in large part because Mumbai is a massive, cosmopolitan place — it is not hard to find things that I miss from home. I've already found a great coffee spot, a place that serves breakfast wraps[^3] with a tangy hot sauce, and an independent English bookstore. All of these have made me feel more at home, more connected to the city. Of course, their similarity to things back home also serves to sharpen the prick of their differences that inevitably occurs with each visit.
 
-The coffee spot is a gentrified house tucked away in a residential neighborhood — neighbors sometimes glare at you when they see you coming. The breakfast spot is setup like fast casual spot where you order at the counter and grab your own seat, but there's valet parking and a security guard who opens the front door for you. When you come in, the wait staff guides you away from the counter, sits you down, and takes your order at the table. You're there for a nice sit down meal, despite appearances. The bookstore has a lovely selection and is run by a sweet local couple. Despite it's small size and the many signs encouraging you to browse, there is an employee by every shelf who will watch you and and be eager to make suggestions if they sense an opportunity. The store also have a library upstairs, but it's a private library and patrons pay a monthly fee in order to access it and use the space.
+The coffee spot is a gentrified house tucked away in a residential neighborhood — neighbors sometimes glare at you when they see you coming. The breakfast spot is setup like fast casual spot where you order at the counter and grab your own seat, but there's valet parking and a security guard who opens the front door for you. When you come in, the wait staff guides you away from the counter, sits you down, and takes your order at the table. You're there for a nice sit down meal, despite appearances.
 
 {% dither "/img/blog/2024/perception-veronicas.png" %}
+
+The bookstore has a lovely selection and is run by a sweet local couple. Despite it's small size and the many signs encouraging you to browse, there is an employee by every shelf who will watch you and and Eagerly make suggestions if they sense an opportunity. The store also has a library upstairs. But here again, English has diverged, it is a private library and patrons pay a monthly fee in order to access its books and use the space.
 
 {% dither "/img/blog/2024/perception-trilogy.png" %}
 
 To be clear, I'm glad to have found these places. They make me feel more at home in this city that I'm going to live in for the next 2 years! But in many ways, if I cling to them too tightly or look to them for a sense of comfort and familiarity, they only serve to highlight that I am far from home rather than make me feel like home is nearby.
 
-## Wrapping up
+## Some closing thoughts
 
-I'm thinking that after this post, I'm going to hold off on travel posts until I've had a chance to travel outside of the city for a bit. I'm still discovering new things about Mumbai & India every day, but a good travel post is usually centered around the unique and novel experiences that come with exploring a new place, rather than a fascination with the minutiae of quotidian life.
+I'm thinking that after this post, I'm going to hold off on travel posts until I've had a chance to, well, travel. That's to say, travel outside of the city. I'm still discovering new things about Mumbai & India every day, but a good travel post is usually centered around sharing the unique and novel experiences that come with exploring a new place, rather than a fascination with the minutiae of quotidian life.[^4]
 
-For now, suffice it to say that what once felt strange has begun to feel mundane or commonplace. The beautiful and terrifying thing about living abroad is that it changes you in millions of imperceptible ways. Until one day you look back and realize its hard to recognize who you were or why you held such a narrow set of expectations in the first place.
+For now, suffice it to say that what once felt strange has begun to feel mundane or commonplace. The beautiful and terrifying thing about living abroad is that it changes you in millions of imperceptible ways. Until one day you look back and realize its hard to recognize who you were or why you held such a narrow set of expectations when you first arrived.
 
 
-[^1]: [_His Master's Voice_](https://en.wikipedia.org/wiki/His_Master%27s_Voice_(novel)), p93
-[^2]: It is not lost on me that this is also an indication I should be seeking out other restaurants. It is entirely plausible that I am only going to those that appeal to my western tendencies and therefore draw a certain type of crowd.
-[^3]: This is the closest thing to a breakfast burrito I have found.
+[^1]: [_His Master's Voice_](https://en.wikipedia.org/wiki/His_Master%27s_Voice_(novel)), p.93
+[^2]: It is not lost on me that this is also an indication I should be seeking out other restaurants. It is entirely plausible that I am only going to those that appeal to my western tendencies and therefore draw a certain type of crowd that expects to use English as a social marker.
+[^3]: This is the closest thing to a breakfast burrito I have found. I did not expect to find it, but I am very glad that I have.
+[^4]: This isn't a rule I expect to keep. Immediately after writing this, I remembered that I have plans to celebrate Diwali next week and that's probably going to be worth a post.

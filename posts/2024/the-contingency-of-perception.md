@@ -2,11 +2,12 @@
 layout: post.njk
 title: The Contingency of Perception
 summary: a non-comprehensive account of my shifting assumptions in India
-date: 2024-10-24 13:05:00
+date: 2024-10-24 13:05:00+05:30
 tags:
   - post
   - travel
   - india
+location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 

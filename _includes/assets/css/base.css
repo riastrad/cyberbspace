@@ -209,10 +209,10 @@ a.download-button:hover {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-    list-style: "✱ " inside;
+    list-style: "✱ ";
 }
 ol {
-    list-style: decimal inside;
+    list-style: decimal;
 }
 ol,
 ul {
@@ -223,8 +223,7 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-    margin: 1.5rem 0 1.5rem 0rem;
-    font-size: 90%;
+    margin: 0.5rem 0 0.5rem 0rem;
 }
 
 /* Code

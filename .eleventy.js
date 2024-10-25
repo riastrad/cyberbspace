@@ -95,6 +95,10 @@ module.exports = function (eleventyConfig) {
     return hoverableHTML;
   });
 
+  eleventyConfig.addFilter("encodeURI", (link) => {
+    return encodeURI(link);
+  });
+
   // Date formatting stuff
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("MMM dd, yyyy");

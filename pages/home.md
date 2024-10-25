@@ -14,9 +14,10 @@ I'm a Software Engineer on a brief hiatus to pursue a career as a writer.
 
 Like most personal sites, I use this space to house two different aspects of my digital life: a personal blog (currently focused on [#travel](/tags/travel)) and an often out-of-date resume.
 
-If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social }}">over on Mastodon</a>.
+If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social.mastodon }}">over on Mastodon</a> or experimenting with self-promotion <a href="{{ metadata.author.social.bluesky }}">over on Blue Sky</a>.
 
 > Currently located: {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
 > Currently reading: {% for book in books.currently_reading %}{% if forloop.last %}& {% endif %}{{book.title}}{% if not forloop.last and forloop.length > 2 %},{% endif %} {% endfor %}
+> Freshly published: <a href="{{ collections.posts.last.url }}">{{ collections.posts.last.data.title }}</a> ({{ collections.posts.last.data.date | readableDate }})
 
 <script type="text/javascript" src="./scripts/currently-reading.js"></script>

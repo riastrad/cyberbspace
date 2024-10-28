@@ -1,16 +1,16 @@
 .container {
-	margin-top: 2em;
+    margin-top: 2em;
 }
 
 div .center-text {
-	text-align: center;
+    text-align: center;
 }
 
 div p.righty {
-	text-align: right;
+    text-align: right;
 }
 
 span > img {
-	max-width: 20%;
-	margin: .5em;
+    max-width: 20%;
+    margin: 0.5em;
 }

@@ -14,7 +14,7 @@ Joy and rapture! After two of the longest weeks I have ever had the pleasure of 
 
 This past week-end we took a group trip to a small town that is known by the locals and tourists as Asilah. It was probably one of the most beautiful cities I've seen to date. Its old city, where our group spent the majority of its day trip was postcard picturesque with a little dash of cute, though I'm hesitant to use such a feminine word after living in a patriarchal society for the better part of a month.
 
-<div><img src="/img/blog-archive/sake-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sake-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>A good summary shot of Asilah</small></div><br />
 
 Of course, we did other things aside from visiting Asilah. In fact, even before arriving at Asilah in the late morning we stopped by a small fishing town and took some boats out for a bird watching session that can only be described as "lacklustre". That's to say it was the embodiment of what the French call "l'ennui". Apparently the location was an ideal environment for birds because it was a sort of alcove or enclave right on the edge of the Atlantic Ocean and there were sand bars galore paired with lush vegetation. Unfortunately, if you're like me and don't get very excited about looking at birds from  extreme distances for two to three hours that could have been spent eating breakfast, then the little excursion wouldn't have done much for you.
@@ -23,16 +23,16 @@ However, at the end of our pre-scheduled bird seeing our guides were kind enough
 
 (Here's a link to the photo album.)
 
-<div><img src="/img/blog-archive/sake-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sake-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The Seaside Town</small></div><br />
 
-<div><img src="/img/blog-archive/sake-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sake-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Climbing the Dune</small></div><br />
 
-<div><img src="/img/blog-archive/sake-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sake-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The Vista</small></div><br />
 
-<div><img src="/img/blog-archive/sake-5.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sake-5.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Andrea's another student here that's good at seeming introspective
 </small></div><br />
 

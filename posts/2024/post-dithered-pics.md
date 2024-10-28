@@ -68,7 +68,7 @@ The CSS looks more complicated because I wanted to make absolutely sure that I a
 
 The only downside to this approach is that it if you use reading mode, it strips out my CSS and you'll just see two images stacked on top of one another:
 
-<img src="/img/blog/2024/how-i-dithered-1.png" loading="lazy" class="blog-pic container" />
+<img src="/img/blog/2024/how-i-dithered-1.png" loading="lazy" class="blog-pic" />
 
 At the end of the day, I decided I could live with reader mode being a little broken.
 

@@ -24,14 +24,14 @@ So anyway, to summarize the trip: France, Germany, Austria, Italy, Monaco, and S
 
 #### À bientôt!
 
-<div><img src="/img/blog-archive/europe-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/europe-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Munich<br />Germany is tight!</small></div><br />
 
-<div><img src="/img/blog-archive/europe-2.jpg" class="blog-pic container" alt="Street in Germany"/></div>
+<div><img src="/img/blog-archive/europe-2.jpg" class="blog-pic" alt="Street in Germany"/></div>
 <div class="center-text"><small>You won't see that many consonants in any other language.</small></div><br />
 
-<div><img src="/img/blog-archive/europe-3.jpg" class="blog-pic container" alt="Venice" /></div>
+<div><img src="/img/blog-archive/europe-3.jpg" class="blog-pic" alt="Venice" /></div>
 <div class="center-text"><small>Venice<br />Touristy, but fun.</small></div><br />
 
-<div><img src="/img/blog-archive/europe-4.jpg" class="blog-pic container" alt="Monaco"/></div>
+<div><img src="/img/blog-archive/europe-4.jpg" class="blog-pic" alt="Monaco"/></div>
 <div class="center-text"><small>Monaco<br />Amazing.</small></div><br />

@@ -14,6 +14,6 @@ As is usually the case before embarking on a journey that will span the better p
 
 I snapped a quick photo during the process to help illustrate what exactly goes into it, and I mean that both literally and figuratively. My life, more or less, for the next academic year will be contained in one 50lb suitcase (see below) and two smaller carry-on bags. It's a very unusual thing to be able to fit a year of your life into a space small enough to facilitate easy transportation.
 
-<div><img src="/img/blog-archive/bags.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/bags.jpg" class="blog-pic" /></div>
 
 So there you have it. If all goes well, the next time I update this blog it will be from the capital city of Morocco.

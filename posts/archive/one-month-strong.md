@@ -27,6 +27,6 @@ So today, on the eve of my one month anniversary of being in France, I've decide
 
 That's all I've got at the moment. But remember I've only been hear one month, if I continue to learn four a month, that's fourty-four by the time I come home! So thanks for reading, and remember, duck liver actually isn't that bad before you know what it is.
 
-<div><img src="/img/blog-archive/month-1.jpg" class="blog-pic container" alt="The group."/></div>
+<div><img src="/img/blog-archive/month-1.jpg" class="blog-pic" alt="The group."/></div>
 <div class="center-text"><small>Chez Moi. My room is the second window from the right on the very top.
 </small></div><br />

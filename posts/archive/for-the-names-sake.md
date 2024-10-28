@@ -16,19 +16,19 @@ The trip was fairly straight forward. A group of seven students made plans with 
 
 We rode those camels for two hours into the desert, until we found a camp. I can't speak for the others in the group, but I personally formed an intense bond with my camel over those two hours. His slow hobble, and unsightly gait will be sorely missed from the rest of my exchange. Anyway, due to the fact that we were not going during the typical desert trekking season, it was rather cold and windy the whole night we camped out. Nevertheless it was a great adventure, and I'm happy to share a few of my favorite pictures with you.
 
-<div><img src="/img/blog-archive/sahara-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sahara-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>I was in the very back, which made for good photo-ops.</small></div><br />
 
-<div><img src="/img/blog-archive/sahara-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sahara-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Just an all around cool picture.</small></div><br />
 
-<div><img src="/img/blog-archive/sahara-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sahara-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>My faithful steed throughout the trip: Special One.</small></div><br />
 
-<div><img src="/img/blog-archive/sahara-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sahara-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>We matched! I think that's why we bonded so well.</small></div><br />
 
-<div><img src="/img/blog-archive/sahara-5.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/sahara-5.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The sunset over the Sahara. The picture doesn't do it justice.</small></div><br />
 
 If you want to see more pictures you can find them here.

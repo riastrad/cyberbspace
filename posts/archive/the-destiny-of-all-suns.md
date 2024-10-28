@@ -14,24 +14,24 @@ The past few weeks have been overwhelming. You may probably have guessed this fa
 
 Last weekend I participated in a group trip to Fez. One of the oldest cities in the history of the world. It was really fun, and the only downside was that we were only there for one night and a total of about 24 hours. There was much to see and much to do. If there's one thing this program has perfected it's the cultural and travel aspects of an exchange. In the short time that I've been here I've seen almost all of the major cities and been able to experience unimaginable things. Below are a few of my favorite pictures from the weekend. If you want to see more you can find them here. <div style="text-align: right"><small><< Previously linked to deactivated FB account. >></small></div>
 
-<div><img src="/img/blog-archive/suns-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/suns-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Overlooking the city</small></div><br />
 
-<div><img src="/img/blog-archive/suns-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/suns-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The King's Palace in Fez. Apparently there's
 a 9 hole golf course inside.</small></div><br />
 
-<div><img src="/img/blog-archive/suns-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/suns-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>An entrance to the Medina. Fez's Medina has over
  9,000 roads so we made sure to stay with our guide.</small></div><br />
 
-<div><img src="/img/blog-archive/suns-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/suns-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Decorations at an ancient Medresa</small></div><br />
 
-<div><img src="/img/blog-archive/suns-5.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/suns-5.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Dramatic Angles!</small></div><br />
 
-<div><img src="/img/blog-archive/suns-6.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/suns-6.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Fez is known for it's intricate mosaics. Here is a
 behind the scenes look at how they're made.</small></div><br />
 

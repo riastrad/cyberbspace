@@ -25,5 +25,5 @@ Then, to finish up this 36 day summary, I was visited by my two favorite New Yor
 So there you have it. Every major event from the last 36 days. I'll be changing host families soon and I'm confidant that I'll be able to update this blog on a much more regular basis...as long as I feel like it.
 Merci d'avoir tout lu!
 
-<div><img src="/img/blog-archive/enough-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/enough-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Rugby Team</small></div><br />

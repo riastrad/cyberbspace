@@ -18,7 +18,7 @@ Partly inspired by the fact that I started to use [Oku](https://oku.club) - a ne
 
 The resulting feature is a small one. I added an additional sentence in the copy of this site's landing page that will display any book I've marked within Oku as "currently reading."
 
-<div><img src="/img/blog/2022/currently-reading-annotated-photo.png" class="blog-pic container" /></div>
+<div><img src="/img/blog/2022/currently-reading-annotated-photo.png" class="blog-pic" /></div>
 
 ## But, how?
 

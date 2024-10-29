@@ -14,7 +14,7 @@ Originally I had planned to devote this entire post to my recent weekend trip to
 
 Now you might be thinking to yourself, "Whoa, Josh! I didn't click that link to hear you blabber on about the things you miss or you think are changing. Get to the good stuff!" Rest assured I will share my thoughts on my weekend excursion with you. In fact here's a picture from the weekend to help keep your appetite for travel stories at bay. An appetizer, if you will.
 
-<div><img src="/img/blog-archive/change-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/change-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The historical medersa of Marrakech.</small></div><br />
 
 Now I know that an artistic angle of an ornately decorated doorway is hardly enough to satiate your hunger for travel and adventure. Don't worry, I'll try to keep the emotional blabber down to a minimum. That being said, I believe that I have some extremely interesting insights and you should take the time to profit from this rare peak into my wealth of wisdom.
@@ -45,25 +45,25 @@ Just a quick side note, this update is not meant to be depressing or overly sent
 
 Anyway, wow! I am so sorry that it has taken me this long to get to a point where I can finally talk to you about my weekend trip. If you have read up to this point, I commend you. I don't think I would have. As a reward here's another picture from my trip.
 
-<div><img src="/img/blog-archive/change-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/change-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>This man is carving with his feet.</small></div><br />
 
 So this weekend, as I said, I traveled to Marrakech, Ourika, and Essaouira in that order. It was a whirlwind of a weekend and I had an "amazigh" time (excuse the pun). The cities were amazing, each in their own distinct way. So although our trip went against ever notion of cultural acclimation that I have in my body (we stayed in hotels catering towards Europeans, and our activities were primarily touristic), I had a wonderful experience and I made some wonderful memories. Not to mention all the fantastic pictures I took.
 
-<div><img src="/img/blog-archive/change-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/change-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The shoe stores of Marrakech can be
  overwhelming</small></div><br />
 
-<div><img src="/img/blog-archive/change-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/change-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Those odd looking things are called
 "palm trees"</small></div><br />
 
 The logistics of the trip are as follows: we left for Marrakech early Friday morning and stayed there for two nights (Friday and Saturday). Sunday morning we took a short day trip to a beautiful restaurant hotel in the town of Ourika which is nestled in the Atlas mountains just outside of Marrakech. From there we traveled to the quaint port city of Essaouira.
 
-<div><img src="/img/blog-archive/change-5.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/change-5.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The port city of Essaouira</small></div><br />
 
-<div><img src="/img/blog-archive/change-6.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/change-6.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Overlooking some of the artisans' shops.</small></div><br />
 
 So there you have it, you are now fully caught up on me and my comings and goings. If you're interested in seeing more photos, as always you can find them here. There was a lot to see and do, so there are plenty more pictures.

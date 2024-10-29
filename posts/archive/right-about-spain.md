@@ -19,14 +19,14 @@ So, I dated this entry as the day before the end of the trip. Actually it's the 
 
 ...Anyway, I'll leave you all with a bit of wisdom that me and my Mexican roomate learned while in Spain...never try to draw on the face of someone from Finland while he's sleeping. Because you might end up getting cursed out in finnish and have markers thrown at you...Okay, until next time, thanks for reading.
 
-<div><img src="/img/blog-archive/spain-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/spain-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Roman Arena in France. <br />'twas cool</small></div><br />
 
-<div><img src="/img/blog-archive/spain-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/spain-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>On the beach.<br />Representing the U.S. of A.</small></div><br />
 
-<div><img src="/img/blog-archive/spain-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/spain-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Greatest Church Ever!<br />'nuff said.</small></div><br />
 
-<div><img src="/img/blog-archive/spain-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/spain-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Dahli Museum<br />This was also cool.</small></div><br />

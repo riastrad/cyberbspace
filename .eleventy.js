@@ -88,8 +88,8 @@ module.exports = function (eleventyConfig) {
     }
 
     const hoverableHTML = `<div class="dithered-hover">
-      <img src="${getDitheredPath(filepath)}" class="blog-pic container" />
-      <img src="${filepath}" class="blog-pic container" />
+      <img src="${getDitheredPath(filepath)}" class="blog-pic" />
+      <img src="${filepath}" class="blog-pic" />
     </div>`;
 
     return hoverableHTML;

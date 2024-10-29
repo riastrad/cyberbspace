@@ -32,35 +32,35 @@ I fear that I've begun to ramble. As you can tell, there are parts of this trip 
 
 It is probably best that I end on that note. For those of you have been patiently waiting for pictures, here they are:
 
-<div><img src="/img/blog-archive/maru-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>A pre-renovation classroom.</small></div><br />
 
-<div><img src="/img/blog-archive/maru-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The main school building that our group worked to renovate.</small></div><br />
 
-<div><img src="/img/blog-archive/maru-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Our campsite.</small></div><br />
 
-<div><img src="/img/blog-archive/maru-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>A nice view from our campsite.</small></div><br />
 
-<div><img src="/img/blog-archive/maru-5.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-5.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>All the local villagers had to walk to the school for
 their water, our campsite was en route.</small></div><br />
 
-<div><img src="/img/blog-archive/maru-6.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-6.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>We worked with these local workers to help start
 construction on a new kitchen for the school.</small></div><br />
 
-<div><img src="/img/blog-archive/maru-7.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-7.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>I periodically tried my hand at
 artsy photography.</small></div><br />
 
-<div><img src="/img/blog-archive/maru-8.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-8.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>My contribution to our group's
 finished classroom</small></div><br />
 
-<div><img src="/img/blog-archive/maru-9.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/maru-9.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Oh, did I mention we went on a safari before we left?
 </small></div><br />
 

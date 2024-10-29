@@ -20,19 +20,19 @@ I am a bit surprised of course, after charting my progress compared to my previo
 
 In any case, I have been continuing to do some amazing things despite this slump. For example this past weekend I travelled to a beautifully "azure-d" town in the north of the country called Chefchaouen. I highly recommend this mountainside town to anyone visiting Morocco. Here are some pictures to explain why:
 
-<div><img src="/img/blog-archive/back-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/back-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>I said "azure", but that might be wrong.</br>
 To be honest I have trouble with blue.</small></div><br />
 
-<div><img src="/img/blog-archive/back-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/back-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>It's hard to remember you're in a
 slump in a place like this</small></div><br />
 
-<div><img src="/img/blog-archive/back-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/back-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>No matter where you go in the city, you
 will most likely have to walk uphill.</small></div><br />
 
-<div><img src="/img/blog-archive/back-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/back-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The view from the highest point in the city.</small></div><br />
 
 During this weekend excursion we also travelled to Ceuta, Spain. While it was nice to visit a city that in my opinion is best described as a bit of "European dandruff" that fell down onto Morocco, it was only a two hour excursion whose main purpose was to renew our 90 day traveller's visa and save the study abroad program coordinators a bunch of work. That being said, I had a lovely two hours of making a fool out of myself in Spanish.

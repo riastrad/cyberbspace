@@ -23,7 +23,7 @@ Now, a quick explanation for those of you who don't know what Eid is: this one o
 
 Because we celebrated this Eid with the extended family it meant that before lunch - and much too soon after breakfast - I witnessed the slaughtering of 6 sheep and 1 goat (someone in the family has high cholesterol, apparently goats' meat is better in such circumstances). Now, as someone who is finely attuned to social cues and all subtleties of human interaction, I came to the conclusion that for an outsider such as myself it would be somewhat inappropriate to take pictures of this religious holiday and plaster them all over the internet. Instead I offer you two pictures: a before and an after. In an attempt to cushion the impact of the "after" photo I have my friend and fellow study abroad student posing in the foreground...you'll see what I mean.
 
-<div><img src="/img/blog-archive/eid-1.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-1.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>This was sheep number three. I think he knew what
 was coming.</small></div><br />
 
@@ -31,7 +31,7 @@ The thing about witnessing the slaughtering of animals that is hard to describe 
 
 The sounds are what got to me. An avid zombie film watcher who passed his childhood playing violent video games, I felt weak in my knees as the gurgling, gasping sound reached my ears. Nothing can prepare you for the sound of life leaving a living creature. The sound is what I remember more vividly than any of the images I saw that day.
 
-<div><img src="/img/blog-archive/eid-2.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-2.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The big smile of my fellow scholar helps
 distract from the corpses in the background.</small></div><br />
 
@@ -39,28 +39,28 @@ After the sheep were killed and gutted, we had lunch. Due to the fact that fresh
 
 After the two day celebration, I began my previously planned trip that took me from Porto to Lisbon and then finished in Madrid. 'Twas a whirlwind week and a half. Since most of the stories from that trip are better suited to be recanted in person (i.e. they consist of touristy tom-foolery), I'm just going to let the pictures to do the talking...more or less.
 
-<div><img src="/img/blog-archive/eid-3.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-3.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The main square in Porto</small></div><br />
 
-<div><img src="/img/blog-archive/eid-4.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-4.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Porto is currently in the lead for "Josh's future retirement
 locations."</small></div><br />
 
-<div><img src="/img/blog-archive/eid-5.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-5.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The sunset over Porto.</small></div><br />
 
-<div><img src="/img/blog-archive/eid-6.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-6.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>One of my favorite pictures from Lisbon.
 </small></div><br />
 
-<div><img src="/img/blog-archive/eid-7.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-7.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>Madrid.</small></div><br />
 
-<div><img src="/img/blog-archive/eid-8.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-8.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The statue of Don Quixote, my man, in Madrid.
 </small></div><br />
 
-<div><img src="/img/blog-archive/eid-9.jpg" class="blog-pic container" /></div>
+<div><img src="/img/blog-archive/eid-9.jpg" class="blog-pic" /></div>
 <div class="center-text"><small>The bull fighting arena in Madrid.</small></div><br />
 
 Needless to say it's been an incredibly diverse and quite rapid couple of weeks. And to top it all off, I returned from my European journey only to find that one of the extended family had had a child the week I was away. So two days ago the entire extended family got together again to celebrate. I'll leave it to you to assume how this type of thing is celebrated. (Here's a hint/outright explanation: the world has one less sheep since little R'bab was born.)

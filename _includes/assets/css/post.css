@@ -26,8 +26,11 @@ div.dithered-hover:focus img.blog-pic:first-child {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em;
     border: 2px dashed black;
+}
+
+div.dithered-hover + p {
+    margin-top: 2.5em;
 }
 
 .center-text {

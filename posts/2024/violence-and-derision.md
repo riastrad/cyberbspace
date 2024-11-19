@@ -10,7 +10,7 @@ tags:
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
-When I was living in D.C. I formed the bad habit of plucking books from little free libraries and then taking several months to get around to reading 
+When I was living in D.C. I formed the bad habit of plucking books from little free libraries and then taking several months to get around to reading
 them. I put new books into circulation, though, and so I rarely feel too guilty about it. Besides, I think that the haphazard circulation of odd, half-remembered books is part of what makes these little libraries a special thing.[^1]
 
 This past week, we went on vacation to the backwaters of [Kerala](https://en.wikipedia.org/wiki/Kerala).[^2] I spent nice chunks of time sitting by resort pools, breathing fresh air, and finally getting around to reading a book I had grabbed from a free little library[^3] a month or two before we moved to India — [The Jokers](https://openlibrary.org/books/OL24468174M/The_jokers) by Albert Cossery.
@@ -27,13 +27,13 @@ One moment in particular, as the novel's chief antagonist (because there are no 
 
 > He played the game of honor and dishonor, just as he was taught to do. He'd never escape. He was more a prisoner than a prisoner in a cell because he shared the same myths as his adversary; they grow and grow and surround everything like unbreachable walls. [p.114]
 
-This immediately brought to mind Richard Rorty's concept of the political "ironist" and I went back to my old grad school copy of [Contingency, irony, and solidarity](https://openlibrary.org/works/OL2018373W/Contingency_irony_and_solidarity) to search out a passage I vaguely remembered but couldn't articulate. 
+This immediately brought to mind Richard Rorty's concept of the political "ironist" and I went back to my old grad school copy of [Contingency, irony, and solidarity](https://openlibrary.org/works/OL2018373W/Contingency_irony_and_solidarity) to search out a passage I vaguely remembered but couldn't articulate.
 
-> The redescribing ironist, by threatening one's final vocabulary, and thus one's ability to make sense of oneself in one's own terms rather than hers, suggests that one's self and one's world are futile, obsolete, *powerlesss*. Redescription often humiliates. [p.90]
+> The redescribing ironist, by threatening one's final vocabulary, and thus one's ability to make sense of oneself in one's own terms rather than hers, suggests that one's self and one's world are futile, obsolete, *powerless*. Redescription often humiliates. [p.90]
 
 I think, however, Cossery's diagnosis is apt but his prescription — or the prescription of his main characters — falls short for me. His themes fail to map neatly onto Rorty's idea of the liberal ironist. In order to be happy, these characters must reject any positive notion of the future. They can only revel in the absurdity of the present, because this is the only certainty there can be in life. We see this in the ambivalence the main characters begin to feel when it looks as if their plans might actually lead to the end of their autocratic governor's political career. They're the kids shooting spitballs at the teacher. Their *joie de vivre* would evaporate if ever the teacher lost patience and abandoned the class room entirely.
 
-But maybe that's the whole point? Main characters are not meant to be idealized forms. The work of the novelist isn't to draw a map to a better future or an improved way of "doing politics". Maybe it's enough to show that there there is something to be said about rejecting the received wisdom of the world you live in and taking the time to revel in its absurdity. 
+But maybe that's the whole point? Main characters are not meant to be idealized forms. The work of the novelist isn't to draw a map to a better future or an improved way of "doing politics". Maybe it's enough to show that there there is something to be said about rejecting the received wisdom of the world you live in and taking the time to revel in its absurdity.
 
 In any case, this isn't a perfect book — so few are. But it is refreshingly devoid of cliché and interesting in its premise. Worth checking out if you happen to see it in a little library some day.
 

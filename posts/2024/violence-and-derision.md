@@ -37,6 +37,6 @@ But maybe that's the whole point? Main characters are not meant to be idealized 
 
 In any case, this isn't a perfect book — so few are. But it is refreshingly devoid of cliché and interesting in its premise. Worth checking out if you happen to see it in a little library some day.
 
-[^1]: I have dreams some day of making an app where books I put into circulation can do like Foursquare checkins, but that is a project for a rainy day.
+[^1]: I have dreams some day of making an app where books I put into circulation can do, like, Foursquare check-ins and you can watch them move around in time and space. But that... is a project for another, more rainy day.
 [^2]: I plan to write about this trip in a separate post. Fear not.
 [^3]: I did preemptively put several books into the little library rotation before we moved, so I don't feel excessive guilt over taking this one out of circulation completely.

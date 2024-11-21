@@ -28,7 +28,10 @@ jobs:
       - name: Commit results
         if: steps.check_changes.outputs.changes == 'true'
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A && git commit -m "📖 update currently reading"
-          git push origin main
+          git push origin baked-and-wired
+
+# replace baked-and-wired with main!

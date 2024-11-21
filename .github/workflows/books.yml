@@ -2,7 +2,7 @@ name: bookshelf
 on:
   schedule:
     # run at 4a,12p,8p er'day
-    - cron: "4,12,20 * * *"
+    - cron: "* 4,12,20 * * *"
 
 jobs:
   reading:

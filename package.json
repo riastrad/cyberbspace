@@ -29,6 +29,7 @@
     "build": "npx @11ty/eleventy",
     "start": "npx eleventy --serve --formats=md",
     "dither": "node ./bin/dither-all-images.js",
+    "reading": "node ./bin/fetch-currently-reading.js",
     "spellcheck": "npx spellchecker --config .spellcheckerrc.json"
   },
   "repository": {

@@ -4,6 +4,9 @@ on:
   # schedule:
   #   - cron: "* 4,12,20 * * *"
 
+permissions:
+  contents: write
+
 jobs:
   reading:
     runs-on: ubuntu-latest

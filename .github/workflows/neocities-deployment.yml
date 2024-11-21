@@ -3,6 +3,10 @@ name: Neocities CD
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["bookshelf"]
+    types:
+      - completed
 
 concurrency: # prevent concurrent deploys doing strange things
   group: deploy-to-neocities

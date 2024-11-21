@@ -1,7 +1,8 @@
 name: bookshelf
 on:
-  schedule:
-    - cron: "* 4,12,20 * * *"
+  - push
+  # schedule:
+  #   - cron: "* 4,12,20 * * *"
 
 jobs:
   reading:

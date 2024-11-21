@@ -1,7 +1,7 @@
 name: bookshelf
 on:
   schedule:
-    - cron: "12 * * * *"
+    - cron: "16 * * * *"
 
 permissions:
   contents: write

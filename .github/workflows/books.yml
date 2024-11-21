@@ -1,8 +1,7 @@
 name: bookshelf
 on:
-  - push
-  # schedule:
-  #   - cron: "* 4,12,20 * * *"
+  schedule:
+    - cron: "* 4,12,20 * * *"
 
 permissions:
   contents: write
@@ -32,6 +31,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A && git commit -m "📖 update currently reading"
-          git push origin baked-and-wired
-
-# replace baked-and-wired with main!
+          git push origin main

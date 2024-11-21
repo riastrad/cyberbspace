@@ -19,8 +19,7 @@ Like most personal sites, I use this space to house two different aspects of my 
 If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social.mastodon }}">over on Mastodon</a> or experimenting with self-promotion <a href="{{ metadata.author.social.bluesky }}">over on Blue Sky</a>.
 
 > Currently located: {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
-> Currently reading: <span id="currently-reading"><a href="https://oku.club/user/riastrad/collection/reading">...loading</a></span>
+> Currently reading: {{ reading | books }}
 > Freshly published: <a href="{{ collections.posts.last.url }}">{{ collections.posts.last.data.title }}</a> ({{ collections.posts.last.data.date | readableDate }})
 
 </div>
-<script type="text/javascript" src="./scripts/currently-reading.js"></script>

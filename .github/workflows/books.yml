@@ -1,23 +1,13 @@
-name: pre-flight
+name: bookshelf
 on:
-  push:
-    branches-ignore:
-      - main
+  schedule:
+    - cron: "16 * * * *"
+
+permissions:
+  contents: write
 
 jobs:
-  copyedit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18.20.4
-      - name: Install deps
-        run: npm ci
-      - name: Check spelling
-        run: npm run spellcheck
-  dither:
+  reading:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,8 +16,8 @@ jobs:
           node-version: 18.20.4
       - name: Install deps
         run: npm ci
-      - name: Generate dithered copies
-        run: npm run dither
+      - name: Check for reading updates
+        run: npm run reading
       - name: Check for changes
         id: check_changes
         run: |
@@ -37,7 +27,8 @@ jobs:
       - name: Commit results
         if: steps.check_changes.outputs.changes == 'true'
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A && git commit -m "👾 dithered images"
-          git push origin ${{ github.ref_name }}
+          git add -A && git commit -m "📖 update currently reading"
+          git push origin main

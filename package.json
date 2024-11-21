@@ -4,8 +4,8 @@
   "description": "personal website",
   "main": ".eleventy.js",
   "engines": {
-    "node": "~16.14.0",
-    "npm": "~8.19.2"
+    "node": "~18.20.4",
+    "npm": "~10.9.0"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
@@ -19,14 +19,17 @@
     "markdown-it-footnote": "^3.0.3"
   },
   "devDependencies": {
+    "fast-xml-parser": "^4.5.0",
     "glob": "^11.0.0",
-    "spellchecker-cli": "^4.8.1"
+    "spellchecker-cli": "^4.8.1",
+    "undici": "^6.21.0"
   },
   "scripts": {
     "test": "test",
     "build": "npx @11ty/eleventy",
     "start": "npx eleventy --serve --formats=md",
     "dither": "node ./bin/dither-all-images.js",
+    "reading": "node ./bin/fetch-currently-reading.js",
     "spellcheck": "npx spellchecker --config .spellcheckerrc.json"
   },
   "repository": {

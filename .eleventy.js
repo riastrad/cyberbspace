@@ -33,6 +33,26 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  // Process book data
+  eleventyConfig.addFilter("books", function (books) {
+    if (books.length === 0) {
+      return 'nothing... but probably eyeing <a href="https://oku.club/user/riastrad/collection/to-read">one of these</a>.';
+    }
+
+    let booklinks;
+    for (let i = 0; i < books.length; i++) {
+      const linked = `<a href="${books[i].link}">${books[i].title}</a>`;
+      if (i === 0) {
+        booklinks = linked;
+      } else if (i !== 0 && i !== books.length - 1) {
+        booklinks += `, ${linked}`;
+      } else {
+        booklinks += `${books.length > 2 ? "," : ""} & ${linked}`;
+      }
+    }
+    return booklinks;
+  });
+
   // keep a list of unique tags
   eleventyConfig.addFilter("taglist", function (collection) {
     const tags = [];

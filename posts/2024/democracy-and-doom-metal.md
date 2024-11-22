@@ -12,7 +12,7 @@ location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
-Something I learned this past week, that I had no prior awareness of, is that alcohol sales are prohibited in the state of Maharashtra for [48 hours](https://timesofindia.indiatimes.com/india/maharashtra-elections-dry-days-in-mumbai-and-other-cities-as-liquor-shops-to-remain-closed/articleshow/115403282.cms) in the lead up to the state assembly elections. These "dry days" are observed up until the polls officially close at 6 p.m. on election day. Sales are briefly prohibited again for the first half of the day that results are announced. The stated aim is to preserve public order and ensure that the voting public is clear headed when casting their votes.
+Something I learned this past week, that I had no prior awareness of, is that alcohol sales are prohibited in the state of Maharashtra for [48 hours](https://timesofindia.indiatimes.com/india/maharashtra-elections-dry-days-in-mumbai-and-other-cities-as-liquor-shops-to-remain-closed/articleshow/115403282.cms) in the lead up to the state assembly elections. These "dry days" are observed up until the polls officially close at 6 p.m. on election day. Sales are briefly prohibited again at the end of the week when the election results are announced. The stated aim is to preserve public order and ensure that the voting public is clear headed when casting their votes.
 
 Having a very shallow understanding of local politics here, and looking for an excuse to see a different side of the city, I marked election day by taking a local train down to [Lower Parel](https://en.wikipedia.org/wiki/Parel) for a death metal show.
 

@@ -16,7 +16,7 @@ Something I learned this past week, that I had no prior awareness of, is that al
 
 Having a very shallow understanding of local politics here, and looking for an excuse to see a different side of the city, I marked election day by taking a local train down to [Lower Parel](https://en.wikipedia.org/wiki/Parel) for a death metal show.
 
-It was a great time. Riding the local train for the first time, I felt connected to the city in a way that I haven't up until this point. Like a blood cell coursing through the arteries of this massive, sprawling body.
+It was a great time. Riding the local train for the first time, I felt connected to the city in a way that I haven't up until this point. Like a microscopic blood cell coursing through an endless network of arteries and veins that keep this hulking, incomprehensible leviathan alive.
 
 As far as the show is concerned, I'm no expert on the nuances of metal, but the bands were good and the scene appears to be alive and well here on the other side of the world. The main opener was a local Mumbai metal band, [Dirge](https://dirgeindia.bandcamp.com/music) and they killed it. I was so warmed up by the end of their set, the headliner could have refused to go on and it still would have been a great night.
 

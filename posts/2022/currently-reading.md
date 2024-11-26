@@ -10,6 +10,8 @@ tags:
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
+> **Editor's Note:** As of November 2024, this blog no longer reflects the reality of how the site's "currently reading" feature works. If you're curious about the *how*, you can skim [this pull request](https://github.com/riastrad/cyberbspace/pull/195). If you're curious about the *why*, you can read [this blog post](/notes/2024/dropping-the-ocean).
+
 ## What is this about?
 
 A couple weeks ago, on a lark, I decided to see if I could have the main landing page of this website dynamically update to reflect whatever book I'm currently reading.

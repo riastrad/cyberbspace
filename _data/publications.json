@@ -1,0 +1,16 @@
+[
+  {
+    "title": "An essay",
+    "publisher": "A magazine",
+    "url": "https://example.com",
+    "archive_url": "https://arhive.org/https://example.com",
+    "date": "2024-12-01"
+  },
+  {
+    "title": "Another essay",
+    "publisher": "A different magazine",
+    "date": "2024-11-27",
+    "url": "https://example.com",
+    "archive_url": "https://arhive.org/https://example.com"
+  }
+]

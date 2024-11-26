@@ -8,5 +8,4 @@ tags:
   - job
 ---
 
-- Conducted primary-source archival research informing multiple academic projects, including a forthcoming book
-on the geographic morphology of 19th century breweries in San Francisco, CA
+- Conducted primary-source archival research informing multiple academic projects, including a forthcoming book on the geographic morphology of 19<sup>th</sup> century breweries in San Francisco, CA

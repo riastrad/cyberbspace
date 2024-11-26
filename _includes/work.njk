@@ -13,7 +13,9 @@ permalink: /work/index.html
 <h2>Experience</h2>
 {% for job in joblist | reverse %}
 <div>
-    ✱ <b>{{ job.data.company }}</b> | <em>{{ job.data.role }}</em> | {{ job.data.time }}
+    <details><summary><strong>{{ job.data.company }}</strong> | <em>{{ job.data.role }}</em> | {{ job.data.time }}</summary>
+        {{ job.content | safe }}
+    </details>
 </div>
 {% endfor %}
 

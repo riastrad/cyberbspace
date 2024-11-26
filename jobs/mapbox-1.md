@@ -7,3 +7,6 @@ permalink: false
 tags:
   - job
 ---
+
+- Supported the mobile integration and launch of large, medium, and small customers
+- Answered customer questions on Stack Overflow, consistently remaining in the top 18% of users on the site

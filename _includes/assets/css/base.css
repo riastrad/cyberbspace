@@ -226,6 +226,10 @@ ol ul {
     margin: 0.5rem 0 0.5rem 0rem;
 }
 
+details ul {
+    list-style: "✔ ";
+}
+
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 code {

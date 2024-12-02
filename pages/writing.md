@@ -7,6 +7,4 @@ tags:
 navtitle: writing
 ---
 
-In 2024 I began focusing publishing my writing outside of this blog. This page documents my success in this area.
-
-If you'd like to read me when my worst writing impulses are being checked by an editor, I encourage you to click any of the links below.
+> In 2024 I began to more seriously focus on publishing my writing outside of this blog. This page records the small bits of success I've had in this area.

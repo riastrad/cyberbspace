@@ -46,7 +46,7 @@
 /* For devices larger than 550px */
 @media (min-width: 550px) {
     .container {
-        width: 80%;
+        width: 65%;
     }
 }
 
@@ -77,13 +77,57 @@ body {
 }
 
 nav {
+    padding-top: 1em;
     text-align: center;
     margin-bottom: 1.5em;
+    margin-left: 1.5em;
     justify-content: space-around;
     background-color: #ffffff;
 }
 
+a.button {
+    display: inline-block;
+    height: 3rem;
+    padding: 0 1.5rem;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: rgba(238, 238, 51, 0.6);
+    align-content: center;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+
+a.button-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    pointer-events: none;
+}
+
+a.button-primary:hover {
+    box-shadow: inset 0 0 0 #000;
+    cursor: default;
+}
+
+@media (max-width: 550px) {
+    nav {
+        text-align: left;
+    }
+
+    nav a.button:after {
+        position: relative;
+        display: block;
+        content: "";
+    }
+
+    nav a.button {
+        display: block;
+        width: 50%;
+    }
+}
+
 footer {
+    margin-top: 1em;
     font-size: 0.75em;
     text-align: center;
 }
@@ -171,31 +215,6 @@ a.post-title {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-a.button {
-    display: inline-block;
-    height: 3rem;
-    padding: 0 1.5rem;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #000;
-    background-color: rgba(238, 238, 51, 0.6);
-    align-content: center;
-    letter-spacing: 0.3rem;
-    cursor: pointer;
-}
-
-a.button-primary {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
-    pointer-events: none;
-}
-
-a.button-primary:hover {
-    box-shadow: inset 0 0 0 #000;
-    cursor: default;
-}
 
 a.download-button {
     color: #fff;

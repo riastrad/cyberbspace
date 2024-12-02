@@ -1,16 +1,16 @@
 ---
 layout: base.njk
 title: space.
-date: 2024-01-01 09:01:00
+date: 2024-12-01 09:01:00
 tags:
   - nav
 navtitle: home
 permalink: /
 ---
 
-<div class="twelve columns content">
+<div class="content">
 
-<div align=center><h3>Hiya. I'm Josh.</h3></div>
+### Hiya. I'm Josh.
 
 I'm a Software Engineer on a brief hiatus to pursue a career as a writer.
 

@@ -10,16 +10,16 @@ permalink: /
 
 <div class="content">
 
-### Hiya. I'm Josh.
+### Hey. I'm Josh.
 
-I'm a Software Engineer on a brief hiatus to pursue a career as a writer.
+I'm a writer & software engineer.
 
-Like most personal sites, I use this space to house two different aspects of my digital life: a personal blog (currently focused on [#travel](/tags/travel)) and an often out-of-date resume.
-
-If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social.mastodon }}">over on Mastodon</a> or experimenting with self-promotion <a href="{{ metadata.author.social.bluesky }}">over on Blue Sky</a>.
+This site is the primary conduit through which my lived reality flows into the digital realm. Here is a quick cheatsheet, if you don't have time to poke around:
 
 > Currently located: {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
 > Currently reading: {{ reading | books }}
 > Freshly published: <a href="{{ collections.posts.last.url }}">{{ collections.posts.last.data.title }}</a> ({{ collections.posts.last.data.date | readableDate }})
+
+If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social.mastodon }}">over on Mastodon</a> or experimenting with self-promotion <a href="{{ metadata.author.social.bluesky }}">over on Bluesky</a>.
 
 </div>

@@ -115,14 +115,16 @@ a.button-primary:hover {
     }
 
     nav a.button:after {
-        position: relative;
-        display: block;
         content: "";
     }
 
     nav a.button {
         display: block;
-        width: 50%;
+        width: 30%;
+    }
+
+    nav a.button-primary {
+        width: 100%;
     }
 }
 

@@ -8,7 +8,7 @@ navtitle: home
 permalink: /
 ---
 
-### Hey. I'm Josh.
+## Hey. I'm Josh.
 
 I'm a writer & software engineer.
 

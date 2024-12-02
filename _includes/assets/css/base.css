@@ -112,6 +112,7 @@ a.button-primary:hover {
 @media (max-width: 550px) {
     nav {
         text-align: left;
+        margin-right: 1.5em;
     }
 
     nav a.button:after {
@@ -124,7 +125,7 @@ a.button-primary:hover {
     }
 
     nav a.button-primary {
-        width: 100%;
+        width: auto;
     }
 }
 

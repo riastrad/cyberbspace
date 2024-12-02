@@ -1,0 +1,16 @@
+---
+layout: base.njk
+section: writing
+permalink: /writing/index.html
+---
+
+{{ content | safe }}
+<hr />
+
+<ul>
+{% for pub in publications %}
+    <li><a href="{{ pub.url }}">{{ pub.title }}</a> in <strong>{{ pub.publisher }}</strong> on {{ pub.date }} {% if pub.archive_url %}(<a href="{{ pub.archive_url }}">archived 💾</a>){% endif %}</li>
+{% endfor %}
+    <li>more to come...</li>
+</ul>
+<hr />

@@ -1,25 +1,21 @@
 ---
 layout: base.njk
 title: space.
-date: 2024-01-01 09:01:00
+date: 2024-12-01 09:01:00
 tags:
   - nav
 navtitle: home
 permalink: /
 ---
 
-<div class="twelve columns content">
+### Hey. I'm Josh.
 
-<div align=center><h3>Hiya. I'm Josh.</h3></div>
+I'm a writer & software engineer.
 
-I'm a Software Engineer on a brief hiatus to pursue a career as a writer.
-
-Like most personal sites, I use this space to house two different aspects of my digital life: a personal blog (currently focused on [#travel](/tags/travel)) and an often out-of-date resume.
-
-If you prefer the social web rather than just being talked at, you can find me squatting <a rel="me" href="{{ metadata.author.social.mastodon }}">over on Mastodon</a> or experimenting with self-promotion <a href="{{ metadata.author.social.bluesky }}">over on Blue Sky</a>.
+This site is the primary conduit through which my lived experience flows into the digital world. Here is the high level view, in case you don't have time to stick around:
 
 > Currently located: {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
 > Currently reading: {{ reading | books }}
 > Freshly published: <a href="{{ collections.posts.last.url }}">{{ collections.posts.last.data.title }}</a> ({{ collections.posts.last.data.date | readableDate }})
 
-</div>
+If you prefer the social web, you can find me squatting <a rel="me" href="{{ metadata.author.social.mastodon }}">over on Mastodon</a> or experimenting with self-promotion <a href="{{ metadata.author.social.bluesky }}">over on Bluesky</a>.

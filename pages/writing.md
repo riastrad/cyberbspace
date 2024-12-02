@@ -7,4 +7,4 @@ tags:
 navtitle: writing
 ---
 
-> In 2024 I began to more seriously focus on publishing my writing outside of this blog. This page records the small bits of success I've had so far.
+> In 2024 I started to focus on publishing my writing outside of this blog. This page records the small bits of success I've had so far.

@@ -216,6 +216,22 @@ a.post-title {
     font-family: Palatino, Helvetica, sans-serif;
 }
 
+@media (max-width: 550px) {
+    a.post-title:after {
+        display: block;
+        content: "";
+    }
+
+    a.post-title {
+        display: block;
+    }
+
+    p time:before {
+        display: inline;
+        content: "🗓";
+    }
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 

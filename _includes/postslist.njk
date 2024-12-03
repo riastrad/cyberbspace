@@ -8,7 +8,7 @@
 		{% endif %}
 
     <time datetime="{{ post.date | machineDate }}">
-			<i>posted {{ post.date | readableDate }}</i>
+			posted on <strong>{{ post.date | readableDate }}</strong>
     </time>
     <br />
 	{% if post.data.tags %}

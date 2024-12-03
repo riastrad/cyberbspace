@@ -6,11 +6,8 @@ div .center-text {
     text-align: center;
 }
 
-div p.righty {
-    text-align: right;
-}
-
-span > img {
-    max-width: 20%;
-    margin: 0.5em;
+ins {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1.5px;
 }

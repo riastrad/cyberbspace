@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: Ripe for Review
-summary:
+summary: Quick thoughts on Sarah Rose Etter's latest novel
 date: 2024-12-06 10:30:00+5:30
 tags:
   - post

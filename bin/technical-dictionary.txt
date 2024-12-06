@@ -1,3 +1,4 @@
+ripe.png
 Node.js
 dirge.png
 the-jokers.png

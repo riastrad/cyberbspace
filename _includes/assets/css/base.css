@@ -62,11 +62,7 @@ body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family:
-        Courier New,
-        monospace,
-        Helvetica,
-        Arial,
+    font-family: Menlo, "Courier New", Courier, monospace, Helvetica, Arial,
         sans-serif;
     background-color: #ffffff;
     color: #222;
@@ -146,7 +142,7 @@ h6 {
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 300;
-    font-family: Palatino, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 h1 {
     font-size: 5rem;
@@ -213,7 +209,7 @@ a {
 a.post-title {
     background-color: #fff;
     font-size: 2.4rem;
-    font-family: Palatino, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 @media (max-width: 550px) {

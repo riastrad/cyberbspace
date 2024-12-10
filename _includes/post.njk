@@ -3,7 +3,7 @@ layout: base.njk
 section: post
 ---
 
-<h1 class="blog-title">{{ title }}</h1>
+<h1>{{ title }}</h1>
 🗓 posted <b>{{ page.date | readableDate }}</b> by <b>{{ metadata.author.name }}</b>
 <br />
 🔢 <b>{{ content | striptags | wordcount }}</b> words

@@ -62,8 +62,7 @@ body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family: Menlo, "Courier New", Courier, monospace, Helvetica, Arial,
-        sans-serif;
+    font-family: Menlo, "Courier New", Courier, monospace;
     background-color: #ffffff;
     color: #222;
 }

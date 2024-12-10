@@ -282,19 +282,16 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 th,
 td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #e1e1e1;
+    border: 2px solid #000;
 }
-th:first-child,
-td:first-child {
-    padding-left: 0;
-}
-th:last-child,
-td:last-child {
-    padding-right: 0;
+
+th {
+    text-transform: uppercase;
 }
 
 /* Spacing
@@ -350,7 +347,7 @@ hr {
     margin-top: 3rem;
     margin-bottom: 3rem;
     border: none;
-    border-top: 1.5px solid #000;
+    border-top: 2px solid #000;
     color: #000;
     overflow: visible;
     text-align: center;

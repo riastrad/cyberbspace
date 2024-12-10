@@ -13,7 +13,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 Every morning that I wake up in India, Mumbai becomes a little bit more familiar and it becomes a little bit harder to remember what initially felt strange. This is a normal part of the process for adjusting to any new environment. But in a place that felt so distinct when I first arrived, I think it's important to keep track of the things that I have felt most distinctly in theses first few months. So here is a non-comprehensive list. Presented in no particular order.
 
-## Car horns are conversational, not (typically) confrontational
+#### Car horns are conversational, not (typically) confrontational
 
 The sound of car horns is omnipresent in Mumbai. You hear them even when you aren't in a car or out walking on the street. When you first arrive, it's a cacophony that can quickly start to feel overwhelming. I think that's because in US cities, we use the horn to signal extreme situations.
 
@@ -28,7 +28,7 @@ Language is fairly limited when trying to describe the sound of traffic, though.
 </div>
 <br />
 
-## Intersections do not have crosswalks or pedestrian signals
+#### Intersections do not have crosswalks or pedestrian signals
 
 This one is maybe the most surprising for me personally. I was shocked to see pedestrians walking in the street, negotiating space with cars, auto-rickshaws, and motorbikes as if it were completely normal. Crossing the street at intersections that had no stoplights or crosswalks. But just yesterday, I walked around several neighborhoods, crossed the street and negotiated space with vehicles, and it started to feel perfectly natural.
 
@@ -37,13 +37,13 @@ The author & philosopher Stanisław Lem once wrote the following:
 
 Of course, Lem was making a very different, more cynical point about blind faith in human technological progress, but that doesn't stop me from thinking about this when I explore Mumbai on foot. It flashes through my mind every time I step into the street here and realize I'm less worried for my safety than I was the last time I did.
 
-## English is a marker of social status
+#### English is a marker of social status
 
 I had assumed, rather naïvely, when I first came to India that I would be able to get around with English, but in most social situations it would be ideal to be able to speak a little bit of Hindi. But I've come to see that English is not simply a _lingua franca_ here. It's also a way to demonstrate social status. It is very common to sit down at a restaurant[^2] that is full of locals and consistently hear everyone order in English, even if it's obvious from accents that both the wait staff and diners speak Hindi.
 
 I've had the realization that it's a bit like sitting down at a high-end French restaurant in the States and ordering in French. You don't use the language because it is the most effective way to communicate your desired meal, you do it because it signals to the staff and anyone within hearing that you are a _learnèd_ person of culture and means.
 
-## The English here is distinct from the English back home
+#### The English here is distinct from the English back home
 
 Language is a squishy thing that moves through time and space in unpredictable and surprising ways. English came to the sub-continent a few centuries ago, and from that moment on it has been evolving on its own. Adapting to better suit a different environment.  Since I currently operate almost exclusively in English, it's easy to feel like I am understanding and being understood. However, you very quickly find that words and phrases used here do not intrinsically map to those you use at home.
 
@@ -57,7 +57,7 @@ Or you will be enjoying a walk along the coast of the Arabian Sea in the Bandra 
 
 Every day that we're here, I find myself realizing that English here is being grown and guided by a different culture and a different set of values. It would be foolish to insist on it mapping exactly to the meanings and signifiers I'm familiar with, but I find myself wondering if there are more pitfalls in communication than I realize. If my confidence at speaking English is nothing more than a false notion that I speak and understand the same language. The medium is the same, but the methods are ontologically distinct.
 
-## You can find the comforts of home, but they will not transport you back home
+#### You can find the comforts of home, but they will not transport you back home
 
 Similar to the above — and in large part because Mumbai is a massive, cosmopolitan place — it is not hard to find things that I miss from home. I've already found a great coffee spot, a place that serves breakfast wraps[^3] with a tangy hot sauce, and an independent English bookstore. All of these have made me feel more at home, more connected to the city. Of course, their similarity to things back home also serves to sharpen the prick of their differences that inevitably occurs with each visit.
 
@@ -71,7 +71,7 @@ The bookstore has a lovely selection and is run by a sweet local couple. Despite
 
 To be clear, I'm glad to have found these places. They make me feel more at home in this city that I'm going to live in for the next 2 years! But in many ways, if I cling to them too tightly or look to them for a sense of comfort and familiarity, they only serve to highlight that I am far from home rather than make me feel like home is nearby.
 
-## Some closing thoughts
+#### Some closing thoughts
 
 I'm thinking that after this post, I'm going to hold off on travel posts until I've had a chance to, well, travel. That's to say, travel outside of the city. I'm still discovering new things about Mumbai & India every day, but a good travel post is usually centered around sharing the unique and novel experiences that come with exploring a new place, rather than a fascination with the minutiae of quotidian life.[^4]
 

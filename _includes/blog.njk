@@ -4,6 +4,7 @@ section: notes
 permalink: /notes/index.html
 ---
 {% include "tagfilter.njk" %}
+<hr />
 {{ content | safe }}
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}

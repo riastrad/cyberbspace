@@ -20,7 +20,7 @@ layout: base.njk
 {% include "tagfilter.njk" %}
 {% set postslist = collections[ tag ] %}
 
-<br /><br />
+<hr />
 
 There are <strong>{{ postslist | length }}</strong> posts with the tag <span class="highlight">#{{ tag }}</span> <a title="clear tag filter" href="/notes/" style="background:#fff;">🆇</a>
 

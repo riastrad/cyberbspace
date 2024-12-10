@@ -62,12 +62,7 @@ body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family:
-        Courier New,
-        monospace,
-        Helvetica,
-        Arial,
-        sans-serif;
+    font-family: Menlo, "Courier New", Courier, monospace;
     background-color: #ffffff;
     color: #222;
 }
@@ -146,7 +141,7 @@ h6 {
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 300;
-    font-family: Palatino, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 h1 {
     font-size: 5rem;
@@ -213,7 +208,7 @@ a {
 a.post-title {
     background-color: #fff;
     font-size: 2.4rem;
-    font-family: Palatino, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 @media (max-width: 550px) {
@@ -286,19 +281,16 @@ pre > code {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 th,
 td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #e1e1e1;
+    border: 2px solid #000;
 }
-th:first-child,
-td:first-child {
-    padding-left: 0;
-}
-th:last-child,
-td:last-child {
-    padding-right: 0;
+
+th {
+    text-transform: uppercase;
 }
 
 /* Spacing
@@ -354,7 +346,7 @@ hr {
     margin-top: 3rem;
     margin-bottom: 3rem;
     border: none;
-    border-top: 1.5px solid #000;
+    border-top: 2px solid #000;
     color: #000;
     overflow: visible;
     text-align: center;

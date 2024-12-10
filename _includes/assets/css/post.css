@@ -54,6 +54,10 @@ div.dithered-hover + p {
     visibility: hidden;
 }
 
+.footnote-item p {
+    margin: 0.5em;
+}
+
 audio {
     width: 50%;
 }

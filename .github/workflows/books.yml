@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 20
       - name: Install deps
-        run: npm ci
+        run: npm ci --omit=dev
       - name: Check for reading updates
         run: npm run reading
       - name: Check for changes

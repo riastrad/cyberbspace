@@ -24,7 +24,7 @@ jobs:
           node-version: 20
       - name: Install deps & build site
         run: |
-          npm ci --omit=dev
+          npm ci
           npm run build
 
       - name: Deploy to Neocities

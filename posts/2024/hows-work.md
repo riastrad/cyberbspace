@@ -7,6 +7,7 @@ tags:
   - post
   - life
   - web
+  - writing
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 

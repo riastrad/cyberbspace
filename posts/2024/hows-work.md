@@ -1,8 +1,8 @@
 ---
 layout: post.njk
 title: How's Work?
-summary: Quick thoughts on Sarah Rose Etter's latest novel
-date: 2024-12-13 10:30:00+5:30
+summary: A log of work I am doing, want to do, and have done.
+date: 2024-12-13 11:30:00+5:30
 tags:
   - post
   - life
@@ -22,15 +22,16 @@ Listen. I get that these goals are not unique. I know there are a hundred thousa
 
 ## In the Works
 
-Since I've been so focused on writing and placing more serious fiction & non-fiction recently, I haven't had too much time to tinker with other small projects. So let me give you a quick rundown of my personal backlog:
+Since I've been so focused on writing and placing more serious fiction & non-fiction, I haven't had too much time to tinker with other small projects. So let me give you a quick rundown of my personal backlog:
 
-1. Finish building a bookshelf for this website
+1. Finish building a bookshelf for this website.
     ↳ I've landed on a better approach for keeping [Oku](https://oku.club) as my primary interface, which I mentioned in [a previous note](/notes/2024/dropping-the-ocean/). I think this work will fall in place much more quickly once I decide to dedicate time to it.
 1. Write an [11ty plugin](https://www.11ty.dev/docs/plugins/#creating-a-plugin) to turn [scroll to text fragment links](https://github.com/WICG/scroll-to-text-fragment) into embedded citations with source links.([cyberbspace#168](https://github.com/riastrad/cyberbspace/issues/168))
     ↳ I don't know that this will have value for anyone other than me. But I think it would be cool if I could just click `copy link to highlight` & drop the link into a page's markdown file then have it automatically turn into a blockquote element that's formatted properly and linked to that text fragment.
 1. Finally write that travel note about my trip down south to Kerala.
     ↳ Seriously, it's almost been a month and I have photos and thoughts.
 1. Write a personal "wrapped" note before the end of the year.
+1. Publish a written commitment to not use generative AI for any of the writing that appears on this website.
 1. Fine tune my SVG map implementation ([cyberbspace#159](https://github.com/riastrad/cyberbspace/issues/159)) & generate an overview map for the `#travel` filter tag.
 1. Maybe break my rule about only using fonts already on the computer (ref. [rule #2](/notes/2024/rules-for-this-website/#:~:text=IF%20I%20NEED%20SOMETHING%20THAT'S%20ALREADY%20ON%20THE%20COMPUTER%2C%20DON'T%20BUNDLE%20IT)) and load up [Noto Emoji](https://fonts.google.com/noto/specimen/Noto+Emoji/about) so that I get my emoji use to align with my sites aesthetics.
 1. I, rather unexpectedly, won an ebay bid for an antique mechanical typewriter! I'm planning to share pictures and thoughts on it when it arrives in the mail.
@@ -47,11 +48,11 @@ I tinker with my website when I'm procrastinating on other things. You may have 
    ↳ I'd had the serif headers + monospace body since I moved over to a static site generator, and — to be perfectly honest — the longer I've had it the more I hated it. This new format feels aesthetically pleasing at the moment, with the caveat that I'll probably be making some adjustments to the size of my headers (they feel a bit intense at the moment).
 1. There was some extra top & bottom padding in my footnotes and I couldn't for the life of me understand why. I finally took the time to find the CSS rule that was responsible and trimmed those suckers down. ([cyberbspace@d4026c0](https://github.com/riastrad/cyberbspace/pull/206/commits/d4026c0c81e21066d27976c3fbeb6e91d69d6d32))
 
-## Art Works
+## Blog Works
 
-I don't intend for this to become a site dedicated to cataloging the trials and frustrations of making headway into an unfamiliar industry. I find that going that route tends to be a sinkhole where I spend all my time writing about that process and not focusing on the quality of my work. So please consider this post an anomaly.
+I don't intend for this to become a site dedicated to cataloging the trials and frustrations of making headway in an unfamiliar industry. I find that going that route tends to be a sinkhole where I spend all my time writing about that process and not focusing on the quality of my writing. The writing about the work subsumes the actual work, &c. So please consider this post an anomaly.
 
-That being said, this blog is very much a bin I throw random thoughts into just to get them out of my head. So I can make no promises or guarantees about the quality or content of future notes.
+That being said, this website is very much a bin I throw random thoughts so that they no longer take up space in my mind. I can make no promises or guarantees about the quality or content of future notes.
 
 [^1]: As you can imagine, this is a bit difficult to do while based in India and focusing on U.S. publishing. I'm feeling my way through it, but if you are or know someone who'd be worth chatting with, [drop me a line](mailto:josh@cyberb.space)!
 [^2]: At the moment I'm relying on savings and the generous patronage of my wife.

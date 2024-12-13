@@ -16,13 +16,13 @@
     "luxon": "^1.28.1",
     "markdown-it": "^13.0.1",
     "markdown-it-footnote": "^3.0.3",
-    "fast-xml-parser": "^4.5.0"
+    "fast-xml-parser": "^4.5.0",
+    "undici": "^6.21.0"
   },
   "devDependencies": {
     "glob": "^11.0.0",
     "spellchecker-cli": "^4.8.1",
-    "dither-me-this": "^0.0.5",
-    "undici": "^6.21.0"
+    "dither-me-this": "^0.0.5"
   },
   "scripts": {
     "test": "test",

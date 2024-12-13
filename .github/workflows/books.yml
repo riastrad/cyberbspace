@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       tags:
-        description: "reason for run tags"
+        description: "check yourself?"
         required: false
         type: boolean
 

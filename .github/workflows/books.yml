@@ -3,7 +3,8 @@ on:
   schedule:
     - cron: "34 0/6 * * *"
   workflow_dispatch:
-    - tags:
+    inputs:
+      tags:
         description: "reason for run tags"
         required: false
         type: boolean

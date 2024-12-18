@@ -5,12 +5,11 @@ summary: Like "wrapped," but more exclusive
 date: 2024-12-18 14:00:00+5:30
 tags:
   - post
+  - review
   - fiction
   - non-fiction
   - film
   - music
-  - review
-  - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 

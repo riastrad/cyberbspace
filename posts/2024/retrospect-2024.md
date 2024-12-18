@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: 2024 in Retrospect
-summary: Like "wrapped," but more exclusive
+summary: Like 'wrapped', but more exclusive
 date: 2024-12-18 14:00:00+5:30
 tags:
   - post

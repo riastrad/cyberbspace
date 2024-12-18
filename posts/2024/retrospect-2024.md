@@ -31,7 +31,7 @@ Here are the high-level stats:
 | fiction     | 18    |
 | total       | 26    |
 
-I typically aim for about 20 books a year. [Previously](/notes/2022/last-year-s-reads/) I've written about the blend of translation, author backgrounds, &c. I'm not going to dive too deeply into that here, this section is based entirely on books that I would recommend to you if the opportunity came up in casual conversation.
+I typically aim for about 24 books a year, give or take. [Previously](/notes/2022/last-year-s-reads/) I've written about the blend of translation, author backgrounds, &c. I'm not going to dive too deeply into that here, this section is based entirely on books that I would recommend to you if the opportunity came up in casual conversation.
 
 #### [His Master's Voice](https://openlibrary.org/works/OL27714066W/His_Master%27s_Voice?edition=key%3A/books/OL37809066M) by Stanisław Lem
 

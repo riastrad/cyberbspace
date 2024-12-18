@@ -17,7 +17,7 @@ Now, the company that bought Bandcamp has publicly stated that they "have no pla
 
 As I'm writing this, I'm listening to an album I only discovered because of [Bandcamp's editorial work](https://daily.bandcamp.com/album-of-the-day/kara-jackson-why-does-the-earth-give-us-people-to-love-review). Kara Jackson's _Why Does The Earth Give Us People To Love?_ It's beautiful and moody and would not be in my life if it weren't for the people so carelessly discarded by Songtradr.
 
-<div align=center><iframe style="border: 0; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1829566835/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless><a href="https://karajackson.bandcamp.com/album/why-does-the-earth-give-us-people-to-love">Why Does The Earth Give Us People To Love? by Kara Jackson</a></iframe></div>
+<div align=center><iframe style="border: 0; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=1829566835/size=large/bgcol=ffffff/linkcol=333333/artwork=small/transparent=true/" seamless><a href="https://karajackson.bandcamp.com/album/why-does-the-earth-give-us-people-to-love">Why Does The Earth Give Us People To Love? by Kara Jackson</a></iframe></div>
 
 Only one thought consoles at moments like this: Art and music will live on long after the destruction of market capitalism is a distant memory. Its glistening fangs no longer feasting on the fruit given freely by our yearning souls.
 

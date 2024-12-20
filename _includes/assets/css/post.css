@@ -62,6 +62,10 @@ audio {
     width: 50%;
 }
 
+img#overviewMap {
+    border: none;
+}
+
 img.svgMap {
     height: auto;
     display: block;

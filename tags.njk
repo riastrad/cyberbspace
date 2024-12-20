@@ -22,8 +22,11 @@ layout: base.njk
 
 <hr />
 
-There are <strong>{{ postslist | length }}</strong> posts with the tag <span class="highlight">#{{ tag }}</span> <a title="clear tag filter" href="/notes/" style="background:#fff;">🆇</a>
+{% if tag === "travel" %}
+    {% cartographer "all" %}
+{% endif %}
 
+There are <strong>{{ postslist | length }}</strong> posts with the tag <a title="clear tag filter" href="/notes/" style="cursor: context-menu">#{{ tag }}</a>
 
 {% include "postslist.njk" %}
 

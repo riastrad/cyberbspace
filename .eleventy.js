@@ -5,7 +5,11 @@ const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { hasDitheredCopy, getDitheredPath } = require("./bin/dither");
-const { placemapExists, generateLocationMap } = require("./bin/map-maker");
+const {
+  placemapExists,
+  generateLocationMap,
+  generateOverviewMap,
+} = require("./bin/map-maker");
 
 module.exports = function (eleventyConfig) {
   // swap out markdown engines & add support for footnote syntax
@@ -71,21 +75,25 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // Generate travel post map SVG
+  // Generate travel overview map & specific location maps
+  eleventyConfig.on("eleventy.after", async () => {
+    await generateOverviewMap(cities);
+    for (const city in cities) {
+      generateLocationMap(cities, city);
+    }
+  });
+
   eleventyConfig.addShortcode("cartographer", (location) => {
     // 1. instead of doing inline stuff, we should check to see if an svg file exists in the `/maps/city.svg` path
 
     if (location === "all") {
-      // generateOverviewMap(cities);
+      return `<img id="overviewMap" class="svgMap" src="/places/all-cities.svg" />`;
     }
 
     // should split into
     if (!cities[location]) return "";
     const { url, display_name } = cities[location];
 
-    if (!placemapExists(location)) {
-      generateLocationMap(cities, location);
-    }
     const svgImg = `<img class="svgMap" src="/places/${location}.svg" />`;
 
     return `
@@ -135,7 +143,6 @@ module.exports = function (eleventyConfig) {
   // Make sure assets carry through
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("noise");
-  eleventyConfig.addPassthroughCopy("places");
   eleventyConfig.addPassthroughCopy("docs");
   eleventyConfig.addPassthroughCopy("scripts");
 };

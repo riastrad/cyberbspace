@@ -1,12 +1,11 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
-const d3 = require("d3-geo", "d3-geo-projection");
-const worldData = require("./_data/ne_110m_admin_0_countries.json");
 const cities = require("./_data/cities.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { hasDitheredCopy, getDitheredPath } = require("./bin/dither");
+const { placemapExists, generateLocationMap } = require("./bin/map-maker");
 
 module.exports = function (eleventyConfig) {
   // swap out markdown engines & add support for footnote syntax
@@ -74,29 +73,24 @@ module.exports = function (eleventyConfig) {
 
   // Generate travel post map SVG
   eleventyConfig.addShortcode("cartographer", (location) => {
+    // 1. instead of doing inline stuff, we should check to see if an svg file exists in the `/maps/city.svg` path
+
+    if (location === "all") {
+      // generateOverviewMap(cities);
+    }
+
+    // should split into
     if (!cities[location]) return "";
-    const { lat, lon, display_name, url } = cities[location];
+    const { url, display_name } = cities[location];
 
-    const graticule = d3.geoGraticule10();
-    const projection = d3
-      .geoEqualEarth()
-      .scale(600)
-      .center([lon, lat])
-      .translate([344, 168.56]);
-    const path = d3.geoPath(projection);
-
-    const mapSvg = `<svg width="688" height="337.12" viewBox="0 0 688 337.12">
-      <g>
-        <path d="${path(graticule)}" stroke="#000" fill="none"></path>
-        <path d="${path(worldData)}" stroke="#fff" fill="#ccc"></path>
-        <circle cx="344" cy="168.56" r="5" stroke-width="2px" stroke="#000" fill="rgba(238, 238, 51, 0.6)" />
-        <circle cx="344" cy="168.56" r="15" stroke-width="2px" stroke="#000" stroke-dasharray="5,5" fill="transparent" />
-      </g>
-    </svg>`;
+    if (!placemapExists(location)) {
+      generateLocationMap(cities, location);
+    }
+    const svgImg = `<img class="svgMap" src="/places/${location}.svg" />`;
 
     return `
     <div align=center><b>a dispatch from:</b> <a href="${url}">${display_name}</a></div>
-     ${mapSvg}
+    ${svgImg}
     <br />
      `;
   });
@@ -141,6 +135,7 @@ module.exports = function (eleventyConfig) {
   // Make sure assets carry through
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("noise");
+  eleventyConfig.addPassthroughCopy("places");
   eleventyConfig.addPassthroughCopy("docs");
   eleventyConfig.addPassthroughCopy("scripts");
 };

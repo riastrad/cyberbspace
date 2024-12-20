@@ -62,7 +62,7 @@ audio {
     width: 50%;
 }
 
-svg {
+img.svgMap {
     height: auto;
     display: block;
     margin-left: auto;
@@ -79,14 +79,14 @@ svg {
 
 /* For devices larger than a phablet */
 @media (min-width: 550px) {
-    svg {
+    img.svgMap {
         width: 75%;
     }
 }
 
 /* For devices smaller than a phablet */
 @media (max-width: 550px) {
-    svg {
+    img.svgMap {
         width: 100%;
     }
 

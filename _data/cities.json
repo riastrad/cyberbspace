@@ -5,22 +5,160 @@
     "lat": 19.076111,
     "lon": 72.8775
   },
+  "chicago": {
+    "display_name": "Chicago, Illinois",
+    "url": "https://en.wikipedia.org/wiki/Chicago",
+    "lat": 41.881944,
+    "lon": -87.627778
+  },
+  "dc": {
+    "display_name": "Washington, D.C.",
+    "url": "https://en.wikipedia.org/wiki/Washington,_D.C.",
+    "lat": 38.904722,
+    "lon": -77.016389
+  },
+  "warsaw": {
+    "display_name": "Warsaw, Poland",
+    "url": "https://en.wikipedia.org/wiki/Warsaw",
+    "lat": 52.23,
+    "lon": 21.011111
+  },
   "paris": {
     "display_name": "Paris, Île-de-France",
     "url": "https://en.wikipedia.org/wiki/Paris",
     "lat": 48.856667,
     "lon": 2.352222
   },
-  "dc": {
-    "display_name": "Washington, DC",
-    "url": "https://en.wikipedia.org/wiki/Washington,_D.C.",
-    "lat": 38.904722,
-    "lon": -77.016389
+  "moshi": {
+    "display_name": "Moshi, Tanzania",
+    "url": "https://en.wikipedia.org/wiki/Moshi,_Tanzania",
+    "lat": -3.33488,
+    "lon": 37.34038
   },
-  "chicago": {
-    "display_name": "Chicago, IL",
-    "url": "https://en.wikipedia.org/wiki/Chicago",
-    "lat": 41.881944,
-    "lon": -87.627778
+  "rabat": {
+    "display_name": "Rabat, Morocco",
+    "url": "https://en.wikipedia.org/wiki/Rabat",
+    "lat": 34.02088,
+    "lon": -6.84165
+  },
+  "casablanca": {
+    "display_name": "Casablanca, Morocco",
+    "url": "https://en.wikipedia.org/wiki/Casablanca",
+    "lat": 33.53333,
+    "lon": -7.58333
+  },
+  "marrakech": {
+    "display_name": "Marrakech, Morocco",
+    "url": "https://en.wikipedia.org/wiki/Marrakesh",
+    "lat": 31.63,
+    "lon": -8.00088
+  },
+  "chefchaouen": {
+    "display_name": "Chefchaouen, Morocco",
+    "url": "https://en.wikipedia.org/wiki/Chefchaouen",
+    "lat": 35.181389,
+    "lon": -5.269722
+  },
+  "cueta": {
+    "display_name": "Cueta, Spain",
+    "url": "https://en.wikipedia.org/wiki/Ceuta",
+    "lat": 35.88833,
+    "lon": -5.315556
+  },
+  "fez": {
+    "display_name": "Fez, Morocco",
+    "url": "https://en.wikipedia.org/wiki/Fez,_Morocco",
+    "lat": 34.043333,
+    "lon": -5.003333
+  },
+  "merzouga": {
+    "display_name": "Merzouga, Morocco",
+    "url": "https://en.wikipedia.org/wiki/Merzouga",
+    "lat": 31.099167,
+    "lon": -4.011667
+  },
+  "asilah": {
+    "display_name": "Asilah, Morocco",
+    "url": "https://en.wikipedia.org/wiki/Asilah",
+    "lat": 35.46667,
+    "lon": -6.03333
+  },
+  "lisbon": {
+    "display_name": "Lisbon, Portugal",
+    "url": "https://en.wikipedia.org/wiki/Lisbon",
+    "lat": 38.725278,
+    "lon": -9.15
+  },
+  "porto": {
+    "display_name": "Porto, Portugal",
+    "url": "https://en.wikipedia.org/wiki/Porto",
+    "lat": 41.162142,
+    "lon": -8.621953
+  },
+  "madrid": {
+    "display_name": "Madrid, Spain",
+    "url": "https://en.wikipedia.org/wiki/Madrid",
+    "lat": 40.416944,
+    "lon": -3.703333
+  },
+  "munich": {
+    "display_name": "Munich, Germany",
+    "url": "https://en.wikipedia.org/wiki/Munich",
+    "lat": 48.1375,
+    "lon": 11.575
+  },
+  "venice": {
+    "display_name": "Venice, Italy",
+    "url": "https://en.wikipedia.org/wiki/Venice",
+    "lat": 45.4375,
+    "lon": 12.335833
+  },
+  "monaco": {
+    "display_name": "Monte Carlo, Monaco",
+    "url": "https://en.wikipedia.org/wiki/Monte_Carlo",
+    "lat": 43.739722,
+    "lon": 7.427222
+  },
+  "geneva": {
+    "display_name": "Geneva, Switzerland",
+    "url": "https://en.wikipedia.org/wiki/Geneva",
+    "lat": 46.201667,
+    "lon": 6.146944
+  },
+  "moulins": {
+    "display_name": "Moulins-sur-Allier, France",
+    "url": "https://en.wikipedia.org/wiki/Moulins,_Allier",
+    "lat": 46.5653,
+    "lon": 3.3333
+  },
+  "barcelona": {
+    "display_name": "Barcelona, Spain",
+    "url": "https://en.wikipedia.org/wiki/Barcelona",
+    "lat": 41.383333,
+    "lon": 2.183333
+  },
+  "figueres": {
+    "display_name": "Figueres, Spain",
+    "url": "https://en.wikipedia.org/wiki/Figueres",
+    "lat": 42.266667,
+    "lon": 2.965
+  },
+  "baune": {
+    "display_name": "Baune, France",
+    "url": "https://en.wikipedia.org/wiki/Beaune",
+    "lat": 47.025,
+    "lon": 4.8397
+  },
+  "perigueux": {
+    "display_name": "Périgueux, France",
+    "url": "https://en.wikipedia.org/wiki/P%C3%A9rigueux",
+    "lat": 45.1929,
+    "lon": 0.7217
+  },
+  "palavas-les-flot": {
+    "display_name": "Palavas-les-Flots, France",
+    "url": "https://en.wikipedia.org/wiki/Palavas-les-Flots",
+    "lat": 43.5303,
+    "lon": 3.9314
   }
 }

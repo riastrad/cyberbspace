@@ -19,7 +19,9 @@ section: post
 {% endif %}
 <hr />
 
-{% cartographer location %}
+{% if location %}
+    {% cartographer location %}
+{% endif %}
 
 {{ content | safe }}
 

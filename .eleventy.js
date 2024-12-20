@@ -1,12 +1,15 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
-const d3 = require("d3-geo", "d3-geo-projection");
-const worldData = require("./_data/ne_110m_admin_0_countries.json");
 const cities = require("./_data/cities.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { hasDitheredCopy, getDitheredPath } = require("./bin/dither");
+const {
+  placemapExists,
+  generateLocationMap,
+  generateOverviewMap,
+} = require("./bin/map-maker");
 
 module.exports = function (eleventyConfig) {
   // swap out markdown engines & add support for footnote syntax
@@ -72,31 +75,26 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // Generate travel post map SVG
+  // Generate travel overview map & specific location maps
+  eleventyConfig.on("eleventy.after", async () => {
+    await generateOverviewMap(cities);
+    for (const city in cities) {
+      generateLocationMap(cities, city);
+    }
+  });
+
   eleventyConfig.addShortcode("cartographer", (location) => {
-    if (!cities[location]) return "";
-    const { lat, lon, display_name, url } = cities[location];
+    if (location === "all") {
+      return `<img id="overviewMap" class="svgMap" src="/places/all-cities.svg" />`;
+    }
 
-    const graticule = d3.geoGraticule10();
-    const projection = d3
-      .geoEqualEarth()
-      .scale(600)
-      .center([lon, lat])
-      .translate([344, 168.56]);
-    const path = d3.geoPath(projection);
+    const { url, display_name } = cities[location];
 
-    const mapSvg = `<svg width="688" height="337.12" viewBox="0 0 688 337.12">
-      <g>
-        <path d="${path(graticule)}" stroke="#000" fill="none"></path>
-        <path d="${path(worldData)}" stroke="#fff" fill="#ccc"></path>
-        <circle cx="344" cy="168.56" r="5" stroke-width="2px" stroke="#000" fill="rgba(238, 238, 51, 0.6)" />
-        <circle cx="344" cy="168.56" r="15" stroke-width="2px" stroke="#000" stroke-dasharray="5,5" fill="transparent" />
-      </g>
-    </svg>`;
+    const svgImg = `<img class="svgMap" src="/places/${location}.svg" />`;
 
     return `
     <div align=center><b>a dispatch from:</b> <a href="${url}">${display_name}</a></div>
-     ${mapSvg}
+    ${svgImg}
     <br />
      `;
   });

@@ -84,14 +84,10 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("cartographer", (location) => {
-    // 1. instead of doing inline stuff, we should check to see if an svg file exists in the `/maps/city.svg` path
-
     if (location === "all") {
       return `<img id="overviewMap" class="svgMap" src="/places/all-cities.svg" />`;
     }
 
-    // should split into
-    if (!cities[location]) return "";
     const { url, display_name } = cities[location];
 
     const svgImg = `<img class="svgMap" src="/places/${location}.svg" />`;

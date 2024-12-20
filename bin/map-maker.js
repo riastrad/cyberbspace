@@ -56,7 +56,7 @@ module.exports.generateOverviewMap = async (cities) => {
     .translate([344, 168.56]);
   const path = d3.geoPath(projection);
 
-  const circlator = d3.geoCircle().radius(1.25).precision(1);
+  const circlator = d3.geoCircle().radius(1.25).precision(0.5);
   const markers = [];
   for (const city in cities) {
     const circle = circlator.center([cities[city].lon, cities[city].lat]);

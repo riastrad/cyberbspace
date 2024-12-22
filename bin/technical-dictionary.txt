@@ -1,3 +1,5 @@
+aqi
+aqi.png
 ripe.png
 Node.js
 dirge.png

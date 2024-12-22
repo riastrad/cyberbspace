@@ -5,11 +5,8 @@ const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { hasDitheredCopy, getDitheredPath } = require("./bin/dither");
-const {
-  placemapExists,
-  generateLocationMap,
-  generateOverviewMap,
-} = require("./bin/map-maker");
+const { generateLocationMap, generateOverviewMap } = require("./bin/map-maker");
+const { request } = require("undici");
 
 module.exports = function (eleventyConfig) {
   // swap out markdown engines & add support for footnote syntax
@@ -81,6 +78,45 @@ module.exports = function (eleventyConfig) {
     for (const city in cities) {
       generateLocationMap(cities, city);
     }
+  });
+
+  // currently this only returns an HTML widget that
+  // shows the aqi for Mumbai, though this could easily be changed
+  eleventyConfig.addAsyncShortcode("aqi", async (location) => {
+    console.log(`[cyberb] pulling AQI data for ${location}`);
+    const { statusCode, body } = await request(
+      "https://airnowgovapi.com/reportingarea/get",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        },
+        body: "latitude=19.0842541&longitude=72.8851751&maxDistance=50",
+      },
+    );
+
+    if (statusCode !== 200) {
+      console.log(`[cyberb] AQI widget failed with error ${statusCode}`);
+      return `<table align=center><tr><td>⚠️ failed to retrieve AQI reading for ${location} ⚠️</td></tr></table>`;
+    }
+
+    const content = await body.json();
+    const { issueDate, time, timezone, aqi } = content[0];
+
+    const widget = `<table align=center>
+      <tr>
+        <td colspan=2>The last time this site was built the most recent AQI reading was:</td>
+      </tr>
+      <tr>
+        <td style='text-align: center; font-size: 6em;' colspan=2>${aqi}</td>
+      </tr>
+      <tr>
+        <td>date: ${issueDate}</td>
+        <td>time: ${time} ${timezone}</td>
+      </tr>
+    </table>`;
+
+    return widget;
   });
 
   eleventyConfig.addShortcode("cartographer", (location) => {

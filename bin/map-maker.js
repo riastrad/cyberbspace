@@ -11,7 +11,6 @@ module.exports.placemapExists = (location) => {
 
 // creates and saves the map, no return value
 module.exports.generateLocationMap = (cities, location) => {
-  console.log(`[cyberbspace] generating svg map for ${location}`);
   const { lat, lon } = cities[location];
 
   const graticule = d3.geoGraticule10();
@@ -31,7 +30,7 @@ module.exports.generateLocationMap = (cities, location) => {
     </g>
   </svg>`;
 
-  console.log("[cyberbspace] creating map file for", location);
+  console.log(`[cyberb] saving SVG map to ${MAP_OUTPUT_DIR}/${location}.svg`);
   fs.writeFileSync(`${MAP_OUTPUT_DIR}/${location}.svg`, mapSvg, {
     encoding: "utf8",
   });
@@ -39,7 +38,7 @@ module.exports.generateLocationMap = (cities, location) => {
 
 module.exports.generateOverviewMap = async (cities) => {
   console.log(
-    `[cyberbspace] generating overview map for ${Object.keys(cities).length} cities.`,
+    `[cyberb] generating overview map for ${Object.keys(cities).length} cities.`,
   );
 
   // If we don't provision our dedicated directory first, then

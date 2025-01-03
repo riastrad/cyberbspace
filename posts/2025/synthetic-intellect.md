@@ -39,7 +39,7 @@ This applies to all my writing, not solely the writing that appears on this webs
 
 ### Errata
 
-There are so many other thoughts I have on this subject, like how cryptocurrency and A.I. almost feel like the market's response to attempts to reduce energy emissions. Or how the ultimate goal of these technologies is to allow capital to enjoy the benefits of creative work without having to handle the messy and expensive reality of the humans who create it.[^5] But these topics are all ancillary to my main point here, so I've set them aside.
+There are so many other thoughts I have on this subject, like how cryptocurrency and A.I. almost feel like the market's response to attempts to reduce energy emissions. Or how the ultimate goal of these technologies is to allow capital to enjoy the benefits of creative work without having to handle the messy and expensive reality of the humans who perform it.[^5] But these topics are all ancillary to my main point here, so I've set them aside.
 
 It is also worth acknowledging that there are some artists and thinkers out there — I think most notably [James Bridle](https://en.wikipedia.org/wiki/Ways_of_Being) — who reframe the argument in an interesting way. Intelligence, they say, is not some innate thing that can only reside in human individuals, but rather it's a collaboration between humans, nature, and machines. Though I don't find this argument as compelling given the current state of the technology, I don't want to discount it entirely. Sometimes we give ourselves too much credit, after all.
 

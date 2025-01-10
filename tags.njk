@@ -23,7 +23,7 @@ layout: base.njk
 <hr />
 
 {% if tag === "travel" %}
-    {% cartographer "all" %}
+    {% cartographer "all" %}<br />
 {% endif %}
 
 There are <strong>{{ postslist | length }}</strong> posts with the tag <a title="clear tag filter" href="/notes/" style="cursor: context-menu">#{{ tag }}</a>

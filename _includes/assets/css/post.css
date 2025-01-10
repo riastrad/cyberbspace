@@ -67,6 +67,7 @@ img#overviewMap {
 }
 
 img.svgMap {
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -83,16 +84,14 @@ img.svgMap {
 /* For devices larger than a phablet */
 @media (min-width: 550px) {
     img.svgMap {
-        width: 725px;
-        height: 360px;
+        width: 75%;
     }
 }
 
 /* For devices smaller than a phablet */
 @media (max-width: 550px) {
     img.svgMap {
-        width: 365px;
-        height: 200px;
+        width: 100%;
     }
 
     blockquote {

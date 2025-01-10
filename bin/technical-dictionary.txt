@@ -1,3 +1,10 @@
+sgp-1.png
+sgp-2.png
+sgp-3.png
+sgp-4.png
+sgp-5.png
+sgp-6.png
+sgp-7.png
 aqi
 aqi.png
 ripe.png

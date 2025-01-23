@@ -13,7 +13,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 I tend to see my native country most clearly when I am away from it, but sometimes I need a little bit of help.
 
-Fortunately, there is a time-honored tradition of European intellectuals visiting the United States of America and having their understanding of the world and its meaning drastically altered.[^1] I find the work that these encounters inspire endlessly fascinating. It shouldn't come as a surprise, then, that it took me less than five months of living abroad to pick up Jean Baudrillard's [America](https://openlibrary.org/books/OL2196791M/America).
+Fortunately, there is a time-honored tradition of European intellectuals visiting the United States of America and having their understanding of the world drastically altered.[^1] I find the work that these encounters inspire endlessly fascinating. It shouldn't come as a surprise, then, that it took me less than five months of living abroad to pick up Jean Baudrillard's [America](https://openlibrary.org/books/OL2196791M/America).
 
 {% dither "/img/blog/2025/baudrillard.png" %}
 

@@ -34,6 +34,15 @@ module.exports = function (eleventyConfig) {
   });
 
   // Process book data
+  eleventyConfig.addFilter("readingProgressYear", function (books) {
+    const currentYear = DateTime.now().year;
+
+    const booksThisYear = books.filter((book) =>
+      book.finished.includes(currentYear),
+    );
+    return `${booksThisYear.length} ${booksThisYear.length !== 1 ? "books" : "book"}`;
+  });
+
   eleventyConfig.addFilter("books", function (books) {
     if (books.length === 0) {
       return 'nothing... but probably eyeing <a href="https://oku.club/user/riastrad/collection/to-read">one of these</a>.';

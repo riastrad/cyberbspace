@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: space.
-date: 2024-12-01 09:01:00
+date: 2025-02-01 09:01:00
 tags:
   - nav
 navtitle: home
@@ -18,7 +18,7 @@ This site is the primary conduit through which my lived experience flows into th
 {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
 
 **WHAT I'M READING**
-{{ reading | books }}
+{{ books.reading | books }}
 
 **RECENT PUBLISHED WRITING**
 <a href="{{ publications.first.url }}">{{ publications.first.title }}</a> in *{{ publications.first.publisher }}*

@@ -303,6 +303,14 @@ td {
     border: 2px solid #000;
 }
 
+td:has(a) {
+    background: rgba(238, 238, 51, 0.6);
+}
+
+td > a {
+    background: none;
+}
+
 th {
     text-transform: uppercase;
 }

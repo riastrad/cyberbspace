@@ -30,6 +30,7 @@
     "start": "npx eleventy --serve --formats=md",
     "dither": "node ./bin/dither-all-images.js",
     "reading": "node ./bin/fetch-currently-reading.js",
+    "have-read": "node ./bin/fetch-read.js",
     "spellcheck": "npx spellchecker --config .spellcheckerrc.json"
   },
   "repository": {

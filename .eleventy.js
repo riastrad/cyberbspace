@@ -165,6 +165,10 @@ module.exports = function (eleventyConfig) {
   });
 
   // Date formatting stuff
+  eleventyConfig.addFilter("readableBookDate", (dateString) => {
+    return DateTime.fromRFC2822(dateString).toFormat("yyyy-MM-dd");
+  });
+
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("MMM dd, yyyy");
   });

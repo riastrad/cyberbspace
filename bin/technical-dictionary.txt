@@ -1,3 +1,5 @@
+endfor
+readableBookDate
 readingProgressYear
 baudrillard.png
 sgp-1.png

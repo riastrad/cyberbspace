@@ -1,10 +1,10 @@
 const fs = require("fs");
 const { constants, fetchBooksFromRSS } = require("./shelf.js");
 
-async function possiblyUpdateReadingFile(books) {
-  if (!fs.existsSync(constants.READING_FILE_PATH)) {
+async function possiblyUpdateReadFile(books) {
+  if (!fs.existsSync(constants.READ_FILE_PATH)) {
     await fs.promises.writeFile(
-      constants.READING_FILE_PATH,
+      constants.READ_FILE_PATH,
       JSON.stringify(books, null, 4),
       {
         encoding: "utf8",
@@ -13,25 +13,23 @@ async function possiblyUpdateReadingFile(books) {
     return;
   }
 
-  const existingReading = await fs.promises.readFile(
-    constants.READING_FILE_PATH,
-  );
+  const existingReading = await fs.promises.readFile(constants.READ_FILE_PATH);
   if (JSON.stringify(books, null, 4) === existingReading.toString()) {
     console.log(`[shelflife] no change, leaving file as is.`);
     return;
   }
 
   await fs.promises.writeFile(
-    constants.READING_FILE_PATH,
+    constants.READ_FILE_PATH,
     JSON.stringify(books, null, 4),
     { encoding: "utf8" },
   );
-  console.log(`[shelflife] updated currently reading.`);
+  console.log(`[shelflife] updated read books.`);
 }
 
 async function main() {
-  const reading = await fetchBooksFromRSS(constants.READING_RSS);
-  await possiblyUpdateReadingFile(reading);
+  const reading = await fetchBooksFromRSS(constants.READ_RSS);
+  await possiblyUpdateReadFile(reading);
 }
 
 main()

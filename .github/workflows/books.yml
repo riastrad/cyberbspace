@@ -23,7 +23,7 @@ jobs:
       - name: Install deps
         run: npm ci --omit=dev
       - name: Check for reading updates
-        run: npm run reading
+        run: npm run reading && npm run have-read
       - name: Check for changes
         id: check_changes
         run: |
@@ -36,5 +36,5 @@ jobs:
           git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A && git commit -m "📖 update currently reading"
+          git add -A && git commit -m "📖 updated book data"
           git push origin main

@@ -18,7 +18,7 @@ navtitle: bookshelf
 
 ## Read
 
-I have read **{{ books.have_read.length }}**  books since I started keeping track of them digitially.
+I have read **{{ books.have_read.length }}**  books since I started keeping track of them digitally.
 
 <div class="shelf">
     {% for book in books.have_read %}<div class="shelvedbook"><a href="{{ book.link }}">{{ book.title }}</a></div>{% endfor %}

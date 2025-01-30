@@ -3,7 +3,7 @@ const { XMLParser } = require("fast-xml-parser");
 const parser = new XMLParser();
 
 const READING_FILE_PATH = "./_data/reading.json";
-const READ_FILE_PATH = "./_data/read.json";
+const READ_FILE_PATH = "./_data/have_read.json";
 const READING_RSS = "https://oku.club/rss/collection/SmX9F";
 const READ_RSS = "https://oku.club/rss/collection/V7jj3";
 

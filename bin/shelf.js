@@ -23,12 +23,17 @@ module.exports.fetchBooksFromRSS = async (rss) => {
   const rawXML = await body.text();
   const books = parser.parse(rawXML).rss.channel.item;
   const cleanBooks = books.map((bk) => {
-    return {
+    const book = {
       title: bk.title,
       author: bk["dc:creator"],
       link: bk.link,
-      started: bk.pubDate,
     };
+
+    // silly little hack to correctly name date key
+    rss.endsWith("SmX9F")
+      ? (book.started = bk.pubDate)
+      : (book.finished = bk.pubDate);
+    return book;
   });
   return cleanBooks;
 };

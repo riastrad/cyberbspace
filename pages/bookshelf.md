@@ -11,17 +11,20 @@ navtitle: bookshelf
 
 ## Currently Reading
 
-<div class="shelf">
-    {% for book in books.reading %}<div class="shelvedbook"><a href="{{ book.link }}">{{ book.title }}</a></div>{% endfor %}
-</div>
-<hr />
+| **started** | **title** | **author** |
+| :--      | :--       | :--        |
+{% for book in books.reading %}| {{ book.started | readableBookDate }} | [{{ book.title }}]({{ book.link }}) | {{ book.author }} |
+{% endfor %}
+
+---
 
 ## Read
 
 I have read **{{ books.have_read.length }}**  books since I started keeping track of them digitally.
 
-<div class="shelf">
-    {% for book in books.have_read %}<div class="shelvedbook"><a href="{{ book.link }}">{{ book.title }}</a></div>{% endfor %}
-</div>
+| **finished** | **title** | **author** |
+| :--      | :--       | :--        |
+{% for book in books.have_read %}| {{ book.finished | readableBookDate }} | [{{ book.title }}]({{ book.link }}) | {{ book.author }} |
+{% endfor %}
 
 <hr />

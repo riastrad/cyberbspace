@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 title: space.
-date: 2025-02-01 09:01:00
+date: 2025-01-31 09:01:00
 tags:
   - nav
 navtitle: home

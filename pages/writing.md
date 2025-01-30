@@ -1,7 +1,7 @@
 ---
 layout: writing.njk
 title: writing.
-date: 2001-01-01 10:00:00
+date: 2025-01-03 10:00:00
 tags:
   - nav
 navtitle: writing

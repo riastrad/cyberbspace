@@ -24,7 +24,7 @@ My initial plans were fairly ambitious. They included building out new APIs, a d
 {% dither "/img/blog/2025/shelf-life-2.png" %}
 <div class="center-text"><small>In this one from circa August 2024, I'm still caught up on data schema and API endpoints.</small></div><br />
 
-When I thought about it some more, I became less convinced that this was the right direction. I wanted a robust workflow, but I started to shy away from baking it from scratch because I didn't want the cost & burden of maintaining a new backend & a frontend app. Especially as this work was marinating, I realized that my current tracker app ([Oku](https://oku.club)) exposed high-level data for my lists (currently reading, read, to read) as distinct RSS feeds.
+When I thought about it some more, I became less convinced that this was the right direction. I wanted a robust workflow, but I started to shy away from baking it from scratch because I didn't want the cost & burden of maintaining a new backend & a front end app. Especially as this work was marinating, I realized that my current tracker app ([Oku](https://oku.club)) exposed high-level data for my lists (currently reading, read, to read) as distinct RSS feeds.
 
 I started to think about how I could do all of this with with an elaborate system of GitHub issues that triggered actions.[^1]
 

@@ -1,3 +1,7 @@
+shelf-life-1.png
+shelf-life-2.png
+eleventy
+Eleventy
 endfor
 readableBookDate
 readingProgressYear

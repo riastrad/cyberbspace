@@ -24,7 +24,7 @@ module.exports.fetchBooksFromRSS = async (rss) => {
   let books = parser.parse(rawXML).rss.channel.item;
 
   // when there's only one book the rss item is an object, not an array
-  if (typeof books === undefined) books = [books];
+  if (books.length === undefined) books = [books];
 
   const cleanBooks = books.map((bk) => {
     const book = {

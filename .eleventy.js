@@ -104,12 +104,18 @@ module.exports = function (eleventyConfig) {
       },
     );
 
+    const fallback = `<table align=center><tr><td>⚠️ failed to retrieve AQI reading for ${location.toUpperCase()} ⚠️</td></tr></table>`;
     if (statusCode !== 200) {
-      console.log(`[cyberb] AQI widget failed with error ${statusCode}`);
-      return `<table align=center><tr><td>⚠️ failed to retrieve AQI reading for ${location} ⚠️</td></tr></table>`;
+      console.log(`[cyberb] AQI data call failed with error ${statusCode}`);
+      return fallback;
     }
 
     const content = await body.json();
+    if (content.length === 0) {
+      console.log(`[cyberb] AQI returned response with no data`);
+      return fallback;
+    }
+
     const { issueDate, time, timezone, aqi } = content[0];
 
     const widget = `<table align=center>

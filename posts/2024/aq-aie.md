@@ -12,6 +12,8 @@ location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
+> **EDITOR'S NOTE:** because the U.S. Government has discontinued its [global air quality](https://www.france24.com/en/live-news/20250305-us-embassies-end-pollution-data-popular-in-china-and-india) intitiatives, the original widget included at the bottom of this page has broken. It's last successful reading was **162** on March 4, 2025 at 7:00am IST. You can read my follow-up post [here](/posts/2025/lost-in-the-haze).
+
 We've had a string of bad air quality days here in Mumbai, and it's got me feeling down. I've never lived somewhere where the air quality could be so obviously hostile to living things. Some mornings I wake up and look out the window and it feels like I'm in San Francisco, except instead of [Karl the Fog](https://www.kqed.org/news/11682057/how-the-bay-areas-fog-came-to-be-named-karl), it's a daily [airborne toxic event](https://en.wikipedia.org/wiki/White_Noise_(novel)).
 
 Here's a picture I took back in the Fall of the South Mumbai skyline. Keep in mind, this photo was taken on a _moderate_ day and the AQI the past few days has been approximately 90-100 points higher than it was then:

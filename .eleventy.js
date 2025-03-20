@@ -170,9 +170,17 @@ module.exports = function (eleventyConfig) {
     return encodeURI(link);
   });
 
+  eleventyConfig.addFilter("uppercase", (text) => {
+    return typeof text === "string" ? text.toUpperCase() : text;
+  });
+
   // Date formatting stuff
   eleventyConfig.addFilter("readableBookDate", (dateString) => {
-    return DateTime.fromRFC2822(dateString).toFormat("yyyy-MM-dd");
+    return DateTime.fromRFC2822(dateString).toFormat("MMM dd, yyyy");
+  });
+
+  eleventyConfig.addFilter("bookDateYear", (dateString) => {
+    return DateTime.fromRFC2822(dateString).toFormat("yyyy");
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {

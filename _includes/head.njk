@@ -21,6 +21,9 @@
   {% set css %}
     {% include "assets/css/normalize.css" %}
     {% include "assets/css/base.css" %}
+    {% if title === "shelf." %}
+        {% include "assets/css/books.css" %}
+    {% endif %}
     {% if date %}
       {% include "assets/css/prism.css" %}
       {% include "assets/css/post.css" %}

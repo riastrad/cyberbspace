@@ -92,6 +92,8 @@ module.exports = function (eleventyConfig) {
   // currently this only returns an HTML widget that
   // shows the aqi for Mumbai, though this could easily be changed
   eleventyConfig.addAsyncShortcode("aqi", async (location) => {
+    const fallback = `<table align=center><tr><td>⚠️ failed to retrieve AQI reading for ${location.toUpperCase()} ⚠️</td></tr></table>`;
+    return fallback;
     console.log(`[cyberb] pulling AQI data for ${location}`);
     const { statusCode, body } = await request(
       "https://airnowgovapi.com/reportingarea/get",
@@ -104,7 +106,6 @@ module.exports = function (eleventyConfig) {
       },
     );
 
-    const fallback = `<table align=center><tr><td>⚠️ failed to retrieve AQI reading for ${location.toUpperCase()} ⚠️</td></tr></table>`;
     if (statusCode !== 200) {
       console.log(`[cyberb] AQI data call failed with error ${statusCode}`);
       return fallback;
@@ -170,9 +171,17 @@ module.exports = function (eleventyConfig) {
     return encodeURI(link);
   });
 
+  eleventyConfig.addFilter("uppercase", (text) => {
+    return typeof text === "string" ? text.toUpperCase() : text;
+  });
+
   // Date formatting stuff
   eleventyConfig.addFilter("readableBookDate", (dateString) => {
-    return DateTime.fromRFC2822(dateString).toFormat("yyyy-MM-dd");
+    return DateTime.fromRFC2822(dateString).toFormat("MMM dd, yyyy");
+  });
+
+  eleventyConfig.addFilter("bookDateYear", (dateString) => {
+    return DateTime.fromRFC2822(dateString).toFormat("yyyy");
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {

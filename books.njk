@@ -1,0 +1,14 @@
+---
+title: filtered notes.
+pagination:
+  data: books.have_read
+  size: 1
+  alias: book
+  title: {{ book.title }}
+permalink: /shelf/{{ book.author | slugify }}/{{ book.title | slugify }}/
+layout: base.njk
+---
+
+{% include "bookreview.njk" %}
+
+<a class="button" href="{{ '/shelf/' | url }}"><< shelf.</a>

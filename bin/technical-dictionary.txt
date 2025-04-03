@@ -1,3 +1,4 @@
+graffito-2023.png
 currentYear
 bookDateYear
 endcapture

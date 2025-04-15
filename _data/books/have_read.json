@@ -39,7 +39,11 @@
         "title": "Structuralism and Semiotics",
         "author": "Terence Hawkes",
         "link": "https://oku.club/book/structuralism-and-semiotics-by-terence-hawkes-LIOJ8",
-        "finished": "Tue, 18 Feb 2025 00:00:00 +0000"
+        "finished": "Tue, 18 Feb 2025 00:00:00 +0000",
+        "review": "<p>Really wish I had stumbled across this in grad school while writing my thesis.</p>",
+        "pages": 192,
+        "isbn": 9781134356614,
+        "publisher": "University of California Press"
     },
     {
         "title": "A Frolic of His Own",
@@ -51,7 +55,13 @@
         "title": "America",
         "author": "Jean Baudrillard",
         "link": "https://oku.club/book/america-by-jean-baudrillard-9GpBp",
-        "finished": "Fri, 17 Jan 2025 00:00:00 +0000"
+        "started": "Wed, 08 Jan 2025 00:00:00 +0000",
+        "finished": "Fri, 17 Jan 2025 00:00:00 +0000",
+        "situ": "/img/blog/2025/baudrillard.png",
+        "review": "<p>I say this with utmost affection and respect: reading this feels a bit like standing by the guy in Scanners right before his head explodes.</p><p>Also had some of the most insightful commentary on the Reagan presidency I have ever read.</p>",
+        "pages": 154,
+        "isbn": 9781844676828,
+        "publisher": "Verso"
     },
     {
         "title": "Bombay Stories",

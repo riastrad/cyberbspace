@@ -31,7 +31,7 @@ Here are a few curated excerpts from my notebook that goes from 2022 to the pres
 > Surely it is a privilege to approach the end
 > still believing in something.
 >
-> <div align=right>— Louise Glück; <a href="https://openlibrary.org/works/OL8035191W/Averno?edition=key%3A/books/OL24744848M">Averno</a>, p.10</div>
+> <div align=right>— Louise Glück; <a href="https://openlibrary.org/works/OL8035191W/Averno?edition=key%3A/books/OL24744848M">Averno</a>, p.10</div></br>
 
 > But essentially the camera makes everyone a tourist in other people's reality, and eventually in one's own.
 >

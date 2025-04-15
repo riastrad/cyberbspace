@@ -41,3 +41,14 @@ module.exports.fetchBooksFromRSS = async (rss) => {
   });
   return cleanBooks;
 };
+
+module.exports.bookListsAreSame = (previousList, newlyFetchedList) => {
+  const titleAndAuthorFilter = (book) => {
+    return { title: book.title, author: book.author };
+  };
+
+  const previousTitles = previousList.map(titleAndAuthorFilter);
+  const newlyFetchedTitles = newlyFetchedList.map(titleAndAuthorFilter);
+
+  return JSON.stringify(previousTitles) === JSON.stringify(newlyFetchedTitles);
+};

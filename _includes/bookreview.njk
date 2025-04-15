@@ -8,16 +8,20 @@
 
 {% if book.started %}
 <div class="review-text">
+<p>In {{ book.finished | bookDateYear }} I read <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}.</p>
 <h4>Timeline</h4>
-I started reading <a href="{{ book.link }}">{{ book.title }}</a> on  {{ book.started | readableBookDate }} and finished reading on {{ book.finished | readableBookDate }}.
-
-<br /><br />
+<ul class="timeline">
+ <li><strong>{{ book.started | readableBookDate }}:</strong> started reading.</li>
+ <li><strong>{{ book.finished | readableBookDate}}:</strong> finished reading.</li>
+</ul>
 {% else %}
 <div class="review-text">
+<p>In {{ book.finished | bookDateYear }} I read <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}.</p>
 <h4>Timeline</h4>
-I finished reading <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }} on {{ book.finished | readableBookDate }}.
-
-<br /><br />
+<ul class="timeline">
+ <li>...started reading at some point.</li>
+ <li><strong>{{ book.finished | readableBookDate}}:</strong> finished reading.</li>
+</ul>
 {% endif %}
 
 {% if book.review %}

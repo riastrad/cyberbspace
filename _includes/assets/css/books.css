@@ -34,3 +34,30 @@ div.shelvedbook:hover a,
 div.shelvedbook:focus a {
     background: none;
 }
+
+.review-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.review-image {
+    max-width: 100%;
+    max-height: 500px;
+    border: 2px solid black;
+}
+
+@media (max-width: 850px) {
+    .review-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .review-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+    }
+}

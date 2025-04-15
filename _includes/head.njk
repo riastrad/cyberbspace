@@ -24,7 +24,7 @@
   {% set css %}
     {% include "assets/css/normalize.css" %}
     {% include "assets/css/base.css" %}
-    {% if title === "shelf." %}
+    {% if title === "shelf." or reviewtitle %}
         {% include "assets/css/books.css" %}
     {% endif %}
     {% if date %}

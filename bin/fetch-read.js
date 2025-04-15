@@ -3,6 +3,7 @@ const {
   constants,
   fetchBooksFromRSS,
   bookListsAreSame,
+  saveUpdatedList,
 } = require("./shelf.js");
 
 async function possiblyUpdateReadFile(books) {
@@ -23,11 +24,7 @@ async function possiblyUpdateReadFile(books) {
     return;
   }
 
-  await fs.promises.writeFile(
-    constants.READ_FILE_PATH,
-    JSON.stringify(books, null, 4),
-    { encoding: "utf8" },
-  );
+  await saveUpdatedList(existingReading, books, constants.READ_FILE_PATH);
   console.log(`[shelflife] updated read books.`);
 }
 

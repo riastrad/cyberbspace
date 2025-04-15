@@ -1,4 +1,43 @@
 <h2>booklog: {{book.title}}</h2>
 
-I finished reading <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }} on {{ book.finished | readableBookDate }}.
+<!-- book pic goes here --!>
+<div class="review-container">
+{% if book.situ %}
+    <img alt="image of {{ book.title }} in-situ" src="{{ book.situ }}" class="review-image" />
+{% endif %}
+
+{% if book.started %}
+<div class="review-text">
+<p>In {{ book.finished | bookDateYear }} I read <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}.</p>
+<h4>Timeline</h4>
+<ul class="timeline">
+ <li><strong>{{ book.started | readableBookDate }}:</strong> started reading.</li>
+ <li><strong>{{ book.finished | readableBookDate}}:</strong> finished reading.</li>
+</ul>
+{% else %}
+<div class="review-text">
+<p>In {{ book.finished | bookDateYear }} I read <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}.</p>
+<h4>Timeline</h4>
+<ul class="timeline">
+ <li>...started reading at some point.</li>
+ <li><strong>{{ book.finished | readableBookDate}}:</strong> finished reading.</li>
+</ul>
+{% endif %}
+
+{% if book.review %}
+<h4>Review</h4>
+{{ book.review | safe }}
+<br /><br />
+{% endif %}
+</div>
+</div>
+
+{% if book.publisher and book.pages and book.isbn %}
+<h4>Details</h4>
+<ul>
+    <li><strong>Publisher:</strong> {{ book.publisher }}</li>
+    <li><strong>Page Count:</strong> {{ book.pages }}</li>
+    <li><strong>ISBN:</strong> {{ book.isbn }}</li>
+</ul>
+{% endif %}
 <hr />

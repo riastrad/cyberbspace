@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8"/>
   {% if book.title %}
-    {% set reviewtitle = ["Thoughts on ", book.title] | join %}
+    {% set reviewtitle = ["Booklog: ", book.title] | join %}
   {% endif %}
   <title>{{ title or reviewtitle or metadata.title }}</title>
 
@@ -24,7 +24,7 @@
   {% set css %}
     {% include "assets/css/normalize.css" %}
     {% include "assets/css/base.css" %}
-    {% if title === "shelf." %}
+    {% if title === "shelf." or reviewtitle %}
         {% include "assets/css/books.css" %}
     {% endif %}
     {% if date %}

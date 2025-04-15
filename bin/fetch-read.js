@@ -1,5 +1,10 @@
 const fs = require("fs");
-const { constants, fetchBooksFromRSS } = require("./shelf.js");
+const {
+  constants,
+  fetchBooksFromRSS,
+  bookListsAreSame,
+  saveUpdatedList,
+} = require("./shelf.js");
 
 async function possiblyUpdateReadFile(books) {
   if (!fs.existsSync(constants.READ_FILE_PATH)) {
@@ -14,16 +19,12 @@ async function possiblyUpdateReadFile(books) {
   }
 
   const existingReading = await fs.promises.readFile(constants.READ_FILE_PATH);
-  if (JSON.stringify(books, null, 4) === existingReading.toString()) {
+  if (bookListsAreSame(JSON.parse(existingReading), books)) {
     console.log(`[shelflife] no change, leaving file as is.`);
     return;
   }
 
-  await fs.promises.writeFile(
-    constants.READ_FILE_PATH,
-    JSON.stringify(books, null, 4),
-    { encoding: "utf8" },
-  );
+  await saveUpdatedList(existingReading, books, constants.READ_FILE_PATH);
   console.log(`[shelflife] updated read books.`);
 }
 

@@ -1,3 +1,4 @@
+const fs = require("fs");
 const { request } = require("undici");
 const { XMLParser } = require("fast-xml-parser");
 const parser = new XMLParser();
@@ -40,4 +41,43 @@ module.exports.fetchBooksFromRSS = async (rss) => {
     return book;
   });
   return cleanBooks;
+};
+
+module.exports.bookListsAreSame = (previousList, newlyFetchedList) => {
+  const titleAndAuthorFilter = (book) => {
+    return { title: book.title, author: book.author };
+  };
+
+  const previousTitles = previousList.map(titleAndAuthorFilter);
+  const newlyFetchedTitles = newlyFetchedList.map(titleAndAuthorFilter);
+
+  return JSON.stringify(previousTitles) === JSON.stringify(newlyFetchedTitles);
+};
+
+const prependNewBooks = (previousList, newlyFetchedList) => {
+  const newBooks = newlyFetchedList.filter(
+    (bk) =>
+      !previousList.some(
+        (prevbk) => bk.title === prevbk.title && bk.author === prevbk.author,
+      ),
+  );
+  console.log("[cyberbspace] updating data files with new books:\n", newBooks);
+
+  previousList.unshift(...newBooks);
+  return previousList;
+};
+
+module.exports.saveUpdatedList = async (
+  previousList,
+  newlyFetchedList,
+  file_path,
+) => {
+  const newBookList = prependNewBooks(
+    JSON.parse(previousList),
+    newlyFetchedList,
+  );
+
+  await fs.promises.writeFile(file_path, JSON.stringify(newBookList, null, 4), {
+    encoding: "utf8",
+  });
 };

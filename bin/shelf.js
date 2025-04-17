@@ -61,7 +61,10 @@ const prependNewBooks = (previousList, newlyFetchedList) => {
         (prevbk) => bk.title === prevbk.title && bk.author === prevbk.author,
       ),
   );
-  console.log("[cyberbspace] updating data files with new books:\n", newBooks);
+  console.log(
+    "[shelflife] updating data files with new books:",
+    newBooks.map((b) => b.title).join(", "),
+  );
 
   previousList.unshift(...newBooks);
   return previousList;

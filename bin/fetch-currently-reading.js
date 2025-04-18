@@ -27,7 +27,12 @@ async function possiblyUpdateReadingFile(books) {
     return;
   }
 
-  await saveUpdatedList(existingReading, books, constants.READING_FILE_PATH);
+  await saveUpdatedList(
+    existingReading,
+    books,
+    constants.READING_FILE_PATH,
+    (prepend = false),
+  );
   console.log(`[shelflife] updated currently reading.`);
 }
 

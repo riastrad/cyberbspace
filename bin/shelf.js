@@ -51,7 +51,14 @@ module.exports.bookListsAreSame = (previousList, newlyFetchedList) => {
   const previousTitles = previousList.map(titleAndAuthorFilter);
   const newlyFetchedTitles = newlyFetchedList.map(titleAndAuthorFilter);
 
-  return JSON.stringify(previousTitles) === JSON.stringify(newlyFetchedTitles);
+  return (
+    previousTitles.length === newlyFetchedTitles.length &&
+    previousTitles.every((book) =>
+      newlyFetchedTitles.some(
+        (bk) => book.title === bk.title && book.author === bk.author,
+      ),
+    )
+  );
 };
 
 const prependNewBooks = (previousList, newlyFetchedList) => {
@@ -74,11 +81,11 @@ module.exports.saveUpdatedList = async (
   previousList,
   newlyFetchedList,
   file_path,
+  prepend = true,
 ) => {
-  const newBookList = prependNewBooks(
-    JSON.parse(previousList),
-    newlyFetchedList,
-  );
+  const newBookList = prepend
+    ? prependNewBooks(JSON.parse(previousList), newlyFetchedList)
+    : newlyFetchedList;
 
   await fs.promises.writeFile(file_path, JSON.stringify(newBookList, null, 4), {
     encoding: "utf8",

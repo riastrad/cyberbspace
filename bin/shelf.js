@@ -19,17 +19,6 @@ module.exports.constants = {
 
 const notion = new Client({ auth: process.env.NOTION_ACCESS_TOKEN });
 
-// auth token - ntn_a345918937459cN8741LCYYI6c1VmFC7Bktys6EzSzI78h
-// database ids:
-// - reading - 1e40ce2f0a7e807e801ae70e08be5ada
-// - have-read - 1e40ce2f0a7e80418e05f661d86a8aa1
-
-// changes to make:
-// 1. Set up Notion client
-// 2. fetchBooksFromNotion
-// 3. Filter & standardize fields
-// 3. Overwrite JSON data if lists are equal
-
 const cleanupDataFields = (notionResponse) => {
   const cleanBooks = notionResponse.results.map((book) => {
     const cleanBook = {};

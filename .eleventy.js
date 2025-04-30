@@ -137,11 +137,13 @@ module.exports = function (eleventyConfig) {
 
   // Date formatting stuff
   eleventyConfig.addFilter("readableBookDate", (dateString) => {
-    return DateTime.fromRFC2822(dateString).toFormat("MMM dd, yyyy");
+    return DateTime.fromFormat(dateString, "yyyy-MM-dd").toFormat(
+      "MMM dd, yyyy",
+    );
   });
 
   eleventyConfig.addFilter("bookDateYear", (dateString) => {
-    return DateTime.fromRFC2822(dateString).toFormat("yyyy");
+    return DateTime.fromFormat(dateString, "yyyy-MM-dd").toFormat("yyyy");
   });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {

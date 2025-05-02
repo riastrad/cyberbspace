@@ -1,9 +1,9 @@
 const fs = require("fs");
 const {
   constants,
-  fetchBooksFromRSS,
   bookListsAreSame,
   saveUpdatedList,
+  fetchBooksFromNotion,
 } = require("./shelf.js");
 
 async function possiblyUpdateReadFile(books) {
@@ -24,12 +24,12 @@ async function possiblyUpdateReadFile(books) {
     return;
   }
 
-  await saveUpdatedList(existingReading, books, constants.READ_FILE_PATH);
+  await saveUpdatedList(books, constants.READ_FILE_PATH);
   console.log(`[shelflife] updated read books.`);
 }
 
 async function main() {
-  const reading = await fetchBooksFromRSS(constants.READ_RSS);
+  const reading = await fetchBooksFromNotion("have_read");
   await possiblyUpdateReadFile(reading);
 }
 

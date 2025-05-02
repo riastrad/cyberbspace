@@ -1,12 +1,14 @@
 const fs = require("fs");
-const { request } = require("undici");
-const { XMLParser } = require("fast-xml-parser");
-const parser = new XMLParser();
+const { Client, collectPaginatedAPI } = require("@notionhq/client");
 
 const READING_FILE_PATH = "./_data/books/reading.json";
 const READ_FILE_PATH = "./_data/books/have_read.json";
 const READING_RSS = "https://oku.club/rss/collection/SmX9F";
 const READ_RSS = "https://oku.club/rss/collection/V7jj3";
+const NOTION_DATABASES = {
+  reading: "1e40ce2f0a7e807e801ae70e08be5ada",
+  have_read: "1e40ce2f0a7e80418e05f661d86a8aa1",
+};
 
 module.exports.constants = {
   READING_FILE_PATH,
@@ -15,79 +17,87 @@ module.exports.constants = {
   READ_RSS,
 };
 
-module.exports.fetchBooksFromRSS = async (rss) => {
-  const { statusCode, body } = await request(rss);
-  if (statusCode >= 400) {
-    throw new Error(`[shelflife] failed due to status: ${statusCode}`);
-  }
+const notion = new Client({ auth: process.env.NOTION_ACCESS_TOKEN });
 
-  const rawXML = await body.text();
-  let books = parser.parse(rawXML).rss.channel.item;
+const cleanupDataFields = (notionResponse) => {
+  const cleanBooks = notionResponse.map((book) => {
+    const cleanBook = {};
+    const {
+      title,
+      author,
+      ISBN,
+      started,
+      finished,
+      publisher,
+      pages,
+      situ,
+      review,
+      link,
+    } = book.properties;
 
-  // when there's only one book the rss item is an object, not an array
-  if (books.length === undefined) books = [books];
+    if (title.title) cleanBook.title = title.title[0].plain_text;
+    if (author.select !== null) cleanBook.author = author.select.name;
+    if (ISBN.number !== null) cleanBook.isbn = ISBN.number;
+    if (started.date !== null) cleanBook.started = started.date.start;
+    if (finished && finished.date !== null) {
+      cleanBook.finished = finished.date.start;
+    }
+    if (publisher && publisher.select !== null) {
+      cleanBook.publisher = publisher.select.name;
+    }
+    if (pages && pages.number !== null) {
+      cleanBook.pages = pages.number;
+    }
+    if (situ && situ.rich_text.length > 0) {
+      cleanBook.situ = situ.rich_text[0].plain_text;
+    }
+    if (review && review.rich_text.length > 0) {
+      cleanBook.review = review.rich_text[0].plain_text;
+    }
+    if (link && link.url !== null) cleanBook.link = link.url;
 
-  const cleanBooks = books.map((bk) => {
-    const book = {
-      title: bk.title,
-      author: bk["dc:creator"],
-      link: bk.link,
-    };
-
-    // silly little hack to correctly name date key
-    rss.endsWith("SmX9F")
-      ? (book.started = bk.pubDate)
-      : (book.finished = bk.pubDate);
-    return book;
+    return cleanBook;
   });
+
+  console.log("[debug] clean books:", cleanBooks.length);
   return cleanBooks;
 };
 
+module.exports.fetchBooksFromNotion = async (tbl) => {
+  try {
+    const results = await collectPaginatedAPI(notion.databases.query, {
+      database_id: NOTION_DATABASES[tbl],
+      sorts: [
+        {
+          property: "finished",
+          direction: "descending",
+        },
+      ],
+    });
+
+    return cleanupDataFields(results);
+  } catch (e) {
+    console.error(`[shelflife] error retrieving book data for ${tbl}: ${e}`);
+  }
+};
+
 module.exports.bookListsAreSame = (previousList, newlyFetchedList) => {
-  const titleAndAuthorFilter = (book) => {
-    return { title: book.title, author: book.author };
-  };
-
-  const previousTitles = previousList.map(titleAndAuthorFilter);
-  const newlyFetchedTitles = newlyFetchedList.map(titleAndAuthorFilter);
-
   return (
-    previousTitles.length === newlyFetchedTitles.length &&
-    previousTitles.every((book) =>
-      newlyFetchedTitles.some(
+    previousList.length === newlyFetchedList.length &&
+    previousList.every((book) =>
+      newlyFetchedList.some(
         (bk) => book.title === bk.title && book.author === bk.author,
       ),
     )
   );
 };
 
-const prependNewBooks = (previousList, newlyFetchedList) => {
-  const newBooks = newlyFetchedList.filter(
-    (bk) =>
-      !previousList.some(
-        (prevbk) => bk.title === prevbk.title && bk.author === prevbk.author,
-      ),
+module.exports.saveUpdatedList = async (newlyFetchedList, file_path) => {
+  await fs.promises.writeFile(
+    file_path,
+    JSON.stringify(newlyFetchedList, null, 4),
+    {
+      encoding: "utf8",
+    },
   );
-  console.log(
-    "[shelflife] updating data files with new books:",
-    newBooks.map((b) => b.title).join(", "),
-  );
-
-  previousList.unshift(...newBooks);
-  return previousList;
-};
-
-module.exports.saveUpdatedList = async (
-  previousList,
-  newlyFetchedList,
-  file_path,
-  prepend = true,
-) => {
-  const newBookList = prepend
-    ? prependNewBooks(JSON.parse(previousList), newlyFetchedList)
-    : newlyFetchedList;
-
-  await fs.promises.writeFile(file_path, JSON.stringify(newBookList, null, 4), {
-    encoding: "utf8",
-  });
 };

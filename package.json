@@ -10,19 +10,18 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@notionhq/client": "^2.3.0",
     "clean-css": "^4.2.1",
     "d3-geo": "^2.0.2",
     "d3-geo-projection": "^3.0.0",
     "luxon": "^1.28.1",
     "markdown-it": "^13.0.1",
-    "markdown-it-footnote": "^3.0.3",
-    "fast-xml-parser": "^4.5.0",
-    "undici": "^6.21.0"
+    "markdown-it-footnote": "^3.0.3"
   },
   "devDependencies": {
+    "dither-me-this": "^0.0.5",
     "glob": "^11.0.0",
-    "spellchecker-cli": "^4.8.1",
-    "dither-me-this": "^0.0.5"
+    "spellchecker-cli": "^4.8.1"
   },
   "scripts": {
     "test": "test",

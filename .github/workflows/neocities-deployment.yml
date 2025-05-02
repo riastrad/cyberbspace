@@ -26,11 +26,11 @@ jobs:
         run: |
           npm ci
           npm run build
-
       - name: Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
-          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+          api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: true
+          neocities_supporter: true
           dist_dir: _site
           protected_files: "*.png"

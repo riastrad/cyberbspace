@@ -1,14 +1,16 @@
 [
     {
-        "title": "What Have You Left Behind?",
-        "author": "Bushra Al-Maqtari",
-        "link": "https://oku.club/book/what-have-you-left-behind-by-bushra-al-maqtari-9Is19",
-        "started": "Thu, 10 Apr 2025 04:13:13 +0000"
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "isbn": 9781250788450,
+        "started": "2025-03-29",
+        "link": "https://oku.club/book/the-brothers-karamazov-by-fyodor-dostoevsky-HV8M7"
     },
     {
-        "title": "The Brothers Karamazov (Bicentennial Edition)",
-        "author": "Fyodor Dostoevsky",
-        "link": "https://oku.club/book/the-brothers-karamazov-by-fyodor-dostoevsky-HV8M7",
-        "started": "Sat, 29 Mar 2025 10:59:39 +0000"
+        "title": "What Have You Left Behind?",
+        "author": "Bushra Al-Maqtari",
+        "isbn": 9781804270011,
+        "started": "2025-04-10",
+        "link": "https://oku.club/book/what-have-you-left-behind-by-bushra-al-maqtari-9Is19"
     }
 ]

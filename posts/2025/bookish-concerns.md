@@ -45,12 +45,10 @@ As I mentioned, this current state is good, but it is not perfect. The main posi
 
 There's also still room for small quality of life improvements. For example, to include _in situ_ photographs, I currently use a fairly manual workflow to add them to the site & then I need to retroactively add the path to my book data. I can imagine a future where I update the workflow to be a bit more automated. Upload to Notion? GitHub workflow that updates Notion pages? Could I use [webhooks](https://developers.notion.com/reference/webhooks) so that I no longer have to check the data with a cron job?
 
-Ultimately this is another iterative step in my bookshelf building process. I'm beginning to come to terms with the fact that I'm very close to just writing my own bespoke API and frontend UI. For the moment, the cost of keeping the lights on for that project feels prohibitive.[^3] That notwithstanding, I'm happy with this step to have more control over my data and a a simple way to update everything via my phone.
+Ultimately this is another iterative step in my bookshelf building process. I'm beginning to come to terms with the fact that I'm very close to just writing my own bespoke API and front-end UI. For the moment, the cost of keeping the lights on for that project feels prohibitive.[^3] That notwithstanding, I'm happy with this step to have more control over my data and a simple way to update everything via my phone.
 
 <img class="blog-pic" src="/img/blog/2025/bookish-4.png" />
 <div class="center-text"><small>Screenshot of editing a book in the data on the app.</small></div><br />
-
-
 
 [^1]: You can read [this ticket](https://github.com/riastrad/cyberbspace/issues/236), if your curious about the different paths forward that I was brainstorming here.
 [^2]: I know this is me [drawing an owl](https://knowyourmeme.com/memes/how-to-draw-an-owl) a bit, but I don't know if this is interesting enough to write it out in detail. Feel free to [reach out](mailto:josh@cyberb.space?subject=%5Bcyberbspace%5D%20draw%20the%20rest%20of%20the%20owl) if you're interested in more specifics.

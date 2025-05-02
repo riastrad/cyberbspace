@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { Client } = require("@notionhq/client");
+const { Client, collectPaginatedAPI } = require("@notionhq/client");
 
 const READING_FILE_PATH = "./_data/books/reading.json";
 const READ_FILE_PATH = "./_data/books/have_read.json";
@@ -20,7 +20,7 @@ module.exports.constants = {
 const notion = new Client({ auth: process.env.NOTION_ACCESS_TOKEN });
 
 const cleanupDataFields = (notionResponse) => {
-  const cleanBooks = notionResponse.results.map((book) => {
+  const cleanBooks = notionResponse.map((book) => {
     const cleanBook = {};
     const {
       title,
@@ -59,14 +59,22 @@ const cleanupDataFields = (notionResponse) => {
     return cleanBook;
   });
 
+  console.log("[debug] clean books:", cleanBooks.length);
   return cleanBooks;
 };
 
 module.exports.fetchBooksFromNotion = async (tbl) => {
   try {
-    const results = await notion.databases.query({
+    const results = await collectPaginatedAPI(notion.databases.query, {
       database_id: NOTION_DATABASES[tbl],
+      sorts: [
+        {
+          property: "finished",
+          direction: "descending",
+        },
+      ],
     });
+
     return cleanupDataFields(results);
   } catch (e) {
     console.error(`[shelflife] error retrieving book data for ${tbl}: ${e}`);

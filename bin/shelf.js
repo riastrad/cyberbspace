@@ -59,7 +59,6 @@ const cleanupDataFields = (notionResponse) => {
     return cleanBook;
   });
 
-  console.log("[debug] clean books:", cleanBooks.length);
   return cleanBooks;
 };
 
@@ -85,8 +84,8 @@ module.exports.bookListsAreSame = (previousList, newlyFetchedList) => {
   return (
     previousList.length === newlyFetchedList.length &&
     previousList.every((book) =>
-      newlyFetchedList.some(
-        (bk) => book.title === bk.title && book.author === bk.author,
+      newlyFetchedList.some((bk) =>
+        Object.keys(book).forEach((key) => book[key] === bk[key]),
       ),
     )
   );

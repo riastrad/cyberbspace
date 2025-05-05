@@ -9,13 +9,19 @@
     {
         "title": "Anxious People",
         "author": "Fredrik Backman",
+        "isbn": 9781501160851,
         "started": "2025-04-12",
         "finished": "2025-04-17",
+        "publisher": "Washington Square Press",
+        "pages": 352,
+        "situ": "/img/books/2025/anxious-people.png",
+        "review": "<p>I say this with all sincerity, I wanted to like this. It was recommended by someone who is very important to me. I was primed to embrace it with open arms.</p>\n<p>Ultimately, though, I find that Backman’s prose rings a bit hollow to my ear, his characterizations are thin, surface-level things based on whatever popular stereotypes are near to hand, the humor too often feels forced and clichéd, and the twists and turns of his plotting are a bit too cute by half. If by some magic an exurb were to be transmuted into a book, I imagine the result would be something like this novel.</p>\n<p>I know that this book deals with heavy themes in an approachable way. I know that it has been meaningful and profound for many of its readers. Unfortunately, I am forced to admit that I walked away from the experience feeling like I had just sat through a made for TV Hallmark movie.</p>\n<p>I’m sure Fred’s a great guy! I’m glad he’s found his audience and achieved success. I don’t begrudge him that. I’m sorry that his work doesn’t resonate with me.</p>",
         "link": "https://oku.club/book/anxious-people-by-fredrik-backman-oc1ec"
     },
     {
         "title": "The Search for the Perfect Language",
         "author": "Umberto Eco",
+        "isbn": 9780631174653,
         "started": "2025-03-11",
         "finished": "2025-04-09",
         "publisher": "Blackwell Publishers",
@@ -47,8 +53,11 @@
     {
         "title": "Set My Heart on Fire",
         "author": "Izumi Suzuki",
+        "isbn": 9781804293324,
         "started": "2025-02-27",
         "finished": "2025-03-18",
+        "publisher": "Verso",
+        "pages": 416,
         "review": "<p>The first half felt a bit clichéd and dated.</p><p>Part way into the second half she uses the term “psychologically uncircumcised” to describe her abusive husband, and that is a phrase that will stay with me for the rest of my life.</p>",
         "link": "https://oku.club/book/set-my-heart-on-fire-by-izumi-suzuki-1yuzm"
     },
@@ -100,8 +109,10 @@
     {
         "title": "Bombay Stories",
         "author": "Saadat Hasan Manto",
+        "isbn": 9788184006414,
         "started": "2024-10-31",
         "finished": "2024-12-30",
+        "pages": 276,
         "review": "<p>Not totally thrilled with this collection. Could be due to gaps in cultural knowledge or problems of translation.</p><p>Overall there was nothing too memorable about the stories, save for one fantastic simile that’s worth sharing:</p><p>“When she looked at me again, her eyes had lost their effect, and her face seemed like a ransacked empire, a ravaged country.” [p200]</p><p>The essays at the end were more compelling. They might have helped better ground the work if they had been included at the beginning of the collection rather than the end.</p>",
         "link": "https://oku.club/book/bombay-stories-by-saadat-hasan-manto-bvUbf"
     },
@@ -115,8 +126,10 @@
     {
         "title": "Ripe",
         "author": "Sarah Rose Etter",
+        "isbn": 9781668011638,
         "started": "2024-11-22",
         "finished": "2024-12-05",
+        "pages": 288,
         "situ": "/img/blog/2024/ripe.png",
         "review": "<p>Better than I expected. At first the definitions felt a bit gimmicky, like something you do as a writer to help get the juices flowing and then delete before it goes to print. But over the course of the book, they add a depth that might not have been there otherwise.</p>",
         "link": "https://oku.club/book/ripe-by-sarah-rose-etter-yfYSj"
@@ -132,16 +145,20 @@
     {
         "title": "Ubik",
         "author": "Philip K. Dick",
+        "isbn": 9780547572291,
         "started": "2024-10-09",
         "finished": "2024-10-31",
+        "pages": 227,
         "review": "<p>There’s so much going on in this book that it should collapse under its own weight. Somehow it remains internally consistent and mostly coherent.</p><p>Don’t think I would consider it to be one of the 100 best novels written in English, though.</p>",
         "link": "https://oku.club/book/ubik-by-philip-k-dick-YgdWf"
     },
     {
         "title": "Martyr!",
         "author": "Kaveh Akbar",
+        "isbn": 9780593537619,
         "started": "2024-10-01",
         "finished": "2024-10-08",
+        "publisher": "Knopf",
         "situ": "/img/blog/2024/martyr.png",
         "review": "<p>Not perfect, but a great debut. I hope its success leads to more novels by Kaveh Akbar in the world.</p><p>I was very much onboard until the coincidences compounded to the point of disbelief and the romance culminated in a euphoric dream sequence. Other than that though, a very enjoyable read.</p>",
         "link": "https://oku.club/book/martyr-by-kaveh-akbar-yYryW"
@@ -195,17 +212,21 @@
     {
         "title": "Seeing Like a State",
         "author": "James C. Scott",
+        "isbn": 9780300252989,
         "started": "2024-04-22",
         "finished": "2024-07-09",
+        "pages": 480,
         "review": "<p>Runs a bit long &amp; dry at points. There are several moments where it feels like Scott is just summarizing the work of others. Essentially 300 pages of scene-setting for ~50 pages of point-making.</p><p>That being said, the central argument is worth paying attention to, and I've always found that Scott writes clearly and articulately compared to your standard academic, so I'd still recommend this to anyone interested in the topic.</p>",
         "link": "https://oku.club/book/seeing-like-a-state-by-james-c-scott-i1nTF"
     },
     {
         "title": "MaddAddam",
         "author": "Margaret Atwood",
+        "isbn": 9780771008467,
         "started": "2024-04-29",
         "finished": "2024-06-24",
-        "review": "<p>more optimistic than I expected. best of the trilogy, in my opinion.</p>",
+        "pages": 394,
+        "review": "<p>More optimistic than I expected. Best of the trilogy, in my opinion.</p>",
         "link": "https://oku.club/book/maddaddam-by-margaret-atwood-5RRvQ"
     },
     {
@@ -277,8 +298,10 @@
     {
         "title": "Nonrequired Reading",
         "author": "Wisława Szymborska",
+        "isbn": 9780151006601,
         "started": "2024-01-24",
         "finished": "2024-02-23",
+        "pages": 256,
         "review": "<p>Eh. Not sure this was worth turning into a full book.</p><p>Wisława seems like a sharp and witty person who would be enjoyable to talk with, but otherwise these columns would be better reading here and there in their original context as light fare in a daily publication.</p>",
         "link": "https://oku.club/book/nonrequired-reading-by-wis%C5%82awa-szymborska-9mTa8"
     },
@@ -315,8 +338,11 @@
     {
         "title": "The Employees",
         "author": "Olga Ravn",
+        "isbn": 9780811234825,
         "started": "2023-12-23",
         "finished": "2023-12-25",
+        "publisher": "New Directions Press",
+        "pages": 144,
         "review": "<p>What a surprising and sharp little piece of fiction. An experiment of form and structure. More poets should try their hand at science fiction. The genre would be richer for it.</p>",
         "link": "https://oku.club/book/the-employees-by-olga-ravn-tDNVa"
     },
@@ -410,8 +436,10 @@
     {
         "title": "Ways of Being",
         "author": "James Bridle",
+        "isbn": 9780374601119,
         "started": "2023-04-28",
         "finished": "2023-06-17",
+        "pages": 384,
         "review": "<p>Excellent and thought provoking piece of writing. Came for the unique perspective on intelligence and all its non-anthro forms, stayed for the citations of Kropotkin.</p>",
         "link": "https://oku.club/book/ways-of-being-by-james-bridle-nRRhF"
     },
@@ -425,8 +453,10 @@
     {
         "title": "Tender Is the Flesh",
         "author": "Agustina Bazterrica",
+        "isbn": 9781982151300,
         "started": "2023-03-07",
         "finished": "2023-03-11",
+        "pages": 224,
         "review": "<p>What. the. fuck.</p><p>One of the best books I’ve read that I will never recommend to a friend.</p>",
         "link": "https://oku.club/book/tender-is-the-flesh-by-agustina-bazterrica-ye2dB"
     },
@@ -441,15 +471,20 @@
     {
         "title": "In",
         "author": "Will McPhail",
+        "isbn": 9780358345541,
         "started": "2023-03-04",
         "finished": "2023-03-04",
+        "pages": 272,
         "link": "https://oku.club/book/in-by-will-mcphail-c9GbW"
     },
     {
         "title": "A Time for Everything",
         "author": "Karl Ove Knausgård",
+        "isbn": 9780980033083,
         "started": "2023-01-09",
         "finished": "2023-02-06",
+        "publisher": "Archipelago Books",
+        "pages": 499,
         "review": "<p>Dear god, what a fraught book. Poorly structured, thematically uneven, and 300 pages longer than it should have been. Not so much a book as it is 5 books sutured together in some failed experiment.</p><p>It had so much potential. Someone get this man an editor and save him from his own ego.</p>",
         "link": "https://oku.club/book/a-time-for-everything-by-karl-ove-knausg%C3%A5rd-TgDsA"
     },
@@ -580,7 +615,9 @@
     {
         "title": "The Anthropocene Reviewed",
         "author": "John Green",
+        "isbn": 9780525555223,
         "finished": "2022-08-06",
+        "pages": 304,
         "review": "<p>Almost a memoir, and equally almost a collection of essays. Picking up this book felt a bit like eating a bag of peanut m&amp;ms - full of tiny, bite-sized pieces that are sweet on the outside and a little bit hard and savory on the inside. Though to be honest, at times the “reviews” can start to feel a bit formulaic and maybe a bit too dependent on whatever quote John felt related to what he was trying to say with each subject.</p><p>It’s worth noting though, too, that far as autobiographical non-fiction goes, this one has a certain kinship with the literary pointillism of Édouard Levé (though admittedly much less morbid). A bunch of short, distinct, and loosely connect points that as a whole imply a larger, more cohesive image. I don’t particularly think that John had this in mind when he wrote it, but it’s a nice lens to read through nonetheless.</p>",
         "link": "https://oku.club/book/the-anthropocene-reviewed-by-john-green-kj8fj"
     },
@@ -631,14 +668,20 @@
     {
         "title": "An Inventory of Losses",
         "author": "Judith Schalansky",
+        "isbn": 9780811229647,
         "finished": "2022-04-26",
+        "publisher": "New Directions Press",
+        "pages": 224,
         "review": "<p>Not quite memoir or non-fiction. But not quite fiction either. An unexpectedly enjoyable read!</p>",
         "link": "https://oku.club/book/an-inventory-of-losses-by-judith-schalansky-m4Km2"
     },
     {
         "title": "Long Live the Post Horn!",
         "author": "Vigdis Hjorth",
+        "isbn": 9781788733137,
         "finished": "2022-03-28",
+        "publisher": "Verso",
+        "pages": 240,
         "review": "<p>A lovely little counter point to The Crying of Lot 49.</p>",
         "link": "https://oku.club/book/long-live-the-post-horn-by-vigdis-hjorth-Fs5w0"
     },
@@ -667,8 +710,11 @@
     {
         "title": "How to Blow Up a Pipeline",
         "author": "Andreas Malm",
+        "isbn": 9781839760273,
         "started": "2022-01-19",
         "finished": "2022-01-20",
+        "publisher": "Verso",
+        "pages": 208,
         "review": "<p>This is not actually an instruction manual, so the title is a bit of a bait and switch.</p><p>That being said, Malm writes clearly and convincingly on his subject. At times you can tell he’s withholding full context in order to support his arguments, which is a bit frustrating.</p><p>But despite frustrations, I would say he succeeds in posing the central question that should be on the mind of anyone who possess some amount of conviction about addressing the impending/ongoing climate catastrophe:  “…Perhaps it’s past time that we consider escalation?”</p>",
         "link": "https://oku.club/book/how-to-blow-up-a-pipeline-by-andreas-malm-R7Key"
     },
@@ -682,8 +728,11 @@
     {
         "title": "The Long Ships",
         "author": "Frans G. Bengtsson",
+        "isbn": 9781590173466,
         "started": "2022-01-02",
         "finished": "2022-01-14",
+        "publisher": "New York Review Books",
+        "pages": 477,
         "review": "<p>A delightful, winding jaunt through the life of a Viking around the turn of the first millennium. The prose is straightforward and pragmatic, much like it’s protagonist.</p><p>I enjoyed it much more than I expected to!</p>",
         "link": "https://oku.club/book/the-long-ships-by-frans-g-bengtsson-DF0go"
     },
@@ -741,7 +790,7 @@
         "author": "Luisa Capetillo",
         "started": "2021-09-20",
         "finished": "2021-10-12",
-        "review": "Interesting from a historical perspective. Badly dated as a political treatise. Anarcho-feminism meets The Secret.",
+        "review": "<p>Interesting from a historical perspective. Badly dated as a political treatise.</p><p>Anarcho-feminism meets The Secret.</p>",
         "link": "https://oku.club/book/a-nation-of-women-by-luisa-capetillo-IQzQI"
     },
     {
@@ -749,7 +798,7 @@
         "author": "Emily St. John Mandel",
         "started": "2021-09-28",
         "finished": "2021-10-06",
-        "review": "I feel like this had real potential. The writing is great, the story left a lot to be desired. Every interesting theme or story line was left frustratingly undeveloped.",
+        "review": "<p>I feel like this had real potential. The writing is great, the story left a lot to be desired. Every interesting theme or story line was left frustratingly undeveloped.</p>",
         "link": "https://oku.club/book/the-glass-hotel-by-emily-st-john-mandel-y33GY"
     },
     {
@@ -764,7 +813,7 @@
         "author": "Pyotr Kropotkin",
         "started": "2021-08-31",
         "finished": "2021-09-01",
-        "review": "3.5 stars.   Much more readable than I expected. Nice introduction to Kropotkin’s thought, excited to read more.",
+        "review": "<p>3.5 stars.</p><p>Much more readable than I expected. Nice introduction to Kropotkin’s thought, excited to read more.</p>",
         "link": "https://oku.club/book/anarchist-communism-by-pyotr-kropotkin-YUHxp"
     },
     {
@@ -779,7 +828,8 @@
         "author": "Thomas More",
         "started": "2021-08-09",
         "finished": "2021-08-12",
-        "review": "Like almost all proscriptive utopian fiction, More’s book piques your interest at first because of its critique of the contemporary culture in which it was written - but ultimately becomes tedious as it attempts to describe a better way of doing things. (Which, I might add, did not age well with its over reliance on slavery and mercenaries in order to preserve the sensibilities of its citizenry.) Though, it’s worth reading if only for its foundational place in the western literary cannon and its introduction of the concept of utopia.  Anyway. More’s novella is a 3, but the essays from Le Guin & Miéville in this edition are insightful and improve the experience enough that it’s overall a 4.",
+        "publisher": "Verso",
+        "review": "<p>Like almost all proscriptive utopian fiction, More’s book piques your interest at first because of its critique of the contemporary culture in which it was written - but ultimately becomes tedious as it attempts to describe a better way of doing things. (Which, I might add, did not age well with its over reliance on slavery and mercenaries in order to preserve the sensibilities of its citizenry.)</p><p>Though, it’s worth reading if only for its foundational place in the western literary cannon and its introduction of the concept of utopia.</p> <p>Anyway. More’s novella is a 3, but the essays from Le Guin & Miéville in this edition are insightful and improve the experience enough that it’s overall a 4.</p>",
         "link": "https://oku.club/book/utopia-by-thomas-more-SCDmA"
     },
     {
@@ -801,7 +851,7 @@
         "author": "Georges Perec",
         "started": "2021-07-22",
         "finished": "2021-07-23",
-        "review": "A nice bit of experimental fiction. Love that the structure and flow of the narrative is modeled after a computer program.",
+        "review": "<p>A nice bit of experimental fiction. Love that the structure and flow of the narrative is modeled after a computer program.</p>",
         "link": "https://oku.club/book/the-art-of-asking-your-boss-for-a-raise-by-georges-perec-4B6AK"
     },
     {
@@ -860,7 +910,7 @@
         "author": "Zora Neale Hurston",
         "started": "2021-02-25",
         "finished": "2021-03-11",
-        "review": "3.5 stars rounded up.   Felt like two distinct books. The first section is interesting, though a bit of an odd mashup between dry, anthropological study and splotches of colorful scene setting. The reasons for these characteristics, of course, are confirmed in the essay on the book’s rough road to publication included in the afterward.   The second section on Hoodoo practices in New Orleans was way more compelling than expected. Definitely not for the squeamish, though.",
+        "review": "<p>3.5 stars rounded up.</p><p>Felt like two distinct books. The first section is interesting, though a bit of an odd mashup between dry, anthropological study and splotches of colorful scene setting. The reasons for these characteristics, of course, are confirmed in the essay on the book’s rough road to publication included in the afterward.</p><p>The second section on Hoodoo practices in New Orleans was way more compelling than expected. Definitely not for the squeamish, though.</p>",
         "link": "https://oku.club/book/mules-and-men-by-zora-neale-hurston-jiP17"
     },
     {
@@ -882,7 +932,7 @@
         "author": "Don DeLillo",
         "started": "2021-01-06",
         "finished": "2021-01-09",
-        "review": "Even minor DeLillo is a cut above the rest.   Everything in this book collides with everything else; language, form, function. Intimacy and knowledge are only possible through the pain of contact, the destruction of the self.",
+        "review": "<p>Even minor DeLillo is a cut above the rest.</p><p>Everything in this book collides with everything else; language, form, function. Intimacy and knowledge are only possible through the pain of contact, the destruction of the self.</p>",
         "link": "https://oku.club/book/end-zone-by-don-delillo-TTSSU"
     },
     {
@@ -929,8 +979,7 @@
         "author": "Per Petterson",
         "started": "2020-11-04",
         "finished": "2020-11-18",
-        "pages": 0,
-        "review": "Sparse, direct prose in the vein of Hemingway. Isolated characters hopelessly trapped within their own self-reflection in the vein of Knut Hamsun.    Didn’t quite pull me in, but not exactly light reading.",
+        "review": "<p>Sparse, direct prose in the vein of Hemingway. Isolated characters hopelessly trapped within their own self-reflection in the vein of Knut Hamsun.</p><p>Didn’t quite pull me in, but not exactly light reading.</p>",
         "link": "https://oku.club/book/i-curse-the-river-of-time-by-per-petterson-3EMLS"
     },
     {
@@ -938,7 +987,7 @@
         "author": "McKenzie Wark",
         "started": "2020-10-26",
         "finished": "2020-11-03",
-        "review": "(3.5/5 stars) An intriguing and original thought experiment. Playful yet confident prose. Feels a bit uneven stylistically, and ends on a somewhat meek rallying cry rather than the rousing call to action it seemed to be building toward.",
+        "review": "<p>(3.5/5 stars)</p><p>An intriguing and original thought experiment. Playful yet confident prose. Feels a bit uneven stylistically, and ends on a somewhat meek rallying cry rather than the rousing call to action it seemed to be building toward.</p>",
         "link": "https://oku.club/book/capital-is-dead-is-this-something-worse-by-mckenzie-wark-Uyoaf"
     },
     {
@@ -973,7 +1022,7 @@
         "author": "Jack Vance",
         "started": "2020-09-15",
         "finished": "2020-09-20",
-        "review": "Do not be deceived. What looks like a pulpy old paperback is in fact a searing didactic critique of modern American politics and society!  We begin with a simple account of the limitations and superstitions of a colony of humans forced to live on an ocean planet. Without warning the account shifts beneath our feet, and we embark on a wild romp through the collapse of once dependable institutions, the rise of theocratic fascism, and the ultimate triumph of nietzschean will to power.   Lest we forget, true freedom is only granted those who dare kill their gods.",
+        "review": "<p>Do not be deceived. What looks like a pulpy old paperback is in fact a searing didactic critique of modern American politics and society!</p><p>We begin with a simple account of the limitations and superstitions of a colony of humans forced to live on an ocean planet. Without warning the account shifts beneath our feet, and we embark on a wild romp through the collapse of once dependable institutions, the rise of theocratic fascism, and the ultimate triumph of nietzschean will to power.</p><p>Lest we forget, true freedom is only granted those who dare kill their gods.</p>",
         "link": "https://oku.club/book/the-blue-world-by-jack-vance-K0B1m"
     },
     {
@@ -1036,7 +1085,7 @@
         "author": "Blake Crouch",
         "started": "2020-05-21",
         "finished": "2020-05-23",
-        "review": "The plot is compelling and it’s undeniably a page turner. Linguistically and structurally it feels a bit too straightforward, but is well set up to become the TV series we all know it will inevitably become.",
+        "review": "<p>The plot is compelling and it’s undeniably a page turner. Linguistically and structurally it feels a bit too straightforward, but is well set up to become the TV series we all know it will inevitably become.</p>",
         "link": "https://oku.club/book/recursion-by-blake-crouch-2Utbw"
     },
     {
@@ -1044,7 +1093,7 @@
         "author": "Thomas Frank",
         "started": "2020-05-11",
         "finished": "2020-05-19",
-        "review": "Cute when it comes across as dated, terrifying when it doesn’t.",
+        "review": "<p>Cute when it comes across as dated, terrifying when it doesn’t.</p>",
         "link": "https://oku.club/book/commodify-your-dissent-by-thomas-frank-xienn"
     },
     {
@@ -1061,7 +1110,7 @@
         "author": "Ted Chiang",
         "started": "2020-04-20",
         "finished": "2020-04-27",
-        "review": "Would have been 3 stars were it not for the great final story in this collection."
+        "review": "<p>Would have been 3 stars were it not for the great final story in this collection.</p>"
     },
     {
         "title": "Vineland",
@@ -1212,7 +1261,7 @@
         "author": "Joan Didion",
         "started": "2019-06-10",
         "finished": "2019-06-25",
-        "review": "Here is a sharp eye and a clear voice that saw America for what it was and still is today.",
+        "review": "<p>Here is a sharp eye and a clear voice that saw America for what it was and still is today.</p>",
         "link": "https://oku.club/book/slouching-towards-bethlehem-by-joan-didion-mOiIS"
     },
     {
@@ -1259,7 +1308,7 @@
         "author": "Arthur Miller",
         "started": "2019-01-28",
         "finished": "2019-02-02",
-        "review": "Helluva thing to read during your daily commute."
+        "review": "<p>Helluva thing to read during your daily commute.</p>"
     },
     {
         "title": "The Aleph and Other Stories",
@@ -1455,7 +1504,7 @@
         "author": "Charles Soule",
         "started": "2017-09-18",
         "finished": "2017-09-19",
-        "review": "I fear the series has jumped the shark with this volume...jumped over the shark and straight to Mars...",
+        "review": "<p>I fear the series has jumped the shark with this volume...jumped over the shark and straight to Mars...</p>",
         "link": "https://oku.club/book/letter-44-volume-4-by-charles-soule-dylGV"
     },
     {
@@ -1476,7 +1525,7 @@
         "author": "Timothy Snyder",
         "started": "2017-09-01",
         "finished": "2017-09-02",
-        "review": "A readable and succinct attempt to inform the present by way of the past.",
+        "review": "<p>A readable and succinct attempt to inform the present by way of the past.</p>",
         "link": "https://oku.club/book/on-tyranny-by-timothy-snyder-KTQtp"
     },
     {
@@ -1491,7 +1540,7 @@
         "author": "Annie Jacobsen",
         "started": "2017-06-20",
         "finished": "2017-08-02",
-        "review": "Very interesting and frequently horrifying story on a piece of history not very often discussed. Three and a half stars because Jacobsen definitely writes in the voice of a journalist more so than a historian.",
+        "review": "<p>Very interesting and frequently horrifying story on a piece of history not very often discussed. Three and a half stars because Jacobsen definitely writes in the voice of a journalist more so than a historian.</p>",
         "link": "https://oku.club/book/operation-paperclip-by-annie-jacobsen-W9B4I"
     },
     {
@@ -1718,7 +1767,7 @@
         "author": "Allen B. Downey",
         "started": "2016-05-10",
         "finished": "2016-05-23",
-        "review": "Very helpful introduction to Python. Cleared up a lot of questions that were left on account of university professors' assumptions.",
+        "review": "<p>Very helpful introduction to Python. Cleared up a lot of questions that were left on account of university professors' assumptions.</p>",
         "link": "https://oku.club/book/think-python-by-allen-b-downey-ouIa1"
     },
     {
@@ -1752,14 +1801,14 @@
         "author": "Flannery O'Connor",
         "started": "2016-03-26",
         "finished": "2016-04-10",
-        "review": "Absolutely fantastic. A macabre plunge into the deep abyss of lost faith and un-indulged   yearning. Definitely one of the top five novels written in the previous century."
+        "review": "<p>Absolutely fantastic. A macabre plunge into the deep abyss of lost faith and un-indulged yearning. Definitely one of the top five novels written in the previous century.</p>"
     },
     {
         "title": "The Signal and the Noise",
         "author": "Nate Silver",
         "started": "2016-02-08",
         "finished": "2016-03-26",
-        "review": "Interesting looking into a side of statistics that I haven't had much exposure to - that future-facing branch. I look forward to exploring this topic more in-depth in some of the cited sources.  Final word on the matter: while Mr. Silver's enthusiasm comes through quite clearly in several passages of the book, he might to better to curb his projected sense superiority about how much more effective he believes his approach to be, whether it be an artifact of his subconscious or not.",
+        "review": "<p>Interesting looking into a side of statistics that I haven't had much exposure to - that future-facing branch. I look forward to exploring this topic more in-depth in some of the cited sources.</p><p>Final word on the matter: while Mr. Silver's enthusiasm comes through quite clearly in several passages of the book, he might to better to curb his projected sense superiority about how much more effective he believes his approach to be, whether it be an artifact of his subconscious or not.</p>",
         "link": "https://oku.club/book/the-signal-and-the-noise-by-nate-silver-rnbts"
     },
     {
@@ -1834,7 +1883,7 @@
         "author": "Nathanael West",
         "started": "2015-09-17",
         "finished": "2015-09-23",
-        "review": "A few notable excerpts:  On p.29: \"Like Shrike, the man they imitated, they were machines for making jokes. A button machine makes buttons, no matter what the power used, foot, steam, or electricity. They, no matter what the motivating force, death, love or God, made jokes.\"  On p.55: \"Man has a tropism for order. Keys in one pocket, change in another. Mandolins are tuned G D A E. The physical world had a tropism for disorder, entropy. Man against Nature...the battle of the centuries. Keys yearn to mix with change. Mandolins strive to get out of tune. Every order has within it the germ of destruction. All order is doomed, yet the battle is worth while.\"  On p.57: \"'Perhaps I can make you understand. Let's start from the beginning. A man is hired to give advice to readers of a newspaper. The job is a circulation stunt and the whole staff considers it a joke. He welcomes the job, for it might lead to a gossip column, and anyway he's tired of being a leg man. He too considers the job a joke, but after several months at it, the joke begins to escape him. He sees that the majority of the letters are profoundly humble pleas for moral and spiritual advice, that they are inarticulate expressions of genuine suffering. He also discovers that his correspondents take him seriously. For the first time in his life, he is forced to examine the values by which he lives. This examination shows him that he is the victim of the joke and not its perpetrator.'\"  And let's not fail to mention the Afterword! If you are fortunate enough to procure a copy with the succinct 20 pages punched up by Stanley Edgar Hyman, you will find they greatly enrich any further understanding you might wish to cultivate - both contextual and allegorical."
+        "review": "<p>A few notable excerpts:</p><p>On p.29: \"Like Shrike, the man they imitated, they were machines for making jokes. A button machine makes buttons, no matter what the power used, foot, steam, or electricity. They, no matter what the motivating force, death, love or God, made jokes.\"</p><p>On p.55: \"Man has a tropism for order. Keys in one pocket, change in another. Mandolins are tuned G D A E. The physical world had a tropism for disorder, entropy. Man against Nature...the battle of the centuries. Keys yearn to mix with change. Mandolins strive to get out of tune. Every order has within it the germ of destruction. All order is doomed, yet the battle is worth while.\"</p><p>On p.57: \"'Perhaps I can make you understand. Let's start from the beginning. A man is hired to give advice to readers of a newspaper. The job is a circulation stunt and the whole staff considers it a joke. He welcomes the job, for it might lead to a gossip column, and anyway he's tired of being a leg man. He too considers the job a joke, but after several months at it, the joke begins to escape him. He sees that the majority of the letters are profoundly humble pleas for moral and spiritual advice, that they are inarticulate expressions of genuine suffering. He also discovers that his correspondents take him seriously. For the first time in his life, he is forced to examine the values by which he lives. This examination shows him that he is the victim of the joke and not its perpetrator.'\"</p><p>And let's not fail to mention the Afterword! If you are fortunate enough to procure a copy with the succinct 20 pages punched up by Stanley Edgar Hyman, you will find they greatly enrich any further understanding you might wish to cultivate - both contextual and allegorical.</p>"
     },
     {
         "title": "A Man Without a Country",
@@ -1900,7 +1949,7 @@
         "author": "William Gaddis",
         "started": "2014-12-25",
         "finished": "2015-03-08",
-        "review": "I've been trying for about a month to think of how I might best put into words the experience of reading this book. This is the closest I can come to doing it justice:  This book is the literary equivalent of Jacques the Fatalist snorting a pile of stimulants and running screaming through the 60s and 70s. It is breathless and heartbreaking and hilarious.",
+        "review": "<p>I've been trying for about a month to think of how I might best put into words the experience of reading this book.</p><p>This is the closest I can come to doing it justice:</p><p>This book is the literary equivalent of Jacques the Fatalist snorting a pile of stimulants and running screaming through the 60s and 70s. It is breathless and heartbreaking and hilarious.</p>",
         "link": "https://oku.club/book/jr-by-william-gaddis-1gG4T"
     },
     {
@@ -1974,7 +2023,7 @@
         "author": "Jeffrey Eugenides",
         "started": "2014-08-23",
         "finished": "2014-08-28",
-        "review": "Why 3 stars? I'm not going to lie, there are some things Eugenides does extremely extremely well. However, he often peppers these profound moments with heavy-handed foreshadowing - and for me this pepper became irksome after a while, regardless of whether or not was in keeping with the authorial voice of the novel's precocious narrator.   So, while he's no doubt adept at writing the American generational epic, he is grappling with a form already perfected by Steinbeck...  ...Essentially, I think I am saying I should not have read this novel so soon after East of Eden. Because I find myself wondering how Steinbeck would have handled the story of Callie turned Cal -- and I think I would have found Steinbeck's telling more immersive.   This is likely my own fault more so than Eugenides'."
+        "review": "<p>Why 3 stars? I'm not going to lie, there are some things Eugenides does extremely extremely well. However, he often peppers these profound moments with heavy-handed foreshadowing - and for me this pepper became irksome after a while, regardless of whether or not was in keeping with the authorial voice of the novel's precocious narrator.</p><p>So, while he's no doubt adept at writing the American generational epic, he is grappling with a form already perfected by Steinbeck...</p><p>...Essentially, I think I am saying I should not have read this novel so soon after East of Eden. Because I find myself wondering how Steinbeck would have handled the story of Callie turned Cal -- and I think I would have found Steinbeck's telling more immersive.</p><p>This is likely my own fault more so than Eugenides'.</p>"
     },
     {
         "title": "Lost in the Funhouse",
@@ -1995,7 +2044,7 @@
         "author": "John Steinbeck",
         "started": "2014-08-03",
         "finished": "2014-08-17",
-        "review": "It's not a masterpiece. That word has been too freely used and now its meaning's tarnished. No, Steinbeck's novel is long, messy, and meandering — and from this grows a profound beauty that can only be fully understood by diving in head first and letting the tumultuous waves wash over you and swallow you whole.",
+        "review": "<p>It's not a masterpiece. That word has been too freely used and now its meaning's tarnished. No, Steinbeck's novel is long, messy, and meandering — and from this grows a profound beauty that can only be fully understood by diving in head first and letting the tumultuous waves wash over you and swallow you whole.</p>",
         "link": "https://oku.club/book/east-of-eden-by-john-steinbeck-GiRAq"
     },
     {
@@ -2003,7 +2052,7 @@
         "author": "Evelyn Waugh",
         "started": "2014-07-29",
         "finished": "2014-07-31",
-        "review": "I have just suffered a mighty blow at the hands of a brilliant masochist.  Waugh crafts this story with such elegance and witty perspicuity that the blows he strikes are incomparably precise and utterly horrifying.",
+        "review": "<p>I have just suffered a mighty blow at the hands of a brilliant masochist.  Waugh crafts this story with such elegance and witty perspicuity that the blows he strikes are incomparably precise and utterly horrifying.</p>",
         "link": "https://oku.club/book/a-handful-of-dust-by-evelyn-waugh-xrswU"
     },
     {
@@ -2118,7 +2167,7 @@
         "author": "Elizabeth Gilbert",
         "started": "2014-03-25",
         "finished": "2014-03-28",
-        "review": "The exciting story of how an upper-middle class white woman proved she didn't need a man by traveling around the world from male-dominated relationship to male-dominated relationship until she found one she liked enough to date.",
+        "review": "<p>The exciting story of how an upper-middle class white woman proved she didn't need a man by traveling around the world from male-dominated relationship to male-dominated relationship until she found one she liked enough to date.</p>",
         "link": "https://oku.club/book/eat-pray-love-by-elizabeth-gilbert-Z9Hub"
     },
     {
@@ -2285,7 +2334,7 @@
         "author": "Henry James",
         "started": "2013-09-17",
         "finished": "2013-09-18",
-        "review": "The first I've read of James. This could be the start of a long, long relationship.",
+        "review": "<p>The first I've read of James. This could be the start of a long, long relationship.</p>",
         "link": "https://oku.club/book/the-lesson-of-the-master-by-henry-james-SLaYa"
     },
     {
@@ -2293,7 +2342,7 @@
         "author": "Samuel Beckett",
         "started": "2013-09-14",
         "finished": "2013-09-15",
-        "review": "Don't get me wrong, I love Beckett. But he is rarely a pleasure to read. And yet I keep coming back to him over and over again. Why?  I don't know.  Maybe I'm a masochist. Perhaps I feel compelled by the praise that critics shower down on his work.  But more truthfully, I think it's because of works like this and <i>Play</i>. Works were it's not all evident at first, but where, as you think about it for days after - which you inevitably will - you realize that there was some deep seated truth within yourself that's been elucidated because of Beckett.  So here, in this scene of endless revisiting and death and endings, I found myself rereading over and over again. Then just sitting back and letting the realization of his meaning (for meaning is more important than words for Beckett) wash over me.   \"Absence supreme good and yet. Illumination then go again and on return no more trace. On earth's face. Of what was never. And if by mishap some left then go again. For good again. So on. Till no more trace.\" p.58  Yeah...I'm probably a masochist.",
+        "review": "<p>Don't get me wrong, I love Beckett. But he is rarely a pleasure to read. And yet I keep coming back to him over and over again. Why?  I don't know.  Maybe I'm a masochist. Perhaps I feel compelled by the praise that critics shower down on his work.  But more truthfully, I think it's because of works like this and <em>Play</em>. Works were it's not all evident at first, but where, as you think about it for days after - which you inevitably will - you realize that there was some deep seated truth within yourself that's been elucidated because of Beckett.</p><p>So here, in this scene of endless revisiting and death and endings, I found myself rereading over and over again. Then just sitting back and letting the realization of his meaning (for meaning is more important than words for Beckett) wash over me.</p><p> \"Absence supreme good and yet. Illumination then go again and on return no more trace. On earth's face. Of what was never. And if by mishap some left then go again. For good again. So on. Till no more trace.\" p.58</p><p>Yeah...I'm probably a masochist.</p>",
         "link": "https://oku.club/book/ill-seen-ill-said-by-samuel-beckett-2tRix"
     },
     {
@@ -2301,14 +2350,14 @@
         "author": "Dante Alighieri",
         "started": "2013-09-11",
         "finished": "2013-09-14",
-        "review": "Riveting, inventive, and a compelling read. I did, however, find myself wishing from time to time that I was able to read it in the original Italian. While Longfellow's translation is novel and fun to read, it is, ultimately, prose. It lacks that lyricism and sonority that inevitably make Dante's poetry classic."
+        "review": "<p>Riveting, inventive, and a compelling read. I did, however, find myself wishing from time to time that I was able to read it in the original Italian. While Longfellow's translation is novel and fun to read, it is, ultimately, prose. It lacks that lyricism and sonority that inevitably make Dante's poetry classic.</p>"
     },
     {
         "title": "Freakonomics",
         "author": "Steven D. Levitt & Stephen J. Dubner",
         "started": "2013-03-26",
         "finished": "2013-09-11",
-        "review": "My reactions are mixed. But I can't really take the time to write them down right now. Maybe I'll come back to this."
+        "review": "<p>My reactions are mixed. But I can't really take the time to write them down right now. Maybe I'll come back to this.</p>"
     },
     {
         "title": "The Corrections",
@@ -2328,7 +2377,7 @@
         "author": "Dave Eggers",
         "started": "2013-08-19",
         "finished": "2013-08-20",
-        "review": "Eggers's most recent novel is full of potential. Unfortunately his purposeful use of sparse prose gives the reader the feeling that this novel lacked effort on the part of the author, which, I am sure, was by no means the case.   After finishing the book I found myself slightly frustrated. All the elements were there. A myriad of magnificent and relevant themes were touched on. There were moments of keen insight that I haven't experienced elsewhere. But lurking at the bottom of it all was the feeling that this was something just thrown together: easily read, easily dismissed.   Truthfully, though, after some reflection I find myself wondering if Eggers hasn't done this to prove his point. A novel with Alan Clay as the protagonist surely would not be filled with beautiful language and supreme revelation. In fact, a novel written around Alan Clay would seem sparse and altogether unfulfilling.   This possibility did not dawn on me until the last few pages (I won't mention when or why). And now, as I think back to the rest of the novel, I can say that there is probably something to this idea. And I commend Eggers for the simplicity and unassuming way in which he has made me tremble. First, at our present digital and globalized age and all its complication and consequence. Second, at the terrors of the modern man's adulthood.",
+        "review": "<p>Eggers's most recent novel is full of potential. Unfortunately his purposeful use of sparse prose gives the reader the feeling that this novel lacked effort on the part of the author, which, I am sure, was by no means the case.</p><p>After finishing the book I found myself slightly frustrated. All the elements were there. A myriad of magnificent and relevant themes were touched on. There were moments of keen insight that I haven't experienced elsewhere. But lurking at the bottom of it all was the feeling that this was something just thrown together: easily read, easily dismissed.</p><p>Truthfully, though, after some reflection I find myself wondering if Eggers hasn't done this to prove his point. A novel with Alan Clay as the protagonist surely would not be filled with beautiful language and supreme revelation. In fact, a novel written around Alan Clay would seem sparse and altogether unfulfilling.</p><p>This possibility did not dawn on me until the last few pages (I won't mention when or why). And now, as I think back to the rest of the novel, I can say that there is probably something to this idea. And I commend Eggers for the simplicity and unassuming way in which he has made me tremble. First, at our present digital and globalized age and all its complication and consequence. Second, at the terrors of the modern man's adulthood.</p>",
         "link": "https://oku.club/book/a-hologram-for-the-king-by-dave-eggers-4bU1l"
     },
     {
@@ -2336,7 +2385,7 @@
         "author": "Dumitru Țepeneag",
         "started": "2013-08-13",
         "finished": "2013-08-17",
-        "review": "A great read for anyone who has ever wished to enter the mind of a man deeply submersed in a drunken fever dream.",
+        "review": "<p>A great read for anyone who has ever wished to enter the mind of a man deeply submersed in a drunken fever dream.</p>",
         "link": "https://oku.club/book/the-necessary-marriage-by-dumitru-%C8%9Bepeneag-oHww5"
     },
     {
@@ -2344,7 +2393,7 @@
         "author": "Vladimir Nabokov",
         "started": "2013-08-07",
         "finished": "2013-08-12",
-        "review": "There's a lot of debate among GoodReads reviewers as to whether or not the actual poem this book is written around is any good.   The mere fact that this debate exists is - I think - a testament to how well Nabokov orchestrates his themes and argument.",
+        "review": "<p>There's a lot of debate among GoodReads reviewers as to whether or not the actual poem this book is written around is any good.</p><p>The mere fact that this debate exists is - I think - a testament to how well Nabokov orchestrates his themes and argument.</p>",
         "link": "https://oku.club/book/pale-fire-by-vladimir-nabokov-zrWnb"
     },
     {
@@ -2358,7 +2407,7 @@
         "author": "David Foster Wallace",
         "started": "2013-07-11",
         "finished": "2013-07-24",
-        "review": "Unfinished though it may be, this book contains some of the most insightful and well written prose of contemporary literature.   One review mentioned that reading this book was akin to having found a beautiful, shattered urn and sitting in awe at the brilliance of the individual pieces. We as readers are able only to imagine - albeit, with inherent inaccuracy - how beautiful the urn might have been when it was still intact.  I disagree that review.   This book is beautiful, but not because it is broken or fragmented. It is beautiful in the same way that Michelangelo's \"prisoners\" are beautiful. This book is an unfinished masterpiece, but it is still the work of a master. David Foster Wallace had chosen his stone, begun carving out the images and details, and was shaping his vision. We are left with something that is truly great, not because it is finished, but because its unfinished beauty gives a glimpse of how the artist worked and where his genius might have led had he continued.   All this being said, like Michelangelo's prisoners, The Pale King does seem oddly complete in its own right. And I cannot speak highly enough about this man's writing and the brilliance with which he attempted to express his ideas.",
+        "review": "<p>Unfinished though it may be, this book contains some of the most insightful and well written prose of contemporary literature.</p><p>One review mentioned that reading this book was akin to having found a beautiful, shattered urn and sitting in awe at the brilliance of the individual pieces. We as readers are able only to imagine - albeit, with inherent inaccuracy - how beautiful the urn might have been when it was still intact.</p><p>I disagree that review.</p><p>This book is beautiful, but not because it is broken or fragmented. It is beautiful in the same way that Michelangelo's \"prisoners\" are beautiful. This book is an unfinished masterpiece, but it is still the work of a master. David Foster Wallace had chosen his stone, begun carving out the images and details, and was shaping his vision. We are left with something that is truly great, not because it is finished, but because its unfinished beauty gives a glimpse of how the artist worked and where his genius might have led had he continued.</p><p>All this being said, like Michelangelo's prisoners, The Pale King does seem oddly complete in its own right. And I cannot speak highly enough about this man's writing and the brilliance with which he attempted to express his ideas.</p>",
         "link": "https://oku.club/book/the-pale-king-by-david-foster-wallace-xGMBj"
     },
     {

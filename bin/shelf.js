@@ -67,12 +67,10 @@ module.exports.fetchBooksFromNotion = async (tbl) => {
   try {
     const results = await collectPaginatedAPI(notion.databases.query, {
       database_id: NOTION_DATABASES[tbl],
-      sorts: [
-        {
-          property: "finished",
-          direction: "descending",
-        },
-      ],
+      sorts:
+        tbl === "have_read"
+          ? [{ property: "finished", direction: "descending" }]
+          : [{ property: "started", direction: "descending" }],
     });
 
     return cleanupDataFields(results);

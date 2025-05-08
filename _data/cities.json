@@ -1,4 +1,16 @@
 {
+  "thekkady": {
+    "display_name": "Thekkady, Kerala",
+    "url": "https://en.wikipedia.org/wiki/Thekkady",
+    "lat": 9.533,
+    "lon": 77.2
+  },
+  "goa": {
+    "display_name": "Goa",
+    "url": "https://en.wikipedia.org/wiki/Goa",
+    "lat": 15.5,
+    "lon": 73.83
+  },
   "mumbai": {
     "display_name": "Mumbai, Maharashtra",
     "url": "https://en.wikipedia.org/wiki/Mumbai",

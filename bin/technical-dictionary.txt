@@ -1,3 +1,10 @@
+goa-1.png
+mumbai-1.png
+thekkady-1.png
+thekkady-2.png
+thekkady-3.png
+thekkady-4.png
+thekkady-5.png
 graffito-2023.png
 currentYear
 bookDateYear

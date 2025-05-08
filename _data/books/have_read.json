@@ -7,6 +7,7 @@
         "finished": "2025-05-07",
         "publisher": "Fitzcarraldo Editions",
         "pages": 204,
+        "situ": "/img/books/2025/what-have-you-left-behind.png",
         "review": "<p>One of the most harrowing books I have ever read.</p><p>Over and over again it forces us to look at the human cost. This book is a relentless, meticulous accounting of the quotidian atrocities of the war in Yemen.</p>",
         "link": "https://oku.club/book/what-have-you-left-behind-by-bushra-al-maqtari-9Is19"
     },
@@ -56,8 +57,11 @@
     {
         "title": "New Selected Poems",
         "author": "W.S. Graham",
+        "isbn": 9780571348442,
         "started": "2025-03-10",
         "finished": "2025-03-19",
+        "publisher": "Faber & Faber",
+        "pages": 127,
         "review": "<p>Sharp, playful, melancholic, complex. His poems shift and change every time you look at them. Meaning is constructed and you must play your part.</p>",
         "link": "https://oku.club/book/new-selected-poems-of-ws-graham-by-ws-graham-6sFwx"
     },

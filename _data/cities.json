@@ -1,4 +1,16 @@
 {
+  "florence": {
+    "display_name": "Florence, Italy",
+    "url": "https://en.wikipedia.org/wiki/Florence",
+    "lat": 43.771389,
+    "lon": 11.254167
+  },
+  "rome": {
+    "display_name": "Rome, Italy",
+    "url": "https://en.wikipedia.org/wiki/Rome",
+    "lat": 41.893333,
+    "lon": 12.482778
+  },
   "thekkady": {
     "display_name": "Thekkady, Kerala",
     "url": "https://en.wikipedia.org/wiki/Thekkady",

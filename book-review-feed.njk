@@ -1,0 +1,25 @@
+---
+layout: rss.njk
+section: bookshelf
+permalink: shelf/feed.xml
+---
+<title type="html">cyber(b)space book reviews</title>
+<subtitle>bespoke thoughts on various books</subtitle>
+{% for book in books.have_read %}
+{% if book.review %}
+{% set link = [metadata.url, "/shelf/", book.author | slugify , "/", book.title | slugify] | join %}
+<entry>
+  <title type="html">Booklog: {{ book.title }}</title>
+  <link href="{{ link }}" rel="alternate" type="text/html" title="Booklog: {{ book.title }}" />
+  <published>{{ book.finished | reviewFeedDate }}</published>
+  <updated>{{ book.finished | reviewFeedDate }}</updated>
+  <id>{{ link }}</id>
+  <author>
+   <name>{{ metadata.author.name }}</name>
+   <uri>{{ metadata.url }}</uri>
+  </author>
+  <summary type="html">Thoughts on <em>{{ book.title }}</em> by {{ book.author }}</summary>
+  <content type="html" xml:base="{{ link }}">{{ book.review }}</content>
+</entry>
+{% endif %}
+{% endfor %}

@@ -28,7 +28,7 @@ Let's start with the external. We were totally unprepared for the weather. I had
 Traveling with a toddler, I had also been worried that the jet lag would be tough. But as it turns out, the time difference between Mumbai and Rome is only 3.5 hours. Roughly the same as a trip between New York and San Francisco. I don't recommend 12 hours of travel with a small person who just wants to run around and can't be reasoned with. But I was pleasantly surprised that all of us, toddler included, only felt the effects of jet lag for the first two days.
 
 {% dither "/img/blog/2025/italy-1.png" %}
-<div class="center-text"><small>Our flight plan had us hopping over the Alps on our way to</small></div><br />
+<div class="center-text"><small>Our flight plan had us hopping over the Alps on our way to Rome</small></div><br />
 
 ## The World Through Stendhal's Eyes
 

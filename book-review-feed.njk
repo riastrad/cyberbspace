@@ -1,10 +1,10 @@
 ---
 layout: rss.njk
 section: bookshelf
+title: "cyber(b)space book reviews"
+description: "bespoke thoughts on various books"
 permalink: shelf/feed.xml
 ---
-<title type="html">cyber(b)space book reviews</title>
-<subtitle>bespoke thoughts on various books</subtitle>
 {% for book in books.have_read %}
 {% if book.review %}
 {% set link = [metadata.url, "/shelf/", book.author | slugify , "/", book.title | slugify] | join %}

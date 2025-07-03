@@ -158,6 +158,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toUTC().toISO();
   });
 
+  eleventyConfig.addFilter("reviewFeedDate", (dateString) => {
+    return DateTime.fromFormat(dateString, "yyyy-MM-dd").toISO();
+  });
+
   eleventyConfig.addFilter("dateYear", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy");
   });

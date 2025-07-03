@@ -11,14 +11,18 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="/img/favicon.png">
 
+  <!-- shoutout to my static generator guys -->
+  <meta name="generator" content="{{ eleventy.generator }}">
+
   <!-- All about that social content -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="og:title" content="{{ title or reviewtitle }}" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cyberb.space{{ page.url }}" />
   {% if summary %}<meta property="og:description" content="{{ summary }}" />{% endif %}
-  <meta property="og:image" content="https://cyberb.space/img/{% if summary %}post{% else %}site{% endif %}-preview-card.jpg" />
+  <meta property="og:image" content="https://cyberb.space/img/{% if summary %}post{% elif reviewtitle %}book-review{% else %}site{% endif %}-preview-card.jpg" />
   <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="notes rss">
+  <link rel="alternate" type="application/rss+xml" href="/shelf/feed.xml" title="book reviews rss">
 
   <!-- Style -->
   {% set css %}

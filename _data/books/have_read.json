@@ -1,5 +1,51 @@
 [
     {
+        "title": "Aliss at the Fire",
+        "author": "Jon Fosse",
+        "isbn": 9781804271025,
+        "started": "2025-06-03",
+        "finished": "2025-07-03",
+        "publisher": "Fitzcarraldo Editions",
+        "pages": 74,
+        "review": "<p>Lately I have been reading ebooks in bed before I go to sleep. I find this much more restorative than scrolling on social media.</p><p>However, I had to stop reading this one that way. The lines between dream and reality were becoming too permeable. It was increasingly hard to know where I was.</p><p>Fosse’s style is musical and hypnotic. It’s not quite the modernism of Faulkner or Joyce. But it’s not pure experimentation either.</p><p>Reading this induced an almost mystical sensation. The unshakeable notion that everything is interlinked. This book is the memory of a half-forgotten dream.</p>",
+        "link": "https://openlibrary.org/books/OL38091001M/Aliss_at_the_Fire"
+    },
+    {
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "isbn": 9781250788450,
+        "started": "2025-03-29",
+        "finished": "2025-07-02",
+        "publisher": "Picador",
+        "pages": 823,
+        "situ": "/img/books/2025/the-brothers-karamazov.png",
+        "review": "<p>It is tempting, very tempting, with a book such as this to praise it effusively the moment you have finished reading. This impulse is driven by the book’s well established reputation among the reading public as one of “the greatest books ever written” as well as the exceptional length of the text. I want to resist that impulse, as best I can, and give my honest assessment of the book’s prose, themes, and the overall impression it has made on me.</p>\n<p>As far as writing style, I am incredibly conflicted. The prose is shaggy and erratic. Characters, more often than not, “seem” to feel things rather than just feeling them. Action happens “suddenly” so often it begins to lose any sort of urgency or meaning. And descriptions lean far too heavily on the terms “sort of” or “something like.” These, to my mind, are all the hallmarks of a writer who has not taken the time to refine their work or trim the fat from their initial drafts. That being said, this criticism is complicated by the fact of this being a work in translation (though the Pevear and Volokhonsky translation gives every indication that it is meticulously researched and faithful to the original) and the fact, mentioned in this edition’s Introduction, that Dostoevsky has purposefully crafted this narrative voice. So I’m led to believe the effect is intentional. And yet. And yet, I can’t bring myself to fully embrace the argument.</p>\n<p>Fortunately the themes do not fall victim to the same criticism. This is where Dostoevsky’s talent is most on display. Characters are very fully developed. The world feels real and lived in. The choreography of the plot is meticulous and well executed. My main gripe here is the identities of the characters and how they align with the ideas Dostoevsky explores. There is a thread of classicism — why else would the true criminal be the lowest born of the brothers? — and he doesn’t seem to have any interest in criticizing the social hierarchies that forced them all into their fates. I’ll also say, the core premise and the didactic nature of the denouement feels preachy and heavy handed at different points. The brother who puts his faith in his own reason is driven mad by his failure to understand its implications and his possible role in the consequences. The brother who dedicated himself to the church is a hero who gets the last word. Perhaps not something that 19th century Russia was ready for, but I would have preferred that Dostoevsky leaned into the ambiguity of the crime and the trial that followed. Give us less certainty about the truth and our understanding of what happened. He flirts with this toward the end, but then goes out of his way to explicitly make his point about the truth and the implications of it. Of course, I can’t hold this against the work, it’s simply that I am partial to stories different than the one Dostoevsky decided to tell.</p>\n<p>After a few months lugging this book around, I’ll say that the overall impression was good. Maybe not profound. Maybe not life altering. But I can’t say that the time was wasted. There are some moments in the book that are truly beautiful. The Grand Inquisitor chapter was excellent, it really holds up! Perhaps my intense scrutiny is actually just the self-preserving tick of a jealous writer, secretly anxious he’ll never accomplish anything as enduring as the book he’s just read. I’m too close to the situation to say for sure. In any case, this is the second Dostoevsky novel I’ve read, the first being The Double, and the opinion that’s crystallizing about his body of work is this: he has an incredible talent for outlining and probing the ideas and anxieties that underpin modern life, but his prose does a disservice to these insights.</p>\n<p>And so for that — and I say this with affection — I think he might be the greatest bad writer I have ever had the pleasure of reading.</p>",
+        "link": "https://oku.club/book/the-brothers-karamazov-by-fyodor-dostoevsky-HV8M7"
+    },
+    {
+        "title": "Crocosmia",
+        "author": "Miranda Mellis",
+        "isbn": 9781643622750,
+        "started": "2025-06-02",
+        "finished": "2025-06-06",
+        "publisher": "Nightboat Books",
+        "pages": 155,
+        "review": "[I read an ARC of this book and will be pitching reviews to other publications. If any of them take me up, I’ll circle back here with a link.]",
+        "link": "https://nightboat.org/book/crocosmia/"
+    },
+    {
+        "title": "I Will Die in a Foreign Land",
+        "author": "Kalani Pickhart",
+        "isbn": 9781953387097,
+        "started": "2025-05-09",
+        "finished": "2025-06-02",
+        "publisher": "Two Dollar Radio",
+        "pages": 300,
+        "situ": "/img/books/2025/i-will-die-in-a-foreign-land.png",
+        "review": "<p>A really well executed debut.</p><p>Pickhart’s prose is lyrical and sharp. The structure is unexpected and leads to surprising narrative harmonies. The history is ongoing and heartbreaking. The work helps us begin to process the extent of the tragedy that has unfolded this past decade — and longer.</p><p>I was grateful to her for ending the story on a hopeful note. Though the knowledge of the events that followed shortly after this book’s publication add a bittersweetness that only history can.</p>",
+        "link": "https://openlibrary.org/books/OL38065423M/I_Will_Die_in_a_Foreign_Land"
+    },
+    {
         "title": "What Have You Left Behind?",
         "author": "Bushra Al-Maqtari",
         "isbn": 9781804270011,
@@ -7,6 +53,7 @@
         "finished": "2025-05-07",
         "publisher": "Fitzcarraldo Editions",
         "pages": 204,
+        "situ": "/img/books/2025/what-have-you-left-behind.png",
         "review": "<p>One of the most harrowing books I have ever read.</p><p>Over and over again it forces us to look at the human cost. This book is a relentless, meticulous accounting of the quotidian atrocities of the war in Yemen.</p>",
         "link": "https://oku.club/book/what-have-you-left-behind-by-bushra-al-maqtari-9Is19"
     },
@@ -56,8 +103,11 @@
     {
         "title": "New Selected Poems",
         "author": "W.S. Graham",
+        "isbn": 9780571348442,
         "started": "2025-03-10",
         "finished": "2025-03-19",
+        "publisher": "Faber & Faber",
+        "pages": 127,
         "review": "<p>Sharp, playful, melancholic, complex. His poems shift and change every time you look at them. Meaning is constructed and you must play your part.</p>",
         "link": "https://oku.club/book/new-selected-poems-of-ws-graham-by-ws-graham-6sFwx"
     },
@@ -1978,7 +2028,7 @@
     },
     {
         "title": "The Double",
-        "author": "Fyodor Dostoyevsky",
+        "author": "Fyodor Dostoevsky",
         "started": "2014-08-30",
         "finished": "2014-12-24",
         "link": "https://oku.club/book/the-double-by-fyodor-dostoyevsky-oxUjW"

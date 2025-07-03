@@ -48,7 +48,7 @@ const cleanupDataFields = (notionResponse) => {
     if (pages && pages.number !== null) {
       cleanBook.pages = pages.number;
     }
-    if (situ && situ.rich_text.length > 0) {
+    if (situ && situ.rich_text) {
       cleanBook.situ = situ.rich_text[0].plain_text;
     }
     if (review && review.rich_text.length > 0) {

@@ -7,7 +7,12 @@ tags:
 navtitle: bookshelf
 ---
 
-> I have read ✨ **{{ books.have_read | readingProgressYear }}** ✨ so far this year.
+<details>
+    <summary>subscribe to book reviews</summary>
+    If you're interested in getting notified when I write an informal review for one of these, you can subscribe to this dedicated <a href="/shelf/feed.xml">RSS feed</a>.
+</details>
+
+---
 
 ## Currently Reading
 
@@ -19,7 +24,8 @@ navtitle: bookshelf
 
 ## Read
 
-I have read **{{ books.have_read.length }}**  books since I started keeping track of them digitally.
+👓 **{{ books.have_read | readingProgressYear }}** books so far this year.
+🗃️ **{{ books.have_read.length }}** books since I started tracking digitally.
 
 {% for book in books.have_read %}
   {% capture currentYear %}{{ book.finished | bookDateYear }}{% endcapture %}

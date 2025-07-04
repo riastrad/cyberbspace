@@ -1,3 +1,5 @@
+mailto
+metadata.author.social.bluesky
 italy-1.png
 italy-2.png
 italy-3.png

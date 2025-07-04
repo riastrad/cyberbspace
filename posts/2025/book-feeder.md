@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: "Digitially Syndicated Book Reviews"
+title: "Digitally Syndicated Book Reviews"
 summary: "Announcing a dedicated RSS feed for book reviews"
 date: 2025-07-04 12:50:00+5:30
 tags:

@@ -1,23 +1,18 @@
 <h2>booklog: {{book.title}}</h2>
 
-<!-- book pic goes here --!>
 <div class="review-container">
-{% if book.situ %}
-    <img alt="image of {{ book.title }} in-situ" src="{{ book.situ }}" class="review-image" />
-{% endif %}
-
-{% if book.started %}
-<div class="review-text">
 <p>In {{ book.finished | bookDateYear }} I read <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}.</p>
+{% if book.situ %}
+<img alt="image of {{ book.title }} in-situ" src="{{ book.situ }}" class="review-image" />
+{% endif %}
+<div class="review-text">
 <h4>Timeline</h4>
+{% if book.started %}
 <ul class="timeline">
  <li><strong>{{ book.started | readableBookDate }}:</strong> started reading.</li>
  <li><strong>{{ book.finished | readableBookDate}}:</strong> finished reading.</li>
 </ul>
 {% else %}
-<div class="review-text">
-<p>In {{ book.finished | bookDateYear }} I read <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}.</p>
-<h4>Timeline</h4>
 <ul class="timeline">
  <li>...started reading at some point.</li>
  <li><strong>{{ book.finished | readableBookDate}}:</strong> finished reading.</li>
@@ -27,7 +22,6 @@
 {% if book.review %}
 <h4>Review</h4>
 {{ book.review | safe }}
-<br /><br />
 {% endif %}
 </div>
 </div>

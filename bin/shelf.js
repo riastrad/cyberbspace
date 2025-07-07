@@ -19,6 +19,16 @@ module.exports.constants = {
 
 const notion = new Client({ auth: process.env.NOTION_ACCESS_TOKEN });
 
+const situImgPath = (dateRead, bookTitle) => {
+  const year = dateRead.split("-")[0];
+  const title = bookTitle
+    .toLowerCase()
+    .replaceAll(/['’,\.\?\!]/g, "")
+    .replaceAll(" ", "-");
+
+  return `/img/books/${year}/${title}.png`;
+};
+
 const cleanupDataFields = (notionResponse) => {
   const cleanBooks = notionResponse.map((book) => {
     const cleanBook = {};
@@ -48,8 +58,11 @@ const cleanupDataFields = (notionResponse) => {
     if (pages && pages.number !== null) {
       cleanBook.pages = pages.number;
     }
-    if (situ && situ.rich_text && situ.rich_text.length > 0) {
-      cleanBook.situ = situ.rich_text[0].plain_text;
+    if (
+      cleanBook.finished &&
+      fs.existsSync(`.${situImgPath(cleanBook.finished, cleanBook.title)}`)
+    ) {
+      cleanBook.situ = situImgPath(cleanBook.finished, cleanBook.title);
     }
     if (review && review.rich_text.length > 0) {
       cleanBook.review = review.rich_text[0].plain_text;

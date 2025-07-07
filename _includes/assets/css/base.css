@@ -104,6 +104,13 @@ a.button-primary:hover {
     cursor: default;
 }
 
+blockquote {
+    border: 2px dashed #000;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
+}
+
 @media (max-width: 550px) {
     nav {
         text-align: left;
@@ -121,6 +128,11 @@ a.button-primary:hover {
 
     nav a.button-primary {
         width: auto;
+    }
+
+    blockquote {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }
 

@@ -16,7 +16,8 @@
     "d3-geo-projection": "^3.0.0",
     "luxon": "^1.28.1",
     "markdown-it": "^13.0.1",
-    "markdown-it-footnote": "^3.0.3"
+    "markdown-it-footnote": "^3.0.3",
+    "sharp": "^0.34.2"
   },
   "devDependencies": {
     "dither-me-this": "^0.0.5",

@@ -1,5 +1,6 @@
 const fs = require("fs");
 const { Client, collectPaginatedAPI } = require("@notionhq/client");
+const Sharp = require("sharp");
 
 const READING_FILE_PATH = "./_data/books/reading.json";
 const READ_FILE_PATH = "./_data/books/have_read.json";
@@ -19,8 +20,18 @@ module.exports.constants = {
 
 const notion = new Client({ auth: process.env.NOTION_ACCESS_TOKEN });
 
-const cleanupDataFields = (notionResponse) => {
-  const cleanBooks = notionResponse.map((book) => {
+const situImgPath = (dateRead, bookTitle) => {
+  const year = dateRead.split("-")[0];
+  const title = bookTitle
+    .toLowerCase()
+    .replaceAll(/['’,\.\?\!]/g, "")
+    .replaceAll(" ", "-");
+
+  return `/img/books/${year}/${title}.png`;
+};
+
+const cleanupDataFields = async (notionResponse) => {
+  const cleanBooks = notionResponse.map(async (book) => {
     const cleanBook = {};
     const {
       title,
@@ -48,8 +59,10 @@ const cleanupDataFields = (notionResponse) => {
     if (pages && pages.number !== null) {
       cleanBook.pages = pages.number;
     }
-    if (situ && situ.rich_text && situ.rich_text.length > 0) {
-      cleanBook.situ = situ.rich_text[0].plain_text;
+
+    if (cleanBook.finished) {
+      const finalPath = await possiblySaveNewSituImage(title, finished, situ);
+      if (finalPath) cleanBook.situ = finalPath;
     }
     if (review && review.rich_text.length > 0) {
       cleanBook.review = review.rich_text[0].plain_text;
@@ -59,7 +72,51 @@ const cleanupDataFields = (notionResponse) => {
     return cleanBook;
   });
 
-  return cleanBooks;
+  return Promise.all(cleanBooks);
+};
+
+const possiblySaveNewSituImage = async (title, finished, situ) => {
+  if (!finished || finished.date === null || !title.title) {
+    return;
+  }
+
+  // In the future, maybe get a bit more clever with update timestamps & image metadata,
+  // but for now I'll just skip the work if the file is already in the repo
+  const situPath = situImgPath(finished.date.start, title.title[0].plain_text);
+  if (fs.existsSync(`.${situPath}`)) {
+    console.log(
+      `[shelflife] situ image already exists, skipping: .${situPath}`,
+    );
+    return situPath;
+  }
+
+  if (
+    !situ ||
+    situ.type !== "files" ||
+    situ.files.length === 0 ||
+    !situ.files[0].file.url
+  ) {
+    // if there's no image in Notion, we can't pull it down
+    return;
+  }
+
+  const imgUri = situ.files[0].file.url;
+
+  const rawImage = await fetch(imgUri);
+  const image = new Sharp(Buffer.from(await rawImage.arrayBuffer()));
+  return image
+    .resize({ height: 500 })
+    .toFile(`.${situPath}`)
+    .then((info) => {
+      console.log(
+        `[shelflife] saved new situ image at: .${situPath} (${info.width}x${info.height}, ${info.size / 1000} KB)`,
+      );
+      return situPath;
+    })
+    .catch((err) => {
+      console.log(`[shelflife] could not save file ${situPath}`);
+      throw err;
+    });
 };
 
 module.exports.fetchBooksFromNotion = async (tbl) => {
@@ -72,7 +129,8 @@ module.exports.fetchBooksFromNotion = async (tbl) => {
           : [{ property: "started", direction: "descending" }],
     });
 
-    return cleanupDataFields(results);
+    const finalData = await cleanupDataFields(results);
+    return finalData;
   } catch (e) {
     console.error(`[shelflife] error retrieving book data for ${tbl}: ${e}`);
   }

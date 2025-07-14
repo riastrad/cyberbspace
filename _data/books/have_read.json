@@ -1,5 +1,17 @@
 [
     {
+        "title": "The Eye of the Master",
+        "author": "Matteo Pasquinelli",
+        "isbn": 9781788730068,
+        "started": "2025-05-07",
+        "finished": "2025-07-14",
+        "publisher": "Verso",
+        "pages": 264,
+        "situ": "/img/books/2025/the-eye-of-the-master.png",
+        "review": "<p>Enjoyed this, though it took me a bit longer to circle back to than I expected.</p><p>Pasquinelli does an excellent job of charting the deep history and development of AI as a concept, technology, and social process.</p><p>Most crucially, for my money, he makes a detailed and convincing argument that AI is not some miraculous innovation in technology but rather the logical next step in a long process of the mechanization and automation of labor tasks. It’s also refreshing to have a social scholar acknowledge the flawed premise these models are based on and reference recent research into their diminishing returns.</p>",
+        "link": "https://openlibrary.org/books/OL50556973M/The_Eye_of_the_Master"
+    },
+    {
         "title": "Deaf Republic",
         "author": "Ilya Kaminsky",
         "isbn": 9781555978310,

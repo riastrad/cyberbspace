@@ -37,7 +37,7 @@ Current manuscript is up to 18,200 words. Pragmatism demands that I stick with p
 
 ## In Media Res
 
-I really don't want this to be all about how I've "discovered a hack" or "unlocked my creative potential," so I'll end by noting a few things I've come across in my daily life or in my manuscript research recently. The only
+I really don't want this to be all about how I've "discovered a hack" or "unlocked my creative potential," so I'll end by noting a few things I've come across in my daily life or in my manuscript research recently.
 
 I could watch [this London Review of Books video](https://www.youtube.com/watch?v=Ef6tlFVigsQ) a hundred times. In it artist Jon McNaught talks about his process for creating covers of the magazine. Masterful stuff.
 

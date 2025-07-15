@@ -105,6 +105,7 @@ const possiblySaveNewSituImage = async (title, finished, situ) => {
   const rawImage = await fetch(imgUri);
   const image = new Sharp(Buffer.from(await rawImage.arrayBuffer()));
   return image
+    .rotate()
     .resize({ height: 500 })
     .toFile(`.${situPath}`)
     .then((info) => {

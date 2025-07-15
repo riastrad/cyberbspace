@@ -84,8 +84,11 @@
     {
         "title": "Saint Sebastian's Abyss",
         "author": "Mark Haber",
+        "isbn": 9781566896368,
         "started": "2025-04-15",
         "finished": "2025-04-25",
+        "publisher": "Coffee House Press",
+        "pages": 160,
         "link": "https://oku.club/book/saint-sebastians-abyss-by-mark-haber-ocTKJ"
     },
     {
@@ -149,21 +152,28 @@
     {
         "title": "Insurrecto",
         "author": "Gina Apostol",
+        "isbn": 9781913097035,
         "started": "2025-02-19",
         "finished": "2025-03-10",
+        "publisher": "Fitzcarraldo Editions",
+        "pages": 296,
         "situ": "/img/books/2025/insurrecto.png",
         "link": "https://oku.club/book/insurrecto-by-gina-apostol-ofKhX"
     },
     {
         "title": "How to Say Babylon",
         "author": "Safiya Sinclair",
+        "isbn": 9781982132354,
         "started": "2024-12-29",
         "finished": "2025-02-24",
+        "publisher": "37 Ink",
+        "pages": 352,
         "link": "https://oku.club/book/how-to-say-babylon-by-safiya-sinclair-2AOSA"
     },
     {
         "title": "Structuralism and Semiotics",
         "author": "Terence Hawkes",
+        "isbn": 520034228,
         "started": "2025-01-18",
         "finished": "2025-02-18",
         "publisher": "University of California Press",
@@ -175,14 +185,18 @@
     {
         "title": "A Frolic of His Own",
         "author": "William Gaddis",
+        "isbn": 671669842,
         "started": "2024-12-13",
         "finished": "2025-02-06",
+        "publisher": "Poseidon Press",
+        "pages": 586,
         "situ": "/img/books/2025/a-frolic-of-his-own.png",
         "link": "https://oku.club/book/a-frolic-of-his-own-by-william-gaddis-fFCv4"
     },
     {
         "title": "America",
         "author": "Jean Baudrillard",
+        "isbn": 9781844676828,
         "started": "2025-01-08",
         "finished": "2025-01-17",
         "publisher": "Verso",

@@ -2,7 +2,7 @@
 layout: post.njk
 title: Pencil Me In
 summary: On first drafts and psychological quirks
-date: 2025-07-15 15:20:00+5:30
+date: 2025-07-15 17:15:00+5:30
 tags:
   - post
   - life

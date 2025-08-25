@@ -5,6 +5,7 @@ summary: Previously undocumented rules I keep in mind when I build this site.
 date: 2024-10-21 09:34:00+5:30
 tags:
   - post
+  - meta
   - web
   - development
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html

@@ -86,4 +86,8 @@ img.svgMap {
     img.svgMap {
         width: 100%;
     }
+
+    iframe {
+        width: 100%;
+    }
 }

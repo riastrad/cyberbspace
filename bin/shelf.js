@@ -46,7 +46,13 @@ const cleanupDataFields = async (notionResponse) => {
       link,
     } = book.properties;
 
-    if (title.title) cleanBook.title = title.title[0].plain_text;
+    // There are more robust solutions, but an error to help me catch empty rows is
+    // a simple guardrail to add for something that only comes up once in a while
+    if (!title.title[0]) {
+      throw new Error("[DATA ERROR] Data table contains an empty row.");
+    } else {
+      cleanBook.title = title.title[0].plain_text;
+    }
     if (author.select !== null) cleanBook.author = author.select.name;
     if (ISBN.number !== null) cleanBook.isbn = ISBN.number;
     if (started.date !== null) cleanBook.started = started.date.start;

@@ -1,4 +1,10 @@
 {
+  "dubai": {
+    "display_name": "Dubai, UAE",
+    "url": "https://en.wikipedia.org/wiki/Dubai",
+    "lat": "25.204722",
+    "lon": "55.270833"
+  },
   "florence": {
     "display_name": "Florence, Italy",
     "url": "https://en.wikipedia.org/wiki/Florence",

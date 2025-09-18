@@ -27,6 +27,6 @@ This site is the primary conduit through which my lived experience flows into th
 <a href="{{ collections.posts.last.url }}">{{ collections.posts.last.data.title }}</a> ({{ collections.posts.last.data.date | readableDate }})
 
 **SOCIALS**
-I dabble with <a href="{{ metadata.author.social.bluesky }}">Bluesky</a>, <a href="{{ metadata.author.social.bandcamp }}"> Bandcamp</a>, and <a href="{{ metadata.author.social.letterboxd }}">Letterboxd</a>. But I have doubts and reservations about any service I use to host my writing and opinions that I don't control.
+I dabble with <a href="{{ metadata.author.social.bluesky }}">Bluesky</a>, <a href="{{ metadata.author.social.bandcamp }}"> Bandcamp</a>, and <a href="{{ metadata.author.social.letterboxd }}">Letterboxd</a>. But I have doubts and reservations about using any service I don't control to host my writing and opinions.
 
 <hr />

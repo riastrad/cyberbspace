@@ -26,6 +26,7 @@ This site is the primary conduit through which my lived experience flows into th
 **MY LATEST NOTE**
 <a href="{{ collections.posts.last.url }}">{{ collections.posts.last.data.title }}</a> ({{ collections.posts.last.data.date | readableDate }})
 
-If you prefer the social web, you can find me squatting <a rel="me" href="{{ metadata.author.social.mastodon }}">over on Mastodon</a> or experimenting with self-promotion <a href="{{ metadata.author.social.bluesky }}">over on Bluesky</a>.
+**SOCIALS**
+I dabble with <a href="{{ metadata.author.social.bluesky }}">Bluesky</a>, <a href="{{ metadata.author.social.bandcamp }}"> Bandcamp</a>, and <a href="{{ metadata.author.social.letterboxd }}">Letterboxd</a>. But I have doubts and reservations about any service I use to host my writing and opinions that I don't control.
 
 <hr />

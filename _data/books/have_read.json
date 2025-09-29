@@ -1,5 +1,17 @@
 [
     {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "isbn": 486282112,
+        "started": "2025-09-13",
+        "finished": "2025-09-29",
+        "publisher": "Dover",
+        "pages": 166,
+        "situ": "/img/books/2025/frankenstein.png",
+        "review": "<p>To my eternal embarrassment I had only ever read excerpts from or essays about this book. Never the original novel in its entirety. After doing a closer reading of this after a decade of working in and around tech, I can say with confidence that you should be required to read this before you’re allowed to pitch a start up idea.</p><p>Jokes aside, it’s hard to read this novel without any prior conceptions. This story in all its mutations and evolutions takes up so much space in the modern cultural imagination that you’d be forgiven for thinking you know it backward and forward already. But Shelley’s original is really a masterclass in so many things: the gothic style, the epistolary, layered and conflicting narratives, and of course the parable of how misguided our obsession with scientific progress can be if unchecked by any sense of moral clarity.</p><p>Aside from seething with jealous that Shelley managed to write something so enduring when she was only 18, I was delighted to read this through the lens of the contemporary frenzy about generative “A.I.” and see that it really does hold up in almost every way.</p>",
+        "link": "https://openlibrary.org/books/OL1110841M/Frankenstein"
+    },
+    {
         "title": "The Emperor of Gladness",
         "author": "Ocean Vuong",
         "isbn": 9781787335417,

@@ -74,7 +74,6 @@ const cleanupDataFields = async (notionResponse) => {
       // Necessary to stitch rich_text components together like this to preserve any hyperlinks
       cleanBook.review = reduceRichTextToHTMLString(review.rich_text);
     }
-    if (link && link.url !== null) cleanBook.link = link.url;
 
     /**
      *  Setting up some more robust review infrastructure here alongside the existing one.
@@ -95,6 +94,8 @@ const cleanupDataFields = async (notionResponse) => {
         if (htmlReview !== "") cleanBook.review = htmlReview;
       }
     }
+
+    if (link && link.url !== null) cleanBook.link = link.url;
 
     return cleanBook;
   });

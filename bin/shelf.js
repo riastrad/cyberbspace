@@ -73,7 +73,6 @@ const cleanupDataFields = async (notionResponse) => {
     if (review && review.rich_text.length > 0) {
       //Necessary to stitch rich_text components together like this to preserve any hyperlinks
       cleanBook.review = review.rich_text.reduce((finalText, current) => {
-        console.log(`[debug]:${cleanBook.title}:: ${current.type}`);
         if (current.type !== "text") return finalText;
         if (current.href === null) return (finalText += current.plain_text);
         return (finalText += `<a href=\"${current.href}\">${current.plain_text}</a>`);

@@ -85,16 +85,16 @@ const cleanupDataFields = async (notionResponse) => {
      *
      *  Note that final state is not necessarily easiest implementation for this code, but for my personal workflow.
      */
-    // if (!cleanBook.review) {
-    const pageBlocks = await notion.blocks.children.list({
-      block_id: book.id,
-      page_size: 100,
-    });
-    if (pageBlocks.results.length > 0) {
-      const htmlReview = reduceBlocksToSingleHTMLString(pageBlocks.results);
-      if (htmlReview !== "") cleanBook.review = htmlReview;
+    if (!cleanBook.review) {
+      const pageBlocks = await notion.blocks.children.list({
+        block_id: book.id,
+        page_size: 100,
+      });
+      if (pageBlocks.results.length > 0) {
+        const htmlReview = reduceBlocksToSingleHTMLString(pageBlocks.results);
+        if (htmlReview !== "") cleanBook.review = htmlReview;
+      }
     }
-    // }
 
     return cleanBook;
   });
@@ -113,10 +113,12 @@ const reduceRichTextToHTMLString = (richTextArray) => {
 };
 
 const reduceBlocksToSingleHTMLString = (blockList) => {
-  console.dir(blockList, { depth: null });
   return blockList.reduce((finalText, currentBlock) => {
     // Only interested in text stuff
-    if (currentBlock.type !== "paragraph" || !current.paragraph.rich_text) {
+    if (
+      currentBlock.type !== "paragraph" ||
+      currentBlock.paragraph.rich_text.length === 0
+    ) {
       return finalText;
     }
 

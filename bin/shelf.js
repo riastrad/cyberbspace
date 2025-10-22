@@ -72,18 +72,56 @@ const cleanupDataFields = async (notionResponse) => {
     }
     if (review && review.rich_text.length > 0) {
       // Necessary to stitch rich_text components together like this to preserve any hyperlinks
-      cleanBook.review = review.rich_text.reduce((finalText, current) => {
-        if (current.type !== "text") return finalText;
-        if (current.href === null) return (finalText += current.plain_text);
-        return (finalText += `<a href=\"${current.href}\">${current.plain_text}</a>`);
-      }, "");
+      cleanBook.review = reduceRichTextToHTMLString(review.rich_text);
     }
     if (link && link.url !== null) cleanBook.link = link.url;
+
+    /**
+     *  Setting up some more robust review infrastructure here alongside the existing one.
+     *
+     *  Here's the loose plan:
+     *    1. If there is no review, but there are blocks, then parse and squish all the blocks together as the review
+     *    2. Once this is working properly, we can shift the review data from a property to entirely this.
+     *
+     *  Note that final state is not necessarily easiest implementation for this code, but for my personal workflow.
+     */
+    // if (!cleanBook.review) {
+    const pageBlocks = await notion.blocks.children.list({
+      block_id: book.id,
+      page_size: 100,
+    });
+    if (pageBlocks.results.length > 0) {
+      const htmlReview = reduceBlocksToSingleHTMLString(pageBlocks.results);
+      if (htmlReview !== "") cleanBook.review = htmlReview;
+    }
+    // }
 
     return cleanBook;
   });
 
   return Promise.all(cleanBooks);
+};
+
+const reduceRichTextToHTMLString = (richTextArray) => {
+  // Function currently drops any text styling (since I don't plan to use that),
+  // but wouldn't be too hard to add in future.
+  return richTextArray.reduce((finalText, current) => {
+    if (current.type !== "text") return finalText;
+    if (current.href === null) return (finalText += current.plain_text);
+    return (finalText += `<a href=\"${current.href}\">${current.plain_text}</a>`);
+  }, "");
+};
+
+const reduceBlocksToSingleHTMLString = (blockList) => {
+  console.dir(blockList, { depth: null });
+  return blockList.reduce((finalText, currentBlock) => {
+    // Only interested in text stuff
+    if (currentBlock.type !== "paragraph" || !current.paragraph.rich_text) {
+      return finalText;
+    }
+
+    return (finalText += `<p>${reduceRichTextToHTMLString(currentBlock.paragraph.rich_text)}</p>`);
+  }, "");
 };
 
 const possiblySaveNewSituImage = async (title, finished, situ) => {

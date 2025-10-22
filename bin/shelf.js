@@ -71,7 +71,7 @@ const cleanupDataFields = async (notionResponse) => {
       if (finalPath) cleanBook.situ = finalPath;
     }
     if (review && review.rich_text.length > 0) {
-      //Necessary to stitch rich_text components together like this to preserve any hyperlinks
+      // Necessary to stitch rich_text components together like this to preserve any hyperlinks
       cleanBook.review = review.rich_text.reduce((finalText, current) => {
         if (current.type !== "text") return finalText;
         if (current.href === null) return (finalText += current.plain_text);

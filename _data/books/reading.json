@@ -1,5 +1,12 @@
 [
     {
+        "title": "Dancing in Odessa",
+        "author": "Ilya Kaminsky",
+        "isbn": 9780571369188,
+        "started": "2025-10-23",
+        "link": "https://openlibrary.org/books/OL33925011M/Dancing_in_Odessa"
+    },
+    {
         "title": "The Books of Jacob",
         "author": "Olga Tokarczuk",
         "isbn": 9780593087480,
@@ -12,8 +19,5 @@
         "isbn": 9780141441641,
         "started": "2025-08-13",
         "link": "https://openlibrary.org/books/OL25953921M/The_Ancien_Rgime_And_The_French_Revolution"
-    },
-    {
-        "title": "Dancing in Odessa"
     }
 ]

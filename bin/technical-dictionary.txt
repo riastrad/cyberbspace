@@ -1,3 +1,8 @@
+endif
+performant
+frontend
+mapbox
+josh@cyberb.space
 [a-z\-0-9]*\.png
 mailto
 metadata.author.social.bluesky

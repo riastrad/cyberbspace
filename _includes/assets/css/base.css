@@ -333,6 +333,8 @@ th {
 pre,
 blockquote,
 table,
+ul,
+ol,
 p {
     margin-bottom: 2.5rem;
 }

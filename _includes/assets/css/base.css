@@ -254,7 +254,14 @@ button {
     background: white;
     outline: #000 solid 0.1em;
     padding: 1.5em;
-    max-width: 80vw;
+    width: 40vw;
+}
+
+/* devices smaller than a phablet */
+@media (max-width: 700px) {
+    :popover-open {
+        width: 60vw;
+    }
 }
 
 ::backdrop {
@@ -280,6 +287,17 @@ progress {
     color: var(--progress-bar-color);
     background: var(--progress-bar-background);
     outline: #000 solid 1px;
+    width: 25vw;
+}
+
+/* devices smaller than a phablet */
+@media (max-width: 700px) {
+    :popover-open {
+        width: 60vw;
+    }
+    progress {
+        width: 100%;
+    }
 }
 
 /* Firefox */

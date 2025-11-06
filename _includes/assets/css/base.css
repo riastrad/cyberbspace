@@ -242,6 +242,11 @@ a.post-title {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* only used for book popovers */
+button {
+    display: inline;
+}
+
 a.download-button {
     color: #fff;
     background-color: #000;

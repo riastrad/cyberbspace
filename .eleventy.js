@@ -43,15 +43,13 @@ module.exports = function (eleventyConfig) {
   });
 
   const possiblyInsertProgressBar = (books, i) => {
-    const current_page = books[i].current_page
-      ? `value=${books[i].current_page}`
-      : "";
+    const current_page = books[i].current_page || 0;
+    const pageValue = current_page ? `value=${current_page}` : "";
 
     return !books[i].pages
       ? ""
-      : `
-      <em>progress:</em>
-      <progress max=${books[i].pages} ${current_page}></progress>`;
+      : `<br>on p${current_page} of <strong>${books[i].pages}</strong> (${((current_page / books[i].pages) * 100).toFixed(1)}%):
+      <progress max=${books[i].pages} ${pageValue}></progress>`;
   };
   eleventyConfig.addFilter("booksBeingRead", function (books) {
     if (books.length === 0) {
@@ -61,8 +59,7 @@ module.exports = function (eleventyConfig) {
     let bookButtons, bookPopovers;
     for (let i = 0; i < books.length; i++) {
       const btn = `<button popovertarget="book-card-${i}">${books[i].title}</button>`;
-      const pop = `
-        <div id="book-card-${i}" popover><a href="${books[i].link}">${books[i].title}</a>
+      const pop = `<div id="book-card-${i}" popover><a href="${books[i].link}">${books[i].title}</a>
           by ${books[i].author}
           ${possiblyInsertProgressBar(books, i)}</div>`;
       if (i === 0) {

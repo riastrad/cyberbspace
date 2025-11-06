@@ -18,7 +18,7 @@ This site is the primary conduit through which my lived experience flows into th
 {{ metadata.outpost.city }}, {{ metadata.outpost.country }}
 
 **WHAT I'M READING**
-{{ books.reading | books }}
+{{ books.reading | booksBeingRead }}
 
 **RECENT PUBLISHED WRITING**
 <a href="{{ publications.first.url }}">{{ publications.first.title }}</a> in *{{ publications.first.publisher }}*

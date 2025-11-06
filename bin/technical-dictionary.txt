@@ -1,4 +1,5 @@
 [a-z\-0-9]*\.png
+booksBeingRead
 mailto
 metadata.author.social.bluesky
 currentYear

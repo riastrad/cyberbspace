@@ -239,6 +239,83 @@ a.post-title {
     }
 }
 
+/* Popover Styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    background-color: rgba(238, 238, 51, 0.6);
+}
+
+:popover-open {
+    background: white;
+    outline: #000 solid 0.1em;
+    padding: 1.5em;
+    width: 40vw;
+}
+
+/* devices smaller than a phablet */
+@media (max-width: 700px) {
+    :popover-open {
+        width: 60vw;
+    }
+}
+
+::backdrop {
+    backdrop-filter: blur(2px);
+}
+
+/* setting some variables to make this easier */
+:root {
+    --progress-bar-color: #000;
+    --progress-bar-background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.77) 0%,
+        rgba(238, 238, 51, 0.51) 50%,
+        rgba(255, 255, 255, 1) 100%
+    );
+}
+
+/* IE10 */
+progress {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color: var(--progress-bar-color);
+    background: var(--progress-bar-background);
+    outline: #000 solid 1px;
+    width: 25vw;
+}
+
+/* devices smaller than a phablet */
+@media (max-width: 700px) {
+    :popover-open {
+        width: 60vw;
+    }
+    progress {
+        width: 100%;
+    }
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+    background: var(--progress-bar-color);
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+    background: var(--progress-bar-color);
+    outline: #000 solid 1px;
+}
+
+/* incomplete part of the bar */
+progress::-webkit-progress-bar {
+    background: var(--progress-bar-background);
+}
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 

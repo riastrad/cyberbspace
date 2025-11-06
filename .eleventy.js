@@ -42,23 +42,36 @@ module.exports = function (eleventyConfig) {
     return `${booksThisYear.length} ${booksThisYear.length !== 1 ? "books" : "book"}`;
   });
 
-  eleventyConfig.addFilter("books", function (books) {
+  const possiblyInsertProgressBar = (books, i) => {
+    const current_page = books[i].current_page || 0;
+    const pageValue = current_page ? `value=${current_page}` : "";
+
+    return !books[i].pages
+      ? ""
+      : `<br>on p${current_page} of <strong>${books[i].pages}</strong> (${((current_page / books[i].pages) * 100).toFixed(1)}%):
+      <progress max=${books[i].pages} ${pageValue}></progress>`;
+  };
+  eleventyConfig.addFilter("booksBeingRead", function (books) {
     if (books.length === 0) {
-      return 'nothing... but probably eyeing <a href="https://oku.club/user/riastrad/collection/to-read">one of these</a>.';
+      return "💀 nothing, nada, zilch 💀";
     }
 
-    let booklinks;
+    let bookButtons, bookPopovers;
     for (let i = 0; i < books.length; i++) {
-      const linked = `<a href="${books[i].link}">${books[i].title}</a>`;
+      const btn = `<button popovertarget="book-card-${i}">${books[i].title}</button>`;
+      const pop = `<div id="book-card-${i}" popover><a href="${books[i].link}">${books[i].title}</a>
+          by ${books[i].author}
+          ${possiblyInsertProgressBar(books, i)}</div>`;
       if (i === 0) {
-        booklinks = linked;
+        bookButtons = btn;
       } else if (i !== 0 && i !== books.length - 1) {
-        booklinks += `, ${linked}`;
+        bookButtons += `, ${btn}`;
       } else {
-        booklinks += `${books.length > 2 ? "," : ""} & ${linked}`;
+        bookButtons += `${books.length > 2 ? "," : ""} & ${btn}`;
       }
+      bookPopovers ? (bookPopovers += pop) : (bookPopovers = pop);
     }
-    return booklinks;
+    return bookButtons + bookPopovers;
   });
 
   // keep a list of unique tags

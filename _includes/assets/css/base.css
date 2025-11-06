@@ -267,17 +267,19 @@ button {
     --progress-bar-background: linear-gradient(
         90deg,
         rgba(0, 0, 0, 0.77) 0%,
-        rgba(128, 128, 128, 0.51) 16%,
+        rgba(238, 238, 51, 0.51) 50%,
         rgba(255, 255, 255, 1) 100%
     );
 }
 
 /* IE10 */
 progress {
-    color: var(--progress-bar-color);
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
+    color: var(--progress-bar-color);
+    background: var(--progress-bar-background);
+    outline: #000 solid 1px;
 }
 
 /* Firefox */
@@ -286,8 +288,9 @@ progress::-moz-progress-bar {
 }
 
 /* Chrome */
-progress::--webkit-progress-value {
+progress::-webkit-progress-value {
     background: var(--progress-bar-color);
+    outline: #000 solid 1px;
 }
 
 /* incomplete part of the bar */

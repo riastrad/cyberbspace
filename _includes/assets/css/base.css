@@ -251,6 +251,11 @@ button {
     background-color: rgba(238, 238, 51, 0.6);
 }
 
+/* at the moment, only used for book popovers */
+::backdrop {
+    backdrop-filter: blur(2px);
+}
+
 a.download-button {
     color: #fff;
     background-color: #000;

@@ -242,9 +242,13 @@ a.post-title {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* only used for book popovers */
+/* at the moment, only used for book popovers */
 button {
-    display: inline;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    background-color: rgba(238, 238, 51, 0.6);
 }
 
 a.download-button {

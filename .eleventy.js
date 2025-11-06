@@ -42,6 +42,17 @@ module.exports = function (eleventyConfig) {
     return `${booksThisYear.length} ${booksThisYear.length !== 1 ? "books" : "book"}`;
   });
 
+  const possiblyInsertProgressBar = (books, i) => {
+    const current_page = books[i].current_page
+      ? `value=${books[i].current_page}`
+      : "";
+
+    return !books[i].pages
+      ? ""
+      : `
+      <em>progress:</em>
+      <progress max=${books[i].pages} ${current_page}></progress>`;
+  };
   eleventyConfig.addFilter("booksBeingRead", function (books) {
     if (books.length === 0) {
       return "💀 nothing, nada, zilch 💀";
@@ -50,7 +61,10 @@ module.exports = function (eleventyConfig) {
     let bookButtons, bookPopovers;
     for (let i = 0; i < books.length; i++) {
       const btn = `<button popovertarget="book-card-${i}">${books[i].title}</button>`;
-      const pop = `<div id="book-card-${i}" popover>Hello there!</div>`;
+      const pop = `
+        <div id="book-card-${i}" popover><a href="${books[i].link}">${books[i].title}</a>
+          by ${books[i].author}
+          ${possiblyInsertProgressBar(books, i)}</div>`;
       if (i === 0) {
         bookButtons = btn;
       } else if (i !== 0 && i !== books.length - 1) {
@@ -60,7 +74,7 @@ module.exports = function (eleventyConfig) {
       }
       bookPopovers ? (bookPopovers += pop) : (bookPopovers = pop);
     }
-    return bookButtons + bookPopovers;
+    return (bookButtons + bookPopovers).trim();
   });
 
   // keep a list of unique tags

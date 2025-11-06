@@ -239,10 +239,9 @@ a.post-title {
     }
 }
 
-/* Buttons
+/* Popover Styling
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* at the moment, only used for book popovers */
 button {
     border: none;
     padding: 0;
@@ -251,10 +250,53 @@ button {
     background-color: rgba(238, 238, 51, 0.6);
 }
 
-/* at the moment, only used for book popovers */
+:popover-open {
+    background: white;
+    outline: #000 solid 0.1em;
+    padding: 1.5em;
+    max-width: 80vw;
+}
+
 ::backdrop {
     backdrop-filter: blur(2px);
 }
+
+/* setting some variables to make this easier */
+:root {
+    --progress-bar-color: #000;
+    --progress-bar-background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.77) 0%,
+        rgba(128, 128, 128, 0.51) 16%,
+        rgba(255, 255, 255, 1) 100%
+    );
+}
+
+/* IE10 */
+progress {
+    color: var(--progress-bar-color);
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+    background: var(--progress-bar-color);
+}
+
+/* Chrome */
+progress::--webkit-progress-value {
+    background: var(--progress-bar-color);
+}
+
+/* incomplete part of the bar */
+progress::-webkit-progress-bar {
+    background: var(--progress-bar-background);
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a.download-button {
     color: #fff;

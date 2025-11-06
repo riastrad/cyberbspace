@@ -71,7 +71,7 @@ module.exports = function (eleventyConfig) {
       }
       bookPopovers ? (bookPopovers += pop) : (bookPopovers = pop);
     }
-    return (bookButtons + bookPopovers).trim();
+    return bookButtons + bookPopovers;
   });
 
   // keep a list of unique tags

@@ -5,6 +5,7 @@
         "isbn": 9780374523831,
         "started": "2025-10-31",
         "pages": 99,
+        "current_page": 44,
         "link": "https://openlibrary.org/books/OL7424322M/Gilgamesh"
     },
     {
@@ -12,6 +13,8 @@
         "author": "Olga Tokarczuk",
         "isbn": 9780593087480,
         "started": "2025-10-20",
+        "pages": 965,
+        "current_page": 218,
         "link": "https://openlibrary.org/books/OL34163330M/Books_of_Jacob"
     }
 ]

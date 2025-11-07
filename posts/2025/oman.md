@@ -13,7 +13,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 ### Ruminations
 
-I recently remarked to a friend that traveling abroad after the advent of the smartphone feels like studying biology after the advent of microplastics. It has touched every aspect of life. No matter where you point your microscope you will see it's impact.
+I recently remarked to a friend that traveling abroad after the advent of the smartphone feels like studying biology after the advent of microplastics. It has touched every aspect of life. No matter where you point your microscope you will see its impact.
 
 In many ways I feel fortunate to have experienced life outside my own country before digital maps, smartphones, translation apps, and streaming services existed. Discomfort, in hindsight, is a blessing. It cultivates the possibility of deeper experience and appreciation.
 
@@ -49,7 +49,7 @@ After a few days of sitting on the beach, we drove 2.5 hours South to the desert
 
 {% dither "/img/blog/2025/oman-2.png" %}
 
-The desert in Oman brought back memories of visiting the Sahara in Morocco nearly 14 years ago. Of course, it was also very different. We slept in a room with air conditioning. We had a shower after we stood on the top of the dune and heavy wind filled every crevice of our bodies with sand. A lot has changed since then.
+The desert in Oman brought back memories of visiting the Sahara in Morocco [nearly 14 years ago](/notes/2011/for-the-names-sake/). Of course, it was also very different. We slept in a room with air conditioning. We had a shower after we stood on the top of the dune and heavy wind filled every crevice of our bodies with sand. A lot has changed since then.
 
 Our one night in the desert we had dinner outside under a sky full of stars. It's been a while since I've seen stars and had the time to look at them. I tried Omani [halwa](https://en.wikipedia.org/wiki/Halva) which was different from any I had had before. I enjoyed the coffee that they mix with cardamom powder and serve in thimble-sized cups. As we ate, a live band played local music until an Italian tourist asked them to play "Bella Ciao" and everyone laughed and clapped along.
 

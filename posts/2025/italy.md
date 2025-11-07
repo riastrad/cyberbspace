@@ -88,6 +88,6 @@ But time moves forward, despite our protests. We're back in Mumbai now, the pang
 
 [^1]: Congrats again, Subhan & J.P.!
 [^2]: I am very thankful to the vacation stays we rented for having laundry machines.
-[^3]: If your interested in a very old, very quickly written blog about this from when I was 19, you can find it [here](notes/2009/europe-has-been-conquered/).
+[^3]: If your interested in a very old, very quickly written blog about this from when I was 19, you can find it [here](/notes/2009/europe-has-been-conquered/).
 [^4]: In English, this could be translated to "farm stay," as it's essentially a working farm that has some rooms for visitors, but the Italian version is so much more than what that translation implies.
 [^5]: There are no regular direct flights between Italy and Rome so despite the proximity, the travel days were quite long.

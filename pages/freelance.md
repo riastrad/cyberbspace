@@ -38,7 +38,7 @@ I also enjoy writing technical documentation. However, I consider it more of a p
 If you are interested in working with me in any of the above capacities, please feel free to reach out directly via **[{{ metadata.author.email }}](mailto:{{ metadata.author.email }})**.
 
 For non-writing projects, I like to keep the process for new work as straightforward as possible:
-1. After an initial e-mail, I will reach out to schedule a meeting to discuss your project in greater detail.
+1. After an initial e-mail, I will reach to discuss your project in greater detail.
 1. Based on our conversation, I will share my preferred rate and ideal timeline.
 1. If we agree on terms, we sign a written agreement.
 1. Work can start as soon as a contract is finalized.

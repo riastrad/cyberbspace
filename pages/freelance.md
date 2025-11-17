@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: freelance.njk
 title: freelance.
 date: 2025-01-01 08:00:00
 tags:
@@ -7,15 +7,11 @@ tags:
 navtitle: freelance
 ---
 
-In 2024, my wife was hired for her dream job and became a U.S. Foreign Service Officer. This job requires our family to move to a different part of the world every 2-3 years. Consequently, I am prioritizing freelance work, which provides me with some needed flexibility around my working hours & commitments.
-
----
-
 ## Availability
 {% if metadata.freelance.status == 'available' %}
-I am currently available for **{{ metadata.freelance.availability }}** of freelance work.
+I am currently available for **{{ metadata.freelance.availability }}** of freelance work. You can reach me directly [via email](mailto:{{ metadata.author.email }}) with potential opportunities.
 {% else %}
-I'm not currently available for freelance work. My next availability is in **{{ metadata.freelance.next_available_date }}**. Don't hesitate to reach out if that timeline would be compatible with the work you have in mind.
+I'm not currently available for freelance work. My next availability is in **{{ metadata.freelance.next_available_date }}**. Don't hesitate to [reach out](mailto:{{ metadata.author.email }}) if that timeline would be compatible with the work you have in mind.
 {% endif %}
 
 ## Software Engineering
@@ -26,11 +22,11 @@ I do my fastest work in Node.js. But I have also enjoyed working in Python & Go.
 
 My frontend experience is less prominent but still worth mentioning. I have [strong opinions](/notes/2024/rules-for-this-website/) on keeping static websites performant. I have been proud of contributions made to various web apps and libraries over the years (e.g. [Static Images API Playground](https://docs.mapbox.com/playground/static/) & [@mapbox/quilt](https://github.com/mapbox/quilt)).
 
-Finally, I miss working with maps. I will jump at any opportunities to take on map work.
+Finally, I miss working with maps. I am very likely to jump at any opportunities that include working with maps.
 
 ## Writing
 
-Regardless of my availability, I am always interested in writing projects. More specifically, I strongly encourage you to reach out if you'd like to commission any of the following:
+Regardless of my availability, I am always interested in writing projects. More specifically, I strongly encourage you to reach out if you'd like to work with me on any of the following:
 - Essays ([examples](/writing))
 - Book Reviews ([examples](/shelf))
 - Travel Writing ([examples](/tags/travel))
@@ -39,7 +35,7 @@ I also enjoy writing technical documentation. However, I consider it more of a p
 
 ## Inquiries
 
-If you are interested in working with me in any of the above capacities, please feel free to reach out directly via **[josh@cyberb.space](mailto:josh@cyberb.space)**.
+If you are interested in working with me in any of the above capacities, please feel free to reach out directly via **[{{ metadata.author.email }}](mailto:{{ metadata.author.email }})**.
 
 For non-writing projects, I like to keep the process for new work as straightforward as possible:
 1. After an initial e-mail, I will reach out to schedule a meeting to discuss your project in greater detail.
@@ -48,5 +44,3 @@ For non-writing projects, I like to keep the process for new work as straightfor
 1. Work can start as soon as a contract is finalized.
 
 For writing projects, I understand that every publication has its own set of expectations and editorial workflows. I will do my best to accommodate yours if we agree to work together.
-
-<!-- TKTK: testimonials -->

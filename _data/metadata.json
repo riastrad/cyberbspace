@@ -5,6 +5,11 @@
     "city": "Mumbai (मुंबई)",
     "country": "India"
   },
+  "freelance": {
+    "status": "available",
+    "availability": "20 hours per week",
+    "next_available_date": "January 3, 2026"
+  },
   "author": {
     "name": "Josh Erb",
     "email": "josh@cyberb.space",

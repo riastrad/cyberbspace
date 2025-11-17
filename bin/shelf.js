@@ -41,6 +41,7 @@ const cleanupDataFields = async (notionResponse) => {
       finished,
       publisher,
       pages,
+      current_page,
       situ,
       review,
       link,
@@ -64,6 +65,9 @@ const cleanupDataFields = async (notionResponse) => {
     }
     if (pages && pages.number !== null) {
       cleanBook.pages = pages.number;
+    }
+    if (current_page && current_page.number !== null) {
+      cleanBook.current_page = current_page.number;
     }
 
     if (cleanBook.finished) {

@@ -1,16 +1,20 @@
 [
     {
-        "title": "Gilgamesh",
-        "author": "David Ferry",
-        "isbn": 9780374523831,
-        "started": "2025-10-31",
-        "link": "https://openlibrary.org/books/OL7424322M/Gilgamesh"
+        "title": "The Rebel",
+        "author": "Albert Camus",
+        "isbn": 9780679733843,
+        "started": "2025-11-16",
+        "pages": 306,
+        "current_page": 13,
+        "link": "https://openlibrary.org/books/OL1566124M/The_rebel"
     },
     {
         "title": "The Books of Jacob",
         "author": "Olga Tokarczuk",
         "isbn": 9780593087480,
         "started": "2025-10-20",
+        "pages": 965,
+        "current_page": 276,
         "link": "https://openlibrary.org/books/OL34163330M/Books_of_Jacob"
     }
 ]

@@ -43,7 +43,8 @@ const cleanupDataFields = async (notionResponse) => {
       pages,
       current_page,
       situ,
-      review,
+      review, // will be deprecated once I fully migrate to reviewed
+      reviewed,
       link,
     } = book.properties;
 
@@ -56,17 +57,17 @@ const cleanupDataFields = async (notionResponse) => {
     }
     if (author.select !== null) cleanBook.author = author.select.name;
     if (ISBN.number !== null) cleanBook.isbn = ISBN.number;
-    if (started.date !== null) cleanBook.started = started.date.start;
-    if (finished && finished.date !== null) {
+    if (started?.date !== null) cleanBook.started = started.date.start;
+    if (finished?.date !== null) {
       cleanBook.finished = finished.date.start;
     }
-    if (publisher && publisher.select !== null) {
+    if (publisher?.select !== null) {
       cleanBook.publisher = publisher.select.name;
     }
-    if (pages && pages.number !== null) {
+    if (pages?.number !== null) {
       cleanBook.pages = pages.number;
     }
-    if (current_page && current_page.number !== null) {
+    if (current_page?.number !== null) {
       cleanBook.current_page = current_page.number;
     }
 
@@ -74,20 +75,86 @@ const cleanupDataFields = async (notionResponse) => {
       const finalPath = await possiblySaveNewSituImage(title, finished, situ);
       if (finalPath) cleanBook.situ = finalPath;
     }
-    if (review && review.rich_text.length > 0) {
+    if (review?.rich_text.length > 0) {
       // Necessary to stitch rich_text components together like this to preserve any hyperlinks
-      cleanBook.review = review.rich_text.reduce((finalText, current) => {
-        if (current.type !== "text") return finalText;
-        if (current.href === null) return (finalText += current.plain_text);
-        return (finalText += `<a href=\"${current.href}\">${current.plain_text}</a>`);
-      }, "");
+      cleanBook.review = reduceRichTextToHTMLString(review.rich_text);
     }
+
+    /**
+     *  Setting up some more robust review infrastructure here alongside the existing one.
+     *
+     *  Here's the loose plan:
+     *    1. If there is no review, but there are blocks, then parse and squish all the blocks together as the review
+     *    2. Once this is working properly, we can shift the review data from a property to entirely this.
+     *
+     *  Note that final state is not necessarily easiest implementation for this code, but for my personal workflow.
+     */
+
+    if (reviewed?.checkbox === true) {
+      const pageBlocks = await notion.blocks.children.list({
+        block_id: book.id,
+        page_size: 100,
+      });
+      if (pageBlocks.results.length > 0) {
+        const htmlReview = reduceBlocksToSingleHTMLString(pageBlocks.results);
+        if (htmlReview !== "") {
+          cleanBook.review = htmlReview;
+        }
+      }
+    }
+
     if (link && link.url !== null) cleanBook.link = link.url;
 
     return cleanBook;
   });
 
   return Promise.all(cleanBooks);
+};
+
+const annotationsWrapper = (text, annotations) => {
+  const applicable = Object.keys(annotations).filter(
+    (x) => annotations[x] === true,
+  );
+  if (applicable.length === 0) return text;
+
+  let finalText = text;
+  for (const annotation of applicable) {
+    if (annotation === "bold") finalText = `<strong>${finalText}</strong>`;
+    if (annotation === "italic") finalText = `<em>${finalText}</em>`;
+    if (annotation === "underline") finalText = `<u>${finalText}</u>`;
+    if (annotation === "strikethrough") finalText = `<s>${finalText}</s>`;
+    if (annotation === "code") finalText = `<code>${finalText}</code>`;
+  }
+
+  return finalText;
+};
+
+const reduceRichTextToHTMLString = (richTextArray) => {
+  return richTextArray.reduce((finalText, current) => {
+    if (current.type !== "text") return finalText;
+    if (current.href === null) {
+      return (finalText += annotationsWrapper(
+        current.plain_text,
+        current.annotations,
+      ));
+    }
+    return (finalText += `<a href=\"${current.href}\">${annotationsWrapper(current.plain_text, current.annotations)}</a>`);
+  }, "");
+};
+
+const reduceBlocksToSingleHTMLString = (blockList) => {
+  return blockList.reduce((finalText, currentBlock) => {
+    // Only supporting these two types for now
+    if (!["paragraph", "quote"].includes(currentBlock.type)) {
+      return finalText;
+    }
+    if (currentBlock.type === "paragraph") {
+      return (finalText += `<p>${reduceRichTextToHTMLString(currentBlock.paragraph.rich_text)}</p>`);
+    }
+    if (currentBlock.type === "quote") {
+      return (finalText += `<blockquote><p>${reduceRichTextToHTMLString(currentBlock.quote.rich_text)}</p></blockquote>`);
+    }
+  }, "");
 };
 
 const possiblySaveNewSituImage = async (title, finished, situ) => {

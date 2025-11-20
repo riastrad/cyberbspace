@@ -129,16 +129,37 @@ const reduceRichTextToHTMLString = (richTextArray) => {
 
 const reduceBlocksToSingleHTMLString = (blockList) => {
   return blockList
-    .reduce((finalText, currentBlock) => {
-      // Only supporting these two types for now
-      if (!["paragraph", "quote"].includes(currentBlock.type)) {
+    .reduce((finalText, currentBlock, ix) => {
+      // Only supporting these three types for now
+      if (
+        !["paragraph", "quote", "bulleted_list_item"].includes(
+          currentBlock.type,
+        )
+      ) {
         return finalText;
       }
+
       if (currentBlock.type === "paragraph") {
         return (finalText += `<p>${reduceRichTextToHTMLString(currentBlock.paragraph.rich_text)}</p>`);
       }
+
       if (currentBlock.type === "quote") {
         return (finalText += `<blockquote><p>${reduceRichTextToHTMLString(currentBlock.quote.rich_text)}</p></blockquote>`);
+      }
+
+      if (currentBlock.type === "bulleted_list_item") {
+        let prefix = "";
+        let suffix = "";
+        if (finalText.slice(-2) === "p>") prefix = "<ul>";
+        if (
+          finalText.slice(-3) === "li>" &&
+          (!blockList[ix + 1] ||
+            blockList[ix + 1].type !== "bulleted_list_item")
+        ) {
+          suffix = "</ul>";
+        }
+
+        return (finalText += `${prefix}<li>${reduceRichTextToHTMLString(currentBlock.bulleted_list_item.rich_text)}</li>${suffix}`);
       }
     }, "")
     .replaceAll("\n", "<br>");

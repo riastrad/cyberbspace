@@ -43,7 +43,6 @@ const cleanupDataFields = async (notionResponse) => {
       pages,
       current_page,
       situ,
-      review, // will be deprecated once I fully migrate to reviewed
       reviewed,
       link,
     } = book.properties;
@@ -75,20 +74,6 @@ const cleanupDataFields = async (notionResponse) => {
       const finalPath = await possiblySaveNewSituImage(title, finished, situ);
       if (finalPath) cleanBook.situ = finalPath;
     }
-    if (review?.rich_text.length > 0) {
-      // Necessary to stitch rich_text components together like this to preserve any hyperlinks
-      cleanBook.review = reduceRichTextToHTMLString(review.rich_text);
-    }
-
-    /**
-     *  Setting up some more robust review infrastructure here alongside the existing one.
-     *
-     *  Here's the loose plan:
-     *    1. If there is no review, but there are blocks, then parse and squish all the blocks together as the review
-     *    2. Once this is working properly, we can shift the review data from a property to entirely this.
-     *
-     *  Note that final state is not necessarily easiest implementation for this code, but for my personal workflow.
-     */
 
     if (reviewed?.checkbox === true) {
       const pageBlocks = await notion.blocks.children.list({
@@ -143,18 +128,41 @@ const reduceRichTextToHTMLString = (richTextArray) => {
 };
 
 const reduceBlocksToSingleHTMLString = (blockList) => {
-  return blockList.reduce((finalText, currentBlock) => {
-    // Only supporting these two types for now
-    if (!["paragraph", "quote"].includes(currentBlock.type)) {
-      return finalText;
-    }
-    if (currentBlock.type === "paragraph") {
-      return (finalText += `<p>${reduceRichTextToHTMLString(currentBlock.paragraph.rich_text)}</p>`);
-    }
-    if (currentBlock.type === "quote") {
-      return (finalText += `<blockquote><p>${reduceRichTextToHTMLString(currentBlock.quote.rich_text)}</p></blockquote>`);
-    }
-  }, "");
+  return blockList
+    .reduce((finalText, currentBlock, ix) => {
+      // Only supporting these three types for now
+      if (
+        !["paragraph", "quote", "bulleted_list_item"].includes(
+          currentBlock.type,
+        )
+      ) {
+        return finalText;
+      }
+
+      if (currentBlock.type === "paragraph") {
+        return (finalText += `<p>${reduceRichTextToHTMLString(currentBlock.paragraph.rich_text)}</p>`);
+      }
+
+      if (currentBlock.type === "quote") {
+        return (finalText += `<blockquote><p>${reduceRichTextToHTMLString(currentBlock.quote.rich_text)}</p></blockquote>`);
+      }
+
+      if (currentBlock.type === "bulleted_list_item") {
+        let prefix = "";
+        let suffix = "";
+        if (finalText.slice(-2) === "p>") prefix = "<ul>";
+        if (
+          finalText.slice(-3) === "li>" &&
+          (!blockList[ix + 1] ||
+            blockList[ix + 1].type !== "bulleted_list_item")
+        ) {
+          suffix = "</ul>";
+        }
+
+        return (finalText += `${prefix}<li>${reduceRichTextToHTMLString(currentBlock.bulleted_list_item.rich_text)}</li>${suffix}`);
+      }
+    }, "")
+    .replaceAll("\n", "<br>");
 };
 
 const possiblySaveNewSituImage = async (title, finished, situ) => {

@@ -43,7 +43,6 @@ const cleanupDataFields = async (notionResponse) => {
       pages,
       current_page,
       situ,
-      review, // will be deprecated once I fully migrate to reviewed
       reviewed,
       link,
     } = book.properties;
@@ -75,20 +74,6 @@ const cleanupDataFields = async (notionResponse) => {
       const finalPath = await possiblySaveNewSituImage(title, finished, situ);
       if (finalPath) cleanBook.situ = finalPath;
     }
-    if (review?.rich_text.length > 0) {
-      // Necessary to stitch rich_text components together like this to preserve any hyperlinks
-      cleanBook.review = reduceRichTextToHTMLString(review.rich_text);
-    }
-
-    /**
-     *  Setting up some more robust review infrastructure here alongside the existing one.
-     *
-     *  Here's the loose plan:
-     *    1. If there is no review, but there are blocks, then parse and squish all the blocks together as the review
-     *    2. Once this is working properly, we can shift the review data from a property to entirely this.
-     *
-     *  Note that final state is not necessarily easiest implementation for this code, but for my personal workflow.
-     */
 
     if (reviewed?.checkbox === true) {
       const pageBlocks = await notion.blocks.children.list({

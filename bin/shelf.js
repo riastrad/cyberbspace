@@ -128,18 +128,20 @@ const reduceRichTextToHTMLString = (richTextArray) => {
 };
 
 const reduceBlocksToSingleHTMLString = (blockList) => {
-  return blockList.reduce((finalText, currentBlock) => {
-    // Only supporting these two types for now
-    if (!["paragraph", "quote"].includes(currentBlock.type)) {
-      return finalText;
-    }
-    if (currentBlock.type === "paragraph") {
-      return (finalText += `<p>${reduceRichTextToHTMLString(currentBlock.paragraph.rich_text)}</p>`);
-    }
-    if (currentBlock.type === "quote") {
-      return (finalText += `<blockquote><p>${reduceRichTextToHTMLString(currentBlock.quote.rich_text)}</p></blockquote>`);
-    }
-  }, "");
+  return blockList
+    .reduce((finalText, currentBlock) => {
+      // Only supporting these two types for now
+      if (!["paragraph", "quote"].includes(currentBlock.type)) {
+        return finalText;
+      }
+      if (currentBlock.type === "paragraph") {
+        return (finalText += `<p>${reduceRichTextToHTMLString(currentBlock.paragraph.rich_text)}</p>`);
+      }
+      if (currentBlock.type === "quote") {
+        return (finalText += `<blockquote><p>${reduceRichTextToHTMLString(currentBlock.quote.rich_text)}</p></blockquote>`);
+      }
+    }, "")
+    .replaceAll("\n", "<br>");
 };
 
 const possiblySaveNewSituImage = async (title, finished, situ) => {

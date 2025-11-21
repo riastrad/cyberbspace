@@ -56,17 +56,19 @@ const cleanupDataFields = async (notionResponse) => {
     }
     if (author.select !== null) cleanBook.author = author.select.name;
     if (ISBN.number !== null) cleanBook.isbn = ISBN.number;
-    if (started?.date !== null) cleanBook.started = started.date.start;
-    if (finished?.date !== null) {
+    if (started?.date) {
+      cleanBook.started = started.date.start;
+    }
+    if (finished?.date) {
       cleanBook.finished = finished.date.start;
     }
-    if (publisher?.select !== null) {
+    if (publisher?.select) {
       cleanBook.publisher = publisher.select.name;
     }
-    if (pages?.number !== null) {
+    if (pages?.number) {
       cleanBook.pages = pages.number;
     }
-    if (current_page?.number !== null) {
+    if (current_page?.number) {
       cleanBook.current_page = current_page.number;
     }
 

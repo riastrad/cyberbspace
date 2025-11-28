@@ -1,5 +1,16 @@
 [
     {
+        "title": "The Ministry of Time",
+        "author": "Kaliane Bradley",
+        "isbn": 9781399726368,
+        "started": "2025-11-24",
+        "finished": "2025-11-28",
+        "publisher": "Sceptre Books",
+        "pages": 343,
+        "situ": "/img/books/2025/the-ministry-of-time.png",
+        "link": "https://openlibrary.org/books/OL50630205M/Ministry_of_Time"
+    },
+    {
         "title": "I Gave You Eyes and You Looked Toward Darkness",
         "author": "Irene Solà",
         "isbn": 9781644453438,

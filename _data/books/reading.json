@@ -5,6 +5,7 @@
         "isbn": 9780811240239,
         "started": "2025-12-18",
         "pages": 153,
+        "current_page": 25,
         "link": "https://www.ndbooks.com/book/ruins-child/"
     },
     {
@@ -13,7 +14,7 @@
         "isbn": 9780679733843,
         "started": "2025-11-16",
         "pages": 306,
-        "current_page": 105,
+        "current_page": 133,
         "link": "https://openlibrary.org/books/OL1566124M/The_rebel"
     }
 ]

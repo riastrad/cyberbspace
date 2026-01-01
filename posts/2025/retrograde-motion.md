@@ -28,26 +28,24 @@ Of course all of this is an esoteric wind-up to yet another blog that looks back
 
 This was the year that [Pile](https://pile.bandcamp.com/) clicked for me. Pile's latest album, Sunshine and Balance Beams, is the closest thing to a perfect album I've heard in a long time. They've mastered the slow build of tension that resolves into epiphany or dissolves into oblivion and they deploy it expertly throughout. They make use of string arrangement flourishes, but not in a way that feels heavy handed or pretentious. The songs are lyrically mature but also opaque enough that I find new images and insights with each listen.
 
-<div align=center><iframe style="border: 0; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=1308249228/size=large/bgcol=ffffff/linkcol=0687f5/artwork=big/transparent=true/" seamless><a href="https://pile.bandcamp.com/album/sunshine-and-balance-beams">Sunshine and Balance Beams by Pile</a></iframe></iframe></div>
+<div align=center><iframe style="border: 0; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=1308249228/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://pile.bandcamp.com/album/sunshine-and-balance-beams">Sunshine and Balance Beams by Pile</a></iframe></iframe></div>
 
 I stumbled into [Geese](https://geesebandnyc.bandcamp.com) at the end of last year and I love what they're doing. It's very hard to make something that feels familiar and innovative at the same time and I think they've cracked it on both of their latest releases. That being said, it's Cameron Winter's solo album, Heavy Metal, that snuck in at the end of last year and became one of my favorite albums to listen to this past year. It's stripped down and weird and takes you to places you don't expect to go. Highly recommend turning it on and staring out a window while you listen to it.
 
-<div align=center><iframe style="border: 0; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2308003457/size=large/bgcol=ffffff/linkcol=0687f5/artwork=big/transparent=true/" seamless><a href="https://cameronwinter.bandcamp.com/album/heavy-metal">Heavy Metal by Cameron Winter</a></iframe></div>
+<div align=center><iframe style="border: 0; height: 500px;" src="https://bandcamp.com/EmbeddedPlayer/album=2308003457/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="https://cameronwinter.bandcamp.com/album/heavy-metal">Heavy Metal by Cameron Winter</a></iframe></div>
 
 ## The Printed Word
 I read far more books than I expected to this year, 35 in total.
 
 {% dither "/img/blog/2025/retrograde-2.png" %}
-<div class="center-text"><small>Not pictured. E-books & library books.</small></div><br />
+<div class="center-text"><small>Not pictured: ebooks & library books.</small></div><br />
 
 Some of this reading was part of the research for my second novel manuscript. Most of it was following my own curiosity and seeing where it led. Looking back from the end of the year, most of it was good, but there are three standouts.
 
-**When I Sing, Mountains Dance by Irene Solà**
+#### [When I Sing, Mountains Dance](/shelf/irene-sola/when-i-sing-mountains-dance/) by Irene Solà
 This books is a hundred things if it's one. A masterclass in the evocative potential of a well deployed simile. An exuberant and surreal exploration of the perspectives available to tell the story of a people and a land. Just sublime.
 
-My original review is [here](/shelf/irene-sola/when-i-sing-mountains-dance/).
-
-**New Selected Poems by W.S. Graham**
+#### [New Selected Poems](/shelf/w-s-graham/new-selected-poems/) by W.S. Graham
 My encounter with Graham this year was something like fate. Someone, I can't remember who, posted a Scottish memorial with his line "What is the language using us for?" engraved on it. Two or so weeks later I was in an English bookstore here in Mumbai and stumbled across this collection of his work that included the titular poem. Graham's poetry resonates deeply with me as I have been re-evaluating what compels me to read and write. I read these lines from his poem, The Thermal Stair, and I understood a part of it a bit more:
 
 > That words make their world
@@ -55,19 +53,15 @@ My encounter with Graham this year was something like fate. Someone, I can't rem
 > Mark surprises him
 > Into seeing new.
 
-My original review is [here](/shelf/w-s-graham/new-selected-poems/).
-
-**Deaf Republic by Ilya Kaminsky**
+#### [Deaf Republic](/shelf/ilya-kaminsky/deaf-republic/) by Ilya Kaminsky
 Any poet who can write a line like "A City Like a Guillotine Shivers on Its Way to the Neck" is worth paying attention to. This epic poem is incredibly well done. Shifting, contradictory symbols. Vivid set pieces and the complex cast of characters that move through them. The steep bill of history that inevitably comes due. Lines from this book still rattle around my brain all these months later.
-
-My original review is [here](/shelf/ilya-kaminsky/deaf-republic/).
 
 ## Light & Sound
 
-### [One Battle After Another](https://letterboxd.com/film/one-battle-after-another/), dir. Paul Thomas Anderson
+#### [One Battle After Another](https://letterboxd.com/film/one-battle-after-another/), dir. Paul Thomas Anderson
 I met up with a group of tech workers in Malcolm X park in D.C. shortly after we had lost our vote for union recognition at Mapbox. Some of the people there were interested in getting their own organizing up and running at a different tech startup. We talked with them about everything we'd been through and the hurdles that would have still laid ahead if we had won our vote. At a certain point, one of the other workers said something to the effect of "It never ends, does it?" So I guess it's not surprising that One Battle After Another would resonate deeply with me. The exuberance of taking action, the unspoken awareness that you are being crushed by an overpowered and intractable structure, the exhaustion, the persistence of hope despite it all. Everything is up there on the screen. Highly recommend this film in all it's zany, inglorious ambivalence.
 
-### [The Battle of Algiers](https://letterboxd.com/film/the-battle-of-algiers/), dir. Gillo Pontecorvo
+#### [The Battle of Algiers](https://letterboxd.com/film/the-battle-of-algiers/), dir. Gillo Pontecorvo
 I saw _OBAA_ in the theater with a group of friends. We talked about it over drinks, afterward and all discussed the loudly telegraphed influence of _The Battle of Algiers_. We got together a few weeks later to eat pizza and watch Pontecorvo's classic. I had seen the film before, but really only half watched it while doing other homework in my college library. This was the first time I'd watched it with my full attention. An incredible bit of film history, all the more interesting because of how tangled up it is in the actual history.
 
 ## Rough Drafts

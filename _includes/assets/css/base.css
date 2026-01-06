@@ -186,6 +186,25 @@ h6 {
     letter-spacing: 0;
 }
 
+kbd {
+    display: inline;
+    background-color: #f1f1f1;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 0 1px #000;
+    font-size: 0.75em;
+    font-family: inherit;
+    padding: 2px 5px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    cursor: default;
+}
+kbd:hover {
+    box-shadow: 0 1px 0 0.5px #000;
+    top: 1px;
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
     h1 {

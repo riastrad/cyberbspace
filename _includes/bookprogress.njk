@@ -1,6 +1,6 @@
 <h2>Currently Reading: {{book.title}}</h2>
 
-<p>I have been reading <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }} for the past {{ book.started | readableBookDate }}.</p>
+<p>I started reading <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }} {{ book.started | relativeBookDate }}.</p>
 
 <h4>Progress</h4>
 <!-- insert progress bar here -->

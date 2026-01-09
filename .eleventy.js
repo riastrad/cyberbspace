@@ -174,6 +174,10 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter("relativeBookDate", (dateString) => {
+    return DateTime.fromFormat(dateString, "yyyy-MM-dd").toRelative();
+  });
+
   eleventyConfig.addFilter("bookDateYear", (dateString) => {
     return DateTime.fromFormat(dateString, "yyyy-MM-dd").toFormat("yyyy");
   });

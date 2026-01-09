@@ -11,9 +11,9 @@ div.shelvedbook {
     background: #000;
     border: 2px solid #000;
     height: 16rem;
-    width: 9rem;
+    width: 14ch;
     text-wrap: balance;
-    text-overflow: ellipsis;
+    hyphens: auto;
     line-height: 1.4em;
     font-size: 1.25rem;
     padding: 0.5em;
@@ -24,8 +24,8 @@ div.shelvedbook {
 
 div.shelvedbook:hover,
 div.shelvedbook:focus {
-    box-shadow: 0 0 0.5em 0.5em rgba(238, 238, 51);
-    transform: translateX(-5%) translateY(-5%);
+    box-shadow: 0 0 0.5rem 1rem rgba(238, 238, 51);
+    transform: translateY(-5%);
 }
 
 div.shelvedbook a {

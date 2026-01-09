@@ -1,0 +1,13 @@
+---
+pagination:
+  data: books.reading
+  size: 1
+  alias: book
+  title: {{ book.title }}
+permalink: /shelf/{{ book.author | slugify }}/{{ book.title | slugify }}/
+layout: base.njk
+---
+
+{% include "bookprogress.njk" %}
+
+<a class="button" href="{{ '/shelf/' | url }}"><< shelf.</a>

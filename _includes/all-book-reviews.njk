@@ -1,0 +1,19 @@
+---
+layout: base.njk
+section: bookshelf
+title: "cyber(b)space book reviews"
+description: "bespoke thoughts on various books"
+permalink: shelf/reviews/index.html
+---
+
+{% include "book-rss-detail.njk" %}
+
+<hr />
+
+<h2>Book Reviews</h2>
+
+<ul>
+{% for book in books.have_read %}
+{% if book.review %}<li><strong><a href="/shelf/{{ book.author | slugify }}/{{ book.title | slugify }}">{{ book.title | upper }}</a></strong> by {{ book.author }} ({{ book.finished | readableBookDate }})</li>{% endif %}
+{% endfor %}
+</ul>

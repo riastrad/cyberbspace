@@ -33,15 +33,34 @@ module.exports = function (eleventyConfig) {
   });
 
   // Process book data
-  eleventyConfig.addFilter("readingProgressYear", function (books) {
-    const currentYear = DateTime.now().year;
+  eleventyConfig.addShortcode(
+    "readingProgressYear",
+    function (books, year = DateTime.now().year) {
+      const booksThisYear = books.filter((book) =>
+        book.finished.includes(year),
+      );
+      return `${booksThisYear.length} ${booksThisYear.length !== 1 ? "books" : "book"}`;
+    },
+  );
 
-    const booksThisYear = books.filter((book) =>
-      book.finished.includes(currentYear),
-    );
-    return `${booksThisYear.length} ${booksThisYear.length !== 1 ? "books" : "book"}`;
+  eleventyConfig.addShortcode(
+    "readingPagesYear",
+    function (books, year = DateTime.now().year) {
+      const booksThisYear = books.filter((book) =>
+        book.finished.includes(year),
+      );
+      const pages = booksThisYear.reduce((tot, currentBook) => {
+        if (currentBook.pages === undefined) return tot;
+        return (tot += currentBook.pages);
+      }, 0);
+      return pages.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    },
+  );
+
+  eleventyConfig.addFilter("asPercent", (result) => {
+    const pct = parseFloat(result) * 100;
+    return pct.toFixed(1);
   });
-
   const possiblyInsertProgressBar = (books, i) => {
     const current_page = books[i].current_page || 0;
     const pageValue = current_page ? `value=${current_page}` : "";
@@ -153,6 +172,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromFormat(dateString, "yyyy-MM-dd").toFormat(
       "MMM dd, yyyy",
     );
+  });
+
+  eleventyConfig.addFilter("relativeBookDate", (dateString) => {
+    return DateTime.fromFormat(dateString, "yyyy-MM-dd").toRelative();
   });
 
   eleventyConfig.addFilter("bookDateYear", (dateString) => {

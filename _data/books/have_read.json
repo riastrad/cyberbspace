@@ -1,5 +1,16 @@
 [
     {
+        "title": "The Rebel",
+        "author": "Albert Camus",
+        "isbn": 9780679733843,
+        "started": "2025-11-16",
+        "finished": "2026-01-08",
+        "publisher": "Vintage",
+        "pages": 306,
+        "situ": "/img/books/2026/the-rebel.png",
+        "link": "https://openlibrary.org/books/OL1566124M/The_rebel"
+    },
+    {
         "title": "Ruins, Child",
         "author": "Giada Scodellaro",
         "isbn": 9780811240239,

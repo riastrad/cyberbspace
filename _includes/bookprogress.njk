@@ -1,0 +1,19 @@
+<h2>NOW READING: {{book.title}}</h2>
+
+<p>I started reading <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }} {{ book.started | relativeBookDate }}.</p>
+
+<h4>Progress</h4>
+<!-- insert progress bar here -->
+<p>
+So far I have read {{ book.current_page }} of <strong>{{ book.pages }}</strong> pages ({{ (book.current_page / book.pages)  | asPercent }}%):<br />
+<progress max="{{ book.pages }}" value="{{ book.current_page }}"></progress>
+</p>
+
+{% if book.pages and book.isbn %}
+<h4>Details</h4>
+<ul>
+    <li><strong>Page Count:</strong> {{ book.pages }}</li>
+    <li><strong>ISBN:</strong> {{ book.isbn }}</li>
+</ul>
+{% endif %}
+<hr />

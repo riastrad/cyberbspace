@@ -1,3 +1,4 @@
+readingPagesYear
 endif
 performant
 frontend

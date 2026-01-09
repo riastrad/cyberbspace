@@ -1,4 +1,5 @@
 const fs = require("fs");
+const getDirName = require("path").dirname;
 const { Client, collectPaginatedAPI } = require("@notionhq/client");
 const Sharp = require("sharp");
 
@@ -175,6 +176,10 @@ const possiblySaveNewSituImage = async (title, finished, situ) => {
   // In the future, maybe get a bit more clever with update timestamps & image metadata,
   // but for now I'll just skip the work if the file is already in the repo
   const situPath = situImgPath(finished.date.start, title.title[0].plain_text);
+
+  // if year folder doesn't exist, make it
+  fs.mkdirSync(`./${getDirName(situPath)}`, { recursive: true });
+
   if (fs.existsSync(`.${situPath}`)) {
     console.log(
       `[shelflife] situ image already exists, skipping: .${situPath}`,

@@ -7,32 +7,30 @@ tags:
 navtitle: bookshelf
 ---
 
-<details>
-    <summary>subscribe to book reviews</summary>
-    If you're interested in getting notified when I write an informal review for one of these, you can subscribe to this dedicated <a href="/shelf/feed.xml">RSS feed</a>.
-</details>
+{% include "book-rss-detail.njk" %}
 
 ---
 
 ## Currently Reading
 
 <div class="shelf">
-    {% for book in books.reading %}<div class="shelvedbook"><a href="{{ book.link }}">{{ book.title | uppercase }}</a><p>{{ book.author }}</p></div>{%endfor%}
+    {% for book in books.reading %}<div class="shelvedbook"><a href="/shelf/{{ book.author | slugify }}/{{ book.title | slugify }}">{{ book.title | uppercase }}</a><p>{{ book.author }}</p></div>{%endfor%}
 </div>
 
 ---
 
 ## Read
 
-👓 **{{ books.have_read | readingProgressYear }}** so far this year.
+👓 **{% readingProgressYear books.have_read %} ({% readingPagesYear books.have_read currentYear %} pages)** so far this year.
 🗃️ **{{ books.have_read.length }} books** since I started tracking digitally.
+✍️ complete list of book reviews available [here](/shelf/reviews).
 
 {% for book in books.have_read %}
   {% capture currentYear %}{{ book.finished | bookDateYear }}{% endcapture %}
   {% if year != currentYear %}
   {% unless year == undefined %}</div><br />{% endunless %}
   {% assign year = currentYear %}
-  ### {{ currentYear }}
+  ### {{ currentYear }}  <small>({% readingProgressYear books.have_read currentYear %})</small>
   <div class="shelf">
   {% endif %}
   <div class="shelvedbook"><a href="/shelf/{{ book.author | slugify }}/{{ book.title | slugify }}">{{ book.title | uppercase }}<p>{{ book.author }}</p></a></div>

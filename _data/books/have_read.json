@@ -1,5 +1,17 @@
 [
     {
+        "title": "Hospital of the Transfiguration",
+        "author": "Stanisław Lem",
+        "isbn": 978026253849,
+        "started": "2026-01-02",
+        "finished": "2026-01-15",
+        "publisher": "MIT Press",
+        "pages": 221,
+        "situ": "/img/books/2026/hospital-of-the-transfiguration.png",
+        "review": "<p>Really fascinating to read a Lem novel written in this mode. It makes you wonder what his career might have been like if the  censors hadn’t given him so much trouble that he decided Science Fiction was a better vehicle for his ideas.</p><p>In the middle of the book there is a chapter where the protagonist assists in a brain surgery to try and remove a tumor. The scene was a text book example of clinical, precise horror writing. My entire body cringed beneath the surgeon’s knife. </p><p>The story is a little uneven in terms of pacing and tone. Some characters felt a bit flat. But it’s a pretty fantastic debut, all that not withstanding. If you squint you can see the darkly cynical worldview of his later work and understand a bit better the forces that shaped it.</p>",
+        "link": "https://openlibrary.org/books/OL28099291M/Hospital_of_the_Transfiguration"
+    },
+    {
         "title": "The Rebel",
         "author": "Albert Camus",
         "isbn": 9780679733843,

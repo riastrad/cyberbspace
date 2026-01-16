@@ -22,8 +22,8 @@ navtitle: bookshelf
 ## Read
 
 👓 **{% readingProgressYear books.have_read %} ({% readingPagesYear books.have_read currentYear %} pages)** so far this year.
-🗃️ **{{ books.have_read.length }} books** since I started tracking digitally.
-📑 complete list of [book reviews](/shelf/reviews).
+🗃️ **{{ books.have_read.length }} books** since I started tracking.
+📑 see all book reviews [here](/shelf/reviews).
 
 {% for book in books.have_read %}
   {% capture currentYear %}{{ book.finished | bookDateYear }}{% endcapture %}

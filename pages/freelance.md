@@ -1,7 +1,7 @@
 ---
 layout: freelance.njk
 title: freelance.
-date: 2025-01-01 08:00:00
+date: 2026-01-01 08:00:00
 tags:
   - nav
 navtitle: freelance

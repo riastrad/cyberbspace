@@ -1,7 +1,7 @@
 ---
 layout: shelf.njk
 title: shelf.
-date: 2025-01-02 10:00:00
+date: 2026-01-02 10:00:00
 tags:
   - nav
 navtitle: bookshelf

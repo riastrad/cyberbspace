@@ -5,8 +5,13 @@
 <h4>Progress</h4>
 <!-- insert progress bar here -->
 <p>
+{% if book.current_page %}
 So far I have read {{ book.current_page }} of <strong>{{ book.pages }}</strong> pages ({{ (book.current_page / book.pages)  | asPercent }}%):<br />
 <progress max="{{ book.pages }}" value="{{ book.current_page }}"></progress>
+{% else %}
+No progress reported. Probably because I'm busy reading.<br />
+<progress></progress>
+{% endif %}
 </p>
 
 {% if book.pages and book.isbn %}

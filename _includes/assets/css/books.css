@@ -11,15 +11,16 @@ div.shelvedbook {
     background: #000;
     border: 2px solid #000;
     height: 16rem;
-    width: 14ch;
+    width: 12ch;
     text-wrap: balance;
+    -moz-hyphens: auto;
     hyphens: auto;
     line-height: 1.4em;
     font-size: 1.25rem;
     padding: 0.5em;
     margin: 0.25em;
     transition-property: transform;
-    transition-duration: 0.75s;
+    transition-duration: 1.5s;
 }
 
 div.shelvedbook:hover,

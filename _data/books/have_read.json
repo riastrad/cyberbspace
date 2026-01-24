@@ -1,5 +1,17 @@
 [
     {
+        "title": "Human Acts",
+        "author": "Han Kang",
+        "isbn": 9781101906743,
+        "started": "2026-01-15",
+        "finished": "2026-01-23",
+        "publisher": "Hogarth",
+        "pages": 213,
+        "situ": "/img/books/2026/human-acts.png",
+        "review": "<p>Political fiction always runs the risk of being too melodramatic or self-serious. The urge to anticipate spin or push back against propaganda can dampen artistic sensibilities if it’s over indulged.  </p><p>Not the case with this novel. It takes the best approach available to the form. Rather than focusing on lionizing the heroes of an uprising or leaning into cliched re-hashing of national history, it centers the story on the tragedy of one life needlessly cut short. It follows the ripples of this down through history to the present. It does not flinch, it does not look away. And it forces you to contemplate: if this is the toll of one human life how could anyone ever justify the cost of history? </p><p>There’s a lot more to it than this, of course, but the central question pulses throughout like a heartbeat pounding in your ears. </p>",
+        "link": "https://openlibrary.org/books/OL27389015M/Human_Acts"
+    },
+    {
         "title": "Hospital of the Transfiguration",
         "author": "Stanisław Lem",
         "isbn": 978026253849,

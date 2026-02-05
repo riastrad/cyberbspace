@@ -1,4 +1,10 @@
 {
+  "arlington-heights": {
+    "display_name": "Arlington Heights, Illinois",
+    "url": "https://en.wikipedia.org/wiki/Arlington_Heights,_Illinois",
+    "lat": 42.12,
+    "lon": -87.985
+  },
   "muscat": {
     "display_name": "Muscat, Oman",
     "url": "https://en.wikipedia.org/wiki/Muscat",

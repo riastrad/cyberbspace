@@ -11,7 +11,9 @@ navtitle: freelance
 {% if metadata.freelance.status == 'available' %}
 I am currently available for **{{ metadata.freelance.availability }}** of freelance work. You can reach me directly [via email](mailto:{{ metadata.author.email }}) with potential opportunities.
 {% else %}
-I'm not currently available for freelance work. My next availability is in **{{ metadata.freelance.next_available_date }}**. Don't hesitate to [reach out](mailto:{{ metadata.author.email }}) if that timeline would be compatible with the work you have in mind.
+I'm _**not**_ currently available for freelance work.
+
+My next availability will be on **{{ metadata.freelance.next_available_date }}**. Don't hesitate to [reach out](mailto:{{ metadata.author.email }}) if that timeline would be compatible with the work you have in mind.
 {% endif %}
 
 ## Software Engineering
@@ -28,7 +30,7 @@ Finally, I miss working with maps. I am very likely to jump at any opportunities
 
 Regardless of my availability, I am always interested in writing projects. More specifically, I strongly encourage you to reach out if you'd like to work with me on any of the following:
 - Essays ([examples](/writing))
-- Book Reviews ([examples](/shelf))
+- Book Reviews ([examples](/shelf/reviews))
 - Travel Writing ([examples](/tags/travel))
 
 I also enjoy writing technical documentation. However, I consider it more of a piece with Software Engineering and will approach any projects from that perspective.

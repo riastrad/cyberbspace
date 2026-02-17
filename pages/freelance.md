@@ -11,7 +11,7 @@ navtitle: freelance
 {% if metadata.freelance.status == 'available' %}
 I am currently available for **{{ metadata.freelance.availability }}** of freelance work. You can reach me directly [via email](mailto:{{ metadata.author.email }}) with potential opportunities.
 {% else %}
-I'm _**not**_ currently available for freelance work. 
+I'm _**not**_ currently available for freelance work.
 
 My next availability will be on **{{ metadata.freelance.next_available_date }}**. Don't hesitate to [reach out](mailto:{{ metadata.author.email }}) if that timeline would be compatible with the work you have in mind.
 {% endif %}

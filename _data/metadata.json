@@ -6,9 +6,9 @@
     "country": "India"
   },
   "freelance": {
-    "status": "available",
+    "status": "unavailable",
     "availability": "20 hours per week",
-    "next_available_date": "January 3, 2026"
+    "next_available_date": "March 1, 2026"
   },
   "author": {
     "name": "Josh Erb",

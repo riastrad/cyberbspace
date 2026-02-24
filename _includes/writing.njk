@@ -7,10 +7,20 @@ permalink: /writing/index.html
 {{ content | safe }}
 <hr />
 
-<ul>
+<table>
+    <tr>
+        <th>title</th>
+        <th>publication</th>
+        <th>date</th>
+        <th>archived</th>
+    </tr>
 {% for pub in publications %}
-    <li><a href="{{ pub.url }}">{{ pub.title }}</a> in <strong>{{ pub.publisher }}</strong> on {{ pub.date }} {% if pub.archive_url %}(<a href="{{ pub.archive_url }}">archived 💾</a>){% endif %}</li>
+    <tr>
+        <td><a href="{{ pub.url }}">{{ pub.title }}</a></td>
+        <td><strong>{{ pub.publisher }}</strong></td>
+        <td>{{ pub.date }}</td>
+        <td style="text-align:center;">{% if pub.archive_url %}<a href="{{ pub.archive_url }}">💾</a>{% endif %}</td>
+    </tr>
 {% endfor %}
-    <li>more to come...</li>
-</ul>
+</table>
 <hr />

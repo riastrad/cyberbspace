@@ -2,7 +2,7 @@
 layout: post.njk
 title: Out of Pocket
 summary: Looking at the Chicago suburbs with fresh eyes
-date: 2026-02-04 22:45:00+6:00
+date: 2026-02-04 22:45:00-6:00
 tags:
   - post
   - life

@@ -22,3 +22,18 @@ li.selectedtag {
     padding-right: 0.1em;
     padding-left: 0.1em;
 }
+
+@media (prefers-color-scheme: dark) {
+    div.tagbox {
+        border: 2px dashed #fff;
+    }
+    li a.tagoption {
+        background: #000;
+        color: #fff;
+    }
+
+    li.selectedtag {
+        color: #000;
+        background: rgba(238, 238, 51);
+    }
+}

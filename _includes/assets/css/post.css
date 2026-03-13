@@ -91,3 +91,25 @@ img.svgMap {
         width: 100%;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    .blog-pic {
+        border: 2px dashed #fff;
+    }
+
+    div.dithered-hover:hover img.blog-pic:last-child,
+    div.dithered-hover:focus img.blog-pic:last-child {
+        border: 2px solid #fff;
+    }
+
+    .footnote-item {
+        background: #000;
+        outline: #fff solid 0.1em;
+        padding: 0.5em;
+        box-shadow: 0.5em 0.5em rgba(238, 238, 51);
+    }
+
+    img.svgMap {
+        border: 2px solid #fff;
+    }
+}

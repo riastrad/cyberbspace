@@ -291,6 +291,8 @@ button {
 :root {
     --progress-bar-color: rgba(238, 238, 51, 0.6);
     --progress-bar-background: #fff;
+    --progress-bar-color-dark: rgba(238, 238, 51);
+    --progress-bar-background-dark: #000;
 }
 
 /* IE10 */
@@ -406,7 +408,7 @@ td {
     border: 2px solid #000;
 }
 
-td:has(a) {
+tr td:first-child a {
     background: rgba(238, 238, 51, 0.6);
 }
 
@@ -486,6 +488,121 @@ hr::after {
     position: relative;
     padding: 0 5px;
     top: -13px;
+}
+
+/* Prefers Dark Mode
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111;
+        color: #fff;
+    }
+
+    a {
+        background-color: rgba(238, 238, 51);
+    }
+
+    hr {
+        border-top: 2px solid #fff;
+        color: #fff;
+    }
+
+    hr::after {
+        background: #000;
+    }
+
+    progress {
+        color: var(--progress-bar-color-dark);
+        background: var(--progress-bar-background-dark);
+        outline: #fff solid 1px;
+    }
+
+    /* Firefox */
+    progress::-moz-progress-bar {
+        background: var(--progress-bar-color-dark);
+    }
+
+    /* Chrome */
+    progress::-webkit-progress-value {
+        background: var(--progress-bar-color-dark);
+        outline: #000 solid 1px;
+    }
+
+    /* incomplete part of the bar */
+    progress::-webkit-progress-bar {
+        background: var(--progress-bar-background-dark);
+    }
+
+    button {
+        color: #000;
+        background-color: rgba(238, 238, 51);
+    }
+
+    a.button {
+        background-color: rgba(238, 238, 51);
+    }
+
+    a.download-button {
+        color: #000;
+        background-color: #fff;
+        border-color: #fff;
+    }
+
+    a.download-button:hover {
+        box-shadow: 0.5em 0.5em rgba(238, 238, 51);
+    }
+
+    :popover-open {
+        background: #000;
+        color: #fff;
+        outline: #fff solid 2px;
+    }
+
+    summary:hover {
+        color: #000;
+        background: rgba(238, 238, 51);
+    }
+
+    blockquote {
+        border: 2px dashed #fff;
+        padding-left: 1em;
+        padding-right: 1em;
+        box-shadow: -0.5em 0.5em rgba(238, 238, 51);
+    }
+
+    .highlight {
+        background-color: rgba(238, 238, 51);
+    }
+
+    nav {
+        background-color: #000;
+    }
+
+    a.post-title {
+        color: #fff;
+        background-color: #000;
+    }
+
+    a.button-primary {
+        color: #000;
+        background-color: #fff;
+    }
+
+    th,
+    td {
+        border: 2px dashed #fff;
+    }
+
+    td:has(a) {
+        background: none;
+    }
+    tr td:first-child a {
+        background: rgba(238, 238, 51);
+    }
+    tr td:last-child a {
+        background: none;
+    }
 }
 
 /* Clearing

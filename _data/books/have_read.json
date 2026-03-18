@@ -1,5 +1,16 @@
 [
     {
+        "title": "Helen of Nowhere",
+        "author": "Makenna Goodman",
+        "isbn": 9781566897358,
+        "started": "2026-03-15",
+        "finished": "2026-03-18",
+        "publisher": "Coffee House Press",
+        "pages": 141,
+        "situ": "/img/books/2026/helen-of-nowhere.png",
+        "link": "https://coffeehousepress.org/products/helen-of-nowhere?_pos=1&_psq=Helen+of+Nowhere&_ss=e&_v=1.0"
+    },
+    {
         "title": "The War of Art",
         "author": "Steven Pressfield",
         "isbn": 9781936891023,

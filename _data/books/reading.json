@@ -1,5 +1,14 @@
 [
     {
+        "title": "The Vaster Wilds",
+        "author": "Lauren Groff",
+        "isbn": 9780593418413,
+        "started": "2026-03-26",
+        "pages": 272,
+        "current_page": 1,
+        "link": "https://openlibrary.org/works/OL31165775W/Vaster_Wilds?edition=key:/books/OL42809460M"
+    },
+    {
         "title": "The Sleepwalkers",
         "author": "Hermann Broch",
         "isbn": 9780679764069,

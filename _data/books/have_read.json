@@ -1,5 +1,17 @@
 [
     {
+        "title": "The Vaster Wilds",
+        "author": "Lauren Groff",
+        "isbn": 9780593418413,
+        "started": "2026-03-26",
+        "finished": "2026-04-01",
+        "publisher": "Penguin Publishing Group",
+        "pages": 272,
+        "situ": "/img/books/2026/the-vaster-wilds.png",
+        "review": "<p>My book club selected this and I was happy for the excuse to read Groff for the first time. </p><p>A few interesting things going on here. She’s writing a period piece and, in what felt like a nod to Cormac McCarthy, doing her best to narrate in the idiolect that might feel most familiar to her protagonist. Unfortunately, this is a very difficult thing to do and only gets harder the further back in time you go. So while there is some truly beautiful and distinct language here, she sometimes loses her ear for it and drops in a more modern turn of phrase that can be jarring . </p><p>Plot-wise this is very much an extended riff on a Jack London story. Impossible to read certain passages without thinking of <a href=\"https://en.wikipedia.org/wiki/To_Build_a_Fire\">To Build a Fire</a>. However, whereas London’s story concludes predictably and makes a point about the folly of rugged individualism and masculinity in the face of nature, Groff frames it more as the purposeful rejection of the world by her protagonist. Her fleeing into the wilderness is her first act of agency, almost a moment of self-realization of her life. When the end inevitably comes, Groff chooses to emphasize her place in the great cycle of nature and the enduring legacy that her body — the body of a nobody who dies anonymously in the American wilds — will leave.</p><p>At the end of the day, did I enjoy this book? I don’t think so. But that’s not the point. Do I prefer it to London’s work? I’m not sure. But I appreciate the care and effort that went into it and it’s nice to read something that subverts a well known genre convention in some interesting ways.</p>",
+        "link": "https://openlibrary.org/works/OL31165775W/Vaster_Wilds?edition=key:/books/OL42809460M"
+    },
+    {
         "title": "1381: The Year of the Peasants’ Revolt",
         "author": "Juliet Barker",
         "isbn": 9780674368149,

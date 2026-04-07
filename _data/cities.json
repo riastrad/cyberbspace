@@ -1,4 +1,76 @@
 {
+  "sydney": {
+    "display_name": "Sydney, Australia",
+    "url": "https://en.wikipedia.org/wiki/Sydney",
+    "lat": -33.86882,
+    "lon": 151.209296
+  },
+  "hamilton_island": {
+    "display_name": "Hamilton Island, Australia",
+    "url": "https://en.wikipedia.org/wiki/Hamilton_Island",
+    "lat": -26.566667,
+    "lon": 153.083333
+  },
+  "london": {
+    "display_name": "London, England",
+    "url": "https://en.wikipedia.org/wiki/London",
+    "lat": 51.507351,
+    "lon": -0.127758
+  },
+  "dublin": {
+    "display_name": "Dublin, Ireland",
+    "url": "https://en.wikipedia.org/wiki/Dublin",
+    "lat": 53.3498,
+    "lon": -6.2603
+  },
+  "nairobi": {
+    "display_name": "Nairobi, Kenya",
+    "url": "https://en.wikipedia.org/wiki/Nairobi",
+    "lat": -1.283333,
+    "lon": 36.816667
+  },
+  "vancouver": {
+    "display_name": "Vancouver, British Columbia",
+    "url": "https://en.wikipedia.org/wiki/Vancouver",
+    "lat": 49.282729,
+    "lon": -123.120738
+  },
+  "tampico": {
+    "display_name": "Tampico, Mexico",
+    "url": "https://en.wikipedia.org/wiki/Tampico",
+    "lat": 22.033333,
+    "lon": -97.466667
+  },
+  "tegucigalpa": {
+    "display_name": "Tegucigalpa, Honduras",
+    "url": "https://en.wikipedia.org/wiki/Tegucigalpa",
+    "lat": 14.066667,
+    "lon": -87.216667
+  },
+  "cartagena": {
+    "display_name": "Cartagena, Colombia",
+    "url": "https://en.wikipedia.org/wiki/Cartagena,_Colombia",
+    "lat": 10.4,
+    "lon": -75.5
+  },
+  "manila": {
+    "display_name": "Manila, Philippines",
+    "url": "https://en.wikipedia.org/wiki/Manila",
+    "lat": 14.5995,
+    "lon": 120.9842
+  },
+  "singapore": {
+    "display_name": "Singapore",
+    "url": "https://en.wikipedia.org/wiki/Singapore",
+    "lat": 1.352083,
+    "lon": 103.819836
+  },
+  "phuket": {
+    "display_name": "Phuket, Thailand",
+    "url": "https://en.wikipedia.org/wiki/Phuket",
+    "lat": 7.873333,
+    "lon": 98.383333
+  },
   "agra": {
     "display_name": "Agra, Uttar Pradesh",
     "url": "https://en.wikipedia.org/wiki/Agra",

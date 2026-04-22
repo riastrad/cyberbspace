@@ -156,17 +156,17 @@ h6 {
     text-transform: uppercase;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     line-height: 1.2;
     letter-spacing: -0.1rem;
 }
 h2 {
-    font-size: 3.6rem;
+    font-size: 3rem;
     line-height: 1.25;
     letter-spacing: -0.1rem;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     line-height: 1.3;
     letter-spacing: -0.1rem;
 }
@@ -203,28 +203,6 @@ kbd {
 kbd:hover {
     box-shadow: 0 1px 0 0.5px #000;
     top: 1px;
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-    h1 {
-        font-size: 5rem;
-    }
-    h2 {
-        font-size: 3.6rem;
-    }
-    h3 {
-        font-size: 3rem;
-    }
-    h4 {
-        font-size: 2.4rem;
-    }
-    h5 {
-        font-size: 2rem;
-    }
-    h6 {
-        font-size: 2rem;
-    }
 }
 
 /* Links

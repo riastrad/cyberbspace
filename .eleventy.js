@@ -49,6 +49,17 @@ module.exports = function (eleventyConfig) {
       const booksThisYear = books.filter((book) =>
         book.finished.includes(year),
       );
+
+      return booksThisYear.reduce((tot, curr) => (tot += curr), 0);
+    },
+  );
+
+  eleventyConfig.addShortcode(
+    "readingPagesYear",
+    function (books, year = DateTime.now().year) {
+      const booksThisYear = books.filter((book) =>
+        book.finished.includes(year),
+      );
       const pages = booksThisYear.reduce((tot, currentBook) => {
         if (currentBook.pages === undefined) return tot;
         return (tot += currentBook.pages);

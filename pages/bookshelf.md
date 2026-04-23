@@ -30,7 +30,7 @@ navtitle: bookshelf
   {% if year != currentYear %}
   {% unless year == undefined %}</div><br />{% endunless %}
   {% assign year = currentYear %}
-  ### {{ currentYear }}  <small>({% readingProgressYear books.have_read currentYear %})</small>
+  ### {{ currentYear }}  <small>(<span title="{% readingPagesYear books.have_read currentYear %} pages">{% readingProgressYear books.have_read currentYear %}</span>)</small>
   <div class="shelf">
   {% endif %}
   <div class="shelvedbook"><a href="/shelf/{{ book.author | slugify }}/{{ book.title | slugify }}">{{ book.title | uppercase }}<p>{{ book.author }}</p></a></div>

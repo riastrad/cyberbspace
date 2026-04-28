@@ -1,4 +1,10 @@
 {
+  "paro": {
+    "display_name": "Paro, Bhutan",
+    "url": "https://en.wikipedia.org/wiki/Paro,_Bhutan",
+    "lat": 27.433333,
+    "lon": 89.416667
+  },
   "sydney": {
     "display_name": "Sydney, Australia",
     "url": "https://en.wikipedia.org/wiki/Sydney",

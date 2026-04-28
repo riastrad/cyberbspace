@@ -1,4 +1,22 @@
 {
+  "thimphu": {
+    "display_name": "Thimphu, Bhutan",
+    "url": "https://en.wikipedia.org/wiki/Thimphu",
+    "lat": 27.47222,
+    "lon": 89.63611
+  },
+  "punakha": {
+    "display_name": "Punakha, Bhutan",
+    "url": "https://en.wikipedia.org/wiki/Punakha",
+    "lat": 27.58333,
+    "lon": 89.85833
+  },
+  "paro": {
+    "display_name": "Paro, Bhutan",
+    "url": "https://en.wikipedia.org/wiki/Paro,_Bhutan",
+    "lat": 27.433333,
+    "lon": 89.416667
+  },
   "sydney": {
     "display_name": "Sydney, Australia",
     "url": "https://en.wikipedia.org/wiki/Sydney",

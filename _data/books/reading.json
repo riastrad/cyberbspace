@@ -1,11 +1,20 @@
 [
     {
+        "title": "After Virtue",
+        "author": "Alasdair MacIntyre",
+        "isbn": 268006113,
+        "started": "2026-05-17",
+        "pages": 286,
+        "current_page": 13,
+        "link": "https://openlibrary.org/books/OL9357012M/After_Virtue"
+    },
+    {
         "title": "Family Life",
         "author": "Akhil Sharma",
         "isbn": 9780393242317,
         "started": "2026-05-12",
         "pages": 224,
-        "current_page": 10,
+        "current_page": 36,
         "link": "https://openlibrary.org/books/OL29681720M/Family_Life"
     }
 ]

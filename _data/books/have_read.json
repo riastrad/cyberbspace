@@ -1,5 +1,15 @@
 [
     {
+        "title": "Family Life",
+        "author": "Akhil Sharma",
+        "isbn": 9780393242317,
+        "started": "2026-05-12",
+        "finished": "2026-05-19",
+        "publisher": "W. W. Norton & Company",
+        "pages": 224,
+        "link": "https://openlibrary.org/books/OL29681720M/Family_Life"
+    },
+    {
         "title": "Notes from No Man’s Land",
         "author": "Eula Biss",
         "isbn": 9781910695395,

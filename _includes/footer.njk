@@ -1,7 +1,12 @@
 <footer>
      <a href="https://cyberb.space/feed.xml">subscribe</a> |
      <a href="https://github.com/riastrad/cyberbspace/tree/main/{{ page.inputPath }}">view source</a> |
-     <a href="mailto:{{ metadata.author.email }}?subject=[cyberbspace] thoughts on {{ page.url | encodeURI }}">discuss</a>
+    {% set isBook = r/\/shelf\//g %}
+    {% if isBook.test(page.url) %}
+     <a href="mailto:{{ metadata.author.email }}?subject=[cyberbspace comment] thoughts on review of '{{ book.title | encodeURI }}'">discuss</a>
+    {% else %}
+     <a href="mailto:{{ metadata.author.email }}?subject=[cyberbspace comment] thoughts on post '{{ title | encodeURI }}'">discuss</a>
+    {% endif %}
       <p>
         &copy; Josh Erb {{ page.date | dateYear }}
       </p>

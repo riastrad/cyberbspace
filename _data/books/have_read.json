@@ -1,5 +1,16 @@
 [
     {
+        "title": "The Möbius Book",
+        "author": "Catherine Lacey",
+        "isbn": 9780374615406,
+        "started": "2026-06-05",
+        "finished": "2026-06-11",
+        "publisher": "FSG",
+        "pages": 218,
+        "situ": "/img/books/2026/the-möbius-book.png",
+        "link": "https://us.macmillan.com/books/9780374615406/themobiusbook/"
+    },
+    {
         "title": "Hav",
         "author": "Jan Morris",
         "isbn": 9781590174494,

@@ -1,13 +1,17 @@
 ---
-title: Hal 404
+title: The Conjunction of Desire and Reality
 layout: base.njk
 permalink: /not_found.html
 ---
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/HAL9000_Case.svg/265px-HAL9000_Case.svg.png" style="display: block; margin-left: auto; margin-right: auto; height:60.0vh" /><br />
 
-### I'm afraid I can't do that, Dave.
+<img style="display: block; max-width: 100%; max-height: 500px; margin-left: auto; margin-right: auto; border: 2px solid black;" src="./img/clouds-of-unknowing.jpg" />
+<div style="text-align: center;vertical-align: middle;"><small>"A.D. 1498. The Discovery of America" by Edward Quin (<a href="https://publicdomainreview.org/collection/edward-quin-historical-atlas/">source</a>)</small></div>
 
-Seems like you've angered the robot who manages my site. I'd recommend using the buttons above to get him to open up the pod bay doors.
+<hr />
 
-If you think it's _his_ fault, just [shoot me a note](mailto:josh@cyberb.space) and I'll look into it for you.
+### alas, the page you seek does not exist
+
+In life we are often faced with moments when our desire is frustrated by the circumstances of reality. This is one such instance. Whatever brilliant text or image you expected to find here does not, in fact, correspond to any material reality.
+
+But this fact need not result in a spiral of existential despair! You can <a href="mailto:josh@cyberb.space?subject=[cyberbspace] this shouldn't be a 404">take action</a> and thereby will the world you dream of into being.

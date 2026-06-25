@@ -1,5 +1,5 @@
 ---
-title: The Conjunction of Desire and Reality
+title: At the Disjunction of Desire and Reality
 layout: base.njk
 permalink: /not_found.html
 ---

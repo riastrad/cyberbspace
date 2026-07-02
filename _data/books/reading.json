@@ -1,5 +1,13 @@
 [
     {
+        "title": "Malone Dies",
+        "author": "Samuel Beckett",
+        "isbn": 9780571244638,
+        "started": "2026-07-02",
+        "pages": 133,
+        "link": "https://en.wikipedia.org/wiki/Malone_Dies?wprov=sfti1"
+    },
+    {
         "title": "The Dream Songs",
         "author": "John Berryman",
         "isbn": 374516707,

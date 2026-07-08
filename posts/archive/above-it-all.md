@@ -8,6 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527hltzk22"
 ---
 
 This has truly been a whirlwind weekend. As I mentioned in previous posts, a small group of study abroad students made plans to summit the highest peak in North Africa, Jbel Toubkal. To help convey the gravity of that statement I have prepared a picture for you using window's paint:

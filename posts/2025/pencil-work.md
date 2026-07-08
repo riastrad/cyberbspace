@@ -8,6 +8,7 @@ tags:
   - life
   - writing
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526r2xp52l"
 ---
 
 This week I learned that my good friend and close confidant, Myron, has celebrated his first full monsoon season by contracting a fungal skin infection. As a result, my main job for the next few weeks is lurching through Mumbai traffic for multiple vet visits and managing a rigorous medication & bathing schedule.

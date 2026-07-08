@@ -11,6 +11,7 @@ tags:
   - film
   - music
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526wmzwa2w"
 ---
 
 You may be asking yourself the question, "What is the point of this navel-gazing post? Why not just post a screenshot of your streaming app's "wrapped" stats and move on with your life?" Well, first of all, now that I have a son, my streaming stats are dominated by children's songs. I love those songs & I enjoy dancing around the apartment with him while they play, but I also don't think they give an accurate picture of my aesthetic tendencies.

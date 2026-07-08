@@ -8,3 +8,4 @@
 **/.DS_Store
 node_modules/
 _site/
+.sequoia-state.json

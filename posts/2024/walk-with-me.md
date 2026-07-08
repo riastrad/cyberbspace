@@ -8,6 +8,7 @@ tags:
   - brief
   - life
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq5274xghz2z"
 ---
 
 I'm starting to feel nostalgic about the routines in my life, which is weird. Maybe because I know that the shape of my daily life is [about to change](/notes/2024/new-spaces). There's one routine in particular I'm going to miss. I'm fortunate to live within walking distance to my son's daycare. Every morning I grab his stroller and walk him through the Capitol Hill neighborhood of DC for about 15 minutes before dropping him off.

@@ -8,6 +8,7 @@ tags:
   - fiction
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526ngsuk2i"
 ---
 
 I don't remember which face I saw the first time. Kat had shown it to me, I remember that well enough. On her phone, so it was her mirror, not mine. 'Weirdly addictive,' she'd said. But I only saw a face. Blank, boring. I didn't understand the appeal until I had installed my own mirror. The face was different when it was made for me. A human face. High definition. More real than a real face somehow. 

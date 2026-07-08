@@ -9,6 +9,7 @@ tags:
   - web
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526rgjs22g"
 ---
 
 This is just a brief note to share that I have recently added a new RSS feed to the website. I've started keeping my book-related writing in a different corner of the site, and rather than shimming all of that back into the main feed, I've opted to set up a new dedicated feed:

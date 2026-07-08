@@ -8,6 +8,7 @@ tags:
   - review
   - fiction
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526y63ak22"
 ---
 
 When I was living in D.C. I formed the bad habit of plucking books from little free libraries and then taking several months to get around to reading them. I put new books into circulation, though, and so I rarely feel too guilty about it. Besides, I think that the haphazard circulation of odd, half-remembered books is part of what makes these little libraries a special thing.[^1]

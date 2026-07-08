@@ -8,6 +8,7 @@ tags:
   - development
   - web
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq5277im5g2a"
 ---
 
 ## The Background

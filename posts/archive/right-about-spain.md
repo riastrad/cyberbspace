@@ -9,6 +9,7 @@ tags:
   - spain
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527lb5wd2g"
 ---
 
 **Europe » Spain » Catalonia » Barcelona**

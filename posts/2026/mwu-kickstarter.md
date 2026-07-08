@@ -9,6 +9,7 @@ tags:
   - life
   - kickstarter
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526ogrdc22"
 ---
 
 One of the most consequential periods of my recent adult life was the Mapbox Workers Union campaign. I was lucky enough [to write about the experience](https://joinreboot.org/p/nearest-neighbors) in a widely read newsletter a couple years ago. I asked my editors to include a teaser about a podcast a few friends of mine had been working on and expected to release soon. To my surprise and delight, the editors agreed.

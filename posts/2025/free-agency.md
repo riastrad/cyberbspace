@@ -9,6 +9,7 @@ tags:
   - business
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526pf7xv2l"
 ---
 
 In 2019, I had the opportunity to see Ted Chiang speak at the vaunted Politics & Prose during the book tour for [_Exhalation_](https://en.wikipedia.org/wiki/Exhalation:_Stories). I waited patiently in line for him to sign my copy and then asked him with a shaky voice if he would continue to freelance as a technical writer given the increased recognition of his work. He gave me a wry smile and said, "For now." Then he signed my book and asked me if I knew anything about [Gene Wolfe](https://en.wikipedia.org/wiki/Gene_Wolfe) & his contributions to the Pringles™ slicing machine.

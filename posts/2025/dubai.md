@@ -9,6 +9,7 @@ tags:
   - dubai
 location: dubai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526q3pop2x"
 ---
 
 A couple weekends ago, my family popped over to Dubai for a long weekend. Monsoon season had felt long and depressing. We were close, direct flights were affordable, an abundance of travel rewards meant we could get a good deal on a downtown hotel.

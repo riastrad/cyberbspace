@@ -9,6 +9,7 @@ tags:
   - portugal
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527gdhzs2i"
 ---
 
 A quick word of caution: this post contains graphic descriptions of cultural experiences. If you are easily put off by hearing details of cultures that are dramatically different from your own, then you may want to skip this one. Consider yourself warned.

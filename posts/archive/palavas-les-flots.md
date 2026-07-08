@@ -8,6 +8,7 @@ tags:
   - france
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527ozdno2a"
 ---
 
 **Europe » France » Centre**

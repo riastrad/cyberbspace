@@ -8,6 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527fzvfr22"
 ---
 
 Well friends, I have taken another weekend excursion. This time to the Western Sahara. It was a wonderful time, as well as a welcomed diversion from a difficult decision I have been trying to make over the past week or so.

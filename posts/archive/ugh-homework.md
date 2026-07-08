@@ -8,6 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527hwtlr2z"
 ---
 
 It's a Sunday night and I'm waiting for my significant otter to get online. For this reason I have decided to put off homework so that I might, well, blog about homework. I have successfully survived the first week of actual class and thus far the homework has been pretty light in all my classes. Save one. Modern Standard Arabic, I am slowly realizing, has the potential to become the bane of my existence during these next few months. Here's a picture of half of the first exercise I had to do over the weekend.

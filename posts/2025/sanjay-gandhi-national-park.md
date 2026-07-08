@@ -10,6 +10,7 @@ tags:
   - brief
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526uu6l222"
 ---
 
 This week I finally took the time to go on a guided tour of Sanjay Gandhi National Park, the large national park that sits down on top of Mumbai. Our guide was knowledgeable and pointed out where leopards had scratched trees to mark their territory, different plant and insect life[^1], and identified different birds by their calls before we saw them. I don't have too much to share aside from pictures and some brief impressions.

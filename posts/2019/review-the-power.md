@@ -9,6 +9,7 @@ tags:
   - review
   - fiction
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527eogrw2a"
 ---
 
 > **Author’s note:** I made two personal commitments at the beginning of this year[^1]. The first was to blog a bit more often. The second was to proactively read more books. These two goals dovetail quite nicely if I write a brief review of each book I read this year.

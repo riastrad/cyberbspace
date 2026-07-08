@@ -8,6 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527gnfge2g"
 ---
 
 I must apologize, my cherished readership. It appears that I have been neglecting my audience. Almost a month between posts is unacceptable. There is a reason for this, though. I have slowly come to realize that I am in my slump.

@@ -8,6 +8,7 @@ tags:
   - business
   - review
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527e3eft2g"
 ---
 
 During my relatively brief time in the “real world” I’ve noticed a bit of a pattern when teams are frustrated about their tools. The knowledge that I’ve noticed a pattern. Regardless of how novel my epiphany is, has lodged itself in my brain long enough that I’m desperate to have it removed. This post is more an attempt at exorcism than it is ground breaking business theory that I’m eager to share with the world.

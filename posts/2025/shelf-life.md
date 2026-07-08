@@ -8,6 +8,7 @@ tags:
   - web
   - development
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526tyxij22"
 ---
 
 Earlier this week I soft launched a "bookshelf" on this website. This first iteration isn't fully featured, but it builds on some of the workflows I started to think about in [Dropping the Ocean](/notes/2024/dropping-the-ocean/), and I want to document what it took to make this initial version.

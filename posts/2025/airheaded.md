@@ -10,6 +10,7 @@ tags:
   - india
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526tfx3w2a"
 ---
 
 This is a follow-up to [a previous post](/notes/2024/aq-aie/).

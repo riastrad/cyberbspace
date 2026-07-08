@@ -10,6 +10,7 @@ tags:
   - brief
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526yhnvj2v"
 ---
 
 Today I find that I can't help but obsess over the linguistic journey and phonic mutation that this corporate branding represents:

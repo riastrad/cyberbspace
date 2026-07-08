@@ -8,6 +8,7 @@ tags:
   - life
   - review
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527cpvsb2z"
 ---
 
 I've recently noticed that a new pastime has emerged when talking with friends. The ritual is pretty simple, usually someone will say something to the effect of "_back when we thought the lock-down was only going to last two weeks,_" and the rest of the group uneasily chuckles as we all mentally note that we've been in this state of societal shutdown for the better part of six months.

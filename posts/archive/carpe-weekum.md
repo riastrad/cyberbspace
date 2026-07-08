@@ -8,6 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527itkjz2b"
 ---
 
 After reading many of my fellow colleagues' travel blogs I have come to the conclusion that we are all unknowingly very similar, some would say near carbon copies. Thus, I have taken it upon myself to blaze new trails and explore unknown corners of the blogosphere. "But how do you plan to do this when the format doesn't lend itself to divergence?" you might ask. Well, it's simple. I have decided to start out the next few blogs with a haiku. If blatant gimmicks don't set me apart from the multitudes of American students that study abroad every year, then I'm not sure anything can.

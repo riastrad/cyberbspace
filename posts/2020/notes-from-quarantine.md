@@ -8,6 +8,7 @@ tags:
   - brief
   - life
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527d43j32l"
 ---
 
 Washington, DC (my place of current residence) has had a stay-at-home order in place for just shy of 3 months. This means several things, most importantly it means that people are dying in our hospitals and the global and local economy are going to be limping along for the foreseeable future. I'm posting this today, because today is the day the Mayor has announced we'll be entering "Phase 1" of reopening.

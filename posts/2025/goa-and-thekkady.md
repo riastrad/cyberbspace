@@ -9,6 +9,7 @@ tags:
   - india
 location: thekkady
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526s2ema2s"
 ---
 
 We did a bit of domestic travel during the month of April. So I wanted to take a second to share a rough and ready travel log about them.

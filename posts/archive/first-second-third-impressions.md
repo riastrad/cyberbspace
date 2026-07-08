@@ -8,6 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527jhfcc2i"
 ---
 
 A significant amount has transpired since last I wrote. So much in fact, that I will most likely have to omit several things in order to keep this post at a moderate length. I arrived in Rabat, Morocco the day before yesterday at 2:00am. Our group checked in at an Ibis hotel were we spent two nights during our general orientation.

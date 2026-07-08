@@ -11,6 +11,7 @@ tags:
   - writing
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526qqsi32g"
 ---
 
 Ages ago, in 2008, I took a series of planes from Chicago, Illinois to Paris, France. On the final leg of the trip, a British woman sitting next to me read a book called [A Year in the Merde](https://en.wikipedia.org/wiki/A_Year_in_the_Merde) and chuckled to herself while I struggled not to panic about the year ahead.

@@ -5,7 +5,7 @@ permalink: /not_found.html
 ---
 
 
-<img style="display: block; max-width: 100%; max-height: 500px; margin-left: auto; margin-right: auto; border: 2px solid black;" src="./img/clouds-of-unknowing.jpg" />
+<img style="display: block; max-width: 100%; max-height: 500px; margin-left: auto; margin-right: auto; border: 2px solid black;" src="/img/clouds-of-unknowing.jpg" />
 <div style="text-align: center;vertical-align: middle;"><small>"A.D. 1498. The Discovery of America" by Edward Quin (<a href="https://publicdomainreview.org/collection/edward-quin-historical-atlas/">source</a>)</small></div>
 
 <hr />

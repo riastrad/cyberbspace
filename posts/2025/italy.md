@@ -9,7 +9,7 @@ tags:
   - italy
 location: florence
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526rq2ia2w"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bidx5gw2g"
 ---
 
 I've been focused on some other work recently. Mostly continuing to query for my finished novel manuscript and feeling my way through a second manuscript that's entirely different. It's new and exciting, there's no pressure to think about selling it yet. I'm having fun!

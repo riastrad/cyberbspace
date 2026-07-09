@@ -9,7 +9,7 @@ tags:
   - web
   - development
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526z5mz22i"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7binf5l62b"
 ---
 
 I've been adhering to some loose mental rules whenever I change or add anything to this website, and I think it's worthwhile to write them down here for posterity. I'll also keep a `CHANGELOG` section down at the bottom and do my best to keep it up-to-date if and when these rules shift.

@@ -8,7 +8,7 @@ tags:
   - tanzania
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527fdyag2a"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bj52dle2z"
 ---
 
 I have returned home from Tanzania. In fact, I returned approximately one month ago.

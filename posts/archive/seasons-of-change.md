@@ -8,7 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527hcjay2s"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bj7sg3x23"
 ---
 
 Originally I had planned to devote this entire post to my recent weekend trip to Marrakech, Ourika, and Essaouira. While I still plan to devote the majority of it to that, I have also come to the conclusion that there are some crucial social and emotional realizations to be discussed as well. As the title may have hinted at, I am currently fixated on change. Not the pocket kind. The kind everyone back home is undergoing and the kind that I am beginning to recognize in myself more and more each day.

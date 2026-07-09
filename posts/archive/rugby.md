@@ -8,7 +8,7 @@ tags:
   - france
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527nem5o2a"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bjhhnkt2w"
 ---
 
 **Europe » France » Auvergne » Vichy**

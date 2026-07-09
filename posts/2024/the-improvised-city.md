@@ -9,7 +9,7 @@ tags:
   - india
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq5273f7zk22"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bipuxeh23"
 ---
 
 I've been dragging my feet on writing about my new city for a little bit. I wanted to take some time to make sure I had seen more of it than just the small corner our apartment complex is located in. I also needed the time to take stock of my own feelings about traveling at this moment in my life, or even honestly this moment in time.

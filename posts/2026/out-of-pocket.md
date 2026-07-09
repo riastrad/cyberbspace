@@ -10,7 +10,7 @@ tags:
   - usa
 location: arlington-heights
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526oqvkr2v"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biagc632l"
 ---
 
 Rarely are you able to see your home country with the eyes of a stranger. I do think, though, that this is one of the gifts that comes with living abroad for an extended period of time. Any time you return "home" it affords you the chance to see your old way of life with fresh eyes.

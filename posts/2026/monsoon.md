@@ -10,7 +10,7 @@ tags:
   - mumbai
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526n4yft2g"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bi67cn622"
 ---
 
 In order to understand the feeling of the first days of monsoon in Mumbai, you have to understand all the days that came before. Mumbai's weather comes in fairly predictable batches. From the end of the previous monsoon, which is around October, until March the temperature dips into the cooler ranges (by Mumbai standards), pollution season follows shortly after in December and lasts until around March, and from March until the arrival of the monsoon the city swelters with unbearable heat and humidity.

@@ -10,7 +10,7 @@ tags:
   - film
   - music
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527c4shz22"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biyjnoh2a"
 ---
 
 As a member of modern American culture, the characteristic that defines me most within the eyes of society and my peers is what popular media I consume. Thus, I am sharing a few recent experiences I've had with popular culture. After all, as a famous French intellectual once noted:

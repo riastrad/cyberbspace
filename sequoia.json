@@ -1,17 +1,17 @@
 {
   "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
-  "siteUrl": "https://cyberb.space",
-  "contentDir": "./posts",
-  "imagesDir": "./img",
   "publicDir": "./docs",
   "outputDir": "./_site",
+  "publishContent": true,
+  "removeIndexFromSlug": true,
+  "siteUrl": "https://cyberb.space",
+  "contentDir": "./posts",
   "publicationUri": "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.publication/3mq4zxpyn2s2g",
   "frontmatter": {
     "description": "summary",
     "publishDate": "date"
   },
   "pathTemplate": "/notes/{year}/{title}",
-  "publishContent": false,
   "bluesky": {
     "enabled": true
   }

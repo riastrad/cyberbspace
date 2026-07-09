@@ -9,7 +9,7 @@ tags:
   - web
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526xjf5i2w"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bikqu722g"
 ---
 
 I have been frustrated with having to pay Digital Ocean $5.30 every month just because I wanted to show what books I was reading on my site's home page. Last week, I [finally did something](https://github.com/riastrad/cyberbspace/pull/195) about it.

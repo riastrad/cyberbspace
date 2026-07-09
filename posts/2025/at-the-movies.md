@@ -10,7 +10,7 @@ tags:
   - india
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526tpjpl2g"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bigqksx2s"
 ---
 
 I went to the movie theater in India for the first time last month. I've been living right next door to Bollywood for 6 months, I apologize that it took me this long. Going to the movies is such a communal thing, but for some reason I hadn't realized just how many cultural differences there would be.

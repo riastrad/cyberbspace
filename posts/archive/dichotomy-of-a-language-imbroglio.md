@@ -8,7 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527iaja32l"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bjb3yy32l"
 ---
 
 **im-bro-glio** <br />

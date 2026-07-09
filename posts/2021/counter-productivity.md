@@ -8,7 +8,7 @@ tags:
   - business
   - creativity
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527bqjw52l"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biy7u6t2w"
 ---
 
 There is extremely strong social consensus in the tech world around "productivity." You'll often see people post on their blogs about how they are "a bit of a productivity nerd" as they share the latest workflow, tool, or method that has revolutionized the way they work day-to-day. I mean no offense to any of these exuberant bloggers - and if they are truly passionate about this, then who am I to shoot them down? - but every time I stumble on one of these blogs, I feel a bit sad. Because they have completely missed the point.

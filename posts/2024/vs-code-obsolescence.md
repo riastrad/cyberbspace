@@ -8,7 +8,7 @@ tags:
   - review
   - development
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq5273ydei2w"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bir2lcm2z"
 ---
 
 For the first time in a while, my development machine is not one provided by my work. Because I'm taking a break from the world of software engineering all the work I'm doing[^1] is happening on the 2015 MacBook Pro I had leftover from a previous job[^2].

@@ -10,7 +10,7 @@ tags:
   - brief
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526wcptj2z"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biinzkm2z"
 ---
 
 > **EDITOR'S NOTE:** because the U.S. Government has discontinued its [global air quality](https://www.france24.com/en/live-news/20250305-us-embassies-end-pollution-data-popular-in-china-and-india) initiatives, the original widget included at the bottom of this page has broken. It's last successful reading was **162** on March 4, 2025 at 7:00 AM IST. You can read my follow-up post [here](/notes/2025/lost-in-the-haze).

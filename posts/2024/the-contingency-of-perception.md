@@ -9,7 +9,7 @@ tags:
   - india
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526ytzfj2z"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bimodyu2z"
 ---
 
 Every morning that I wake up in India, Mumbai becomes a little bit more familiar and it becomes a little bit harder to remember what initially felt strange. This is a normal part of the process for adjusting to any new environment. But in a place that felt so distinct when I first arrived, I think it's important to keep track of the things that I have felt most distinctly in theses first few months. So here is a non-comprehensive list. Presented in no particular order.

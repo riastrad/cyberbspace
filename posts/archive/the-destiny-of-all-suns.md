@@ -8,7 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527fnkvl23"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bj5xah32l"
 ---
 
 The past few weeks have been overwhelming. You may probably have guessed this fact in light of my recent lack of posting anything. Either that, or you think I'm lazy and don't want to keep you, my beloved readership, up to the minute on my comings and goings. Shame on you! I HAVE been busy, and in fact, I have several things I need to talk to you about. But, before I dive into the deep emotional introspection that I know is imminent, I am going to swim around in the shallow end of simple fact reporting and get used to the temperature of the water. I know that you're probably thinking that I took that metaphor past the point of making sense, but I'm feeling a little overly melodramatic today (for reasons that shall be revealed during my afore mentioned introspection) so prepare yourselves for a lot of excessive, misguided metaphors.

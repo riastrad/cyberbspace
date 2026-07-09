@@ -8,7 +8,7 @@ tags:
   - development
   - web
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527eyovx2x"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bj4l6a42z"
 ---
 
 ## Why did I do it?

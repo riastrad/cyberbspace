@@ -7,7 +7,7 @@ tags:
   - post
   - life
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq5276tt3d2g"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biuohen22"
 ---
 
 On the first obviously Spring day of this year, during a lovely bike ride to Georgetown, I broke my phone. I was standing on a rocky patch of earth re-checking the address of my destination, when I needed to move my bike out of the way of a passing group. Holding my bike handle and phone proved to be too difficult. My grip failed and the phone flipped and fell screen-down onto two small rocks jutting up from the grown.

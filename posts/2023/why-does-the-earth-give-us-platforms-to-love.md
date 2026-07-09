@@ -9,7 +9,7 @@ tags:
   - business
   - music
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq5275woia2w"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bitita622"
 ---
 
 Feeling really down about the sudden death of the Bandcamp I fell in love with[^1]. Another reminder that the Market™ does not care about consumers or creators, it only cares about getting money out of its investments[^2]. It's inevitable that culture will become stagnant and die when the only justification for art is its potential to make money.

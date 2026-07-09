@@ -9,7 +9,7 @@ tags:
   - web
   - writing
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526qhatt23"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bicouh62b"
 ---
 
 In the critically acclaimed, but somewhat uneven, movie [The Brutalist](https://en.wikipedia.org/wiki/The_Brutalist) there is a visually striking scene where two of the main characters visit a marble quarry in Italy. Horrible things happen at the quarry that make a bit of a heavy handed point about dedication to a creative vision and the inherent exploitation that occurs when you depend on capital to realize that vision. Setting that dénouement aside, though, what has stayed with me after seeing the film is a fascination with the process of extracting these geological formations and turning them into discrete, valuable objects.

@@ -8,7 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527j5pqo2a"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bjbyyrx2s"
 ---
 
 A rather funny thing has been happening to me lately. I'll wake up in the morning, look out my window, and realize that I am in Morocco. It's kind of a funny feeling actually, some days it's a realization that coincides with a sharp prick of panic. While on other more adventurous days it's something that I decide to embrace completely. Of course these two reactions are interchangeable and tend to replace each other multiple times throughout the day.

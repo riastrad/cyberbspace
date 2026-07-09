@@ -10,7 +10,7 @@ tags:
   - bhutan
 location: paro
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq526nsumq2w"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bi7a4gw22"
 ---
 
 The flight into the Kingdom of Bhutan from Kolkata, India is brief, only a little more than an hour between lift off and the lurching shriek of rubber hitting tarmac. You ascend from the pollution and dank humidity of a high-density metropolis and the world transforms, impossibly, beneath you as you make your way to another plane of existence. The first indication that you are departing one reality and entering another, entirely different one is the mountain peaks that stab up through the cloud cover. Partway through the flight the pilot, a Bhutanese local specifically trained for this technically challenging itinerary, will turn on the speaker and indicate which of the hulking peaks is Everest. Intellectually, I knew that the mountain's summit rests serenely just a few hundred meters below cruising altitude.[^1] Confronted with the physical reality of this fact when I looked out my window, however, I was left a bit dumbstruck. Despite myself I squinted to see if I could see small specs trying to make their way to the summit that morning.

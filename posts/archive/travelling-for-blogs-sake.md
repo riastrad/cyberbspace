@@ -8,7 +8,7 @@ tags:
   - morocco
   - archive
 permalink: /notes/{{ page.date | dateYear }}/{{ page.fileSlug }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527ijyvn2l"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bjbfiod2w"
 ---
 
 Joy and rapture! After two of the longest weeks I have ever had the pleasure of experiencing in my lifetime, I have finally finished my intensive Moroccan Arabic course. This means that to date I have had 50 hours of class in around 15 days, give or take. It was awful. I would like to tell you that this means I have achieved a respectable level of proficiency in this language. Sadly, this is not the case. I cannot tell you the words for "I am hungry" or "Where is the bathroom," BUT if you ask me, I can look them up in my notebook and  subsequently mispronounce them for you.

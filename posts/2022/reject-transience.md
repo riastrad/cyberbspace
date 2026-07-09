@@ -8,7 +8,7 @@ tags:
   - brief
   - experimental
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq527ahobq2w"
+atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biwmerg2g"
 ---
 
 <img src="/img/blog/2022/digital-transience.png" class="blog-pic" style="max-height:100vh;" alt="An image of a handwritten note that reads: 'The act of writing in this digital age often feels inescapably transient. To type your thoughts into a computer is to forever be editing a draft. Nothing is done with finality. Every thought is quickly exorcised and quickly forgotten. Upon this foundation of sand, we heedlessly build our future. Allow yourself to be free from speed and urgency, and sit quietly with pen and paper. There is freedom in rejecting the medium, ...if only for a moment.'"/>

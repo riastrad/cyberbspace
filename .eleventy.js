@@ -218,4 +218,5 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("noise");
   eleventyConfig.addPassthroughCopy("docs");
   eleventyConfig.addPassthroughCopy("scripts");
+  eleventyConfig.addPassthroughCopy(".well-known/site.standard.publication");
 };

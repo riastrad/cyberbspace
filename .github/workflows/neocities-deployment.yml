@@ -22,10 +22,24 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Install deps & build site
-        run: |
+      - name: Install deps
+        run:
           npm ci
+      - name: Install sequoia
+        run:
+          npm i -g sequoia-cli
+      - name: Publish to ATProto
+        env:
+          ATP_IDENTIFIER: ${{ secrets.ATP_IDENTIFIER }}
+          ATP_APP_PASSWORD: ${{ secrets.ATP_APP_PASSWORD }}
+        run:
+          sequoia publish
+      - name: build site
+        run:
           npm run build
+      - name: inject atUri link tags
+        run:
+          sequoia inject
       - name: Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:

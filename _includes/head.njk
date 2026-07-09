@@ -21,6 +21,11 @@
   <meta property="og:url" content="https://cyberb.space{{ page.url }}" />
   {% if summary %}<meta property="og:description" content="{{ summary }}" />{% endif %}
   <meta property="og:image" content="https://cyberb.space/img/{% if summary %}post{% elif reviewtitle %}book-review{% else %}site{% endif %}-preview-card.jpg" />
+  <!-- this front matter is auto added before build by sequoia -->
+  {% if atUri %}
+  <link rel="site.standard.document" href="{{ atUri }}">
+  <link rel="site.standard.publication" href="at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.publication/3mq4zxpyn2s2g">
+  {% endif %}
   <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="notes rss">
   <link rel="alternate" type="application/rss+xml" href="/shelf/feed.xml" title="book reviews rss">
 

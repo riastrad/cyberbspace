@@ -21,7 +21,7 @@
   <meta property="og:url" content="https://cyberb.space{{ page.url }}" />
   {% if summary %}<meta property="og:description" content="{{ summary }}" />{% endif %}
   <meta property="og:image" content="https://cyberb.space/img/{% if summary %}post{% elif reviewtitle %}book-review{% else %}site{% endif %}-preview-card.jpg" />
-  {% if summary %}
+  {% if atUri %}
   <link
     rel="site.standard.document"
     href="{{ atUri }}"

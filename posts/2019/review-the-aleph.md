@@ -9,8 +9,6 @@ tags:
   - review
   - fiction
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-ogImg: "./img/post-preview-card.jpg"
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bj3lzcx23"
 ---
 
 This was my first introduction to Borges - or as his translator affectionately refers to him through the footnotes "JLB" - aside from the errant short stories I read spasmodically on the internet c.2007-11. Back when I had more time to read random short fiction on the internet.

@@ -8,7 +8,6 @@ tags:
   - web
   - development
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7binypgs2g"
 ---
 
 I've been updating this blog more regularly because of my recent move to India. Previously when I've traveled, I've used 3<sup>rd</sup> party platforms to host my travel updates. So, oddly enough, this is the first time I've been "travel blogging" on a site where I control every aspect of the build & publish process.

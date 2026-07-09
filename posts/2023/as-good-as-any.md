@@ -8,7 +8,6 @@ tags:
   - books
   - learning
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bitsrja2i"
 ---
 
 I recently started reading Don DeLillo's early 90s novel _Mao II_. Like all DeLillo's writing — even his minor work - the prose itself is musical and transfixing. The novel itself, however, is not the impetus for this post. Rather, I want to express my fascination with the blurb that is included on the back of the paperback copy I own:

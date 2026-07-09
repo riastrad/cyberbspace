@@ -9,7 +9,6 @@ tags:
   - review
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bijneie2z"
 ---
 
 My library card back in D.C. hasn't expired yet. This means that I am still getting a slow trickle of notifications for e-book holds that I placed a few months ago and forgot about. I wasn't sure this would work while abroad, given I'm loading them up on my e-reader from an ISP clearly based in India, but — miracle of miracles — I have confirmed that I can check these books out on my e-reader.[^1]

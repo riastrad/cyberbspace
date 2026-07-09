@@ -7,7 +7,6 @@ tags:
   - post
   - life
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bif7ocw2g"
 ---
 
 Something I've done since back before my undergraduate days is to reserve a small portion of my notebooks to act as a [commonplace book](https://en.wikipedia.org/wiki/Commonplace_book). In practice this means, that I will write down citations and their sources chronologically as I come across them over the course of my daily life. The important thing about this is that it isn't centered around a theme or research topic. I'm not logging these things with any particular goal in mind, nor am I dating any of my entries. The only sense of timeliness is that I know what years, roughly, I spent using a particular notebook, and I know that the quotes are in chronological order. As a result, these pages become an ordered list of influences — poetry, good prose, essays, song lyrics, film or TV dialogue — as I have encountered them in my daily life.

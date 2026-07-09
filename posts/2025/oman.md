@@ -9,7 +9,6 @@ tags:
   - oman
 location: muscat
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bibmshq2i"
 ---
 
 ### Ruminations

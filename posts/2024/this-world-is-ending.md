@@ -8,7 +8,6 @@ tags:
   - brief
   - life
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biryicx2a"
 ---
 
 I'm going to ask you to be hopeful about the end of the world. It may seem counter intuitive, but there is optimism in this.

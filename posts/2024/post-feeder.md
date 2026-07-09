@@ -9,7 +9,6 @@ tags:
   - web
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bit7amx2s"
 ---
 
 Long ago, before we sold the open pastures of the free internet to Social Media companies and then asked them to lease it back to us, the federated internet was hard to keep track of. How were you to know when one of the blogs you followed had published new writing? It was a tricky problem, one that was ultimately solved by each site maintaining it's own RSS feed that could be subscribed to.

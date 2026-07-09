@@ -10,7 +10,6 @@ tags:
   - brief
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bipgr2o2v"
 ---
 
 Our first night in Mumbai, I was surprised to find massive snails scooting around on the pavement outside our apartment. No one had warned me. It wasn't mentioned in any of the blogs, travel shows, or Wikipedia articles I had seen before we came over.

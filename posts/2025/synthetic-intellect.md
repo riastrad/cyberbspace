@@ -7,7 +7,6 @@ tags:
   - post
   - writing
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biie75x2s"
 ---
 
 In his second collection of short stories, Ted Chiang included a novella called "[The Lifecycle of Software Objects](https://en.wikipedia.org/wiki/The_Lifecycle_of_Software_Objects)". Despite my initial reaction,[^1] the core premise of the story, that anything remotely like artificial intelligence would require patience, time, and — perhaps most insightfully — an endless battle against the deprecation of suitable digital hosting environments, has stayed with me.

@@ -9,7 +9,6 @@ tags:
   - india
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biot67l2l"
 ---
 
 Prior to coming to Mumbai, I happened to read James C. Scott's [Seeing like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State). As a result, I can't help but looking at Mumbai through the lens of his chapters on the difference between top-down planning that makes a place more legible and quantifiable to outsiders versus the pragmatic, organic development of a city actively built to suit the needs of its residents. Paradoxically, it feels like Mumbai disproves his arguments in some ways and proves them in others. I've discussed aspects of this in a [previous post](/notes/2024/the-improvised-city), so I won't retread the same ground here. Needless to say, though, it's still on my mind.

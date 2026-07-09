@@ -8,7 +8,6 @@ tags:
   - review
   - social media
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bixcom72a"
 ---
 
 Over a year ago, [I wrote](/notes/2020/kill-the-feed/) about the hoops I jumped through to curb my Twitter habit. At the time, I wrote:

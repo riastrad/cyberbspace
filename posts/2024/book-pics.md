@@ -8,7 +8,6 @@ tags:
   - books
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biohxq72a"
 ---
 
 The web app I've been using to track my reading — [Oku](https://oku.club) — hasn't solved the problem of book covers for a given edition. Especially if it's an older edition or a less popular book (read: from an Indie Press). I don't hold this against Oku. They are a small team doing this on the side. And they probably don't have the funds or desire to pay a 3<sup>rd</sup> party for access to a database of cover images.[^1]

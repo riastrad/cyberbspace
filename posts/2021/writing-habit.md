@@ -9,7 +9,6 @@ tags:
   - life
   - writing
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biz5v7n22"
 ---
 
 I've had the goal of establishing a consistent writing habit scribbled into various notebooks for the last 10 years. A few times, I've nearly made it stick, but I've never gotten to the point where I would call it a "habit".

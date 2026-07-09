@@ -8,7 +8,6 @@ tags:
   - social media
   - review
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bivcumh2a"
 ---
 
 Every time I start a new work journal[^1], I like to write a quote on the inside cover that feels like it has some insight into the state of the world as I currently experience it. In my journal for the past couple years, I wrote the following:

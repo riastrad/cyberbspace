@@ -12,7 +12,6 @@ tags:
   - music
   - review
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biata5d2x"
 ---
 
 In high school and college I learned that, in a classroom structure with deadlines and tests, I am quite bad at physics. Or at least that’s what I thought as I suffered through astronomy courses. Looking back I can say with some degree of confidence that what I actually learned was that I cannot learn something if I do not give myself the time and patience to understand it in my own terms. Ideas metabolize differently in every mind.

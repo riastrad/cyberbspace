@@ -8,7 +8,6 @@ tags:
   - development
   - web
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7biwbe732x"
 ---
 
 > **Editor's Note:** As of November 2024, this blog no longer reflects the reality of how the site's "currently reading" feature works. If you're curious about the *how*, you can skim [this pull request](https://github.com/riastrad/cyberbspace/pull/195). If you're curious about the *why*, you can read [this blog post](/notes/2024/dropping-the-ocean).

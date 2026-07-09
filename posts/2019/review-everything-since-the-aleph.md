@@ -10,8 +10,6 @@ tags:
   - fiction
   - non-fiction
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-ogImg: "./img/post-preview-card.jpg"
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bj2vyzk2g"
 ---
 
 I enjoy reading. I sincerely find it to be one of the most rewarding and affordable experiences that life has to offer. And to be totally transparent, when I say this I’m talking about _analogue_ reading. That’s reading words on physical paper without notifications or a connection to the Internet.

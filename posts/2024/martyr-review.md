@@ -9,7 +9,6 @@ tags:
   - review
   - brief
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7binoxwl2l"
 ---
 
 I've been sick with a wicked sore throat since last week and finally confirmed that it is strep throat. I am extremely bad at being sick, I'm prone to crank up the melodrama and really lean into my martyr complex.[^1]

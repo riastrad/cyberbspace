@@ -10,7 +10,6 @@ tags:
   - brief
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
-atUri: "at://did:plc:xs5e6hzleslphof223gu4efo/site.standard.document/3mq7bilidbd2l"
 ---
 
 Something I learned this past week, that I had no prior awareness of, is that alcohol sales are prohibited in the state of Maharashtra for [48 hours](https://timesofindia.indiatimes.com/india/maharashtra-elections-dry-days-in-mumbai-and-other-cities-as-liquor-shops-to-remain-closed/articleshow/115403282.cms) in the lead up to the state assembly elections. These "dry days" are observed up until the polls officially close at 6 p.m. on election day. Sales are briefly prohibited again at the end of the week when the election results are announced. The stated aim is to preserve public order and ensure that the voting public is clear headed when casting their votes.

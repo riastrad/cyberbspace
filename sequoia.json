@@ -1,6 +1,6 @@
 {
   "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
-  "publicDir": "./docs",
+  "publicDir": "./",
   "outputDir": "./_site",
   "publishContent": true,
   "removeIndexFromSlug": true,

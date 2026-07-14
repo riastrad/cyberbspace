@@ -1,5 +1,17 @@
 [
     {
+        "title": "Malone Dies",
+        "author": "Samuel Beckett",
+        "isbn": 9780571244638,
+        "started": "2026-07-02",
+        "finished": "2026-07-14",
+        "publisher": "Faber & Faber",
+        "pages": 133,
+        "situ": "/img/books/2026/malone-dies.png",
+        "review": "<p>Cards on the table, I struggled with this one. Which surprised me because I have read Beckett’s prose and plays since my early 20s and typically found them engrossing. </p><p>This is a story, if we can call it that, about the instability of self. Of <em>the</em> self — <em>all</em> selves. Narrated, invented, interrogated. Beckett is here preoccupied with the incoherence of life lived in the absence of meaning, with the false promise of stories to give it order or imbue it with purpose, and, finally, with the inevitability of a death which occurs regardless of the inexpressibility of existence dancing on the tip of life’s tongue. </p><blockquote><p>Live and invent. I have tried. I must have tried. Invent. It is not the word. Neither is live. No matter. I have tried. [—p19]</p></blockquote><p>Beckett, or Malone maybe, by way of Beckett, that is, is set on confounding the reader’s expectations at every turn. Words follow one after the other, but the moment a form or shape begins to emerge it is dropped or questioned or mutilated beyond recognition. The author denies his interlocutors, at times masochistically, any sense of understanding. The written word, insufficiently expressing the will of the soul, is in the end all that remains.</p>",
+        "link": "https://en.wikipedia.org/wiki/Malone_Dies?wprov=sfti1"
+    },
+    {
         "title": "After Virtue",
         "author": "Alasdair MacIntyre",
         "isbn": 268006113,

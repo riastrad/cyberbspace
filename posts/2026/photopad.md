@@ -12,7 +12,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 # The Idea
 
-A while back, I'm not sure when, I had the idea that maybe it would be interesting if you could use an image to encrypt some text. I tucked the idea a way and didn't think about it very much. A little bit later, again I'm not sure when, a co-worker was rhapsodizing about how great it was to work with [Go](https://go.dev) and I thought, I'd like an excuse to get more familiar with how Go syntax and the standard library. 
+A while back, I'm not sure when, I had the idea that maybe it would be interesting if you could use an image to encrypt some text.[^1] I tucked the idea a way and didn't think about it very much. A little bit later, again I'm not sure when, a co-worker was rhapsodizing about how great it was to work with [Go](https://go.dev) and I thought, I'd like an excuse to get more familiar with how Go syntax and the standard library. 
 
 At some point these two wires crossed and the idea for [photopad](https://github.com/riastrad/photopad) was born. `photopad` is a small CLI that can encrypt and decrypt `.txt` files using a `.jpeg` image as a sort of "[pre-shared key](https://en.wikipedia.org/wiki/Pre-shared_key)."
 
@@ -93,9 +93,9 @@ This will be the "pad" we use to shift our Unicode characters around for either 
 
 ## Shifting Unicode
 
-We now have a list of numbers which can be used to move one Unicode pointer to another one. How can we do this in Go? Fortunately, Go is built with many helpful character encoding assumptions. Single characters are represented as "[runes](https://go.dev/ref/spec#Rune_literals)" which means that if we isolate a single character in a string it's trivial to identify its Unicode code point. 
+We now have a list of numbers which can be used to move one Unicode pointer to another one. How can we do this in Go? Fortunately, Go is built with many helpful character encoding assumptions. Single characters are represented as "[runes](https://go.dev/ref/spec#Rune_literals)" which means that if we isolate a single character in a string it's trivial to identify its Unicode code point. We simply need to cast it to an `int` type.
 
-For encrypting the character, then, we can take the input text string and iterate over each character. To know how far to shift the code point, we match the index of the character in the string to the index of the pad we generated from the image. We need to be mindful that a given text might have more characters than our image has pixels, so we determine the pad index using modulus operator (what Go calls the "remainder" operator), i.e. a circular index. 
+For encrypting the character, then, we can take the input text string and iterate over each character. To know how far to shift the code point, we match the index of the character in the string to the index of the pad we generated from the image. We need to be mindful that a given text might have more characters than our image has pixels, so we determine the pad index using the modulus operator (what Go calls the "remainder" operator), i.e. a circular index. 
 
 ```go
 shiftIndex := charIx % len(pads)
@@ -109,13 +109,13 @@ newUnicodePoint := (int(character) + int(pad)) % int(unicode.MaxASCII)
 return rune(newUnicodePoint)
 ```
 
-Within the ASCII range of the Unicode table these operations stay relatively simple. Expanding the field of play to other ranges introduces additional considerations, pitfalls that I didn't want to address for this toy project.
+Within the ASCII range of the Unicode table these operations stay relatively simple. Expanding the field of play to other ranges introduces additional considerations and pitfalls that I wanted to keep outside the scope of this project.
 
 ## Unshifting Unicode
 
-This is the tricky part. The tool is no good if we can't restore a shifted message back to it's original positions. Generating the pad from the image remains the same (as it must) and instead of increasing our circular index, we decrease it by the amount of shift. 
+This is the tricky part. The tool is no good if we can't restore a shifted message back to it's original positions. Generating the pad from the image remains the same (as it must) and instead of increasing our circular index, we decrease it by the amount of shift.
 
-Of course, because we're working with a circular index it takes a bit more finagling to account for how we'll handle crossing the `0` boundary if/when our shift value passes it. 
+Of course, because we're working with a circular index it takes a bit more finagling to account for how we'll handle crossing the `0` boundary if/when our shift value passes it.
 
 Here's a simple example to illustrate. Let's say we're shifting an asterisk around a table with 5 columns. We start on index=3 and know that we have to shift left 11 positions:
 
@@ -129,19 +129,19 @@ We need to first account for how many trips across the boundary lines our shift 
 11 % 5 = 1
 ```
 
-We can then subtract this remainder from our maximum value to determine where the shift would be if we started from the code point boundary.
+We can then subtract this remainder from our maximum value to determine where the shift would be if we had started from the top most index.
 
 ```go
 4 - 1 = 3
 ```
 
-We're back where we started on our table:
+Hey, we're back where we started on our table!
 
 | 0 | 1 | 2 | 3 | 4 | 
 | --- | --- | --- | --- | --- |
 |     |     |    |   <span style="color:gray;">⏺</span>    |     |
 
-But we have to take into consideration our starting point (index=3), which we know was further left than where we started before we applied the shift and is also greater than 0. So we adjust our shift by that much and ensure we properly account for the maximum boundary when we do so:
+But we have to take into consideration our actual starting point (index=3), which we know was further left than where we started before we applied the shift and is also greater than 0. So we adjust our shift by that much and ensure we properly account for the maximum boundary when we do so:
 
 ```go
 (3 + 3) % 4 = 2
@@ -169,16 +169,18 @@ A simple way to confirm we've done this correctly is to move in the other direct
 
 # End Result
 
-It's a simple tool, but it does the thing! Full code lives at [riastrad/photopad](https://github.com/riastrad/photopad).
+It's a simple tool, but it does the thing! The full source code lives at [riastrad/photopad](https://github.com/riastrad/photopad).
 
-Granted it won't scale too well for bigger texts or for anyone using a very large image as a key. The cheeky example above isn't too demanding. However, when I tested it with the full Project Gutenberg text of Laurence Sterne's [THE LIFE AND OPINIONS OF TRISTRAM SHANDY, GENTLEMAN](https://www.gutenberg.org/cache/epub/1079/pg1079.txt) (1,077,835 characters) using a large image of Géricault's [The Raft of the Medusa](https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa#/media/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg) (5,872 x 4,008 pixels, or 23,534,976 keys) it took about 6.5 seconds to encrypt and decrypt. I haven't done any more rigorous benchmarking than that and my local machine has decent compute power, so mileage may vary on other machines.
+Granted it won't scale too well for bigger texts or for anyone using a very large image as a key. The cheeky example above isn't too demanding. However, when I tested it with the full Project Gutenberg text of Laurence Sterne's [THE LIFE AND OPINIONS OF TRISTRAM SHANDY, GENTLEMAN](https://www.gutenberg.org/cache/epub/1079/pg1079.txt) (1,077,835 characters) using a large image of Géricault's [The Raft of the Medusa](https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa#/media/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg) (5,872 x 4,008 pixels, or 23,534,976 keys) it took about 6.5 seconds to encrypt and decrypt. I haven't done any more rigorous benchmarking than that and my local machine has decent compute power, so mileage most certainly will vary for other machines.
 
 Of course there are also limitations to using this in the wild. For example, if you exchange image keys with someone via a messaging service that applies lossy compression when sending images, then the message will not decrypt properly. In order for the shift to work the image that encrypts and the image that decrypts must be a pixel perfect match.
 
-Also, as I mentioned, I limited this first implementation to only shifting letters that appear in the ASCII range of Unicode. When I expanded this I started to run into issues caused (I think) by [composite characters](https://en.wikipedia.org/wiki/Unicode#Precomposed_vis-%C3%A0-vis_composite_characters) and I didn't have a clever way to address this and didn't want to fall too far down that rabbit hole.
+Additionally, and as I mentioned earlier, I limited this first implementation to only shifting letters that appear in the ASCII range of Unicode. When I expanded this I started to run into issues caused (I think) by [composite characters colliding with precomposed characters](https://en.wikipedia.org/wiki/Unicode#Precomposed_vis-%C3%A0-vis_composite_characters) and I didn't have a clever way to address this and didn't want to fall too far down that rabbit hole.
 
-At the end of the day, this was a pretense for getting a chance to work in Go in a more sustained way. I was glad to find that the learning curve wasn't as steep as I had expected!
+At the end of the day, this was a pretense for getting a chance to get a bit more comfortable with Go. I was glad to find that the learning curve wasn't so steep coming from Node.js.
 
-I do like the underlying idea of this project, though. If I have time and energy some day in the future, I might apply the same thought process to a browser plugin that would allow people to post completely encrypted web pages that are only viewable by those who know which image to use as a key. The loose idea being something like: the information is publicly listed, but only privately comprehensible.
+That being said, I do like the underlying idea that guided this project. If I have time and energy in the future, I might apply the same approach to a browser plugin. The loose idea being something like: the information is publicly listed, but only privately comprehensible. In other words, enable website owners to publish completely encrypted web pages that are only decipherable for visitors who know and possess the proper key image.
 
 For the moment, though, this little CLI will have to suffice.
+
+[^1]: I don't presume to be the first. It's possible this already exists and has a domain specific name I'm not expert enough to recognize.

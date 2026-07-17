@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Photopad: Encrypting Text with JPEG Files"
-summary: A picture is worth a thousand pads
+summary: A picture is worth a thousand pads™
 date: 2026-07-17 16:45:00+5:30
 tags:
   - post
@@ -29,32 +29,15 @@ Some other loose requirements:
 
 A simple scenario will help clarify why a tool like this might be helpful. Say you recently read Gravity's Rainbow by Thomas Pynchon and you want to share this quote with a good friend:
 
-```txt
-Proverbs for Paranoids:
-
-1. You may never get to touch the Master, but you can tickle his creatures.
-2. The innocence of the creatures is in inverse proportion to the immorality of the Master.
-3. If they can get you asking the wrong questions, they don't have to worry about answers.
-4. You hide, they seek.
-5. Paranoids are not paranoid because they're paranoid, but because they keep putting themselves, fucking idiots, deliberately into paranoid situations.
-```
+<img src="/img/blog/2026/photopad-1.png" class="blog-pic" style="border: 0;" />
 
 Your friend is only able to receive `.txt` files sent via email. But they're concerned that, despite many claims to the contrary, their email provider is snooping on their messages. With a tool like photopad, the two of you could agree on using, say, this public domain illustration of Ned Ludd that you found on [archive.org](https://archive.org/details/RTFM-Ludd) to encrypt the message:
 
-<img src="/img/blog/2026/ludd.jpg" class="blog-pic" style="border: 2px solid black;" />
+<img src="/img/blog/2026/photopad-2.jpg" class="blog-pic" style="border: 2px solid black;" />
 
 This way, the contents of the file you send will look like this:
 
-```txt
-Y
-""@00mENQ~/@QQMNHCR*yy!I_e]Qi^UfUbWUdd_d_eSXdXU=QcdUbRedi_e~BQ^dYS[\UXHcSbUQdebUcy"DXD~H^MNBU^SU_VdXUSbUQdTQUcHR~Y^YMfUbcU`b_`_QB	 P% P?	
-
- #	?t??lM)RM?h?????$P%P=^W~aeDcdHNMRdXDX~C_^d~G@UD~SN~g_QQXQANTS~@^cgUQR
-h
-~8_~:"ymB6DG~RDDJ{h
-~@QbQ^_YTcQbU^_d`QbQ^_YTRUSQecUdXUibU`QbQ^_YT~ATS~AUSQecU~SXUi[UU``eddHMW~dGDLRDKUDcVeS[Y^WYTY_dRTU\HRUbQSU\iY^d_`Qb@<=HC~A7BC/BHNMR
-
-```
+<img src="/img/blog/2026/photopad-3.png" class="blog-pic" style="border: 0;" />
 
 Your friend can then use photopad and the same image file to reverse the operation and read the original text. Comfortable in the knowledge that the message has been read by their eyes alone. 
 

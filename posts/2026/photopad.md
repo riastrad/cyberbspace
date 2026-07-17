@@ -12,7 +12,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 # The Idea
 
-A while back, I'm not sure when, I had the idea that maybe it would be interesting if you could use an image to encrypt some text.[^1] I tucked the idea a way and didn't think about it very much. A little bit later, again I'm not sure when, a co-worker was rhapsodizing about how great it was to work with [Go](https://go.dev) and I thought, I'd like an excuse to get more familiar with how Go syntax and the standard library. 
+A while back, I'm not sure when, I had the idea that maybe it would be interesting if you could use an image to encrypt some text.[^1] I tucked the idea a way and didn't think about it very much. A little bit later, again I'm not sure when, a co-worker was rhapsodizing about how great it was to work with [Go](https://go.dev) and I thought, I'd like an excuse to get more familiar with Go syntax and the standard library.
 
 At some point these two wires crossed and the idea for [photopad](https://github.com/riastrad/photopad) was born. `photopad` is a small CLI that can encrypt and decrypt `.txt` files using a `.jpeg` image as a sort of "[pre-shared key](https://en.wikipedia.org/wiki/Pre-shared_key)."
 

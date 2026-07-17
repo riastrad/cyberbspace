@@ -80,7 +80,7 @@ func GetPixelColorIndices(img image.Image) []uint8 {
 }
 ```
 
-There's a lot happening in the above code. After loading a JPEG image from disk and decoding it into a go `Image` object, I pass it to this function. The first line takes that image & creates an empty "paletted" image that's the same size as the original and uses the built-in "[Plan9](https://golangdoc.github.io/pkg/1.8.5/image/color/palette/index.html)" color palette. The second line invokes the `draw` library to copy the original image into the paletted image, which will convert RGBA values to the nearest index of the defined palette. 
+There's a lot happening in the above code. After loading a JPEG image from disk and decoding it into a go `Image` object, I pass it to this function. The first line takes that image & creates an empty "paletted" image that's the same size as the original and assigns it the built-in "[Plan9](https://golangdoc.github.io/pkg/1.8.5/image/color/palette/index.html)" color palette. The second line invokes the `draw` library to copy the original image into the paletted image, which will convert RGBA values to the nearest color index of the defined palette.
 
 Once this operation is done, the `Paletted` object stores it's array of pixel indices as a public attribute that can be returned.
 

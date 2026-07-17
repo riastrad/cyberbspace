@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "Photopad: Encrypting Text with JPEG Files"
-summary: A picture is worth a thousand pads™
+summary: A picture is worth a thousand pads
 date: 2026-07-17 16:45:00+5:30
 tags:
   - post

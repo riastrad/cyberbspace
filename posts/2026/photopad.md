@@ -29,15 +29,15 @@ Some other loose requirements:
 
 A simple scenario will help clarify why a tool like this might be helpful. Say you recently read Gravity's Rainbow by Thomas Pynchon and you want to share this quote with a good friend:
 
-<img src="/img/blog/2026/photopad-1.png" class="blog-pic" style="border: 0;" />
+<img src="/img/blog/2026/photopad-1.png" class="blog-pic" style="border: 0;" alt="A quote from Gravity's Rainbow that reads: Proverbs for Paranoids: 1. You may never get to touch the Master, but you can tickle his creatures. 2. The innocence of the creatures is in inverse proportion to the immorality of the Master. 3. If they can get you asking the wrong questions, they don't have to worry about answers. 4. You hide, they seek. 5. Paranoids are not paranoid because they're paranoid, but because they keep putting themselves, fucking idiots, deliberately into paranoid situations.'" />
 
 Your friend is only able to receive `.txt` files sent via email. But they're concerned that, despite many claims to the contrary, their email provider is snooping on their messages. With a tool like photopad, the two of you could agree on using, say, this public domain illustration of Ned Ludd that you found on [archive.org](https://archive.org/details/RTFM-Ludd) to encrypt the message:
 
-<img src="/img/blog/2026/photopad-2.jpg" class="blog-pic" style="border: 2px solid black;" />
+<img src="/img/blog/2026/photopad-2.jpg" class="blog-pic" style="border: 2px solid black;" alt="A beatiful illustration of the leader of the Luddites" />
 
 This way, the contents of the file you send will look like this:
 
-<img src="/img/blog/2026/photopad-3.png" class="blog-pic" style="border: 0;" />
+<img src="/img/blog/2026/photopad-3.png" class="blog-pic" style="border: 0;" alt="The Pynchon quote is now a bunch of gobbledy-gook" />
 
 Your friend can then use photopad and the same image file to reverse the operation and read the original text. Comfortable in the knowledge that the message has been read by their eyes alone. 
 

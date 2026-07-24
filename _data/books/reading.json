@@ -7,14 +7,5 @@
         "pages": 512,
         "current_page": 12,
         "link": "https://openlibrary.org/books/OL35561412M/Portraits"
-    },
-    {
-        "title": "Storm",
-        "author": "George R. Stewart",
-        "isbn": 9781681375182,
-        "started": "2026-07-14",
-        "pages": 279,
-        "current_page": 221,
-        "link": "https://openlibrary.org/books/OL32833682M/Storm"
     }
 ]

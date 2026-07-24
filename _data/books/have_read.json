@@ -1,5 +1,16 @@
 [
     {
+        "title": "Storm",
+        "author": "George R. Stewart",
+        "isbn": 9781681375182,
+        "started": "2026-07-14",
+        "finished": "2026-07-24",
+        "publisher": "New York Review Books",
+        "pages": 279,
+        "situ": "/img/books/2026/storm.png",
+        "link": "https://openlibrary.org/books/OL32833682M/Storm"
+    },
+    {
         "title": "The Dream Songs",
         "author": "John Berryman",
         "isbn": 374516707,

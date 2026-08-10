@@ -4,11 +4,11 @@
   "description": "personal website",
   "main": ".eleventy.js",
   "engines": {
-    "node": "~20.18.1",
-    "npm": "~10.8.2"
+    "node": "~26.7.0",
+    "npm": "~11.19.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@notionhq/client": "^2.3.0",
     "clean-css": "^4.2.1",
@@ -20,7 +20,6 @@
     "sharp": "^0.34.2"
   },
   "devDependencies": {
-    "dither-me-this": "^0.0.5",
     "glob": "^11.0.0",
     "spellchecker-cli": "^4.8.1"
   },
@@ -48,5 +47,9 @@
   "bugs": {
     "url": "https://github.com/riastrad/cyberbspace/issues"
   },
-  "homepage": "https://cyberb.space"
+  "homepage": "https://cyberb.space",
+  "allowScripts": {
+    "fsevents@2.3.2": true,
+    "sharp@0.34.2": true
+  }
 }

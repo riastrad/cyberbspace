@@ -20,7 +20,6 @@
     "sharp": "^0.34.2"
   },
   "devDependencies": {
-    "dither-me-this": "^0.0.5",
     "glob": "^11.0.0",
     "spellchecker-cli": "^4.8.1"
   },
@@ -48,5 +47,9 @@
   "bugs": {
     "url": "https://github.com/riastrad/cyberbspace/issues"
   },
-  "homepage": "https://cyberb.space"
+  "homepage": "https://cyberb.space",
+  "allowScripts": {
+    "fsevents@2.3.2": true,
+    "sharp@0.34.2": true
+  }
 }

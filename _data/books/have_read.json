@@ -1,5 +1,16 @@
 [
     {
+        "title": "Archipelago",
+        "author": "Natalie Bakopoulos",
+        "isbn": 9781963108309,
+        "started": "2026-07-28",
+        "finished": "2026-08-10",
+        "publisher": "Tin House",
+        "pages": 234,
+        "situ": "/img/books/2026/archipelago.png",
+        "link": "https://openlibrary.org/works/OL42439065W/Archipelago?edition=key%3A/books/OL57585745M"
+    },
+    {
         "title": "Storm",
         "author": "George R. Stewart",
         "isbn": 9781681375182,

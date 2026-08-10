@@ -1,5 +1,5 @@
 <footer>
-     <a href="https://cyberb.space/feed.xml">subscribe</a> |
+     <a href="{{ metadata.url }}/feed.xml">subscribe</a> |
      <a href="https://github.com/riastrad/cyberbspace/tree/main/{{ page.inputPath }}">view source</a> |
     {% set isBook = r/\/shelf\//g %}
     {% if isBook.test(page.url) %}

@@ -1,9 +1,9 @@
 <head>
   <meta charset="utf-8"/>
-  {% if book.title %}
-    {% set reviewtitle = ["Booklog: ", book.title] | join %}
+  {% if book.review %}
+    {% set review = ["Thoughts on ", book.author, "'s ", book.title] | join %}
   {% endif %}
-  <title>{{ title or reviewtitle or metadata.title }}</title>
+  <title>{{ title or book.title or metadata.title }}</title>
 
   <!-- Mobile Specific Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,11 +16,11 @@
 
   <!-- All about that social content -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:title" content="{{ title or reviewtitle }}" />
+  <meta property="og:title" content="{{ title or book.title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://cyberb.space{{ page.url }}" />
-  {% if summary %}<meta property="og:description" content="{{ summary }}" />{% endif %}
-  <meta property="og:image" content="https://cyberb.space/img/{% if summary %}post{% elif reviewtitle %}book-review{% else %}site{% endif %}-preview-card.jpg" />
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}" />
+  {% if summary or review %}<meta property="og:description" content="{{ summary or review }}" />{% endif %}
+  <meta property="og:image" content="{{ metadata.url }}/img/{% if summary %}post{% elif reviewtitle %}book-review{% else %}site{% endif %}-preview-card.jpg" />
   <!-- this front matter is auto added before build by sequoia -->
   {% if atUri %}
   <link rel="site.standard.document" href="{{ atUri }}">
@@ -33,7 +33,7 @@
   {% set css %}
     {% include "assets/css/normalize.css" %}
     {% include "assets/css/base.css" %}
-    {% if title === "shelf." or reviewtitle %}
+    {% if title === "shelf." or book %}
         {% include "assets/css/books.css" %}
     {% endif %}
     {% if date %}

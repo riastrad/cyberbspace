@@ -17,7 +17,7 @@
     "luxon": "^1.28.1",
     "markdown-it": "^14.1.1",
     "markdown-it-footnote": "^3.0.3",
-    "sharp": "^0.34.2"
+    "sharp": "^0.35.0"
   },
   "devDependencies": {
     "glob": "^11.0.0",

@@ -7,7 +7,7 @@ tags:
   - post
   - life
   - travel
-  - mumbai
+  - india
 location: mumbai
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---

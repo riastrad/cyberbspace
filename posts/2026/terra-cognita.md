@@ -18,7 +18,7 @@ Of course, the reason I haven't said this out loud to anyone up til now is becau
 
 As of two weeks ago, I've lived in Mumbai for more than two years. Looking back at my initial posts from when we first arrived in 2024, I can say definitively that my time in India has changed me mentally, emotionally, and physically. Of course, that's also just the contingent nature of a life lived linearly isn't it? Every day that I wake up and move through the world I am changing it and it is changing me. 
 
-We'll be packing up and moving out of Mumbai in about 2 months. So chances are high this will be my last blog post with the [#india](/tags/india) tag. Here are some some disorganized thoughts and impressions to mark the occassion.
+We'll be packing up and moving out of Mumbai in about 2 months. So chances are high this will be my last blog post with the [#india](/tags/india) tag. Here are some some disorganized thoughts and impressions to mark the occasion.
 
 Even though we've lived here for 2 years, our being here on a diplomatic post means that we've been in a fairly hermetic bubble, culture-wise. Despite this, there are a few things that have rubbed off. For instance, I find myself unconsciously waggling my head when I want to indicate agreement with someone.
 
@@ -36,7 +36,7 @@ It's impossible to ignore the pyramid of misery which organizes daily life here,
 
 I haven't really been left alone for this entire 2 year stretch. Even now, writing this blog in my home office, I can hear and see a team of two dozen construction workers outside my window at work on a high rise that each week gets one floor closer to obstructing my view of the city.
 
-You don't really see the sky that often in Mumbai. During monsoon it's covered in dark, grey clouds. Even when it's not raining. During pollution season it's a grey smudge. When the sky is clear, it means it's probably too hot to go outside.
+You don't really see the sky that often in Mumbai. During monsoon it's covered in dark, gray clouds. Even when it's not raining. During pollution season it's a gray smudge. When the sky is clear, it means it's probably too hot to go outside.
 
 I've only seen the moon in the night sky two times since we've been here. But maybe that's just a sign I haven't gone outside at night enough.
 
@@ -48,6 +48,6 @@ Technology is also its own sort of bubble. While I've read the country's English
 
 I've also stopped noticing the frenetic visuals of all the Indian apps I use. Information is chaotically stacked, cluttering the screen, crowding into view and desperately vying for attention.
 
-India has also been a very enthusiastic adopter of generative AI. For my first son's birthday last year he was gifted poorly written children's book with lifeless illustrations that didn't make any sense in relation to the story. At a mall in our neighborhood, a 20ft screen regularly features event notices with generated visuals. When our second son was born, before we were discharged, the hospital gave us a diet guide pamphlet for my wife with generated fruits and smoothies on the outside cover. I haven't become numb when it crosses my path, just less surprised. 
+India has also been a very enthusiastic adopter of generative AI. For my first son's birthday last year he was gifted poorly written children's book with lifeless illustrations that didn't make any sense in relation to the story. At a mall in our neighborhood, a 20 feet tall screen regularly features event notices with generated visuals. When our second son was born, before we were discharged, the hospital gave us a diet guide pamphlet for my wife with generated fruits and smoothies on the outside cover. I haven't become numb when it crosses my path, just less surprised. 
 
 So this is it. The final two months. India has definitely changed me. It's also definitely changed during the time I've been here. I don't think I'll fully understand our time in India until we're a few months into our next post and I have more relative data points to help triangulate the parts of this experience that are common to a diplomatic post and the parts of this experience that were unique to Mumbai.

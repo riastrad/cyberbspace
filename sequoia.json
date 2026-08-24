@@ -13,6 +13,6 @@
   },
   "pathTemplate": "/notes/{year}/{title}",
   "bluesky": {
-    "enabled": true
+    "enabled": false
   }
 }

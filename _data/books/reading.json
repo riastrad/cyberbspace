@@ -1,11 +1,20 @@
 [
     {
+        "title": "The Idiot",
+        "author": "Fyodor Dostoevsky",
+        "isbn": 553211366,
+        "started": "2026-08-24",
+        "pages": 597,
+        "current_page": 13,
+        "link": "https://en.wikipedia.org/wiki/The_Idiot"
+    },
+    {
         "title": "Portraits",
         "author": "John Berger",
         "isbn": 9781839764158,
         "started": "2026-07-21",
         "pages": 512,
-        "current_page": 159,
+        "current_page": 172,
         "link": "https://openlibrary.org/books/OL35561412M/Portraits"
     }
 ]

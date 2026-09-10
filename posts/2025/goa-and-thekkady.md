@@ -27,7 +27,7 @@ When you travel with a toddler, the scope of your adventures become inherently l
 
 That being said, we took a trip down to Goa last month and got to spend some chill time on the beach away from the noise and pollution of Mumbai.
 
-{% dither "/img/blog/2025/goa-1.png" %}
+{% dither "/img/blog/2025/goa-1.jpeg" %}
 <div class="center-text"><small>On the beach at sunset in Goa.</small></div><br />
 
 
@@ -37,25 +37,25 @@ I will say this, it took us roughly 10 hours to go from our front door in Mumbai
 
 We saw some beautiful scenery and animals, but I don't know that I'd ever willingly agree to taking that trip again.
 
-{% dither "/img/blog/2025/thekkady-1.png" %}
+{% dither "/img/blog/2025/thekkady-1.jpeg" %}
 <div class="center-text"><small>On the way to Thekkady we passed several tea plantations.</small></div><br />
 
-{% dither "/img/blog/2025/thekkady-2.png" %}
+{% dither "/img/blog/2025/thekkady-2.jpeg" %}
 <div class="center-text"><small>As I was walking across the resort one day, this <a href="https://en.wikipedia.org/wiki/Malabar_grey_hornbill">Malabar gray hornbill</a> did a fly-by and then landed nearby.</small></div><br />
 
-{% dither "/img/blog/2025/thekkady-3.png" %}
+{% dither "/img/blog/2025/thekkady-3.jpeg" %}
 <div class="center-text"><small>Minutes after we entered the National Park, we caught this <a href="https://en.wikipedia.org/wiki/Indian_giant_squirrel">Malabar giant squirrel</a> nibbling on a jackfruit.</small></div><br />
 
 
-{% dither "/img/blog/2025/thekkady-4.png" %}
+{% dither "/img/blog/2025/thekkady-4.jpeg" %}
 <div class="center-text"><small>We saw several Indian elephants in the wild. This guy was noteable because he had tusks, a sign of success for anti-poaching efforts.</small></div><br />
 
-{% dither "/img/blog/2025/thekkady-5.png" %}
+{% dither "/img/blog/2025/thekkady-5.jpeg" %}
 <div class="center-text"><small>On the way back down the mountain, we passed this guy. Honestly, I just admired his rig.</small></div><br />
 
 Back in Mumbai with visitors, I had an excuse to check out parts of the city I haven't been to yet. One standout was the Dadar Flower Market.
 
-{% dither "/img/blog/2025/mumbai-1.png" %}
+{% dither "/img/blog/2025/mumbai-1.jpeg" %}
 <div class="center-text"><small>A morning walk through the Dadar Flower market.</small></div><br />
 
 ## impending trips

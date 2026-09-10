@@ -28,7 +28,7 @@ const situImgPath = (dateRead, bookTitle) => {
     .replaceAll(/['’,\.\?\!]/g, "")
     .replaceAll(" ", "-");
 
-  return `/img/books/${year}/${title}.png`;
+  return `/img/books/${year}/${title}.jpeg`;
 };
 
 const cleanupDataFields = async (notionResponse) => {

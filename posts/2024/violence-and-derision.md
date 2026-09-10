@@ -14,7 +14,7 @@ When I was living in D.C. I formed the bad habit of plucking books from little f
 
 This past week, we went on vacation to the backwaters of [Kerala](https://en.wikipedia.org/wiki/Kerala).[^2] I spent nice chunks of time sitting by resort pools, breathing fresh air, and finally getting around to reading a book I had grabbed from a free little library[^3] a month or two before we moved to India — [The Jokers](https://openlibrary.org/books/OL24468174M/The_jokers) by Albert Cossery.
 
-{% dither "/img/blog/2024/the-jokers.png" %}
+{% dither "/img/blog/2024/the-jokers.jpeg" %}
 
 I can't say what led me to initially grab the book. Some admixture of: NYRB classics editions rarely miss, the summary on the back was interesting enough, and the author's background as an Egyptian who lived in Paris and only published novels in French, though all his characters and plots remained in Egypt, felt compelling in its own right.
 

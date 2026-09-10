@@ -44,7 +44,7 @@ This is maybe my loosest core requirement. I love the idea of [media queries](ht
 
 If you haven't seen any of my posts that include these maps, here is a quick screenshot of the final result:
 
-<img src="/img/blog/2024/map-screenshot-1.png" loading="lazy" class="blog-pic" />
+<img src="/img/blog/2024/map-screenshot-1.jpeg" loading="lazy" class="blog-pic" />
 
 Now, let me walk you through how I made it to this point.
 
@@ -150,7 +150,7 @@ _Et voilà_:
 
 | desktop | mobile |
 | :--- | :--- |
-| <img width=100% src="/img/blog/2024/map-screenshot-2.png" /> | <img width=100% src="/img/blog/2024/map-screenshot-3.png" /> |
+| <img width=100% src="/img/blog/2024/map-screenshot-2.jpeg" /> | <img width=100% src="/img/blog/2024/map-screenshot-3.jpeg" /> |
 
 ## Future Tinkering
 

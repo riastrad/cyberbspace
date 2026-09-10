@@ -18,7 +18,7 @@ We've had a string of bad air quality days here in Mumbai, and it's got me feeli
 
 Here's a picture I took back in the Fall of the South Mumbai skyline. Keep in mind, this photo was taken on a _moderate_ day and the AQI the past few days has been approximately 90-100 points higher than it was then:
 
-{% dither "/img/blog/2024/aqi.png" %}
+{% dither "/img/blog/2024/aqi.jpeg" %}
 
 It's hard not to let this get to you. I miss stepping outside and taking deep gulps of fresh air. I don't think I'll take that for granted again any time soon. I wanted to do something to capture this and how variable it can be. So I set up a little script to pull the current [AQI measurement](https://www.airnow.gov/aqi/aqi-basics/) for the city whenever this site is rebuilt & deployed.
 

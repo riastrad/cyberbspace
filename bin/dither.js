@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports.getDitheredPath = (inputPath) => {
-  return inputPath.replace(/\/([a-zA-Z0-9\-_]*).png/, "/dithered-$1.png");
+  return inputPath.replace(/\/([a-zA-Z0-9\-_]*).jpeg/, "/dithered-$1.jpeg");
 };
 
 module.exports.hasDitheredCopy = (inputPath) => {

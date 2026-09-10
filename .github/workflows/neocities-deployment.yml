@@ -44,4 +44,3 @@ jobs:
           cleanup: true
           neocities_supporter: true
           dist_dir: _site
-          protected_files: "*.png"

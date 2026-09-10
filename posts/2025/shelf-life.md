@@ -18,10 +18,10 @@ I've been noodling on the idea of owning my own reading data for a while now. I 
 
 My initial plans were fairly ambitious. They included building out new APIs, a dedicated endpoint, and a private front end I could access on my phone to make updates.
 
-{% dither "/img/blog/2025/shelf-life-1.png" %}
+{% dither "/img/blog/2025/shelf-life-1.jpeg" %}
 <div class="center-text"><small>This one is from around December 2023. I didn't go back further than that because I didn't want to dig up any of my older notebooks.</small></div><br />
 
-{% dither "/img/blog/2025/shelf-life-2.png" %}
+{% dither "/img/blog/2025/shelf-life-2.jpeg" %}
 <div class="center-text"><small>In this one from circa August 2024, I'm still caught up on data schema and API endpoints.</small></div><br />
 
 When I thought about it some more, I became less convinced that this was the right direction. I wanted a robust workflow, but I started to shy away from baking it from scratch because I didn't want the cost & burden of maintaining a new backend & a front end app. Especially as this work was marinating, I realized that my current tracker app ([Oku](https://oku.club)) exposed high-level data for my lists (currently reading, read, to read) as distinct RSS feeds.
@@ -41,12 +41,12 @@ I made a [note](https://github.com/riastrad/cyberbspace/issues/30#issuecomment-2
 
 When I finally sat down to build this page this week, I wanted to stay close to the playful style I had experimented with when I was prototyping [last October](https://github.com/riastrad/cyberbspace/issues/30#issuecomment-2413063851). I reused some of the CSS and even deployed the page looking like this:
 
-<img class="blog-pic" src="/img/blog/2025/shelf-life-4.png" />
+<img class="blog-pic" src="/img/blog/2025/shelf-life-4.jpeg" />
 <br />
 
 However, it didn't take me long to realize that my preferred styling was broken on Safari. Turns out Safari (Desktop & iOS) does not know how to handle the use of line-clamping / text truncating logic when it is combined with vertical text.
 
-<img class="blog-pic" src="/img/blog/2025/shelf-life-5.png" />
+<img class="blog-pic" src="/img/blog/2025/shelf-life-5.jpeg" />
 <br />
 
 I waffled on whether to remove the line-clamping & text truncation, but that ended up making any book with a longer title look like a fat tome and the effect felt poorer for it.
@@ -67,7 +67,7 @@ After this commit is made, my [build & deploy](https://github.com/riastrad/cyber
 
 You can see the final results of this bit of work over on the [bookshelf](https://cyberb.space/shelf). Here's a quick screenshot for posterity:
 
-<img class="blog-pic" src="/img/blog/2025/shelf-life-6.png" />
+<img class="blog-pic" src="/img/blog/2025/shelf-life-6.jpeg" />
 <br />
 
 I have quibbles, of course:

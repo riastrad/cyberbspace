@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "glob": "^11.0.0",
-    "spellchecker-cli": "^4.8.1"
+    "spellchecker-cli": "^7.0.4"
   },
   "scripts": {
     "test": "test",

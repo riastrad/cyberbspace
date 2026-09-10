@@ -16,12 +16,12 @@ Our first night in Mumbai, I was surprised to find massive snails scooting aroun
 
 Imagine my surprise. I mean, look at this thing:
 
-{% dither "/img/blog/2024/snail-1.png" %}
+{% dither "/img/blog/2024/snail-1.jpeg" %}
 <div class="center-text"><small>A giant garden snail, just out there doing its thing.</small></div>
 
 Maybe that picture doesn't drive home the point? Here's one with my hand nearby for scale:
 
-{% dither "/img/blog/2024/snail-2.png" %}
+{% dither "/img/blog/2024/snail-2.jpeg" %}
 <div class="center-text"><small>Let the record show there is no forced perspective at play here.</small></div>
 
 This isn't even the biggest one I've seen! It's just the biggest one I've seen during daylight when I had my phone nearby.
@@ -34,7 +34,7 @@ After being here in Mumbai for a few weeks, I've realized that it's starting to 
 
 **Update September 12, 2024:** I wasn't too happy with the size comparison photo I took the earlier this week. This morning conditions were wetter and some beefier boys were hanging around the dog area in my apartment complex. Please admit this additional photographic evidence to the official record:
 
-{% dither "/img/blog/2024/snail-3.png" %}
+{% dither "/img/blog/2024/snail-3.jpeg" %}
 <div class="center-text"><small>As you can see, this chonker's about as long as my fist.</small></div>
 
 

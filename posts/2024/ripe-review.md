@@ -17,7 +17,7 @@ This also means that every so often, I am gripped by panic because a book I put 
 
 Such was the case with Sarah Rose Etter's [Ripe](https://openlibrary.org/works/OL28962067W/Ripe).
 
-{% dither "/img/blog/2024/ripe.png" %}
+{% dither "/img/blog/2024/ripe.jpeg" %}
 
 I tend to shy away from any writing that relies on the term "late-stage capitalism" in its marketing. This is based the personal bias that the term is too ahistorical given what we know about the history of capitalism. Put differently, there is nothing very new about the dynamics at play in the system we've used to organize society for the last +150 years. Maybe the industries are different (e.g. software development instead of textile manufacturing), maybe the numbers are higher (e.g. billionaires instead of millionaires), but the assumption that there are stages and contemporary society is nearing the end of a predefined process feels a bit too teleological for my taste. All this is just a long-winded way to say: I was ready to put down the book and return it early if it rang a bit too hollow.
 

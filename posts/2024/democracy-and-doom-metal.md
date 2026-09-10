@@ -20,7 +20,7 @@ It was a great time. Riding the local train for the first time, I felt connected
 
 As far as the show is concerned, I'm no expert on the nuances of metal, but the bands were good and the scene appears to be alive and well here on the other side of the world. The main opener was a local Mumbai metal band, [Dirge](https://dirgeindia.bandcamp.com/music) and they killed it. I was so warmed up by the end of their set, the headliner could have refused to go on and it still would have been a great night.
 
-{% dither "/img/blog/2024/dirge.png" %}
+{% dither "/img/blog/2024/dirge.jpeg" %}
 
 But the headliner did come on, and they were just as good. The headliner was the New Zealand legends of death metal, [Ulcerate](https://ulcerate.bandcamp.com/album/cutting-the-throat-of-god).[^1] They played a clean, tight set despite being just a 3-piece. The show ended shortly after midnight and we stumbled out into the dark streets of Parel. Our ears still ringing and our bodies still humming from the phantom touch of the bass drum's double-pedal.
 

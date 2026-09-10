@@ -49,11 +49,11 @@ Language is a squishy thing that moves through time and space in unpredictable a
 
 By way of example, the organic food products you buy will make it a point to tell you that they are "untouched by human hands" and you will find yourself wondering about the milk you bought last week that didn't have that disclaimer...
 
-{% dither "/img/blog/2024/perception-milk.png" %}
+{% dither "/img/blog/2024/perception-milk.jpeg" %}
 
 Or you will be enjoying a walk along the coast of the Arabian Sea in the Bandra West neighborhood and suddenly find yourself unsure of what social behavior, exactly, is being discouraged...
 
-{% dither "/img/blog/2024/perception-hawkers.png" %}
+{% dither "/img/blog/2024/perception-hawkers.jpeg" %}
 
 Every day that we're here, I find myself realizing that English here is being grown and guided by a different culture and a different set of values. It would be foolish to insist on it mapping exactly to the meanings and signifiers I'm familiar with, but I find myself wondering if there are more pitfalls in communication than I realize. If my confidence at speaking English is nothing more than a false notion that I speak and understand the same language. The medium is the same, but the methods are ontologically distinct.
 
@@ -63,11 +63,11 @@ Similar to the above — and in large part because Mumbai is a massive, cosmopol
 
 The coffee spot is a gentrified house tucked away in a residential neighborhood — neighbors sometimes glare at you when they see you coming. The breakfast spot is setup like fast casual spot where you order at the counter and grab your own seat, but there's valet parking and a security guard who opens the front door for you. When you come in, the wait staff guides you away from the counter, sits you down, and takes your order at the table. You're there for a nice sit down meal, despite appearances.
 
-{% dither "/img/blog/2024/perception-veronicas.png" %}
+{% dither "/img/blog/2024/perception-veronicas.jpeg" %}
 
 The bookstore has a lovely selection and is run by a sweet local couple. Despite it's small size and the many signs encouraging you to browse, there is an employee by every shelf who will watch you and and Eagerly make suggestions if they sense an opportunity. The store also has a library upstairs. But here again, English has diverged, it is a private library and patrons pay a monthly fee in order to access its books and use the space.
 
-{% dither "/img/blog/2024/perception-trilogy.png" %}
+{% dither "/img/blog/2024/perception-trilogy.jpeg" %}
 
 To be clear, I'm glad to have found these places. They make me feel more at home in this city that I'm going to live in for the next 2 years! But in many ways, if I cling to them too tightly or look to them for a sense of comfort and familiarity, they only serve to highlight that I am far from home rather than make me feel like home is nearby.
 

@@ -42,8 +42,8 @@ My final implementation for a dithered blog image looks like this:
 **HTML**
 ```html
 <div class="dithered-hover">
-  <img src="img/dithered-image.png" class="blog-pic container" />
-  <img src="img/image.png" class="blog-pic container" />
+  <img src="img/dithered-image.jpeg" class="blog-pic container" />
+  <img src="img/image.jpeg" class="blog-pic container" />
 </div>
 ```
 
@@ -68,7 +68,7 @@ The CSS looks more complicated because I wanted to make absolutely sure that I a
 
 The only downside to this approach is that it if you use reading mode, it strips out my CSS and you'll just see two images stacked on top of one another:
 
-<img src="/img/blog/2024/how-i-dithered-1.png" loading="lazy" class="blog-pic" />
+<img src="/img/blog/2024/how-i-dithered-1.jpeg" loading="lazy" class="blog-pic" />
 
 At the end of the day, I decided I could live with reader mode being a little broken.
 
@@ -81,7 +81,7 @@ Since I've learned about shortcodes and how my static generator supports them (r
 I started out by deciding I my shortcode would be this simple:
 {% raw %}
 ```nunjucks
-{% dither "/relative/path/to/image.png" %}
+{% dither "/relative/path/to/image.jpeg" %}
 ```
 {% endraw %}
 
@@ -130,11 +130,11 @@ Of course, I also gave myself options. If I'm doing local development and want t
 
 Over the course of putting this in place, I made sure to put in some guardrails to make sure I'm using this as expected. The first are simple ones: have 11ty throw an error if I try to use my `dither` shortcode for any files that are not PNGs, don't let 11ty build successfully if I've used my `dither` shortcode without generating the corresponding twin image, don't dither an already dither image, &c.
 
-I've also realized just how big the images I was adding from my iPhone were, so I've added a small manual step of reducing the size of the `.heic` files when I convert them to `.png` on my machine. I didn't think to do this originally and that's part of why the files I've added to my previous travel posts are so large. I'm leaving those in place, but going forward my goal is to keep any new images to below `1MB` per image to keep things snappy.
+I've also realized just how big the images I was adding from my iPhone were, so I've added a small manual step of reducing the size of the `.heic` files when I convert them to `.jpeg` on my machine. I didn't think to do this originally and that's part of why the files I've added to my previous travel posts are so large. I'm leaving those in place, but going forward my goal is to keep any new images to below `1MB` per image to keep things snappy.
 
 Thanks for reading to the end! As a small token of appreciation, here's my dog Myron watching me work on this project:
 
-{% dither "/img/blog/2024/how-i-dithered-myron.png" %}
+{% dither "/img/blog/2024/how-i-dithered-myron.jpeg" %}
 
 
 [^1]: Worth mentioning that I probably would not have noticed this if I was not loading up my site on slower internet speed than I used to have in the states. Which is just a nice reminder that, if you're building something for a global audience, you should see how it does on slower internet.

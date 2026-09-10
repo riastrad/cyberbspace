@@ -14,7 +14,7 @@ This is bit of a follow-up to [a previous note](/notes/2025/shelf-life).
 
 The past month or so I've been traveling and receiving a lot of writing rejections. A tricky combination for getting quality writing done. One side effect of this is that I have been tinkering with my website a bit more.
 
-<img class="blog-pic" src="/img/blog/2025/bookish-1.png" />
+<img class="blog-pic" src="/img/blog/2025/bookish-1.jpeg" />
 <div class="center-text"><small>The current state of my digital bookshelf.</small></div><br />
 
 Specifically, I've been thinking about how limiting it is to depend on the incomplete and inaccurate data from my reading app to display reading information on this website.
@@ -27,14 +27,14 @@ Preferably, this source of truth would give me more control over data types, str
 
 Ultimately, I opted to move all my reading data to Notion and pull it via the platform's developer APIs. This is not a plug for the Notion platform. I selected it primarily because it saved me the trouble of building out my own UI or — God forbid — having to edit a Google sheet on my phone. That being said, aside from the fact that it's robust data fields feel unnecessarily complex for my needs, putting data into Notion and then pulling it out was an incredibly straightforward process.
 
-<img class="blog-pic" src="/img/blog/2025/bookish-2.png" />
+<img class="blog-pic" src="/img/blog/2025/bookish-2.jpeg" />
 <div class="center-text"><small>An overview screenshot of my private Notion integration.</small></div><br />
 
 The largest upfront cost — in terms of precious moments of my finite life — of this project was pulling together my reading data and cleaning it up. I've known since I got off of GoodReads and moved to Oku that my reading data has been incomplete or incorrect. I saved I had to merge and standardize two clunky data sets and convert them to a CSV file This involved some [messy scripting](https://gist.github.com/riastrad/76cf1f25731ced7f6c48134ee583bfce) I don't care to discuss too in-depth.
 
 After I got everything into one place, there was still the need to do some manual cleanup. Gaps in the data that needed to be filled with the help of [my physical records](/notes/2022/a-notational-universe/). Once I had everything clean enough, I uploaded my csv to Notion, created an API integration for my personal workspace, and tweaked my github workflow to pull the data and restructure it.[^2]
 
-<img class="blog-pic" src="/img/blog/2025/bookish-3.png" />
+<img class="blog-pic" src="/img/blog/2025/bookish-3.jpeg" />
 <div class="center-text"><small>Here's what the database looks like in Notion's desktop app</small></div><br />
 
 Now I'm in a great place where — even though everything is still a bit incomplete and haphazard — I can edit the data directly and within a few hours any changes I make will also propagate over to this website.
@@ -47,7 +47,7 @@ There's also still room for small quality of life improvements. For example, to 
 
 Ultimately this is another iterative step in my bookshelf building process. I'm beginning to come to terms with the fact that I'm very close to just writing my own bespoke API and front-end UI. For the moment, the cost of keeping the lights on for that project feels prohibitive.[^3] That notwithstanding, I'm happy with this step to have more control over my data and a simple way to update everything via my phone.
 
-<img class="blog-pic" src="/img/blog/2025/bookish-4.png" />
+<img class="blog-pic" src="/img/blog/2025/bookish-4.jpeg" />
 <div class="center-text"><small>Screenshot of editing a book in the data on the app.</small></div><br />
 
 [^1]: You can read [this ticket](https://github.com/riastrad/cyberbspace/issues/236), if your curious about the different paths forward that I was brainstorming here.

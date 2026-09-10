@@ -15,7 +15,7 @@ I tend to see my native country most clearly when I am away from it, but sometim
 
 Fortunately, there is a time-honored tradition of European intellectuals visiting the United States of America and having their understanding of the world drastically altered.[^1] I find the work that these encounters inspire endlessly fascinating. It shouldn't come as a surprise, then, that it took me less than five months of living abroad to pick up Jean Baudrillard's [America](https://openlibrary.org/books/OL2196791M/America).
 
-{% dither "/img/blog/2025/baudrillard.png" %}
+{% dither "/img/blog/2025/baudrillard.jpeg" %}
 
 I've always felt that Baudrillard was a literary stylist first and a social theorist second. This slim little volume of observations and meditations only served to fortify that impression. What I found most interesting as I read was how it seemed that Baudrillard was expecting to find confirmation of his already outlined theories of simulation and simulacrum, but instead he found that perhaps he didn't understand the full extent of either.
 

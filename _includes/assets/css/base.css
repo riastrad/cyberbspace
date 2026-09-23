@@ -507,6 +507,10 @@ figcaption {
         background: #000;
     }
 
+    figure > img {
+        border: 2px solid #fff;
+    }
+
     progress {
         color: var(--progress-bar-color-dark);
         background: var(--progress-bar-background-dark);

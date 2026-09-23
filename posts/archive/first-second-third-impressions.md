@@ -18,7 +18,7 @@ After sleeping for approximately 4 or 5 hours the day of my arrival, I woke up b
 
 And of course I also have some amazing, albeit amateur, photos of the city itself. Like this view from my apartment's common room window. I'll of course be discussing my living accommodations later in this post.
 
-<div><img src="/img/blog-archive/first-2.jpg" class="blog-pic" /></div>
+{% blogpic "/img/blog-archive/first-2.jpg" %}
 
 So what do I have to say about Morocco so far? Well it's hard to put into words exactly. It's simultaneously foreign and familiar. Many people told me before going that it's like stepping into another world, so maybe I expected drastic changes that would discombobulate me and catch me off guard. Maybe this preconception has lessened the shock of a non-Western culture, or maybe I just haven't been here long enough to fully encounter this other-worldliness that I've heard so much about.
 

@@ -26,8 +26,7 @@ When I thought about it some more, I became less convinced that this was the rig
 
 I started to think about how I could do all of this with with an elaborate system of GitHub issues that triggered actions.[^1]
 
-<img class="blog-pic" src="/img/blog/2025/shelf-life-3.jpg" />
-<br />
+{% blogpic "/img/blog/2025/shelf-life-3.jpg" %}
 
 This still didn't feel quite right for my current needs, though. I made the above diagram and then sat on my hands a bit more. In October 2024, I did a bit of [prototyping](https://github.com/riastrad/cyberbspace/issues/30#issuecomment-2413063851) & playing around with styling in a dedicated branch. I liked the results, but I didn't feel confident enough in the data piece to roll with it.
 
@@ -39,13 +38,11 @@ I made a [note](https://github.com/riastrad/cyberbspace/issues/30#issuecomment-2
 
 When I finally sat down to build this page this week, I wanted to stay close to the playful style I had experimented with when I was prototyping [last October](https://github.com/riastrad/cyberbspace/issues/30#issuecomment-2413063851). I reused some of the CSS and even deployed the page looking like this:
 
-<img class="blog-pic" src="/img/blog/2025/shelf-life-4.jpeg" />
-<br />
+{% blogpic "/img/blog/2025/shelf-life-4.jpeg" %}
 
 However, it didn't take me long to realize that my preferred styling was broken on Safari. Turns out Safari (Desktop & iOS) does not know how to handle the use of line-clamping / text truncating logic when it is combined with vertical text.
 
-<img class="blog-pic" src="/img/blog/2025/shelf-life-5.jpeg" />
-<br />
+{% blogpic "/img/blog/2025/shelf-life-5.jpeg" %}
 
 I waffled on whether to remove the line-clamping & text truncation, but that ended up making any book with a longer title look like a fat tome and the effect felt poorer for it.
 
@@ -65,8 +62,7 @@ After this commit is made, my [build & deploy](https://github.com/riastrad/cyber
 
 You can see the final results of this bit of work over on the [bookshelf](https://cyberb.space/shelf). Here's a quick screenshot for posterity:
 
-<img class="blog-pic" src="/img/blog/2025/shelf-life-6.jpeg" />
-<br />
+{% blogpic "/img/blog/2025/shelf-life-6.jpeg" %}
 
 I have quibbles, of course:
 1. Book subtitles are included in the titles, which screws with formatting on mobile.

@@ -20,9 +20,7 @@ After some thought, I have decided that maybe an opening haiku is not the most e
 
 A lot has transpired since my last posting. I have successfully completed half of my two week intensive language course, selected my classes, and visited Casablanca over the weekend. I am currently experience the kind of fatigue that is only possible when every aspect of your being has been stressed. It is corporal, it is mental and it is emotional. And it sucks. I am attempted to attribute the majority of the blame to the language courses, but that wouldn't be accurate. Every aspect of my current life in Morocco is fatiguing and stressful to one degree or another. Especially my recent trip to Casablanca, which I'll be sure to explain in greater detail towards the end of this post.
 
-<div><img src="/img/blog-archive/carpe-1.jpg" class="blog-pic" /></div>
-<div class="center-text"><small>A small taste of my trip to Casablanca</small>
-</div><br />
+{% dither "/img/blog-archive/carpe-1.jpg" "A small taste of my trip to Casablanca" %}
 
 Weekend excursions not withstanding, there are still plenty of things here that make life complicated. I'm slowly learning how to navigate this city's public transportation system, but so far every time I take the bus I have to be constantly alert. Even if I achieve the proper amount of alertness there is still an 80 percent chance that I will end up accidentally riding to the end of the route and not realize it until the bus driver gives me a dirty look. Yes, that has happened.
 

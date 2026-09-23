@@ -134,7 +134,7 @@ I've also realized just how big the images I was adding from my iPhone were, so 
 
 Thanks for reading to the end! As a small token of appreciation, here's my dog Myron watching me work on this project:
 
-{% dither "/img/blog/2024/how-i-dithered-myron.jpeg" %}
+{% blogpic "/img/blog/2024/how-i-dithered-myron.jpeg" %}
 
 
 [^1]: Worth mentioning that I probably would not have noticed this if I was not loading up my site on slower internet speed than I used to have in the states. Which is just a nice reminder that, if you're building something for a global audience, you should see how it does on slower internet.

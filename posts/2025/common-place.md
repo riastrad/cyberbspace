@@ -56,4 +56,4 @@ Here are a few curated excerpts from my notebook that goes from 2022 to the pres
 *Nota bene*: The above is not quoting from the notebooks verbatim by any means. I've greatly pruned the list as I pulled together this blog, a self-conscious act that is absent in the unselfconscious pages of my notebooks. Regardless, it is always an interesting activity to revisit these corners of my notebook and observe what has stayed with me, what strikes me differently after some time has passed, or what might have seeded a thought that germinating into something else in my own written output.
 
 [^1]: Every non-journal notebook I use typically lasts me around 2.5 years. The one I'm currently using has been sitting next to me while I work since before my son was born.
-[^2]: {% dither "/img/blog/2025/graffito-2023.jpeg" %}
+[^2]: {% blogpic "/img/blog/2025/graffito-2023.jpeg" %}

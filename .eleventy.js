@@ -154,8 +154,8 @@ module.exports = function (eleventyConfig) {
      `;
   });
 
-  // image dithering
-  eleventyConfig.addAsyncShortcode("dither", async (filepath, description) => {
+  // <figure> elements for blog images
+  eleventyConfig.addAsyncShortcode("blogpic", async (filepath, description) => {
     const imgSrc = (!hasDitheredCopy(filepath)) ? filepath : getDitheredPath(filepath)
     const caption = `<strong>${getFigureN(filepath)}</strong>${description ? ` <em>${description}</em>`: ''}`
     const linkToOriginal = (!hasDitheredCopy(filepath)) ? '' : `<a href="${filepath}" title="View original full color image.">🌄</a> `

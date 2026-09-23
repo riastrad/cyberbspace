@@ -18,11 +18,9 @@ I've been noodling on the idea of owning my own reading data for a while now. I 
 
 My initial plans were fairly ambitious. They included building out new APIs, a dedicated endpoint, and a private front end I could access on my phone to make updates.
 
-{% dither "/img/blog/2025/shelf-life-1.jpeg" %}
-<div class="center-text"><small>This one is from around December 2023. I didn't go back further than that because I didn't want to dig up any of my older notebooks.</small></div><br />
+{% blogpic "/img/blog/2025/shelf-life-1.jpeg" "This one is from around December 2023. I didn't go back further than that because I didn't want to dig up any of my older notebooks." %}
 
-{% dither "/img/blog/2025/shelf-life-2.jpeg" %}
-<div class="center-text"><small>In this one from circa August 2024, I'm still caught up on data schema and API endpoints.</small></div><br />
+{% blogpic "/img/blog/2025/shelf-life-2.jpeg" "In this one from circa August 2024, I'm still caught up on data schema and API endpoints." %}
 
 When I thought about it some more, I became less convinced that this was the right direction. I wanted a robust workflow, but I started to shy away from baking it from scratch because I didn't want the cost & burden of maintaining a new backend & a front end app. Especially as this work was marinating, I realized that my current tracker app ([Oku](https://oku.club)) exposed high-level data for my lists (currently reading, read, to read) as distinct RSS feeds.
 

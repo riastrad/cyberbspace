@@ -20,8 +20,7 @@ Despite these pedagogical shortcomings, there's one phenomenon that I’ve carri
 
 Of course all of this is an esoteric wind-up to yet another blog that looks back on the previous year. A common practice among bloggers and social influencers. The collective illusion of going backward despite our constant march into the next year. 
 
-{% dither "/img/blog/2025/retrograde-1.jpeg" %}
-<div class="center-text"><small>A quick visual aid.</small></div><br />
+{% blogpic "/img/blog/2025/retrograde-1.jpeg" "A quick visual aid." %}
 
 
 ## Tunes 
@@ -37,8 +36,7 @@ I stumbled into [Geese](https://geesebandnyc.bandcamp.com) at the end of last ye
 ## The Printed Word
 I read far more books than I expected to this year, 35 in total.
 
-{% dither "/img/blog/2025/retrograde-2.jpeg" %}
-<div class="center-text"><small>Not pictured: ebooks & library books.</small></div><br />
+{% blogpic "/img/blog/2025/retrograde-2.jpeg" "Not pictured: ebooks & library books." %}
 
 Some of this reading was part of the research for my second novel manuscript. Most of it was following my own curiosity and seeing where it led. Looking back from the end of the year, most of it was good, but there are three standouts.
 
@@ -74,5 +72,4 @@ As far as publishing goes, I think the motivation is twofold. First, I'm craving
 
 Despite the apparent lack of forward motion, the work continues. My in-progress manuscript is mostly plotted out. It's much more sprawling and weird than the first one. I'm deep in it and will be happy to dedicate the majority of my energy toward finishing the first draft in between freelance gigs.
 
-{% dither "/img/blog/2025/retrograde-3.jpeg" %}
-<div class="center-text"><small>The wall behind my work station is taken up by the loose shape of my second manuscript in post-it form.</small></div><br />
+{% blogpic "/img/blog/2025/retrograde-3.jpeg" "The wall behind my work station is taken up by the loose shape of my second manuscript in post-it form." %}

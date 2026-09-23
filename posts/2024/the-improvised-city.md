@@ -32,37 +32,21 @@ An impression that I can share more confidently: India absolutely spoils you cul
 ## Sights: Seen
 This past weekend, Karolina and I decided to do our due diligence and book a guided tour of the city we've moved to. Here are a few of the sites we saw[^4]:
 
-{% dither "/img/blog/2024/improvised-1.jpeg" %}
-<div class="center-text"><small>bird's eye view of <a href="https://en.wikipedia.org/wiki/Dhobi_Ghat">dhobi ghat</a>, an open air laundry</small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-1.jpeg" "bird's eye view of <a href=https://en.wikipedia.org/wiki/Dhobi_Ghat>dhobi ghat</a>, an open air laundry" %}
 
-{% dither "/img/blog/2024/improvised-2.jpeg" %}
-<div class="center-text"><small>the <a href="https://en.wikipedia.org/wiki/Gateway_of_India">Gateway of India</a></small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-2.jpeg" "the <a href=https://en.wikipedia.org/wiki/Gateway_of_India>Gateway of India</a>" %}
 
-{% dither "/img/blog/2024/improvised-3.jpeg" %}
-<div class="center-text"><small>the <a href="https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel">Taj Mahal Palace Hotel</a>, sometimes just called "The Taj"</small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-3.jpeg" "the <a href=https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel>Taj Mahal Palace Hotel</a>, sometimes just called 'The Taj'" %}
 
-{% dither "/img/blog/2024/improvised-4.jpeg" %}
-<div class="center-text"><small>a string of boats moored just off the coast near the Gateway of India</small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-4.jpeg" "a string of boats moored just off the coast near the Gateway of India" %}
 
-{% dither "/img/blog/2024/improvised-5.jpeg" %}
-<div class="center-text"><small>a plaque commemorating the historic residence of mahatma gandhi</small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-5.jpeg" "a plaque commemorating the historic residence of mahatma gandhi" %}
 
-{% dither "/img/blog/2024/improvised-6.jpeg" %}
-<div class="center-text"><small>Gandhi's preserved living quarters</small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-6.jpeg" "Gandhi's preserved living quarters" %}
 
-{% dither "/img/blog/2024/improvised-7.jpeg" %}
-<div class="center-text"><small>a famous place to grab <a href="https://en.wikipedia.org/wiki/Vada_pav">vada pav</a> near Mumbai's train station, included here primarily for my own future reference</small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-7.jpeg" "a famous place to grab <a href=https://en.wikipedia.org/wiki/Vada_pav>vada pav</a> near Mumbai's train station, included here primarily for my own future reference" %}
 
-{% dither "/img/blog/2024/improvised-8.jpeg" %}
-<div class="center-text"><small>the inside of a section of <a href="https://en.wikipedia.org/wiki/Crawford_Market">Mahatma Jyotiba Phule Mandai</a>, previously known as "Crawford Market"</small></div>
-<br />
+{% blogpic "/img/blog/2024/improvised-8.jpeg" "the inside of a section of <a href=https://en.wikipedia.org/wiki/Crawford_Market>Mahatma Jyotiba Phule Mandai</a>, previously known as 'Crawford Market'" %}
 
 [^1]: If you're curious about these previous experiences, you can browse the [#france](/tags/france) or [#morocco](/tags/morocco) blog tags here on my site.
 [^2]: There is also, of course, a part of me that feels mournful about the loss of "friction" when living abroad. Yes, it was harder to accomplish simple tasks at first. But the deepened cultural knowledge and personal satisfaction that follow overcoming these frictions - after significant trial and error - are/were one of the most enriching parts of traveling abroad. However, this is a subject for a different post.

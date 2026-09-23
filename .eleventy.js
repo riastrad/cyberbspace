@@ -4,7 +4,7 @@ const cities = require("./_data/cities.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const { hasDitheredCopy, getDitheredPath } = require("./bin/dither");
+const { hasDitheredCopy, getDitheredPath, getFigureN } = require("./bin/dither");
 const { generateLocationMap, generateOverviewMap } = require("./bin/map-maker");
 
 module.exports = function (eleventyConfig) {
@@ -154,20 +154,19 @@ module.exports = function (eleventyConfig) {
      `;
   });
 
-  // image dithering
-  eleventyConfig.addAsyncShortcode("dither", async (filepath) => {
-    if (!hasDitheredCopy(filepath)) {
-      throw new Error(
-        `Cannot create dithering effect for ${filepath} if no dithered twin has been created.`,
-      );
-    }
+  // <figure> elements for blog images
+  eleventyConfig.addAsyncShortcode("blogpic", async (filepath, description) => {
+    const imgSrc = (!hasDitheredCopy(filepath)) ? filepath : getDitheredPath(filepath)
+    const caption = `<strong>${getFigureN(filepath)}</strong>${description ? ` <em>${description}</em>`: ''}`
+    const linkToOriginal = (!hasDitheredCopy(filepath)) ? '' : `<a href="${filepath}" title="View original full color image.">🌄</a> `
 
-    const hoverableHTML = `<div class="dithered-hover">
-      <img src="${getDitheredPath(filepath)}" class="blog-pic" />
-      <img src="${filepath}" class="blog-pic" />
-    </div>`;
+    const figureHTML = `<figure>
+      <img src="${imgSrc}" alt="${description || 'none'}"/>
+      <figcaption>${linkToOriginal}${caption}</figcaption>
+    </figure>
+    <br>`;
 
-    return hoverableHTML;
+    return figureHTML;
   });
 
   eleventyConfig.addFilter("encodeURI", (link) => {

@@ -16,7 +16,7 @@ Rarely are you able to see your home country with the eyes of a stranger. I do t
 
 We went back to the Chicago suburbs for a few weeks this January. On our first full day back in the Midwest the temperature was -20°F without windchill. A nice "warm" welcome back to the northern climes we've been away from for so long. The local weather report informed us that the last time the temperature had dropped this low was in 2014. At the time, I had been living on the south side of Chicago completing my graduate degree. Despite the fact that I could feel the mucus membrane in my nose turning to ice if I was outside for more than three minutes, it induced a warm nostalgia I had not been expecting.
 
-{% dither "/img/blog/2026/pocket-1.jpeg" %}
+{% blogpic "/img/blog/2026/pocket-1.jpeg" %}
 <br />
 
 ### A Quick Word about the Suburbs

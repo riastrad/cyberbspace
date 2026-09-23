@@ -20,9 +20,7 @@ After some thought, I have decided that maybe an opening haiku is not the most e
 
 A lot has transpired since my last posting. I have successfully completed half of my two week intensive language course, selected my classes, and visited Casablanca over the weekend. I am currently experience the kind of fatigue that is only possible when every aspect of your being has been stressed. It is corporal, it is mental and it is emotional. And it sucks. I am attempted to attribute the majority of the blame to the language courses, but that wouldn't be accurate. Every aspect of my current life in Morocco is fatiguing and stressful to one degree or another. Especially my recent trip to Casablanca, which I'll be sure to explain in greater detail towards the end of this post.
 
-<div><img src="/img/blog-archive/carpe-1.jpg" class="blog-pic" /></div>
-<div class="center-text"><small>A small taste of my trip to Casablanca</small>
-</div><br />
+{% blogpic "/img/blog-archive/carpe-1.jpg" "A small taste of my trip to Casablanca" %}
 
 Weekend excursions not withstanding, there are still plenty of things here that make life complicated. I'm slowly learning how to navigate this city's public transportation system, but so far every time I take the bus I have to be constantly alert. Even if I achieve the proper amount of alertness there is still an 80 percent chance that I will end up accidentally riding to the end of the route and not realize it until the bus driver gives me a dirty look. Yes, that has happened.
 
@@ -35,24 +33,14 @@ After being ripped off by a cab driver, who made us pay double for a three dolla
 
 Just when we thought all hope was lost, however, we met the sketchiest guardian angel I have ever met. His name was Willy, he overheard us speaking English and told us that he could help us. We weren't very trusting at first, but the others started to be more willing to accept his help after he showed us his American passport and a cab driver's license from San Francisco. I still do not trust him. These two factors change nothing except the fact that we could have been murdered by an American citizen who happened to drive taxis. Despite my misgivings, we followed him to some quaint accommodations. L'hotel la Victoire was a house that had been turned into a hotel. It was small, it was minimally furnished, but it was cheap. After that we had a fairly agreeable adventure exploring our little corner of Casablanca. But once we had all safely returned to our hometown of Rabat, the resounding consensus was we would not be returning to Casablanca any time soon. Here's looking at you, Kid. And just so I don't end it on that predictable note, here are some pictures from the weekend.
 
-<div><img src="/img/blog-archive/carpe-2.jpg" class="blog-pic" /></div>
-<div class="center-text"><small>A close up of the mosque</small>
-</div><br />
+{% blogpic "/img/blog-archive/carpe-2.jpg" "A close up of the mosque" %}
 
-<div><img src="/img/blog-archive/carpe-3.jpg" class="blog-pic" /></div>
-<div class="center-text"><small>The view from the inside of the mosque.</small>
-</div><br />
+{% blogpic "/img/blog-archive/carpe-3.jpg" "The view from the inside of the mosque." %}
 
-<div><img src="/img/blog-archive/carpe-4.jpg" class="blog-pic" /></div>
-<div class="center-text"><small>Some of the detail inside the mosque.</small>
-</div><br />
+{% blogpic "/img/blog-archive/carpe-4.jpg" "Some of the detail inside the mosque." %}
 
-<div><img src="/img/blog-archive/carpe-5.jpg" class="blog-pic" /></div>
-<div class="center-text"><small>The view from our hotel room.</small>
-</div><br />
+{% blogpic "/img/blog-archive/carpe-5.jpg" "The view from our hotel room." %}
 
-<div><img src="/img/blog-archive/carpe-6.jpg" class="blog-pic" /></div>
-<div class="center-text"><small>The front of our hotel room.</small>
-</div><br />
+{% blogpic "/img/blog-archive/carpe-6.jpg" "The front of our hotel room." %}
 
 If you made it all the way to the end of this post, I'd just like to say thank you. I know it wasn't very short, and I may have confused quantity and quality a bit, but nevertheless thanks for taking the time.

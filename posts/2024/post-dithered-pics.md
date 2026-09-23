@@ -10,6 +10,8 @@ tags:
 permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 ---
 
+> **Editor's Note:** As of [August 10, 2026](https://github.com/riastrad/cyberbspace/pull/332), this post no longer reflects the site's current dithering and image display setup.
+
 I've been updating this blog more regularly because of my recent move to India. Previously when I've traveled, I've used 3<sup>rd</sup> party platforms to host my travel updates. So, oddly enough, this is the first time I've been "travel blogging" on a site where I control every aspect of the build & publish process.
 
 It's a bit embarrassing that this didn't occur to me sooner, but there were a few things I hadn't considered when I first started posting travel updates. The biggest one: the photos I take with my iPhone are much higher quality than the ones I was taking with a standalone point-and-shoot digital camera 15 years ago. Another more obvious one: 3<sup>rd</sup> party platforms like Blogger typically preprocess the images you upload and will resize & compress them however they see fit.
@@ -68,7 +70,7 @@ The CSS looks more complicated because I wanted to make absolutely sure that I a
 
 The only downside to this approach is that it if you use reading mode, it strips out my CSS and you'll just see two images stacked on top of one another:
 
-<img src="/img/blog/2024/how-i-dithered-1.jpeg" loading="lazy" class="blog-pic" />
+{% blogpic "/img/blog/2024/how-i-dithered-1.jpeg" "Screenshot of this implementation broken in reader mode." %}
 
 At the end of the day, I decided I could live with reader mode being a little broken.
 
@@ -134,7 +136,7 @@ I've also realized just how big the images I was adding from my iPhone were, so 
 
 Thanks for reading to the end! As a small token of appreciation, here's my dog Myron watching me work on this project:
 
-{% dither "/img/blog/2024/how-i-dithered-myron.jpeg" %}
+{% blogpic "/img/blog/2024/how-i-dithered-myron.jpeg" "A dithered image of my dog, Myron" %}
 
 
 [^1]: Worth mentioning that I probably would not have noticed this if I was not loading up my site on slower internet speed than I used to have in the states. Which is just a nice reminder that, if you're building something for a global audience, you should see how it does on slower internet.

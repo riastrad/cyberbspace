@@ -18,8 +18,7 @@ The approach for landing for the Paro airport is not a simple question of descen
 
 The airport in Paro is the only international airport in a country with a land area nearly equal to that of Switzerland. You deplane on the tarmac, but despite this, it's incredibly quiet. Only a handful of flights arrive and depart from the international hub each day. After so much time spent in clamor India, the silence that followed when the plane cut its engines was forceful.
 
-{% dither "/img/blog/2026/bhutan-1.jpeg" %}
-<div class="center-text"><small>The plane that brought us.</small></div><br />
+{% blogpic "/img/blog/2026/bhutan-1.jpeg" "The plane that brought us." %}
 
 ## A Bit of Background
 
@@ -31,8 +30,7 @@ As we started our hike up to the [Tiger's Nest](https://en.wikipedia.org/wiki/Pa
 
 Despite tourism being the second largest industry for the small country, they are acutely aware of the harms and pitfalls. I've mentioned before the uneasy feeling that necessarily flows from traveling to a place as a tourist. Bhutan is one of the first places I've traveled to that explicitly acknowledges this aspect of the relationship. Not to say that this made me feel any better about it, but it was a surprising departure.
 
-{% dither "/img/blog/2026/bhutan-2.jpeg" %}
-<div class="center-text"><small>Photo courtesy Austin.</small></div><br />
+{% blogpic "/img/blog/2026/bhutan-2.jpeg" "Photo courtesy Austin." %}
 
 ## The Trip Itself
 
@@ -42,8 +40,7 @@ It was a good group to travel with. We made it clear early and often, that we we
 
 The day-to-day itinerary of the trip itself was centered around hiking and visiting temples and monasteries. On the second and third days of our trip we did an "easy" and "moderate" hike, respectively. However, because of the altitude — the third day's hike peaked around 3,900 meters above sea level — we were all severely unacclimated. When we reached the summit of the third day's hike, our guide produced a thermos of suja (Bhutanese butter tea) with toasted rice and a bag of handmade butter biscuits. As I caught my breath and began to shiver from the cold air blowing across my sweat drenched body, I finally understood why suja, an incredibly filling drink, was such a staple in the country.
 
-{% dither "/img/blog/2026/bhutan-4.jpeg" %}
-<div class="center-text"><small>A cup of suja with a handmade, local biscuit.</small></div><br />
+{% blogpic "/img/blog/2026/bhutan-4.jpeg" "A cup of suja with a handmade, local biscuit."%}
 
 I have only managed to hike one time since moving to Mumbai. So despite the light altitude sickness and the chilly weather, I woke up every day overjoyed that I would be able to spend some time walking around in mountain forests.
 
@@ -59,8 +56,7 @@ When the King came to our group, he asked how our visit had been so far. We said
 
 The King's security made it very clear that we were not allowed to take any pictures of the interaction. But as we waited for the royals to finish their participation in the day's ceremony, members of the King's staff handed out free mango juice boxes to the gathering crowd. My only picture to mark the occasion is a candid that my friend took as we were leaving the temple.
 
-{% dither "/img/blog/2026/bhutan-3.jpeg" %}
-<div class="center-text"><small>Photo courtesy Rufus.</small></div><br />
+{% blogpic "/img/blog/2026/bhutan-3.jpeg" "Photo courtesy Rufus." %}
 
 ## Enthusiastically Ambivalent
 
@@ -70,8 +66,7 @@ Despite all of this, though, it was maybe one of the best countries I've ever vi
 
 Our final morning in the country we stayed at a resort within view of the airport in Paro. It's one of the busier parts of town, but the only thing I heard as I sat on the balcony of my hotel room that final morning was the babble of the river that ran nearby. As I get older, it's increasingly clear that we understand the places we visit only in relation to other places we have been. Maybe this is what the incessant din and oppressive summer heat of Mumbai has taught me most of all, how quiet and sublime other parts of the world can be.
 
-{% dither "/img/blog/2026/bhutan-5.jpeg" %}
-<div class="center-text"><small>The tips of prayer flags seen here on a cloudy day. It's customary to plant 108 of these flags in memory of a deceased loved one.</small></div><br />
+{% blogpic "/img/blog/2026/bhutan-5.jpeg" "The tips of prayer flags seen here on a cloudy day. It's customary to plant 108 of these flags in memory of a deceased loved one." %}
 
 
 

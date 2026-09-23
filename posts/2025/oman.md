@@ -41,13 +41,13 @@ What's more, as with most trips outside of India after living here a while, it's
 
 Our itinerary was relatively simple: coast, desert, then back to coast. We arrived in the capital and largest city, Muscat, and drove our car East to a resort nestled into the jagged hills of the coast. All around us we saw signs of the economic influence of other nations. Our first resort was a Chinese luxury brand, filled with Indian, European, & Russian families. When we interacted with anyone and they realized we were from the U.S. they were typically surprised, saying things like, "That's a long way to travel for vacation." As we drove, we passed a large billboard thanking the Trump Administration for it's investment in a highway infrastructure project.
 
-{% dither "/img/blog/2025/oman-1.jpeg" %}
+{% blogpic "/img/blog/2025/oman-1.jpeg" %}
 
 In October, the heat of summer has begun to break. The dry climate peaked at 88° F and was cool in the evenings. The absence of humidity was a welcome change. However, the sun was direct and unobscured by clouds, we spent most of our time lathering sunscreen on ourselves and our toddler.
 
 After a few days of sitting on the beach, we drove 2.5 hours South to the desert. This leg of the journey was the main reason we rented a car. The resort was an upscale, glamping operation. 10 kilometers off-road by a small village named Al Wasil (الواصل). The resort said we would need 4-wheel drive and they weren't lying. As I white-knuckled through the sandy landscape, I was reminded of driving on unplowed roads in Illinois after a heavy snow.
 
-{% dither "/img/blog/2025/oman-2.jpeg" %}
+{% blogpic "/img/blog/2025/oman-2.jpeg" %}
 
 The desert in Oman brought back memories of visiting the Sahara in Morocco [nearly 14 years ago](/notes/2011/for-the-names-sake/). Of course, it was also very different. We slept in a room with air conditioning. We had a shower after we stood on the top of the dune and heavy wind filled every crevice of our bodies with sand. A lot has changed since then.
 

@@ -26,7 +26,7 @@ We've had to come to terms with the reality that, at least for the next few year
 
 The main reason for this trip was to see the Taj Mahal. We'll be leaving India in October and agreed we would be disappointed if we left without seeing it. We woke up before the crack of dawn, toddler in tow, and arrived at the Taj just as the sun was beginning to light up its eastern wall.
 
-{% dither "/img/blog/2026/taj-mahal.jpeg" %}
+{% blogpic "/img/blog/2026/taj-mahal.jpeg" %}
 
 Our guide warned us about the swarms of other tourists and emphasized that the queues would soon get much, much worse. We went as quickly as we could after leaving our hotel lobby at 5:30 AM. As we walked around the broad, spacious gardens, swarms of other tourists from all over the world snapped pictures of this 400 year old mausoleum. I was reminded of Don DeLillo's "Most Photographed Barn in the World" from [White Noise](https://en.wikipedia.org/wiki/White_Noise_(novel)). I think the comparison is only half appropriate here, though. While it's true that this structure is a symbol which takes on more meaning because of its popularity, it has a deeper history and displays some true mastery of craft that is wholly unique to it. Precious marble from Rajasthan with intricate precious stone inlays on almost every surface.
 

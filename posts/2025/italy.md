@@ -27,8 +27,7 @@ Let's start with the external. We were totally unprepared for the weather. I had
 
 Traveling with a toddler, I had also been worried that the jet lag would be tough. But as it turns out, the time difference between Mumbai and Rome is only 3.5 hours. Roughly the same as a trip between New York and San Francisco. I don't recommend 12 hours of travel with a small person who just wants to run around and can't be reasoned with. But I was pleasantly surprised that all of us, toddler included, only felt the effects of jet lag for the first two days.
 
-{% dither "/img/blog/2025/italy-1.jpeg" %}
-<div class="center-text"><small>Our flight plan had us hopping over the Alps on our way to Rome</small></div><br />
+{% blogpic "/img/blog/2025/italy-1.jpeg" "Our flight plan had us hopping over the Alps on our way to Rome" %}
 
 ## The World Through Stendhal's Eyes
 
@@ -36,37 +35,27 @@ This was my first time to these parts of Italy. Previously, I'd been to some nor
 
 Here's what I'll say, in India when you're out and about, the scenes are chaotic and overwhelming. There's no place for your eyes to rest. It's noisy, hot, and sticky most of the year and dumping rain on you for the rest of it. It is, despite the very real privileges we enjoy here, a tough place to live. So it goes without saying that the short drive from the airport in Rome to the apartment we had rented was overwhelming. The city is beautiful and clean, a living monument to its own history. A history that predates the European discovery of the continent I grew up on, 2 of the 3 dominant monotheistic religions, and the English language (in all its forms).
 
-{% dither "/img/blog/2025/italy-2.jpeg" %}
-<div class="center-text"><small>Fontana di Trevi, only visible briefly before 8am after which it is consumed by a mass of human bodies.</small></div><br />
+{% blogpic "/img/blog/2025/italy-2.jpeg" "Fontana di Trevi, only visible briefly before 8 AM after which it is consumed by a mass of human bodies." %}
 
-{% dither "/img/blog/2025/italy-3.jpeg" %}
-<div class="center-text"><small>The view of Rome from Terrazza del Pincio.</small></div><br />
+{% blogpic "/img/blog/2025/italy-3.jpeg" "The view of Rome from Terrazza del Pincio." %}
 
-{% dither "/img/blog/2025/italy-4.jpeg" %}
-<div class="center-text"><small>Inside the Colosseum</small></div><br />
+{% blogpic "/img/blog/2025/italy-4.jpeg" "Inside the Colosseum" %}
 
-{% dither "/img/blog/2025/italy-5.jpeg" %}
-<div class="center-text"><small>Workers for a sense of scale.</small></div><br />
+{% blogpic "/img/blog/2025/italy-5.jpeg" "Workers for a sense of scale." %}
 
-{% dither "/img/blog/2025/italy-6.jpeg" %}
-<div class="center-text"><small>Some columns in the Roman Forum.</small></div><br />
+{% blogpic "/img/blog/2025/italy-6.jpeg" "Some columns in the Roman Forum." %}
 
-{% dither "/img/blog/2025/italy-7.jpeg" %}
-<div class="center-text"><small>We did a Vatican tour with a stroller. Honestly, wouldn't recommend it.</small></div><br />
+{% blogpic "/img/blog/2025/italy-7.jpeg" "We did a Vatican tour with a stroller. Honestly, wouldn't recommend it." %}
 
 The effect compounded when we took the high speed train North to Florence. Florence is perhaps one of the most beautiful cities I have ever been to. Although, traveling with a toddler, we had to resign ourselves to skip the art museums and only do one to two things per day. So, it's funny to say, but our experience in Florence revolved mostly around which public parks we would visit each morning before nap time.
 
-{% dither "/img/blog/2025/italy-8.jpeg" %}
-<div class="center-text">The best view we got of <em>Duomo di Firenze</em> was a rooftop cafe above a shopping center.<small></small></div><br />
+{% blogpic "/img/blog/2025/italy-8.jpeg" "The best view we got of <em>Duomo di Firenze</em> was a rooftop cafe above a shopping center." %}
 
-{% dither "/img/blog/2025/italy-9.jpeg" %}
-<div class="center-text"><em>Duomo di Firenze</em> from street level.<small></small></div><br />
+{% blogpic "/img/blog/2025/italy-9.jpeg" "<em>Duomo di Firenze</em> from street level." %}
 
-{% dither "/img/blog/2025/italy-10.jpeg" %}
-<div class="center-text"><small>Looking at central Florence from a nearby hilltop. (This little hike broke our stroller).</small></div><br />
+{% blogpic "/img/blog/2025/italy-10.jpeg" "Looking at central Florence from a nearby hilltop. (This little hike broke our stroller)." %}
 
-{% dither "/img/blog/2025/italy-11.jpeg" %}
-<div class="center-text"><small>Everyone talks about Michaelangelo's David, but not enough people talk about Giambologna's Heracles and Nessus.</small></div><br />
+{% blogpic "/img/blog/2025/italy-11.jpeg" "Everyone talks about Michelangelo's David, but not enough people talk about Giambologna's Heracles and Nessus." %}
 
 Of course, in all these cities we were surrounded by hordes of tourists. Florence was maybe the worst of all, due to its well established reputation as the fertile ground whence sprang the Renaissance. And I used the word "surrounded," but of course we ourselves were tourists and a part of the same hungry beast choking the streets of the historic city. Despite myself, I couldn't help but be reminded of David Foster Wallace on the subject:
 
@@ -74,10 +63,9 @@ Of course, in all these cities we were surrounded by hordes of tourists. Florenc
 
 We spent the last few days of out time in the country on a bucolic "agriturismo"[^4] where we watched our son play barefoot in the grass. We sat comfortably in the shade of olive trees and watched as pillowy, unhurried clouds crept across a clear blue sky. Writing this now, I'm jealous of myself and ashamed that I didn't appreciate it more in the moment.
 
-{% dither "/img/blog/2025/italy-12.jpeg" %}
-<div class="center-text"><small>The view of Tuscany from one of the places we stayed.</small></div><br />
+{% blogpic "/img/blog/2025/italy-12.jpeg" "The view of Tuscany from one of the places we stayed." %}
 
-## The Turbulence of Reentry
+## Turbulence on Reentry
 
 So now we're back in Mumbai. We flew out of Florence in the early morning and it was another perfect day. 75° F with no humidity. When we landed in Mumbai 12 hours later[^5], we landed in a thunderstorm and our bags were sticky with humidity when we collected them.
 

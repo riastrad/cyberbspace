@@ -14,7 +14,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 
 Today I find that I can't help but obsess over the linguistic journey and phonic mutation that this corporate branding represents:
 
-{% dither "/img/blog/2024/pret-1.jpeg" %}
+{% blogpic "/img/blog/2024/pret-1.jpeg" %}
 
 For the uninitiated, [*Pret a Manger*](https://en.wikipedia.org/wiki/Pret_a_Manger) is a British fast food chain. Its name is a French phrase[^1] that means "ready to eat". In the anglosphere, this name is already bastardized to a degree. Diacritics have been dropped and there are no hyphens between the words. Pronouncing it is difficult for English speakers. So much so that it is common to refer to the shop simply as "Pret" and leave it at that. As the chain expands to India, however, they need to transcribe the name into [Devanagari](https://en.wikipedia.org/wiki/Devanagari). The act of doing this betrays the transcriber's understanding of what the original pronunciation should be.
 

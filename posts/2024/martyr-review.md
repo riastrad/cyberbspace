@@ -15,7 +15,7 @@ I've been sick with a wicked sore throat since last week and finally confirmed t
 
 What better excuse then, to put off my writing for a bit and get lost in a surprisingly apropos book? I've just finished reading Kaveh Akbar's debut novel, [_Martyr!_](https://openlibrary.org/books/OL50528303M/Martyr!_a_Novel). Here it is _in situ_:
 
-{% dither "/img/blog/2024/martyr.jpeg" %}
+{% blogpic "/img/blog/2024/martyr.jpeg" %}
 
 It wasn't, by any means, a perfect novel. But it wrestled with big ideas and themes (addiction, death, meaning, the Iranian-American experience, &c.) in a way that resonated. Akbar's poetic use of language was also a pleasure in and of itself. By way of example, here's a sentence he writes to give the reader a sense of place:
 

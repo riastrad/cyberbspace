@@ -14,8 +14,7 @@ This week I learned that my good friend and close confidant, Myron, has celebrat
 
 This isn't a post about vet services in Mumbai, so I won't digress. But it is worth mentioning that every concern I've raised with our vet about Myron has resulted in no fewer than 2 visits to the clinic and an average of 5 different recommended medications. For comparison, in the US I lived 4 blocks from the vet and would maybe take him there once or twice a year? I think it's a combination of India's high touch approach to customer service and a cultural tendency to take the stewardship of animal well being very seriously.
 
-{% dither "/img/blog/2025/pencil-1.jpeg" %}
-<div class="center-text"><small>Pondering the cruel twists of fate that led him to this point.</small></div><br />
+{% blogpic "/img/blog/2025/pencil-1.jpeg" "Pondering the cruel twists of fate that led him to this point." %}
 
 What does all this mean for you? Glad you asked! On the days like today, when I've spent +2 hours to get him to and from the vet and pick up medication, it makes it hard to do the kind of deep research and writing that I'm currently preoccupied with for my second novel manuscript.[^1] So instead I'm writing a little blog post, as a treat.
 
@@ -29,8 +28,7 @@ Now, I've said before on this blog (ref. [How's Work?](/notes/2024/how-s-work/))
 
 The technique is so simple that writing it like I've discovered something innovative makes me cringe a little bit: I write my earliest drafts in pencil. On my best writing days, I'll sit somewhere with my phone and computer more than an arm's length away, set 4 to 6 freshly sharpened pencils nearby, and start putting one word after another until I run out of words or I need to attend to some other responsibilities.
 
-{% dither "/img/blog/2025/pencil-2.jpeg" %}
-<div class="center-text"><small>Looks like the gang's all here.</small></div><br />
+{% blogpic "/img/blog/2025/pencil-2.jpeg" "Looks like the gang's all here." %}
 
 I haven't spent too much time thinking about why this works so well for me, but I wouldn't write it up if I didn't have a half-formed psychological theory. And let me be clear, it's not simply the fact that I am writing away from the computer. As this blog demonstrates, I have no problem writing up a few hundred words on my computer. To put an even finer point on it[^2], it's not even about writing by hand. I have tried it with pens and ink and the results are less consistent. Even more befuddling, it doesn't seem to be necessary for any iterating or revising of subsequent drafts. It's only necessary when wrestling with that first blank page.
 

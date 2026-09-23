@@ -467,6 +467,24 @@ hr::after {
     top: -13px;
 }
 
+figure {
+    display: table;
+    margin: 0px auto;
+}
+
+figure > img {
+    border: 2px solid black;
+    width: auto;
+    max-width: 100%;
+    max-height: 75vh;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
+
+
 /* Prefers Dark Mode
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -487,6 +505,10 @@ hr::after {
 
     hr::after {
         background: #000;
+    }
+
+    figure > img {
+        border: 2px solid #fff;
     }
 
     progress {

@@ -1,8 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 
+module.exports.getFigureN = (inputPath) => {
+  const number = /([0-9]*)\.(jpeg|jpg)/.exec(inputPath)[1]
+  return (number) ? `Figure nº${number}` : "Figure"
+};
+
 module.exports.getDitheredPath = (inputPath) => {
-  return inputPath.replace(/\/([a-zA-Z0-9\-_]*).jpeg/, "/dithered-$1.jpeg");
+  return inputPath.replace(/\/([a-zA-Z0-9\-_]*).(jpeg|jpg)/, "/dithered-$1.$2");
 };
 
 module.exports.hasDitheredCopy = (inputPath) => {

@@ -7,9 +7,7 @@ performant
 frontend
 mapbox
 josh@cyberb.space
-[a-zA-Z\-0-9]*\.png
-[a-zA-Z\-0-9]*\.jpeg
-[a-zA-Z\-0-9]*\.jpg
+[a-zA-Z\-0-9]*\.(jpeg|jpg|png)
 booksBeingRead
 mailto
 metadata.author.social.bluesky

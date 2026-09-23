@@ -42,7 +42,7 @@ We saw some beautiful scenery and animals, but I don't know that I'd ever willin
 
 {% blogpic "/img/blog/2025/thekkady-3.jpeg" "Minutes after we entered the National Park, we caught this <a href=https://en.wikipedia.org/wiki/Indian_giant_squirrel>Malabar giant squirrel</a> nibbling on a jackfruit." %}
 
-{% blogpic "/img/blog/2025/thekkady-4.jpeg" "We saw several Indian elephants in the wild. This guy was noteable because he had tusks, a sign of success for anti-poaching efforts." %}
+{% blogpic "/img/blog/2025/thekkady-4.jpeg" "We saw several Indian elephants in the wild. This guy was notable because he had tusks, a sign of success for anti-poaching efforts." %}
 
 {% blogpic "/img/blog/2025/thekkady-5.jpeg" "On the way back down the mountain, we passed this guy. Honestly, I just admired his rig." %}
 

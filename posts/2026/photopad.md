@@ -33,11 +33,11 @@ A simple scenario will help clarify why a tool like this might be helpful. Say y
 
 Your friend is only able to receive `.txt` files sent via email. But they're concerned that, despite many claims to the contrary, their email provider is snooping on their messages. With a tool like photopad, the two of you could agree on using, say, this public domain illustration of Ned Ludd that you found on [archive.org](https://archive.org/details/RTFM-Ludd) to encrypt the message:
 
-{% blogpic "/img/blog/2026/photopad-2.jpg" "A beatiful illustration of the leader of the Luddites" %}
+{% blogpic "/img/blog/2026/photopad-2.jpg" "A beautiful illustration of the leader of the Luddites" %}
 
 This way, the contents of the file you send will look like this:
 
-{% blogpic "/img/blog/2026/photopad-3.jpeg" "The Pynchon quote is now a bunch of gobbledy-gook" %}
+{% blogpic "/img/blog/2026/photopad-3.jpeg" "The Pynchon quote is now a bunch of gobbledygook" %}
 
 Your friend can then use photopad and the same image file to reverse the operation and read the original text. Comfortable in the knowledge that the message has been read by their eyes alone. 
 

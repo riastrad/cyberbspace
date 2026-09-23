@@ -35,7 +35,7 @@ This was my first time to these parts of Italy. Previously, I'd been to some nor
 
 Here's what I'll say, in India when you're out and about, the scenes are chaotic and overwhelming. There's no place for your eyes to rest. It's noisy, hot, and sticky most of the year and dumping rain on you for the rest of it. It is, despite the very real privileges we enjoy here, a tough place to live. So it goes without saying that the short drive from the airport in Rome to the apartment we had rented was overwhelming. The city is beautiful and clean, a living monument to its own history. A history that predates the European discovery of the continent I grew up on, 2 of the 3 dominant monotheistic religions, and the English language (in all its forms).
 
-{% blogpic "/img/blog/2025/italy-2.jpeg" "Fontana di Trevi, only visible briefly before 8am after which it is consumed by a mass of human bodies." %}
+{% blogpic "/img/blog/2025/italy-2.jpeg" "Fontana di Trevi, only visible briefly before 8 AM after which it is consumed by a mass of human bodies." %}
 
 {% blogpic "/img/blog/2025/italy-3.jpeg" "The view of Rome from Terrazza del Pincio." %}
 
@@ -55,7 +55,7 @@ The effect compounded when we took the high speed train North to Florence. Flore
 
 {% blogpic "/img/blog/2025/italy-10.jpeg" "Looking at central Florence from a nearby hilltop. (This little hike broke our stroller)." %}
 
-{% blogpic "/img/blog/2025/italy-11.jpeg" "Everyone talks about Michaelangelo's David, but not enough people talk about Giambologna's Heracles and Nessus." %}
+{% blogpic "/img/blog/2025/italy-11.jpeg" "Everyone talks about Michelangelo's David, but not enough people talk about Giambologna's Heracles and Nessus." %}
 
 Of course, in all these cities we were surrounded by hordes of tourists. Florence was maybe the worst of all, due to its well established reputation as the fertile ground whence sprang the Renaissance. And I used the word "surrounded," but of course we ourselves were tourists and a part of the same hungry beast choking the streets of the historic city. Despite myself, I couldn't help but be reminded of David Foster Wallace on the subject:
 

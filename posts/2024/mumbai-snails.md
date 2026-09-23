@@ -32,7 +32,7 @@ After being here in Mumbai for a few weeks, I've realized that it's starting to 
 
 **Update September 12, 2024:** I wasn't too happy with the size comparison photo I took the earlier this week. This morning conditions were wetter and some beefier boys were hanging around the dog area in my apartment complex. Please admit this additional photographic evidence to the official record:
 
-{% blogpic "/img/blog/2024/snail-3.jpeg" "As you can see, this chonker's about as long as my fist." %}
+{% blogpic "/img/blog/2024/snail-3.jpeg" "As you can see, this chonker is about as long as my fist." %}
 
 
 [^1]: A little bit like me! (Except they got here +150 years ago.)

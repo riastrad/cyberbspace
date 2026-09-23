@@ -1,11 +1,15 @@
+https
+covers.openlibrary.org
+blogpic
 readingPagesYear
 endif
 performant
 frontend
 mapbox
 josh@cyberb.space
-[a-z\-0-9]*\.png
-[a-z\-0-9]*\.jpeg
+[a-zA-Z\-0-9]*\.png
+[a-zA-Z\-0-9]*\.jpeg
+[a-zA-Z\-0-9]*\.jpg
 booksBeingRead
 mailto
 metadata.author.social.bluesky

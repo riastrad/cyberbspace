@@ -20,7 +20,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}" />
   {% if summary or review %}<meta property="og:description" content="{{ summary or review }}" />{% endif %}
-  <meta property="og:image" content="{{ metadata.url }}/img/{% if summary %}post{% elif reviewtitle %}book-review{% else %}site{% endif %}-preview-card.jpg" />
+  <meta property="og:image" content="{{ metadata.url }}/img/{% if summary %}post{% elif review %}book-review{% else %}site{% endif %}-preview-card.jpg" />
   <!-- this front matter is auto added before build by sequoia -->
   {% if atUri %}
   <link rel="site.standard.document" href="{{ atUri }}">

@@ -186,6 +186,14 @@ h6 {
     letter-spacing: 0;
 }
 
+.header-anchor {
+    background: none;
+}
+
+.header-anchor:hover {
+    background: var(--global-accent)
+}
+
 kbd {
     display: inline;
     background-color: #f1f1f1;
@@ -267,10 +275,14 @@ button {
 
 /* setting some variables to make this easier */
 :root {
-    --progress-bar-color: rgba(238, 238, 51, 0.6);
+    --global-accent: rgba(238, 238, 51, 0.6);
+    --global-accent-dark: rgba(238, 238, 51);
+    --global-background: #fff;
+    --global-background-dark: #000;
     --progress-bar-background: #fff;
-    --progress-bar-color-dark: rgba(238, 238, 51);
     --progress-bar-background-dark: #000;
+    --progress-bar-color: var(--global-accent);
+    --progress-bar-color-dark: var(--global-accent-dark);
 }
 
 /* IE10 */

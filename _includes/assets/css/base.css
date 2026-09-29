@@ -194,6 +194,13 @@ h6 {
     background: var(--global-accent)
 }
 
+.header-anchor:hover::after {
+    display: inline;
+    content: " ¶";
+    background-color: #fff;
+    color: #ccc;
+}
+
 kbd {
     display: inline;
     background-color: #f1f1f1;

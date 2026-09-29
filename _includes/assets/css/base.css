@@ -194,6 +194,13 @@ h6 {
     background: var(--global-accent)
 }
 
+.header-anchor:hover::after {
+    display: inline;
+    content: " ¶";
+    background-color: #fff;
+    color: #ccc;
+}
+
 kbd {
     display: inline;
     background-color: #f1f1f1;
@@ -517,6 +524,20 @@ figcaption {
 
     hr::after {
         background: #000;
+    }
+
+    .header-anchor {
+        color: #fff;
+    }
+
+    .header-anchor:hover {
+        color: #000;
+        background-color: var(--global-accent-dark);
+    }
+
+    .header-anchor:hover::after {
+        background-color: #000;
+        color: #ccc;
     }
 
     figure > img {

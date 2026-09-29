@@ -7,7 +7,7 @@
 {% blogpic book.situ, alt %}
 {% endif %}
 <div class="review-text">
-<h4>Timeline</h4>
+<h4 id="timeline" tabindex="-1"><a class="header-anchor" href="#timeline">Timeline</a></h4>
 {% if book.started %}
 <ul class="timeline">
  <li><strong>{{ book.started | readableBookDate }}:</strong> started reading.</li>
@@ -21,14 +21,14 @@
 {% endif %}
 
 {% if book.review %}
-<h4>Review</h4>
+<h4 id="review" tabindex="-1"><a class="header-anchor" href="#review">Review</a></h4>
 {{ book.review | safe }}
 {% endif %}
 </div>
 </div>
 
 {% if book.publisher and book.pages and book.isbn %}
-<h4>Details</h4>
+<h4 id="details" tabindex="-1"><a class="header-anchor" href="#details">Details</a></h4>
 <ul>
     <li><strong>Publisher:</strong> {{ book.publisher }}</li>
     <li><strong>Page Count:</strong> {{ book.pages }}</li>

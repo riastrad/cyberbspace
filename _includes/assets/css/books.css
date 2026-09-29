@@ -25,7 +25,7 @@ div.shelvedbook {
 
 div.shelvedbook:hover,
 div.shelvedbook:focus {
-    box-shadow: 0 0 0.5rem 1rem rgba(238, 238, 51);
+    box-shadow: 0 0 0.5rem 1rem var(--global-accent-dark);
     transform: translateY(-5%);
 }
 

@@ -3,7 +3,8 @@
 <div class="review-container">
 <p>In {{ book.finished | bookDateYear }} I read <a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}.</p>
 {% if book.situ %}
-<img alt="image of {{ book.title }} in-situ" src="{{ book.situ }}" class="review-image" />
+{% set alt = ["a picture of '", book.title, "' by ", book.author, " in situ."] | join %}
+{% blogpic book.situ, alt %}
 {% endif %}
 <div class="review-text">
 <h4>Timeline</h4>

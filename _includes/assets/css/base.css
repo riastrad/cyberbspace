@@ -526,6 +526,20 @@ figcaption {
         background: #000;
     }
 
+    .header-anchor {
+        color: #fff;
+    }
+
+    .header-anchor:hover {
+        color: #000;
+        background-color: var(--global-accent-dark);
+    }
+
+    .header-anchor:hover::after {
+        background-color: #000;
+        color: #ccc;
+    }
+
     figure > img {
         border: 2px solid #fff;
     }

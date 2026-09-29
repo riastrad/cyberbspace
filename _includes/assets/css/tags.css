@@ -18,7 +18,7 @@ li a.tagoption {
 }
 
 li.selectedtag {
-    background: rgba(238, 238, 51, 0.6);
+    background: var(--global-accent);
     padding-right: 0.1em;
     padding-left: 0.1em;
 }
@@ -34,6 +34,6 @@ li.selectedtag {
 
     li.selectedtag {
         color: #000;
-        background: rgba(238, 238, 51);
+        background: var(--global-accent-dark);
     }
 }

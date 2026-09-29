@@ -3,6 +3,7 @@ const CleanCSS = require("clean-css");
 const cities = require("./_data/cities.json");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require("markdown-it-footnote");
+const anchors = require("markdown-it-anchor");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const { hasDitheredCopy, getDitheredPath, getFigureN } = require("./bin/dither");
 const { generateLocationMap, generateOverviewMap } = require("./bin/map-maker");
@@ -15,7 +16,9 @@ module.exports = function (eleventyConfig) {
     linkify: true,
   };
 
-  const markdownParser = markdownIt(options).use(markdownItFootnote);
+  const markdownParser = markdownIt(options).use(markdownItFootnote).use(anchors, {
+    permalink: anchors.permalink.headerLink()
+  });
   // fiddle with the default formatting
   markdownParser.renderer.rules.footnote_block_open = () =>
     '<ol class="footnotes-list">\n';

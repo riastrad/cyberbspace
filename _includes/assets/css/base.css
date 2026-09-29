@@ -68,7 +68,7 @@ body {
 }
 
 .highlight {
-    background-color: rgba(238, 238, 51, 0.6);
+    background-color: var(--global-accent);
 }
 
 nav {
@@ -86,7 +86,7 @@ a.button {
     padding: 0 1.5rem;
     margin-top: 0.5em;
     color: #000;
-    background-color: rgba(238, 238, 51, 0.6);
+    background-color: var(--global-accent);
     align-content: center;
     letter-spacing: 0.3rem;
     cursor: pointer;
@@ -108,7 +108,7 @@ blockquote {
     border: 2px dashed #000;
     padding-left: 1em;
     padding-right: 1em;
-    box-shadow: -0.5em 0.5em rgba(238, 238, 51, 0.6);
+    box-shadow: -0.5em 0.5em var(--global-accent);
 }
 
 @media (max-width: 550px) {
@@ -186,6 +186,14 @@ h6 {
     letter-spacing: 0;
 }
 
+.header-anchor {
+    background: none;
+}
+
+.header-anchor:hover {
+    background: var(--global-accent)
+}
+
 kbd {
     display: inline;
     background-color: #f1f1f1;
@@ -211,7 +219,7 @@ a {
     position: relative;
     text-decoration: none;
     color: #000;
-    background-color: rgba(238, 238, 51, 0.6);
+    background-color: var(--global-accent);
 }
 
 a.post-title {
@@ -244,11 +252,11 @@ button {
     padding: 0;
     margin: 0;
     line-height: 1.2;
-    background-color: rgba(238, 238, 51, 0.6);
+    background-color: var(--global-accent);
 }
 
 :popover-open {
-    background: white;
+    background: #fff;
     outline: #000 solid 2px;
     padding: 1.5em;
     width: 40vw;
@@ -267,10 +275,14 @@ button {
 
 /* setting some variables to make this easier */
 :root {
-    --progress-bar-color: rgba(238, 238, 51, 0.6);
+    --global-accent: rgba(238, 238, 51, 0.6);
+    --global-accent-dark: rgba(238, 238, 51);
+    --global-background: #fff;
+    --global-background-dark: #000;
     --progress-bar-background: #fff;
-    --progress-bar-color-dark: rgba(238, 238, 51);
     --progress-bar-background-dark: #000;
+    --progress-bar-color: var(--global-accent);
+    --progress-bar-color-dark: var(--global-accent-dark);
 }
 
 /* IE10 */
@@ -319,7 +331,7 @@ a.download-button {
     border-color: #000;
 }
 a.download-button:hover {
-    box-shadow: 0.5em 0.5em rgba(238, 238, 51, 0.6);
+    box-shadow: 0.5em 0.5em var(--global-accent);
 }
 
 /* Lists
@@ -386,7 +398,7 @@ td {
 }
 
 tr td:first-child a {
-    background: rgba(238, 238, 51, 0.6);
+    background: var(--global-accent);
 }
 
 td > a {
@@ -436,7 +448,7 @@ details {
 
 summary:hover {
     cursor: pointer;
-    background: rgba(238, 238, 51, 0.6);
+    background: var(--global-accent);
 }
 
 summary {
@@ -495,7 +507,7 @@ figcaption {
     }
 
     a {
-        background-color: rgba(238, 238, 51);
+        background-color: var(--global-accent-dark);
     }
 
     hr {
@@ -535,11 +547,11 @@ figcaption {
 
     button {
         color: #000;
-        background-color: rgba(238, 238, 51);
+        background-color: var(--global-accent-dark);
     }
 
     a.button {
-        background-color: rgba(238, 238, 51);
+        background-color: var(--global-accent-dark);
     }
 
     a.download-button {
@@ -549,7 +561,7 @@ figcaption {
     }
 
     a.download-button:hover {
-        box-shadow: 0.5em 0.5em rgba(238, 238, 51);
+        box-shadow: 0.5em 0.5em var(--global-accent-dark);
     }
 
     :popover-open {
@@ -560,18 +572,18 @@ figcaption {
 
     summary:hover {
         color: #000;
-        background: rgba(238, 238, 51);
+        background: var(--global-accent-dark);
     }
 
     blockquote {
         border: 2px dashed #fff;
         padding-left: 1em;
         padding-right: 1em;
-        box-shadow: -0.5em 0.5em rgba(238, 238, 51);
+        box-shadow: -0.5em 0.5em var(--global-accent-dark);
     }
 
     .highlight {
-        background-color: rgba(238, 238, 51);
+        background-color: var(--global-accent-dark);
     }
 
     nav {
@@ -597,7 +609,7 @@ figcaption {
         background: none;
     }
     tr td:first-child a {
-        background: rgba(238, 238, 51);
+        background: var(--global-accent-dark);
     }
     tr td:last-child a {
         background: none;

@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports.getFigureN = (inputPath) => {
   const number = /([0-9]*)\.(jpeg|jpg)/.exec(inputPath)[1]
-  return `Figure nº${(number ? number : 'X: ' + inputPath.split('/').pop() + "<br>")}`
+  return `Figure nº${(number ? number : 'X: ' + inputPath.split('/').pop())}`
 };
 
 module.exports.getDitheredPath = (inputPath) => {

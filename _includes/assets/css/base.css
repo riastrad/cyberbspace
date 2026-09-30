@@ -80,6 +80,11 @@ nav {
     background-color: #ffffff;
 }
 
+::selection {
+    /*color: #fff;*/
+    background-color: #ccc;
+}
+
 a.button {
     display: inline-block;
     height: 3rem;
@@ -371,7 +376,7 @@ code {
     padding: 0.2rem 0.5rem;
     margin: 0 0.2rem;
     white-space: nowrap;
-    background: #f1f1f1;
+    background: #ccc;
     border: 1px solid #e1e1e1;
 }
 pre > code {

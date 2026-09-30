@@ -164,7 +164,7 @@ module.exports = function (eleventyConfig) {
     const linkToOriginal = (!hasDitheredCopy(filepath)) ? '' : `<a href="${filepath}" title="View original full color image.">🌄</a> `
 
     const figureHTML = `<figure>
-      <img src="${imgSrc}" alt="${description || 'none'}"/>
+      <img loading="lazy" src="${imgSrc}" alt="${description || 'none'}"/>
       <figcaption>${linkToOriginal}${caption}</figcaption>
     </figure>
     <br>`;

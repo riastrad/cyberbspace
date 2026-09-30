@@ -14,7 +14,7 @@ permalink: /notes/{{ page.date | dateYear }}/{{ title | slugify }}/index.html
 I've been adhering to some loose mental rules whenever I change or add anything to this website, and I think it's worthwhile to write them down here for posterity. I'll also keep a `CHANGELOG` section down at the bottom and do my best to keep it up-to-date if and when these rules shift.
 
 1. **DON'T OVERTHINK THE COLOR PALLET.**
-I think it's really easy to go overboard with colors, and this is a personal cause of many an existential tailspin. So, to avoid falling down this rabbit hole over and over again, I only use black (`#000`), white (`#FFF`), grey (`#ccc`), and a slightly transparent yellow (`rgba(238, 238, 51, 0.6)`) for accents.
+I think it's really easy to go overboard with colors, and this is a personal cause of many an existential tailspin. So, to avoid falling down this rabbit hole over and over again, I only use black (`#000`), white (`#FFF`), gray (`#ccc`), and a slightly transparent yellow (`rgba(238, 238, 51, 0.6)`) for accents.
 1. **IF I NEED SOMETHING THAT'S ALREADY ON THE COMPUTER, DON'T BUNDLE IT.**
 This rule mostly applies to fonts. For my money, this is the most straightforward way to speed up a site. All computers ship with fonts as part of their operating system. Browsers have access to these fonts. So why not use what's already there? With this approach, my site doesn't have to rely on heavy network requests just to show text. Sure, this limits my design, but I've been happy enough with how the site looks when I use Palatino & Courier New. At the end of the day, I set some fallbacks that feel reasonable and I sleep soundly at night.[^1]
 1. **VIEWING A PAGE ON A PHONE SHOULD BE SIMILAR TO DESKTOP, BUT IT DOESN'T HAVE TO BE IDENTICAL.**

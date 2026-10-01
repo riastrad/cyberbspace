@@ -23,7 +23,7 @@
     "glob": "^11.0.0",
     "husky": "^9.1.7",
     "markdown-it-anchor": "^10.0.0",
-    "spellchecker-cli": "^4.8.1"
+    "spellchecker-cli": "^7.0.4"
   },
   "scripts": {
     "test": "test",

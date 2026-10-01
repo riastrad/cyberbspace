@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 setopt null_glob
 
-modified=$(git diff --name-only | grep -e ".png" -e ".jpeg" -e ".jpg")
+modified=$(git diff --name-only --cached | grep -e ".png" -e ".jpeg" -e ".jpg")
 if [[ -z $modified ]]; then
     echo "[didder] found no images to dither."
 else
@@ -10,6 +10,7 @@ else
             continue;
         fi
         didder -i $f -o ${f%.jpeg}-dithered.png -s 80% --palette "000000 222222 444444 666666 888888 aaaaaa cccccc ffffff" edm Atkinson
+        git add -- ${f%.jpeg}-dithered.png
         echo "[didder] created dithered copy of \"$f\""
     done
 fi

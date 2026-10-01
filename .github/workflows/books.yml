@@ -38,5 +38,5 @@ jobs:
           git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A && git commit -m "📖 updated book data"
+          git add -A && git commit -m "📖 updated book data" --no-verify
           git push origin main

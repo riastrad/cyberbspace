@@ -159,13 +159,13 @@ module.exports = function (eleventyConfig) {
 
   // <figure> elements for blog images
   eleventyConfig.addAsyncShortcode("blogpic", async (filepath, description) => {
-    const imgSrc = (!hasDitheredCopy(filepath)) ? filepath : getDitheredPath(filepath)
+    const imgSrc = (!hasDitheredCopy(filepath)) ? `src=${filepath}` : `src=${getDitheredPath(filepath)} onclick="this.src=(this.src.includes('dithered')?'${filepath}':'${getDitheredPath(filepath)}')"`
     const caption = `<strong>${getFigureN(filepath)}</strong>${description ? ` <em>${description}</em>`: ''}`
-    const linkToOriginal = (!hasDitheredCopy(filepath)) ? '' : `<a href="${filepath}" title="View original full color image.">🌄</a> `
+    const originalIndicator = (!hasDitheredCopy(filepath)) ? '' : '🌄 '
 
     const figureHTML = `<figure>
-      <img loading="lazy" src="${imgSrc}" alt="${description || 'none'}"/>
-      <figcaption>${linkToOriginal}${caption}</figcaption>
+      <img loading="lazy" ${imgSrc} alt="${description || 'none'}"/>
+      <figcaption>${originalIndicator}${caption}</figcaption>
     </figure>
     <br>`;
 

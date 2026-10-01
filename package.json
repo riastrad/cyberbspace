@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "glob": "^11.0.0",
+    "husky": "^9.1.7",
     "markdown-it-anchor": "^10.0.0",
     "spellchecker-cli": "^4.8.1"
   },
@@ -28,10 +29,11 @@
     "test": "test",
     "build": "npx @11ty/eleventy",
     "start": "npx eleventy --serve --formats=md",
-    "dither": "node ./bin/dither-all-images.js",
+    "dither": "./bin/dither.zsh",
     "reading": "node ./bin/fetch-currently-reading.js",
     "have-read": "node ./bin/fetch-read.js",
-    "spellcheck": "npx spellchecker --config .spellcheckerrc.json"
+    "spellcheck": "npx spellchecker --config .spellcheckerrc.json",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",

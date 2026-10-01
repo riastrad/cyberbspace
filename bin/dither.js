@@ -3,11 +3,11 @@ const path = require("path");
 
 module.exports.getFigureN = (inputPath) => {
   const number = /([0-9]*)\.(jpeg|jpg)/.exec(inputPath)[1]
-  return `Figure nº${(number ? number : 'X: ' + inputPath.split('/').pop())}`
+  return (number ? `Figure nº${number}` : inputPath.split('/').pop() + '<br>')
 };
 
 module.exports.getDitheredPath = (inputPath) => {
-  return inputPath.replace(/\/([a-zA-Z0-9\-_]*).(jpeg|jpg)/, "/dithered-$1.$2");
+  return inputPath.replace(/\/([a-zA-Z0-\–9\-_\(\):]*).(jpeg|jpg)/, "/$1-dithered.png");
 };
 
 module.exports.hasDitheredCopy = (inputPath) => {

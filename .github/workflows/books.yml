@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 26
       - name: Install deps
-        run: npm ci --omit=dev
+        run: npm ci
       - name: Check for reading updates
         run: npm run reading && npm run have-read
         env:

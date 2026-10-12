@@ -1,11 +1,19 @@
 [
     {
+        "title": "On the Calculation of Volume I",
+        "author": "Solvej Balle",
+        "started": "2026-10-08",
+        "pages": 179,
+        "current_page": 26,
+        "link": "https://openlibrary.org/books/OL59280855M/On_the_Calculation_of_Volume_1"
+    },
+    {
         "title": "Portraits",
         "author": "John Berger",
         "isbn": 9781839764158,
         "started": "2026-07-21",
         "pages": 512,
-        "current_page": 226,
+        "current_page": 311,
         "link": "https://openlibrary.org/books/OL35561412M/Portraits"
     }
 ]

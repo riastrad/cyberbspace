@@ -493,7 +493,7 @@ hr::after {
 
 figure {
     display: table;
-    margin: 0px auto;
+    margin: 0 auto 2.5rem;
 }
 
 figure > img {

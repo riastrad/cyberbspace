@@ -201,7 +201,7 @@ h6 {
 
 .header-anchor:hover::after {
     display: inline;
-    content: " ¶";
+    content: " §";
     background-color: #fff;
     color: #ccc;
 }

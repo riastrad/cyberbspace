@@ -10,4 +10,4 @@ layout: base.njk
 
 {% include "bookreview.njk" %}
 
-<a class="button" href="{{ '/shelf/' | url }}"><< shelf.</a>
+<a class="button" href="{{ '/shelf/' | url }}"><< shelf.</a>  <a class="button" href="/shelf/{{ book.author | slugify }}/">author.</a>

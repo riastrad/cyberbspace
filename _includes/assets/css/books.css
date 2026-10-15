@@ -42,6 +42,15 @@ div.shelvedbook:focus a {
 /**
 * Book review stuff
 **/
+.author-page {
+    background: none;
+    text-decoration: underline dotted 2px;
+}
+
+.author-page:hover {
+    text-decoration: underline solid 2px;
+}
+
 .review-container {
     margin-bottom: 2rem;
 }

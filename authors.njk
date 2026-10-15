@@ -1,0 +1,42 @@
+---js
+{
+  title: "author page.",
+  pagination: {
+    data: "books.have_read",
+    size: 1,
+    alias: "entry",
+    before: function(paginationData, fullData) {
+      const authorBooks = [];
+      for (const book of paginationData) {
+        const slug = this.slugify(book.author);
+        const authorIndex = authorBooks.findIndex((e) => e.slug === slug);
+        if (authorIndex < 0) {
+            authorBooks.push({ slug, author: book.author, books: [ { title: book.title, finished: book.finished, review: book.review } ]})
+        } else {
+            authorBooks[authorIndex].books.push({ title: book.title, finished: book.finished, review: book.review });
+        }
+      }
+      return authorBooks;
+    }
+  },
+  layout: "base.njk",
+  permalink: "shelf/{{ entry.author | slugify }}/"
+}
+---
+
+<h2>Books from {{ entry.author }}</h2>
+
+As of today I have read <strong>{{ entry.books | length }}</strong> books by {{ entry.author }}:
+<br><br>
+
+<ul>
+{% for book in entry.books %}
+    <li><a href="/shelf/{{ entry.author | slugify }}/{{ book.title | slugify }}">{{ book.title }}</a>{% if book.review %}<sup> †</sup>{% endif %} on {{ book.finished | readableBookDate }}</li>
+{% endfor %}
+</ul>
+
+<sup>†</sup> <em>indicates a written review</em>
+
+<hr>
+
+<a class="button" href="{{ '/shelf/' | url }}"><< shelf.</a>

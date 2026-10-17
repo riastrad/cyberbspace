@@ -15,7 +15,7 @@
     "d3-geo": "^2.0.2",
     "d3-geo-projection": "^3.0.0",
     "luxon": "^1.28.1",
-    "markdown-it": "^14.1.1",
+    "markdown-it": "^14.3.2",
     "markdown-it-footnote": "^3.0.3",
     "sharp": "^0.34.2"
   },

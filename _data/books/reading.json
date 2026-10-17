@@ -1,11 +1,20 @@
 [
     {
+        "title": "Dog Days",
+        "author": "Emily LaBarge",
+        "isbn": 9798893380477,
+        "started": "2026-10-17",
+        "pages": 267,
+        "current_page": 11,
+        "link": "https://www.transitbooks.org/books/dogdays"
+    },
+    {
         "title": "Portraits",
         "author": "John Berger",
         "isbn": 9781839764158,
         "started": "2026-07-21",
         "pages": 512,
-        "current_page": 311,
+        "current_page": 371,
         "link": "https://openlibrary.org/books/OL35561412M/Portraits"
     }
 ]

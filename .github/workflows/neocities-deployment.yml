@@ -34,6 +34,9 @@ jobs:
           ATP_APP_PASSWORD: ${{ secrets.ATP_APP_PASSWORD }}
         run:
           sequoia publish
+      - name: versionsss
+        run:
+          npx @11ty/eleventy --version
       - name: build site
         run:
           npm run build

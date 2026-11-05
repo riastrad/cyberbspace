@@ -17,23 +17,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Use Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 26
       - name: Install deps
         run:
           npm ci
-      - name: Install sequoia
-        run:
-          npm i -g sequoia-cli
-      - name: Publish to ATProto
-        env:
-          ATP_IDENTIFIER: ${{ secrets.ATP_IDENTIFIER }}
-          ATP_APP_PASSWORD: ${{ secrets.ATP_APP_PASSWORD }}
-        run:
-          sequoia publish
       - name: build site
         run:
           npm run build

@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "engines": {
     "node": "~26.7.0",
-    "npm": "~12.1.0"
+    "npm": "~12.2.0"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",

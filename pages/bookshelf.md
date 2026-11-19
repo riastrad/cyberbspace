@@ -14,7 +14,13 @@ navtitle: bookshelf
 ## Currently Reading
 
 <div class="shelf">
+    {% if books.reading.length > 0 %}
     {% for book in books.reading %}<div class="shelvedbook"><a href="/shelf/{{ book.author | slugify }}/{{ book.title | slugify }}">{{ book.title | uppercase }}</a><p>{{ book.author }}</p></div>{%endfor%}
+    {% else %}
+    <div class="shelvedbook" style="cursor:wait;"><em>NOTHING</em></div>
+    <div class="shelvedbook" style="cursor:wait;"><em>AT THE</em></div>
+    <div class="shelvedbook" style="cursor:wait;"><em>MOMENT...</em></div>
+    {% endif %}
 </div>
 
 ---

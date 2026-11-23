@@ -31,6 +31,7 @@ div.shelvedbook:focus {
 
 div.shelvedbook a {
     background: none;
+    text-decoration: none;
     color: #fff;
 }
 
@@ -117,6 +118,7 @@ ul.timeline li:last-child:before {
 
     div.shelvedbook a {
         color: #000;
+        text-decoration: none;
     }
 
     ul.timeline li:before {

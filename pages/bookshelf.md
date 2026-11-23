@@ -42,5 +42,4 @@ navtitle: bookshelf
   <div class="shelvedbook"><a href="/shelf/{{ book.author | slugify }}/{{ book.title | slugify }}">{{ book.title | uppercase }}<p>{{ book.author }}</p></a></div>
   {% if forloop.last == true %}</div>{% endif %}
 {% endfor %}
-</div>
 <hr />

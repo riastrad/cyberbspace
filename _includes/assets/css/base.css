@@ -95,6 +95,7 @@ a.button {
     align-content: center;
     letter-spacing: 0.3rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 a.button-primary {
@@ -102,6 +103,7 @@ a.button-primary {
     background-color: #000;
     border-color: #000;
     pointer-events: none;
+    text-decoration: none
 }
 
 a.button-primary:hover {
@@ -192,11 +194,12 @@ h6 {
 }
 
 .header-anchor {
-    background: none;
+    text-decoration: none;
 }
 
 .header-anchor:hover {
-    background: var(--global-accent)
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .header-anchor:hover::after {
@@ -228,15 +231,20 @@ kbd:hover {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-    position: relative;
-    text-decoration: none;
     color: #000;
+    position: relative;
+    text-decoration: underline dotted 2px;
+}
+
+a:hover {
     background-color: var(--global-accent);
+    text-decoration: underline solid 2px;
 }
 
 a.post-title {
-    background-color: #fff;
     font-size: 2.4rem;
+    background-color: transparent;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -264,7 +272,13 @@ button {
     padding: 0;
     margin: 0;
     line-height: 1.2;
+    background-color: transparent;
+    text-decoration: underline dotted 2px;
+}
+
+button:hover {
     background-color: var(--global-accent);
+    text-decoration: underline solid 2px;
 }
 
 :popover-open {
@@ -409,11 +423,8 @@ td {
     border: 2px solid #000;
 }
 
-tr td:first-child a {
-    background: var(--global-accent);
-}
-
-td > a {
+tr td:last-child a {
+    text-decoration: none;
     background: none;
 }
 
@@ -519,8 +530,15 @@ figcaption {
     }
 
     a {
+        color: #fff;
+        position: relative;
+    }
+
+    a:hover {
+        color: #000;
         background-color: var(--global-accent-dark);
     }
+
 
     hr {
         border-top: 2px solid #fff;
@@ -572,6 +590,10 @@ figcaption {
     }
 
     button {
+        color: #fff;
+    }
+
+    button:hover {
         color: #000;
         background-color: var(--global-accent-dark);
     }
@@ -584,6 +606,7 @@ figcaption {
         color: #000;
         background-color: #fff;
         border-color: #fff;
+        text-decoration: none;
     }
 
     a.download-button:hover {
@@ -618,27 +641,18 @@ figcaption {
 
     a.post-title {
         color: #fff;
-        background-color: #000;
+        background-color: transparent
     }
 
     a.button-primary {
         color: #000;
         background-color: #fff;
+        text-decoration: none;
     }
 
     th,
     td {
         border: 2px dashed #fff;
-    }
-
-    td:has(a) {
-        background: none;
-    }
-    tr td:first-child a {
-        background: var(--global-accent-dark);
-    }
-    tr td:last-child a {
-        background: none;
     }
 }
 

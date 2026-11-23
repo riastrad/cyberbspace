@@ -272,7 +272,13 @@ button {
     padding: 0;
     margin: 0;
     line-height: 1.2;
+    background-color: transparent;
+    text-decoration: underline dotted 2px;
+}
+
+button:hover {
     background-color: var(--global-accent);
+    text-decoration: underline solid 2px;
 }
 
 :popover-open {
@@ -584,6 +590,10 @@ figcaption {
     }
 
     button {
+        color: #fff;
+    }
+
+    button:hover {
         color: #000;
         background-color: var(--global-accent-dark);
     }
